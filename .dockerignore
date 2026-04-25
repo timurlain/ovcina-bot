@@ -1,0 +1,27 @@
+# Don't include local-only state in image
+.git
+.github
+.venv
+__pycache__
+**/__pycache__
+*.pyc
+*.pyo
+
+.env
+.env.*
+data/
+
+waha-sessions/
+waha-media/
+
+# Docs / scripts not needed at runtime (do NOT exclude content/**/*.md — bot reads those!)
+popis-bota.md
+popis-bota-pro-osud.md
+README.md
+docker-compose.yml
+run-bot.bat
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

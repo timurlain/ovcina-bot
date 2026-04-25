@@ -1,0 +1,102 @@
+# QR Code on Player Badge (Glejt) — Architecture Brainstorm
+
+## Context
+
+We run a large outdoor LARP event (Ovčina) for ~120 children. Each player wears a badge called a **glejt** around their neck — it contains their character name, class, kingdom, level.
+
+We want to add a **QR code to each glejt** so organizers can scan it during the game and instantly see/edit the player's character profile (levels, class ,keywords gained, notes, special things, history records).
+The game is played in a real world, inventory is carried physically in cards. This is related only to the characters inherent abilities and records (good / bad / neutral points etc. - not fully defined)
+
+## The two systems
+
+We have three web applications for Ovčina and we are thinking of a chat bot part as well:
+
+| System | Domain | Responsibility | Lifecycle |
+|--------|--------|---------------|-----------|
+| **Registration** | registrace.ovcina.cz | Sign-ups, payments, kingdom assignment, player data | Pre-game only |
+| **Game** | hra.ovcina.cz | Characters, levels (maybe) | During game |
+| **Baca** | baca.ovcina.cz | Tasks, upcoming chatbot platform | During game, pre-game |
+
+Registration handles everything **up to the moment the game starts**. The game system handles everything **during play**.
+
+## The architectural question
+
+A glejt is linked to a **character**. A character originates in registration (name, class, kingdom) but lives and evolves in the game system (levels, quests). 
+
+**Which system should own what?**
+
+| Concept | Registration | Game |
+|---------|:----------:|:---:|
+| Player (real person) | owns | references |
+| Sign-up, payment | ✓ | — |
+| Kingdom assignment | ✓ | reads |
+| Character (game entity) | creates seed | owns & evolves |
+| Class, starting stats | seed data | develops further |
+| XP, level, inventory | — | ✓ |
+| QR code on glejt | generates | scans & resolves |
+| Glejt printing | handles | — |
+
+## Key questions to resolve
+
+### 1. Who generates the QR code?
+Registration knows the player and prints the glejt → logically it generates the QR. But the QR should point to the game profile (`hra.ovcina.cz/p/{id}`). We need a **shared player/character ID** between systems.
+
+### 2. What does the QR encode?
+- **Option A:** URL `hra.ovcina.cz/p/{character_id}` — scan with any phone camera, opens profile directly
+- **Option B:** Plain ID `OVC30-042` — our app resolves it internally
+- **Option C:** Signed token with basic info — works offline too
+
+How do we encode game id?
+
+### 3. How do registration and game system talk?
+- Shared database?
+- REST API — registration pushes seed data to game at game start?
+- Event-driven — registration publishes, game subscribes?
+- Simple: registration exports JSON/CSV, game imports at setup time?
+
+### 4. When is the QR generated?
+- At registration (weeks before) — player doesn't have a finalized character yet
+- At check-in (game day morning) — character finalized, but printing under pressure
+- **Compromise:** QR = link to player ID, not to character state. Character gets created/mapped when game starts.
+
+### 5. Offline scenario
+- Terrain may have spotty cell signal
+- Core bookkeeping (scan QR → view/edit character) should work offline (local cache, sync later)
+- The AI assistant Bača runs on Vite frontend - can it be reworked? 
+- Hra could get a simple mobile client / wrapper that scans and allows users to increase level, add points to player etc.  
+- Game system needs an offline-first PWA approach
+
+## Proposed architecture
+
+```
+registrace.ovcina.cz              hra.ovcina.cz
+┌─────────────────────┐           ┌─────────────────────┐
+│ Player (real person) │──seed───→ │ Character           │
+│ Sign-up form         │           │ XP, level           │
+│ Payment tracking     │           │ Inventory           │
+│ Kingdom assignment   │           │ Quests              │
+│                      │           │ Mana                │
+│ Generates QR ────────│──URL────→ │ /p/{id} endpoint    │
+│ Prints glejt         │           │ Scan UI for orgs    │
+└─────────────────────┘           └─────────────────────┘
+```
+
+**Flow:**
+1. Player registers on registrace.ovcina.cz → gets a unique ID (e.g. UUID)
+2. Player picks kingdom, class, name
+3. Before game day: registration pushes character seeds to hra.ovcina.cz via API
+4. Registration generates QR = `hra.ovcina.cz/p/{player_uuid}`
+5. Glejt is printed with QR code
+6. At check-in: player gets their glejt, game system has their character ready
+7. During game: organizer scans QR → game system shows character → edit XP/inventory/etc.
+
+## Decisions needed
+
+- [ ] Shared ID format — UUID? Sequential number? Human-readable slug?
+- [ ] Integration pattern — API push? Shared DB? File export/import?
+- [ ] Glejt printing — when, where, who? Part of registration or separate tool?
+- [ ] Offline strategy for the game system (PWA with IndexedDB? Service worker?)
+- [ ] Does hra.ovcina.cz exist yet or does it need to be built from scratch?
+- [ ] Tech stack for hra.ovcina.cz — same as registration? Mobile-first web app?
+- [ ] Auth for organizers — how do they log into the game system to edit characters?
+- [ ] What minimum character data do we need at QR scan time? (name, level, HP, mana, inventory?)

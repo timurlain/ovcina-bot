@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Local secrets / runtime state
+.env
+.env.*
+!.env.example
+data/
+*.db
+*.sqlite3
+*.sqlite3-*
+
+# WAHA local artifacts
+waha-sessions/
+waha-media/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

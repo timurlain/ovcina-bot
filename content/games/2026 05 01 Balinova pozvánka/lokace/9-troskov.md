@@ -1,0 +1,10 @@
+<!-- Kategorie: B. Vesnice (15) -->
+### 9. Troskov
+- **Typ:** Vesnice | **Oblast:** Okraj hvozdu
+- **Popis:** Stará kamenná pevnost na kopci u okraje hvozdu — napůl zbořené věže, rozpadlé hradby a brána, kterou prochází dávná obchodní cesta. Kdysi Troskov kontroloval veškerý pohyb po této stezce a vybíral mýto od kupců i poutníků. Dnes je napůl ruina, napůl osada — hrstka tvrdohlavých obyvatel tu přežívá a odmítá odejít.
+- **Podrobnosti:** Hradby jsou sice poničené, ale jejich základy jsou pevné — kdo by investoval čas a prostředky, mohl by z Troskova znovu udělat nedobytnou tvrz. Strategická poloha na křižovatce cest z něj dělá lákavý cíl pro každého, kdo chce kontrolovat obchod na okraji hvozdu. Současní obyvatelé jsou nedůvěřiví k cizincům, ale ne nepřátelští — správný přístup a dary je mohou přesvědčit ke spolupráci. Kdo zvolí sílu, narazí na překvapivě houževnatý odpor — zdejší lidé znají každý kámen, každou skrýš a každou slabinu svých hradeb. Troskov je zkouška diplomacie: dobýt ho je snadné, udržet ho bez přízně místních je nemožné.
+- **Herní potenciál:** Starobrána na dávné obchodní cestě — polozbořená brána je fyzický průchod, přirozený kontrolní bod. Vyhlídka z polozbořených věží — po vylezení je vidět na okraj hvozdu a průběh stezky (značky a signály viditelné jen shora). Spousta skrýší mezi kameny zbořených hradeb — organizátoři sem mohou umístit zprávy nebo artefakty k nalezení. Starobylý nápis na kameni brány — seznam mýt, varování kupcům nebo jména obchodních cechů, čitelné pouze se šifrovacím přehozem (DOV). Polozbořená brána a hradby slouží jako fyzická překážka vstupu. `[Pro quest — potřebuje starostu Troskova: diplomatická zkouška, přesvědčení místních dary a sliby.]` `[Pro quest — potřebuje obránce Troskova: konflikt o kontrolu nad starou obchodní cestou.]`
+- **Midjourney prompt:**
+```
+A ruined hilltop fortress with half-collapsed towers and crumbling walls, an old road passing through the broken gate, Middle-earth, in the style of John Howe, dramatic, detailed stonework --ar 1:1 --s 200
+```

@@ -1,0 +1,73 @@
+---
+téma: Soubojový systém
+pokrývá: [AXI-002, ZAK-001, ZAK-002, ZAK-008, PRI-005, EKO-010, ROZ-001, ROZ-002]
+poslední-aktualizace: 2026-04-12
+---
+
+# Soubojový systém — souhrnný přehled
+
+Souboj v Ovčině je bezkontaktní, tahový systém založený na kostkách a kartách. Veškerý boj probíhá vsedě u podložky s kostkami — nikdy fyzickým střetem. Systém je navržen tak, aby i nejmladší hráč (6 let) mohl porazit silnou příšeru díky strategii a vybavení, nikoliv fyzické síle.
+
+## Základní principy
+
+Podle AXI-002 je veškerý boj bezkontaktní — žádné pěnové zbraně, šermování ani pranice. Jediný fyzický kontakt je symbolické „plácnutí" pro zahájení souboje. Axiom AXI-001 (bezpečnost dětí) je nadřazen všem herním pravidlům — organizátor může kdykoliv souboj přerušit.
+
+## Detailní pravidla
+
+### Zahájení souboje
+Souboj se zahajuje plácnutím a formulí „Bij se, srabe!" (PRI-005). Účastníci si sednou a boj se odehrává tahovým systémem (ZAK-001). Na jedné straně mohou současně bojovat maximálně 4 bytosti.
+
+### Průběh kola (ZAK-001)
+Každé kolo má tři fáze:
+1. **Předkolo (přípravná fáze)** — hráči si mohou dát krytí (obětují útok za bonus k obraně) nebo použít lektvary a speciální předměty.
+2. **Bojová fáze** — každý účastník provede jednu akci ze systému UKOPU: **Ú**tok, **K**ouzlo, **O**brana (krytí), **P**ředmět, **U**těk. Pořadí akcí: nejprve útěky, pak kouzla, pak útoky.
+3. **Vyhodnocení** — kontrola bezvědomí a efektů.
+
+### Střelecké kolo
+**První kolo každého souboje se nazývá střelecké kolo** (ZAK-001). Není to žádné předkolo, žádné „kolo 0" ani separátní fáze před soubojem — je to standardní **kolo 1**, ve kterém všichni účastníci normálně provádějí akce UKOPU (válečníci, zloději i mágové útočí jako obvykle).
+
+**Jediný rozdíl oproti dalším kolům**: na **střelné útoky** se v tomto kole hází **navíc jednou kostkou 1k6+** (střelec tedy hází **2k6+** — běžný k6+ při útoku plus bonus k6+ za střelecké kolo). Blízké útoky, kouzla i ostatní akce probíhají úplně stejně jako v dalších kolech, jen bez bonusu. Od kola 2 dál se na střelné útoky hází jen 1k6+ jako u všech ostatních útoků.
+
+### Útok a obrana (ZAK-002)
+Každý účastník má **útočné číslo (ÚČ)** a **obranné číslo (OČ)**. Útočník hodí kostkou a přičte ÚČ. Obránce má OČ. Rozdíl (útok minus obrana) je poškození — odečítá se z duší (životů). Pokud obrana převýší útok, poškození je nulové.
+
+### Skupinové bitvy (ZAK-001)
+Ve skupinovém boji (2-4 na každé straně) si protivníci volí cíle. Efekt bojiště (karta bojiště) může přidat bonus jedné, či druhé straně.
+
+### PvP souboje (ZAK-008)
+Souboj mezi hráči vyžaduje, aby útočník měl šerpu (PvP režim). Šerpu si hráč vezme u obchodníka a nosí ji viditelně. Boj není možný v prostoru města. Poražený může být oloupen — vítěz smí sebrat jeden konkrétní předmět nebo všechny kusy jednoho zboží, u peněz maximálně 20 grošů.
+
+### Bezvědomí a léčení (ZAK-002, AXI-006)
+Postava s 0 dušemi upadá do bezvědomí. Pokud spolubojovníci vyhráli, poražený automaticky získá 1 život zpět. Pokud celá skupina padne, hráči se s rukama nad hlavou vrátí do města, kde se oživí dřepy.
+
+### Ekonomické následky porážky (EKO-010)
+Při porážce od příšer zabaví příšera hrdinům polovinu peněz. Při porážce v PvP platí pravidla olupování — maximálně 20 grošů nebo jeden předmět.
+
+## Situační specifika
+
+- **Dungeon** (SIT-004, ROZ-001): V dungeonu se nebojuje kartami — pokud příšera hrdinu trefí nebo plácne, musí z dungeonu odejít a odložit vše, co v něm získal. Finální dungeon má 3 vrstvy obtížnosti.
+- **Příšery** (PRI-005): Příšera zahajuje souboj, spravuje životy nestvůr podle karet příšer a vyplácí odměny po prohře.
+- **Vesnice** (ZAK-008): Vesnici lze obléhat — útočníci musí mít šerpu a porazit strážce.
+
+## Relevantní rozhodnutí
+
+- **ROZ-001** — Finální dungeon má 3 vrstvy obtížnosti (lehká/střední/těžká), aby si každá věková skupina našla výzvu.
+- **ROZ-002** — V dungeonu funguje revival a léčení jinak než v otevřeném světě; lektvary v boji jsou dražší.
+- **ROZ-007** — Magický systém přešel z jednorázových kartiček na mana pool, což zásadně mění strategii souboje pro mágy.
+
+## Časté otázky
+
+**1. Jak zahájím souboj s příšerou?**
+Příšera tě plácne nebo ti hodí šiškou/míčkem a řekne „Bij se, srabe!" Sednete si a bojujete kartami a kostkami (ZAK-001, PRI-005).
+
+**2. Co se stane, když padnu na 0 životů?**
+Upadneš do bezvědomí. Pokud tvoji spolubojovníci vyhráli, dostaneš automaticky 1 život zpět. Pokud celá skupina prohrála, vracíš se s rukama nad hlavou do města (AXI-006, ZAK-002).
+
+**3. Může mě napadnout jiný hráč?**
+Pouze pokud máš šerpu (PvP režim). Bez šerpy tě nikdo napadnout nemůže. Šerpu si bereš dobrovolně u obchodníka (ZAK-008).
+
+**4. Kolik lidí může bojovat najednou?**
+Na každé straně maximálně 4 bytosti. Do probíhajícího souboje se nesmí nikdo zvenčí přidávat (AXI-005, ZAK-001).
+
+**5. Jak funguje útěk ze souboje?**
+Útěk je jednou z akcí UKOPU. Provádí se na začátku bojové fáze. Poražený hráč má vždy 20 sekund na volný odchod bez pronásledování (AXI-005).

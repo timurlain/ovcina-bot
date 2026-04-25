@@ -1,0 +1,49 @@
+# Ovčina — Role profiles for LoreMaster access control
+# Roles are assigned via registrace.ovcina.cz, not self-selected
+
+roles:
+  # --- Orkové ---
+  ugluk:
+    frakce: orci
+    popis: "Velitel orkské hlídky v jižním Hvozdu"
+    ví-o: [nekromancer, jizni-hvozd, orkove, dol-guldur]
+    neví-o: [dungeon-pokladnice, kralovsky-obchod, elfske-tajemstvi]
+
+  gothmog:
+    frakce: orci
+    popis: "Mocný orkský náčelník, správce dungeonu"
+    ví-o: [dungeon, nekromancer, orkove, temne-sluzby]
+    neví-o: [obchodni-cesty, elfska-magie]
+
+  grihsnak:
+    frakce: orci
+    popis: "Lstivý orkský zvěd a stopař"
+    ví-o: [jizni-hvozd, stopy, orkove, terenni-znalosti]
+    neví-o: [nekromancer-plany, dungeon-vnitrek]
+
+  # --- Lidé (Dale) ---
+  obchodnik-dale:
+    frakce: lidé-dale
+    popis: "Obchodník v Dale, zná obchodní cesty a trhy"
+    ví-o: [obchod, dale, erebor, jezero-mesto]
+    neví-o: [nekromancer, orkove-plany, elfska-magie]
+
+  kral-bard:
+    frakce: lidé-králové
+    popis: "Král Dale, zná politiku, obranu a diplomatické vztahy"
+    ví-o: [politika, obrana, dale, erebor, zvedove, diplomacie]
+    neví-o: [dungeon-vnitrek, orkove-plany, tajne-ritualy]
+
+  # --- Elfové ---
+  elfsky-hranicár:
+    frakce: elfové
+    popis: "Hraničář z Hvozdu, hlídá hranice elfského území"
+    ví-o: [hvozd, elfove, priroda, hlidky, nebezpeci-hvozdu]
+    neví-o: [lidska-politika, orkove-hierarchie, dale-obchod]
+
+  # --- Trpaslíci ---
+  trpaslici-kovar:
+    frakce: trpaslíci
+    popis: "Kovář z Ereboru, mistr řemesla a znalec drahých kovů"
+    ví-o: [erebor, kovani, doly, trpaslici-historie]
+    neví-o: [elfska-magie, orkove-plany, lidska-politika]

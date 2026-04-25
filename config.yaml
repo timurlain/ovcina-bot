@@ -1,0 +1,71 @@
+telegram:
+  rulemaster_token: "${TELEGRAM_RULEMASTER_TOKEN}"
+  loremaster_token: "${TELEGRAM_LOREMASTER_TOKEN}"
+
+waha:
+  url: "${WAHA_URL}"
+  api_key: "${WAHA_API_KEY}"
+  session: "default"
+
+anthropic:
+  api_key: "${ANTHROPIC_API_KEY}"
+  model: "claude-opus-4-6"
+
+registrace:
+  api_url: "https://registrace.ovcina.cz"
+  api_key: "${REGISTRACE_API_KEY}"
+  integration_api_key: "${REGISTRACE_INTEGRATION_KEY}"
+  game_id: "1"
+
+azure_email:
+  connection_string: "${AZURE_COMMUNICATION_CONNECTION_STRING}"
+  sender_address: "DoNotReply@ovcina.cz"
+
+skills_path: "/app/content/.skills"
+
+pravidla:
+  path: "/app/content/pravidla"
+  editors:
+    - "tomas.pajonk@hotmail.cz"
+    - "tom@pajonk.cz"
+    - "tomas.pajonk@solvertech.cz"
+    - "deatch@email.cz"
+    - "stanam@email.cz"
+
+loremaster:
+  brain_path: "/app/content/brain"
+  kb_public_path: "/app/content/knowledge-base/public"
+  game_path: "/app/content/games/2026 05 01 Balinova pozvánka"
+
+hra:
+  api_url: "https://api.hra.ovcina.cz"
+  api_token: "${HRA_API_TOKEN}"
+  game_id: 30
+
+auth:
+  code_expiry_minutes: 10
+  organizer_emails:
+    - "tomas.pajonk@hotmail.cz"
+    - "tom@pajonk.cz"
+    - "tomas.pajonk@solvertech.cz"
+    - "stanam@email.cz"
+    - "deatch@email.cz"
+    - "zuzanamachurova@gmail.com"
+    - "lumirius@gmail.com"
+    - "micuda@optics.upol.cz"
+    - "noir1@seznam.cz"
+    - "lukas.heinz@seznam.cz"
+    - "michal.kaima@seznam.cz"
+    - "mirkali@seznam.cz"
+    - "xjsvoboda@gmail.com"
+    - "l.zolta@seznam.cz"
+    - "ondra.zahradnik@gmail.com"
+    - "lenka.svobodova@gypri.cz"
+    - "andrea6@seznam.cz"
+
+baca:
+  api_url: "https://baca.ovcina.cz"
+  api_key: "${BACA_API_KEY}"
+
+conversation:
+  max_history: 20

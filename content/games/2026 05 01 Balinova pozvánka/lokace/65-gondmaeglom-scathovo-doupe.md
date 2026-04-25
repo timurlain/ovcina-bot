@@ -1,0 +1,10 @@
+<!-- Kategorie: G. Draky, sever, východ, puzzle a ostatní (16) -->
+### 65. Gondmaeglom — Scathovo doupě
+- **Typ:** Dračí doupě | **Oblast:** Srdce Šedých hor
+- **Popis:** Hluboko v srdci Šedých hor, kde se skály pokrývají věčným ledem, leží Gondmaeglom — opuštěné doupě ledového draka Scathy, jedné z posledních velkých příšer severu, kterého před osmi sty šedesáti lety porazil Fram z Éothéodu. Jeskynní komplex je pokrytý ledem tak starým, že je modrý jako nebe, a pod ním se třpytí hromady trpasličího zlata, šperků a zbraní — poklady ukradené z Norr-dumu a dalších zničených osad, ze kterých Fram odnesl jen povrchní vrstvu. Říká se, že v hlubinách doupěte dodnes leží Framův štít, ztracený při poslední bitvě s drakem — legendární artefakt, kvůli kterému se trpaslíci a Seveřané hádají už staletí.
+- **Podrobnosti:** Cesta k doupěti vede přes ledové průsmyky a zasněžené srázy, kde vítr řeže jako nůž — i zkušení horolezci potřebují týden a kus štěstí. Dračí dech zamrzl na stěnách jeskyní a vytvořil rampouchy velké jako věže — pod nimi je vidět věci zamrzlé v ledu: trpasličí helmy, meče, občas i kostry těch, kteří se po Scathově smrti pokusili poklad získat zpět a už se nevrátili. Scatha byl starý drak — ne tak velký jako Šmak, ale chytřejší a krutější. Ačkoli sám dávno padl, jeho dech zanechal jeskyně prostoupené mrazem, který dodnes zmrazí válečníka v brnění na místě, a temné chodby střeží jiná prastará nebezpečí, jež ledové ticho Gondmaeglomu po staletích probouzí. Trpaslíci z Azanulinbaru vyprávějí o doupěti u ohně s prsty sevřenými v pěst — ten poklad je jejich a jednou si pro něj přijdou. Každých pár let se najde dobrodruh, který se do Gondmaeglomu vydá — a z těch, co se vrátili, žádný se nevrátil bohatší, jen chudší o prsty, které mu zmrzly.
+- **Herní potenciál:** Epická výprava — porazit draka, získat ztracené poklady.
+- **Midjourney prompt:**
+```
+A frozen cave entrance in grey mountains, massive blue icicles framing the opening, snow and ice covering everything, Middle-earth, in the style of John Howe, icy blues, forbidding --ar 1:1 --s 200
+```

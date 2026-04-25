@@ -1,0 +1,11 @@
+<!-- Kategorie: B. Vesnice (15) -->
+### 11. Zásekov
+- **Typ:** Vesnice | **Oblast:** Západní Temný hvozd, 50 mil severně od Lesní síně
+- **Popis:** Opevněný tábor za hrubou dřevěnou palisádou hluboko v Temném hvozdu, padesát mil severně od Lesní síně. Žijí tu bandité, dezertéři a uprchlíci — ne čistě zlí, ale lidé, kteří se dostali na druhou stranu zákona a nemají kam jít. Zásekov je místo bez pravidel, kde platí jen síla, chytrost a vzájemná dohoda.
+- **Podrobnosti:** Za palisádou stojí chatrče ze dřeva a plátna, ohniště pro společné vaření a hlídkové věžičky na okraji tábora. Někteří obyvatelé utekli před nespravedlností — šlechtickým bezprávím, křivým soudem nebo dluhy, které nemohli splatit. Jiní jsou prostě lupiči a násilníci, které hvozd ukryl před spravedlností. Vztah tábora k okolním osadám je napjatý — Zásekov krade, co potřebuje, ale občas i obchoduje s těmi, kdo se nebojí přijít. Vyčistit Zásekov a proměnit ho v legitimní osadu by vyžadovalo najít rovnováhu mezi milosrdenstvím a tvrdou rukou — nabídnout amnestii těm, kdo chtějí žít v míru, a vyhnat ty, kdo odmítají.
+- **Varianty:** Banditský tábor / Vyčištěný Zásekov (legitimní osada)
+- **Herní potenciál:** Dřevěná palisáda jako fyzická překážka vstupu — jediná brána filtruje, kdo vstoupí. Hlídkové věžičky na okraji tábora — po vylezení je vidět do okolního hvozdu, dobré pozorovatelní body a místo pro signály. Spousta skrýší mezi chatrčemi, plátěnými přístřešky a v ohništi — organizátoři sem mohou umístit kořistní pytle, dopisy nebo mapy tras přepadení. Šifrovaná zpráva nebo tajná mapa banditů vyřezaná na trámu palisády, čitelná pouze se šifrovacím přehozem (DOV) — může odhalit úkryt lupu, kód pro průchod dalšími tábory nebo seznam obětí. Dva stavy lokace (Banditský tábor / Vyčištěný Zásekov) — stav se mění podle průběhu hry. `[Pro quest — potřebuje banditského velitele: vyjednávání, amnestie, nebo vyhnání.]` `[Pro quest — potřebuje utečence: hrdinové chrání někoho před banditským lovem.]` `[Pro quest — potřebuje zvěda: infiltrace tábora, kradení informací.]`
+- **Midjourney prompt:**
+```
+A rough outlaw camp behind a wooden palisade deep in a dark forest, tents and campfires, armed men on watch, Middle-earth, in the style of Angus McBride, realistic, gritty --ar 1:1 --s 200
+```
