@@ -1,10 +1,10 @@
 # Rejstřík pravidel — Ovčina LARP
 
 > Automaticky generovaný rejstřík. Neupravovat ručně.
-> Poslední aktualizace: 2026-04-25
+> Poslední aktualizace: 2026-04-26
 
-**Celkem pravidel:** 82
-**Schváleno:** 80 | **Návrh:** 1 | **Zastaralé:** 1
+**Celkem pravidel:** 83
+**Schváleno:** 81 | **Návrh:** 1 | **Zastaralé:** 1
 
 | ID | Název | Úroveň | Stav | Viditelnost | Soubor |
 |----|-------|--------|------|-------------|--------|
@@ -53,6 +53,7 @@
 | PRI-005 | Souboj z pohledu příšery | systémová | schváleno | organizátor | systemova/prisery/PRI-005-souboj-z-pohledu-prisery.md |
 | PRI-006 | Rajóny příšer a výbava | systémová | schváleno | organizátor | systemova/prisery/PRI-006-rajony-a-vybava.md |
 | PRI-007 | Trofeje za poražené příšery | systémová | schváleno | obojí | systemova/prisery/PRI-007-trofeje.md |
+| PRI-008 | Drobky v zónách příšer | systémová | schváleno | obojí | systemova/prisery/PRI-008-drobky-v-zonach.md |
 | QUE-001 | Osobní questy | systémová | schváleno | hráč | systemova/questy/QUE-001-osobni-questy.md |
 | QUE-002 | Obtížnosti questů | systémová | schváleno | hráč | systemova/questy/QUE-002-obtiznosti-questu.md |
 | QUE-003 | Globální questy | systémová | schváleno | hráč | systemova/questy/QUE-003-globalni-questy.md |

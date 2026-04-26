@@ -7,7 +7,7 @@ stav: schváleno
 viditelnost: obojí
 závisí-na: []
 nahrazuje: []
-poslední-změna: 2026-04-25
+poslední-změna: 2026-04-26
 klíčové-fráze:
   - jak rozvíjet město
   - pravidla pro rozvoj měst
@@ -15,6 +15,10 @@ klíčové-fráze:
   - jak investovat do města
   - správa města
   - rozvoj a budování
+  - pořadí stavby budov
+  - prerekvizity vojenských a magických budov
+  - kovárna výheň arsenál
+  - svitkovna kouzelnická věž citadela mudrců
 ---
 
 # Pravidla pro rozvoj měst
@@ -84,6 +88,40 @@ Budovy podporující bodování národa v Pilířích slávy (viz ROZ-014).
 |--------|------|------|
 | Cechovní dům | Každá manufaktura ve stejném městě produkuje +1 groš za období navíc (formulka 4 + X se mění na 5 + X) | 15 grošů, 3 dřeva, 2 kamene |
 | Síň trofejí | Trofeje z příšer kategorie III nebo IV zde uložené počítají **dvojnásobně** pro Pilíř Moci na konci hry (viz ROZ-014) | 20 grošů, 3 dřeva, 3 kamene |
+
+## Pořadí stavby vojenských a magických budov
+
+Vojenské a magické budovy se **stavějí v pevném pořadí**. Každá vyšší úroveň vyžaduje předchozí budovu jako prerekvizitu — nelze přeskočit stupeň.
+
+### Řetězec zbraní
+
+```
+Kovárna (lvl 3)  →  Výheň (lvl 4)  →  Arsenál (lvl 4, 5 a vyšší)
+```
+
+- **Kovárna** se může postavit kdykoli (žádná prerekvizita).
+- **Výheň** lze postavit **jen ve městě, kde už stojí Kovárna**.
+- **Arsenál** lze postavit **jen ve městě, kde už stojí Výheň**. Po postavení Arsenálu Výheň zaniká (nahrazuje ji Arsenál — viz tabulka výše).
+
+### Řetězec kouzel
+
+```
+Svitkovna (lvl 3)  →  Kouzelnická věž (lvl 4)  →  Citadela mudrců (lvl 4 a 5)
+```
+
+- **Svitkovna** se může postavit kdykoli (žádná prerekvizita).
+- **Kouzelnickou věž** lze postavit **jen ve městě, kde už stojí Svitkovna**.
+- **Citadelu mudrců** lze postavit **jen ve městě, kde už stojí Kouzelnická věž**. Po postavení Citadely Kouzelnická věž zaniká (nahrazuje ji Citadela).
+
+### Proč
+
+Postupný řetězec znamená, že národ musí investovat dlouhodobě a strategicky — nelze rovnou skočit na nejvyšší úroveň. Levnější budova (Kovárna / Svitkovna) je nutný první krok, který zároveň hned přináší užitek (zbraně / kouzla úrovně 3) a teprve postupné upgrady odemykají vyšší úrovně.
+
+### Co se stavbou původní budovy
+
+Když je postavena upgrade (Arsenál nebo Citadela), původní střední budova (Výheň / Kouzelnická věž) **zaniká** — počítá se jako jedna budova v limitu. Tedy Kovárna + Arsenál existují vedle sebe, ale Výheň se odebírá (nepočítá se do limitu 9 budov).
+
+> *Příklad:* Aradhrynd má v 5. období Kovárnu, Výheň a tři manufaktury. V 6. období staví Arsenál — Výheň zaniká, zůstává Kovárna + Arsenál + tři manufaktury (5 budov).
 
 ## Růst města
 

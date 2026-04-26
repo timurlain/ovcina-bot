@@ -41,6 +41,10 @@ Trofeje se vydávají za poražení příšer **všech kategorií síly** (I–I
 
 Trofeje se vydávají **jen za poražené příšery ovládané CP**. Z PvP soubojů (poražení jiní hráči) trofeje nejsou.
 
+### Výjimka — Moria a Balinova expedice
+
+Trofeje získané v **Morii během Balinovy expedice** (poslední období hry) se do bodování **Pilíře Moci nezapočítávají** (viz ROZ-014). Hráči si je mohou nechat jako vzpomínku, ale nezvyšují skóre národa.
+
 ## K čemu slouží
 
 Trofeje se nejčastěji používají v questech jako důkaz, že hráč nebo skupina pobila dostatečný počet nepřátel:

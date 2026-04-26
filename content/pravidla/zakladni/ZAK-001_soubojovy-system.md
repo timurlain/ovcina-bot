@@ -7,7 +7,7 @@ stav: schváleno
 viditelnost: hráč
 závisí-na: [AXI-001]
 nahrazuje: []
-poslední-změna: 2026-04-05
+poslední-změna: 2026-04-26
 klíčové-fráze:
   - jak funguje souboj
   - jak začít boj
@@ -16,6 +16,9 @@ klíčové-fráze:
   - kdo s kým bojuje
   - kolik lidí může bojovat najednou
   - základní pravidla boje
+  - dvě akce v jednom kole
+  - pořadí více akcí
+  - střídání stran po akcích
 ---
 
 # Soubojový systém
@@ -83,12 +86,18 @@ Během kola přicházejí postupně a střídavě na řadu bytosti z obou bojuj�
 1. **V prvním kole** začíná ta strana, která zahájila souboj plácnutím.
    - Není-li jasné, kdo plácnul koho, či jde o domluvený souboj, určí se první hráč pomocí KNP nebo hodu kostkou.
 2. **V dalších kolech** vždy začíná kolo ta strana, která nezačínala to minulé.
-3. **Když přijde bytost na řadu**, použije svou akci:
+3. **Když přijde bytost na řadu**, použije **jednu** svou akci:
    - Bojující bytost **ukáže, co bude dělat**, popřípadě doplní slovem.
    - Vytáhne soubojové karty směrem na oběť nebo jen tak, pokud akce žádný konkrétní cíl nemá.
    - **Jednou vyjevený úmysl je dále nezměnitelný.**
    - Je možné neprovést žádné akce.
 4. Střídání probíhá tak dlouho, než všem účastníkům souboje dojdou akce.
+
+> **Více akcí v jednom kole:** Pokud má bytost (hrdina nebo příšera) **2 nebo více akcí** v kole, **NEhraje je všechny najednou**. Strany se střídají po **jednotlivých akcích** — bytost odehraje jednu akci, pak je na řadě druhá strana, a teprve když na bytost znovu dojde řada v rámci kola, hraje svou další akci.
+>
+> *Příklad:* Hrdina s 2 akcemi vs. příšera s 1 akcí: hrdina (1.) → příšera (1.) → hrdina (2.). **Konec kola.**
+>
+> *Příklad 2:* Hrdina s 2 akcemi vs. dvě příšery s 1 akcí každá: hrdina (1.) → příšera A → hrdina (2.) → příšera B. Konec kola.
 
 ### Vyhodnocení kola (závěrečná fáze)
 

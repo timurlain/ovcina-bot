@@ -7,7 +7,7 @@ stav: schváleno
 viditelnost: organizátor
 závisí-na: [DOV-001]
 nahrazuje: []
-poslední-změna: 2026-04-22
+poslední-změna: 2026-04-26
 klíčové-fráze:
   - jak vypadá šifrovací karta
   - rozměry A5 šifrovací tabulka
@@ -130,13 +130,38 @@ Mřížka má **550 polí**, ale zpráva je max 90 písmen. Zbylých **~460 pol�
 - Použij **vyvážený mix písmen** (nepřevažuj jedno písmeno, nebo se mřížka stává čitelně „prázdnou").
 - **Četnost vycházející z češtiny** funguje nejlépe (E, A, O, N, I, T, S nejběžnější — ostatní méně).
 
-### Kratší zprávy než 90 znaků
+### Wrapper `XOX` — povinný delimiter zprávy
 
-Pokud je zpráva kratší než počet pozic na overlay (např. zpráva má 12 písmen, overlay má 78 pozic):
+Každá zpráva začíná i končí trojicí písmen **`XOX`**. Wrapper:
 
-- **Padding písmenem `X`** v nevyužitých pozicích overlay.
-- Hrdina vidí `NIC TU NENI XXXXXXX...` (X padding do celkového počtu pozic) — chápe, že zpráva skončila u prvního `X` a zbytek je výplň.
-- Alternativa: zopakovat zprávu (`NIC TU NENI NIC TU NENI NIC TU NENI...`) — srozumitelnější pro menší děti, zaplní celý prostor.
+- **Začátek:** `XOX` před prvním písmenem zprávy
+- **Konec:** `XOX` za posledním písmenem zprávy
+- Hrdina poznává začátek + konec zprávy podle `XOX` a ví, že vše mezi je platná zpráva
+- Zbytek cipher pozic za druhým `XOX` se naplní **z tematického textu** (vypadá jako pokračování smysluplné věty, ale není to součást zprávy)
+
+**Příklad:**
+```
+Zpráva:        TADY ZIJE VLCI SMECKA POZOR NA STOPY
+Bez mezer:     TADYZIJEVLCISMECKAPOZORNASTOPY  (30 písmen)
+S wrapperem:   XOXTADYZIJEVLCISMECKAPOZORNASTOPYXOX  (36 písmen)
+```
+
+### Kratší zprávy než dostupných pozic — tematický filler
+
+Pokud je zpráva (s `XOX` wrappery) kratší než počet pozic overlay (např. 36 znaků zprávy + wrapper, overlay má 80 pozic):
+
+- **Tematický filler:** zbylé pozice (44 v příkladu) se vyplní z **tematického textu** dovednosti — pokračování staré kroniky / bestiáře / lore textu.
+- Hrdina s overlay čte `XOX...zpráva...XOX` a pak **náhodný gibberish** z tematu — chápe, že zpráva skončila druhým `XOX`.
+- Tematický text musí být **bez diakritiky, bez interpunkce, jen velká tiskací**, vždy aspoň 600 písmen aby se naplnila celá mřížka 550 cells.
+
+**Doporučené tematické texty per dovednost:**
+- **Hledání magie:** runy, hvězdy, kouzla, mystika
+- **Prohledávání:** poklady, ztracené věci, zaprášené truhly
+- **Šestý smysl:** předtuchy, sny, vidění, ozvěny
+- **Znalost bytostí:** stará kronika o tvorech lesa, sově, vlcích, vílách
+- **Lezení:** hory, skály, výšiny, lezecké trasy
+
+Tato strategie nahrazuje původní `X` padding, který byl příliš nápadný.
 
 ## Materiál a výroba
 
