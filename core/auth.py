@@ -46,11 +46,15 @@ class UserStore:
     def _migrate_from_sqlite(self):
         import sqlite3
         users = {}
-        with sqlite3.connect(self.legacy_db_path) as conn:
-            conn.row_factory = sqlite3.Row
-            for row in conn.execute("SELECT * FROM users"):
-                key = f"{row['channel_type']}:{row['channel_id']}"
-                users[key] = dict(row)
+        try:
+            with sqlite3.connect(self.legacy_db_path) as conn:
+                conn.row_factory = sqlite3.Row
+                for row in conn.execute("SELECT * FROM users"):
+                    key = f"{row['channel_type']}:{row['channel_id']}"
+                    users[key] = dict(row)
+        except sqlite3.OperationalError:
+            # Legacy db exists but has no users table (e.g. a leftover empty file).
+            pass
         self._atomic_write(users)
 
     def _atomic_write(self, data: dict):
