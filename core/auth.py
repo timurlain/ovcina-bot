@@ -22,6 +22,9 @@ class UserStore:
         """Create tables if needed."""
         self.db_path.parent.mkdir(parents=True, exist_ok=True)
         async with aiosqlite.connect(self.db_path) as db:
+            # Azure Files / SMB doesn't support SQLite WAL locking — use rollback journal.
+            # Setting is persisted in the DB file header so future connections inherit it.
+            await db.execute("PRAGMA journal_mode = DELETE")
             await db.execute("""
                 CREATE TABLE IF NOT EXISTS users (
                     channel_type TEXT NOT NULL,
