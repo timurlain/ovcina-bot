@@ -1,67 +1,101 @@
-"""Question logger — records user queries for review and improvement."""
+"""Question logger — records user queries for review and improvement.
+
+JSONL file backed (append-only), works on Azure Files / SMB.
+"""
 
 from __future__ import annotations
 
+import asyncio
+import json
+import os
+import sqlite3
+import threading
 from datetime import datetime
 from pathlib import Path
 
-import aiosqlite
+# Stored alongside users.json on the same data volume.
+LOG_PATH = Path(__file__).parent.parent / "data" / "questions.jsonl"
+LEGACY_DB_PATH = Path(__file__).parent.parent / "data" / "users.db"
 
-DB_PATH = Path(__file__).parent.parent / "data" / "users.db"
+_write_lock = threading.Lock()
+
+
+def _migrate_from_sqlite():
+    """One-time migration: import questions table from legacy users.db."""
+    if not LEGACY_DB_PATH.exists() or LOG_PATH.exists():
+        return
+    LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with sqlite3.connect(LEGACY_DB_PATH) as conn:
+        conn.row_factory = sqlite3.Row
+        try:
+            rows = list(conn.execute("SELECT * FROM questions ORDER BY id"))
+        except sqlite3.OperationalError:
+            return
+    with open(LOG_PATH, "w", encoding="utf-8") as f:
+        for r in rows:
+            d = {k: r[k] for k in r.keys() if k != "id"}
+            f.write(json.dumps(d, ensure_ascii=False) + "\n")
 
 
 async def init_question_log():
-    """Create the questions table if needed."""
-    async with aiosqlite.connect(DB_PATH) as db:
-        # Azure Files / SMB compatibility: no WAL, wait on transient locks.
-        await db.execute("PRAGMA journal_mode = DELETE")
-        await db.execute("PRAGMA busy_timeout = 5000")
-        await db.execute("""
-            CREATE TABLE IF NOT EXISTS questions (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                timestamp TEXT NOT NULL,
-                email TEXT NOT NULL,
-                bot TEXT NOT NULL,
-                question TEXT NOT NULL,
-                answer TEXT
-            )
-        """)
-        await db.commit()
+    """Ensure log file exists. Migrate from SQLite if legacy db is present."""
+    LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
+    await asyncio.to_thread(_migrate_from_sqlite)
+    if not LOG_PATH.exists():
+        LOG_PATH.touch()
+
+
+def _append_sync(record: dict):
+    with _write_lock:
+        with open(LOG_PATH, "a", encoding="utf-8") as f:
+            f.write(json.dumps(record, ensure_ascii=False) + "\n")
+            f.flush()
+            os.fsync(f.fileno())
 
 
 async def log_question(email: str, bot: str, question: str, answer: str | None = None):
-    """Log a user question."""
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    async with aiosqlite.connect(DB_PATH) as db:
-        await db.execute(
-            "INSERT INTO questions (timestamp, email, bot, question, answer) VALUES (?, ?, ?, ?, ?)",
-            (timestamp, email, bot, question, answer),
-        )
-        await db.commit()
+    record = {
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "email": email,
+        "bot": bot,
+        "question": question,
+        "answer": answer,
+    }
+    await asyncio.to_thread(_append_sync, record)
+
+
+def _read_all_sync() -> list[dict]:
+    if not LOG_PATH.exists():
+        return []
+    out = []
+    with open(LOG_PATH, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                out.append(json.loads(line))
+            except json.JSONDecodeError:
+                continue
+    return out
 
 
 async def get_recent_questions(limit: int = 10, bot: str | None = None) -> str:
-    """Return recent questions as formatted text."""
-    async with aiosqlite.connect(DB_PATH) as db:
-        db.row_factory = aiosqlite.Row
-        if bot:
-            query = "SELECT * FROM questions WHERE bot = ? ORDER BY id DESC LIMIT ?"
-            params = (bot, limit)
-        else:
-            query = "SELECT * FROM questions ORDER BY id DESC LIMIT ?"
-            params = (limit,)
-        async with db.execute(query, params) as cursor:
-            rows = [dict(row) async for row in cursor]
+    rows = await asyncio.to_thread(_read_all_sync)
+    if bot:
+        rows = [r for r in rows if r.get("bot") == bot]
+    rows = rows[-limit:]
 
     if not rows:
         return "Zatím žádné dotazy."
 
     lines = [f"*Posledních {len(rows)} dotazů:*\n"]
-    for r in reversed(rows):
-        ts = r["timestamp"][5:16]  # MM-DD HH:MM
-        email_short = r["email"].split("@")[0]
-        bot_tag = "📖" if r["bot"] == "Rulemaster" else "🌍"
-        q = r["question"][:80] + ("..." if len(r["question"]) > 80 else "")
+    for r in rows:
+        ts = (r.get("timestamp") or "")[5:16]  # MM-DD HH:MM
+        email_short = (r.get("email") or "").split("@")[0]
+        bot_tag = "📖" if r.get("bot") == "Rulemaster" else "🌍"
+        q = r.get("question", "")
+        q = q[:80] + ("..." if len(q) > 80 else "")
         lines.append(f"{bot_tag} `{ts}` *{email_short}*: {q}")
 
     return "\n".join(lines)
