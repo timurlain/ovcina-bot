@@ -13,6 +13,9 @@ DB_PATH = Path(__file__).parent.parent / "data" / "users.db"
 async def init_question_log():
     """Create the questions table if needed."""
     async with aiosqlite.connect(DB_PATH) as db:
+        # Azure Files / SMB compatibility: no WAL, wait on transient locks.
+        await db.execute("PRAGMA journal_mode = DELETE")
+        await db.execute("PRAGMA busy_timeout = 5000")
         await db.execute("""
             CREATE TABLE IF NOT EXISTS questions (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
