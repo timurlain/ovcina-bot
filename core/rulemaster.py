@@ -359,6 +359,12 @@ poslední-změna: {today}
         """Send a query using tool_use agent loop."""
         system = self._prompt_template.format(user_role=user_role)
 
+        # Hotfixes — Osud-written overrides; highest priority, prepended to system prompt.
+        from core.hotfixes import format_hotfixes_for_prompt
+        hotfix_block = format_hotfixes_for_prompt()
+        if hotfix_block:
+            system = hotfix_block + "\n\n---\n\n" + system
+
         history = self._conversations[user_id]
         history.append({"role": "user", "content": message})
         if len(history) > self.max_history:

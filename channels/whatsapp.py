@@ -258,6 +258,27 @@ class WhatsAppChannel:
         if body.lower() == "/postava":
             return self._postava_text(user)
 
+        # Fate-only command — hotfix rule
+        if self._is_fate(user["email"]):
+            if body.lower().startswith("/hotfix "):
+                hf_text = body[8:].strip()
+                if not hf_text:
+                    return (
+                        "Napiš hotfix takto: /hotfix <text pravidla>\n\n"
+                        "Hotfix přepíše všechna ostatní pravidla a začne platit okamžitě."
+                    )
+                from core.hotfixes import add_hotfix
+                result = add_hotfix(author_email=user["email"], author_role="Osud", text=hf_text)
+                hot_id = result["id"]
+                # Notify other Fate verified on WhatsApp
+                await self._notify_other_fate_whatsapp(user["email"], hot_id, hf_text)
+                return (
+                    f"✅ *{hot_id}* zapsán\n\n"
+                    f"_Autor:_ {user['email']} (Osud)\n"
+                    f"_Text:_ {hf_text}\n\n"
+                    f"Hotfix je teď platný — boti ho započítají od příští otázky a přepíše všechna pravidla."
+                )
+
         # Organizer commands
         if self._is_organizer(user["email"]):
             if body.lower().startswith("/poznamka "):
@@ -304,6 +325,32 @@ class WhatsAppChannel:
 
     def _is_organizer(self, email: str) -> bool:
         return email.lower() in [e.lower() for e in self.config.auth.organizer_emails]
+
+    def _is_fate(self, email: str) -> bool:
+        return email.lower() in [e.lower() for e in self.config.auth.fate_emails]
+
+    async def _notify_other_fate_whatsapp(self, author_email: str, hot_id: str, text: str):
+        """Send hotfix notification to other Fate users verified on WhatsApp."""
+        msg = (
+            f"🔔 Nový hotfix od {author_email}: *{hot_id}*\n\n"
+            f"_{text}_\n\n"
+            f"Platný okamžitě."
+        )
+        try:
+            all_users = await self.user_store.list_users()
+        except Exception as e:
+            logger.warning("Failed to list users for hotfix notification: %s", e)
+            return
+        for u in all_users:
+            if (
+                u.get("channel_type") == "whatsapp"
+                and self._is_fate(u["email"])
+                and u["email"].lower() != author_email.lower()
+            ):
+                try:
+                    await _waha_send(self.waha_url, self.waha_api_key, u["channel_id"], msg)
+                except Exception as e:
+                    logger.warning("Failed to notify %s about hotfix: %s", u["email"], e)
 
     def _help_text(self, user: dict) -> str:
         text = (

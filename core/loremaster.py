@@ -319,6 +319,12 @@ class LoreMaster:
                 postava_popis=popis or f"{postava} z frakce {frakce}",
             )
 
+        # Hotfixes — Osud-written overrides; highest priority, prepended to system prompt.
+        from core.hotfixes import format_hotfixes_for_prompt
+        hotfix_block = format_hotfixes_for_prompt()
+        if hotfix_block:
+            system = hotfix_block + "\n\n---\n\n" + system
+
         history = self._conversations[user_key]
         history.append({"role": "user", "content": message})
         if len(history) > self.max_history:

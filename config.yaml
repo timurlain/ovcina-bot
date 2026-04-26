@@ -62,6 +62,11 @@ auth:
     - "ondra.zahradnik@gmail.com"
     - "lenka.svobodova@gypri.cz"
     - "andrea6@seznam.cz"
+  # Osud (Fate) — only these can write hotfix rules during the event
+  fate_emails:
+    - "tomas.pajonk@hotmail.cz"
+    - "stanam@email.cz"
+    - "deatch@email.cz"
 
 baca:
   api_url: "https://baca.ovcina.cz"

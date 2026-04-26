@@ -48,6 +48,7 @@ class AzureEmailConfig:
 class AuthConfig:
     code_expiry_minutes: int = 10
     organizer_emails: list[str] = field(default_factory=list)
+    fate_emails: list[str] = field(default_factory=list)
 
 
 @dataclass

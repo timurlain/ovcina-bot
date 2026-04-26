@@ -34,6 +34,10 @@ def _is_organizer(email: str, config) -> bool:
     return email.lower() in [e.lower() for e in config.auth.organizer_emails]
 
 
+def _is_fate(email: str, config) -> bool:
+    return email.lower() in [e.lower() for e in config.auth.fate_emails]
+
+
 async def _get_user_or_deny(update: Update, user_store: UserStore) -> dict | None:
     user = await user_store.get_user("telegram", str(update.effective_user.id))
     if not user:
@@ -78,6 +82,60 @@ async def cmd_poznamka(update: Update, context: ContextTypes.DEFAULT_TYPE):
     bot_name = context.bot_data.get("bot_name", "telegram")
     result = save_note(user["email"], text, source=bot_name)
     await update.message.reply_text(f"📝 {result}")
+
+
+async def cmd_hotfix(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Write a hotfix rule (Osud only). Overrides all pravidla immediately."""
+    config = context.bot_data["config"]
+    user_store = context.bot_data["user_store"]
+    user = await _get_user_or_deny(update, user_store)
+    if not user:
+        return
+    if not _is_fate(user["email"], config):
+        await update.message.reply_text("Tento příkaz je pouze pro Osudy.")
+        return
+    text = " ".join(context.args) if context.args else ""
+    if not text:
+        await update.message.reply_text(
+            "Napiš hotfix takto: `/hotfix <text pravidla>`\n\n"
+            "Hotfix přepíše všechna ostatní pravidla a začne platit okamžitě pro všechny boty.",
+            parse_mode="Markdown",
+        )
+        return
+
+    from core.hotfixes import add_hotfix
+    result = add_hotfix(author_email=user["email"], author_role="Osud", text=text)
+    hot_id = result["id"]
+
+    confirmation = (
+        f"✅ *{hot_id}* zapsán\n\n"
+        f"_Autor:_ {user['email']} (Osud)\n"
+        f"_Text:_ {text}\n\n"
+        f"Hotfix je teď platný — boti ho započítají od příští otázky a přepíše všechna pravidla."
+    )
+    await update.message.reply_text(confirmation, parse_mode="Markdown")
+
+    # Notify other Fate verified on Telegram
+    all_users = await user_store.list_users()
+    notify_msg = (
+        f"🔔 Nový hotfix od {user['email']}: *{hot_id}*\n\n"
+        f"_{text}_\n\n"
+        f"Platný okamžitě."
+    )
+    for u in all_users:
+        if (
+            u.get("channel_type") == "telegram"
+            and _is_fate(u["email"], config)
+            and u["email"].lower() != user["email"].lower()
+        ):
+            try:
+                await context.bot.send_message(
+                    chat_id=int(u["channel_id"]),
+                    text=notify_msg,
+                    parse_mode="Markdown",
+                )
+            except Exception as e:
+                logger.warning("Failed to notify %s about hotfix: %s", u["email"], e)
 
 
 async def cmd_ukol(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -716,6 +774,7 @@ async def start_telegram_bots(config, user_store, rulemaster, loremaster):
     rm_app.add_handler(CommandHandler("poznamky", cmd_poznamky))
     rm_app.add_handler(CommandHandler("dotazy", cmd_dotazy))
     rm_app.add_handler(CommandHandler("ukol", cmd_ukol))
+    rm_app.add_handler(CommandHandler("hotfix", cmd_hotfix))
     rm_app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, rm_message))
 
     # --- LoreMaster bot ---
@@ -735,6 +794,7 @@ async def start_telegram_bots(config, user_store, rulemaster, loremaster):
     lm_app.add_handler(CommandHandler("poznamky", cmd_poznamky))
     lm_app.add_handler(CommandHandler("dotazy", cmd_dotazy))
     lm_app.add_handler(CommandHandler("ukol", cmd_ukol))
+    lm_app.add_handler(CommandHandler("hotfix", cmd_hotfix))
     lm_app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, lm_message))
 
     # Run both bots concurrently
