@@ -117,7 +117,7 @@ def format_hotfixes_for_prompt() -> str:
         "## ⚠️ HOTFIXY — nejvyšší priorita, přepisují VŠECHNA ostatní pravidla",
         "",
         "Tyto hotfixy zapsali během hry Osudové. Pokud jakákoliv otázka spadá pod hotfix,",
-        "ŘIĎ SE HOTFIXEM. Vždy uveď, že odpovídáš podle hotfixu (např. „Podle hotfixu HOT-003…").",
+        'ŘIĎ SE HOTFIXEM. Vždy uveď, že odpovídáš podle hotfixu (např. „Podle hotfixu HOT-003…").',
         "",
     ]
     for h in rows:
