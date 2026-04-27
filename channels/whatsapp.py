@@ -9,6 +9,7 @@ import re
 from flask import Flask, request, jsonify
 import aiohttp
 
+from channels.api import bp as consult_bp
 from core.auth import UserStore, send_verification_email, check_registration
 from core.router import route
 from core.notes import detect_note, save_note
@@ -64,6 +65,12 @@ class WhatsAppChannel:
         self._seen_lock = threading.Lock()
         self._bot_jid_cache = None
         self._register_routes()
+        # Mount the in-app consult API on the same Flask app so it lives behind
+        # the existing port-8080 ingress. Engines are exposed via app.config so
+        # the blueprint can dispatch by persona without import cycles.
+        self.app.config["RULEMASTER"] = rulemaster
+        self.app.config["LOREMASTER"] = loremaster
+        self.app.register_blueprint(consult_bp)
 
     def _bot_jid(self):
         """Bot's own WhatsApp JID (e.g. '420735907567@c.us'), cached."""
