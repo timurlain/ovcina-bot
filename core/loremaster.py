@@ -67,6 +67,9 @@ class LoreMaster:
         self.max_history = max_history
         self._conversations: dict[str, list[dict]] = defaultdict(list)
         self._roles = load_roles(brain_path / "_roles.yaml")
+        # Tokens consumed during the most recent query() call (sum across the
+        # tool-use loop). Read by the consult-API blueprint.
+        self.last_tokens_used: int = 0
         self._file_index = self._load_curated_index()
         self._prompt_player = _load_prompt(skills_path, "BOT_PROMPT_PLAYER.md") if skills_path else None
         self._prompt_gm = _load_prompt(skills_path, "BOT_PROMPT_GM.md") if skills_path else None
@@ -332,7 +335,7 @@ class LoreMaster:
 
         handlers = self._make_tool_handlers(user)
 
-        response_text = await run_agent_loop(
+        response_text, tokens_used = await run_agent_loop(
             client=self.client,
             model=self.model,
             system=system,
@@ -341,6 +344,7 @@ class LoreMaster:
             tool_handlers=handlers,
             on_progress=send_status,
         )
+        self.last_tokens_used = tokens_used
 
         history.append({"role": "assistant", "content": response_text})
         return response_text

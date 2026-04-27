@@ -80,6 +80,9 @@ class Rulemaster:
         self._ovcina_path = skills_path.parent if skills_path else None
         self._index = self._load_index()
         self._rule_editors: set[str] = set()
+        # Tokens consumed during the most recent query() call (sum across the
+        # tool-use loop). Read by the consult-API blueprint.
+        self.last_tokens_used: int = 0
 
     def set_rule_editors(self, editors: list[str]):
         """Set the list of emails allowed to edit rules."""
@@ -376,7 +379,7 @@ poslední-změna: {today}
         is_editor = user_email and user_email.lower() in self._rule_editors
         tools = RULEMASTER_TOOLS + RULEMASTER_WRITE_TOOLS if is_editor else RULEMASTER_TOOLS
 
-        response_text = await run_agent_loop(
+        response_text, tokens_used = await run_agent_loop(
             client=self.client,
             model=self.model,
             system=system,
@@ -385,6 +388,7 @@ poslední-změna: {today}
             tool_handlers=handlers,
             on_progress=on_progress,
         )
+        self.last_tokens_used = tokens_used
 
         history.append({"role": "assistant", "content": response_text})
         return response_text

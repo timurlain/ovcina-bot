@@ -450,6 +450,14 @@ def _tool_status_text(tool_name: str, tool_input: dict) -> str:
         return template.split("{")[0] + "..."
 
 
+def _usage_tokens(response) -> int:
+    """Sum input + output tokens from an Anthropic response (0 if missing)."""
+    usage = getattr(response, "usage", None)
+    if not usage:
+        return 0
+    return int(getattr(usage, "input_tokens", 0) or 0) + int(getattr(usage, "output_tokens", 0) or 0)
+
+
 async def run_agent_loop(
     client,
     model: str,
@@ -459,8 +467,11 @@ async def run_agent_loop(
     tool_handlers: dict[str, ToolHandler],
     max_rounds: int = MAX_TOOL_ROUNDS,
     on_progress: StatusCallback | None = None,
-) -> str:
-    """Run a tool-using agent loop. Returns the final text response.
+) -> tuple[str, int]:
+    """Run a tool-using agent loop. Returns (final text, total tokens used).
+
+    Tokens are summed (input + output) across every messages.create call in
+    the loop, including the post-exhaustion fallback call.
 
     History should contain only text messages (user/assistant pairs from
     prior turns). Tool interactions within the current turn are ephemeral
@@ -469,6 +480,7 @@ async def run_agent_loop(
     on_progress: optional async callback to report tool activity to the user.
     """
     messages = list(history)  # work on a copy
+    total_tokens = 0
 
     for round_num in range(max_rounds):
         logger.info("Agent loop round %d/%d (%d messages)",
@@ -481,11 +493,12 @@ async def run_agent_loop(
             messages=messages,
             tools=tools,
         )
+        total_tokens += _usage_tokens(response)
 
         # If Claude is done (no tool use), extract text
         if response.stop_reason == "end_turn":
             text_parts = [b.text for b in response.content if b.type == "text"]
-            return "".join(text_parts)
+            return "".join(text_parts), total_tokens
 
         # Claude wants to use tools
         messages.append({"role": "assistant", "content": response.content})
@@ -532,9 +545,10 @@ async def run_agent_loop(
             system=system + "\n\nNEMÁŠ DALŠÍ NÁSTROJE. Odpověz na základě informací, které jsi již získal.",
             messages=messages,
         )
+        total_tokens += _usage_tokens(response)
         text_parts = [b.text for b in response.content if b.type == "text"]
         if text_parts:
-            return "".join(text_parts)
+            return "".join(text_parts), total_tokens
     except Exception as e:
         logger.error("Final answer attempt failed: %s", e)
-    return "Omlouvám se, nedokázal jsem najít odpověď. Zkus dotaz přeformulovat."
+    return "Omlouvám se, nedokázal jsem najít odpověď. Zkus dotaz přeformulovat.", total_tokens
