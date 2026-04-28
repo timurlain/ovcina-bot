@@ -125,6 +125,25 @@ TOOL_SEARCH_LORE = {
     },
 }
 
+TOOL_GET_HANDOUT_LINK = {
+    "name": "get_handout_link",
+    "description": (
+        "Vrať veřejný odkaz na tištěnou kartu pravidel (A6 cheat-sheet) ve formátu PDF. "
+        "Použij, když si hráč říká o pravidla své role — typicky příšera. "
+        "Dostupná jména: 'prisery'. Vrátí URL, název a krátký popis; vlož odkaz do své odpovědi."
+    ),
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string",
+                "description": "Název handoutu (např. 'prisery'). Jména jsou bez diakritiky.",
+            }
+        },
+        "required": ["name"],
+    },
+}
+
 TOOL_SEARCH_FILES = {
     "name": "search_files",
     "description": (
@@ -206,6 +225,7 @@ RULEMASTER_TOOLS_BASE = [
     TOOL_SEARCH_HRA_API,
     TOOL_GET_ITEM_DETAIL,
     TOOL_SEARCH_FILES,
+    TOOL_GET_HANDOUT_LINK,
 ]
 
 RULEMASTER_WRITE_TOOLS = [
@@ -429,6 +449,7 @@ _TOOL_STATUS = {
     "get_location_detail": "🗺️ Kontroluji detail lokace #{location_id}...",
     "search_lore": "📜 Prohledávám lore...",
     "search_files": "🔍 Hledám v souborech ({directory})...",
+    "get_handout_link": "📎 Hledám odkaz na kartu pravidel ({name})...",
     "write_rule_file": "✍️ Zapisuji změnu pravidla {rule_id}...",
     "create_decision": "📝 Vytvářím rozhodnutí...",
     "get_event_info": "🎪 Načítám informace o hře...",

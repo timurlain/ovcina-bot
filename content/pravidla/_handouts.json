@@ -1,0 +1,10 @@
+{
+  "_comment": "Mapping of handout name -> public blob URL. Each entry is a printable cheat-sheet PDF (typically A6) that the rulemaster bot can hand out via the get_handout_link tool. Add a new entry when uploading a new PDF to the 'handouts' container on ovcinahrastorage.",
+  "handouts": {
+    "prisery": {
+      "url": "https://ovcinahrastorage.blob.core.windows.net/handouts/prisery.pdf",
+      "title": "Pravidla pro příšery (A6 kapesní)",
+      "description": "Krátká shrnující karta pravidel pro postavy ze strany příšer — boj, loot, rozhodování."
+    }
+  }
+}
