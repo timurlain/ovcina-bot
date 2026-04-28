@@ -80,6 +80,7 @@ class Rulemaster:
         self._ovcina_path = skills_path.parent if skills_path else None
         self._index = self._load_index()
         self._rule_editors: set[str] = set()
+        self._handouts_cache: dict | None = None
         # Tokens consumed during the most recent query() call (sum across the
         # tool-use loop). Read by the consult-API blueprint.
         self.last_tokens_used: int = 0
@@ -105,6 +106,36 @@ class Rulemaster:
         if full_path.exists():
             return full_path.read_text(encoding="utf-8")
         return ""
+
+    def _load_handouts(self) -> dict:
+        """Load the handouts manifest (pravidla/_handouts.json), cached after first read."""
+        if self._handouts_cache is not None:
+            return self._handouts_cache
+        path = self.pravidla_path / "_handouts.json"
+        if not path.exists():
+            self._handouts_cache = {}
+            return self._handouts_cache
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+            self._handouts_cache = data.get("handouts", {}) if isinstance(data, dict) else {}
+        except (OSError, json.JSONDecodeError):
+            self._handouts_cache = {}
+        return self._handouts_cache
+
+    def _lookup_handout(self, name: str) -> str:
+        """Resolve a handout name to a 'title — URL' string (or a 'not found' message)."""
+        key = (name or "").strip().lower()
+        handouts = self._load_handouts()
+        entry = handouts.get(key)
+        if not entry:
+            available = ", ".join(sorted(handouts.keys())) or "(žádné)"
+            return f"Handout '{name}' nenalezen. Dostupné: {available}."
+        url = entry.get("url", "")
+        title = entry.get("title", key)
+        desc = entry.get("description", "")
+        if desc:
+            return f"{title} — {desc}\n\n{url}"
+        return f"{title}\n\n{url}"
 
     def _find_theme(self, query: str) -> str:
         """Find and load the best matching theme file from _témata/."""
@@ -217,6 +248,9 @@ class Rulemaster:
                 self._ovcina_path, inp["query"], inp["directory"],
             )
 
+        async def get_handout_link(inp: dict) -> str:
+            return self._lookup_handout(inp.get("name", ""))
+
         # Logistics handlers — auto-fill email from auth context
         async def get_event_info(inp: dict) -> str:
             if not self.registrace:
@@ -282,6 +316,7 @@ class Rulemaster:
             "search_hra_api": search_hra_api,
             "get_item_detail": get_item_detail,
             "search_files": search_files,
+            "get_handout_link": get_handout_link,
             "get_event_info": get_event_info,
             "get_my_registration": get_my_registration,
             "get_my_lodging": get_my_lodging,
