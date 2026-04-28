@@ -5,9 +5,10 @@ název: Systém lektvarů
 kategorie: [lektvary, souboj, alchymie]
 stav: schváleno
 viditelnost: hráč
-závisí-na: []
+závisí-na: [QUE-001]
 nahrazuje: []
-poslední-změna: 2026-04-05
+poslední-změna: 2026-04-27
+zdroj-pravdy: api.hra.ovcina.cz (ItemType=Potion)
 klíčové-fráze:
   - co jsou lektvary
   - jak fungují lektvary
@@ -16,63 +17,114 @@ klíčové-fráze:
   - účinky lektvarů
   - léčivé lektvary
   - seznam lektvarů
+  - kdy lze vypít lektvar
+  - bojové lektvary
+  - reakční lektvary
+  - jak se vyrábějí lektvary
+  - alchymie a vaření lektvarů
+  - quest alchymista
+  - dovednost alchymista
+  - lesní knihovna
+  - kde se dají vařit lektvary
+  - poplatek za lektvar
+  - byliny do lektvarů
 ---
 
 # Systém lektvarů
 
-Lektvary jsou reprezentovány **lahvičkami** s provázkem přivázaným lístečkem, na kterém je popis a případně instrukce.
+Lektvary jsou reprezentovány **lahvičkami** s provázkem přivázaným lístečkem, na kterém je popis a způsob použití.
 
-## Rozdělení lektvarů
+> **Zdroj pravdy:** kanonický seznam lektvarů je v databázi `api.hra.ovcina.cz` (typ `Potion`). Při neshodě má vždy přednost API.
 
-Lektvary se dělí na dvě kategorie: **malé** a **velké**.
+## Obecná pravidla
+
+- **Timing určuje lísteček** každého lektvaru — některé se pijí v předkole, jiné před bojem, jiné jako reakce, některé mimo souboj.
+- V jednom soubojovém kole smíš vypít **nejvýše jeden lektvar**.
+- **Lektvary se nedají kombinovat** — jakmile jeden účinkuje, druhý mu neudělá místo (tato podmínka je explicitně zopakovaná na řadě lístečků).
+- **Některé lektvary se nepijí** — pokropí se s nimi cíl (např. příšera).
+
+## Vyrobitelnost a vzácnost
+
+- **Vyrobitelné (Craftable)** — hráči-alchymisté si je vaří z bylin po splnění osobního questu **„Alchymista"**. V praxi limitované hlavně dostupnými lahvičkami.
+- **Limitované (Limited)** — jednorázové, nelze vyrobit, počty kusů určují organizátoři. Jsou to vlastně legendární poklady — velice mocné, hráči si je obvykle šetří.
+
+## Výroba malých lektvarů
+
+Aby si hráč mohl vařit lektvary, musí:
+
+1. **Splnit osobní quest „Alchymista"** — tím získá stejnojmennou dovednost **Alchymista**. Jde o osobní quest (jeden z herních „obálkových" osobních questů — viz QUE-001 a ROZ-006), ne o veřejný NPC quest.
+2. **Sbírat byliny** v terénu — byliny rostou na různých lokacích a po celé herní mapě (plný systém viz **BYL-001**).
+3. **Mít prázdné lahvičky** — to je v praxi nejtěsnější limit výroby.
+
+### Vyrobitelné lektvary
+
+Vyrobitelné jsou **pouze čtyři lektvary**: *Energy drink, Léčivý lektvar, Lektvar štěstí, Jed.* Každý má svůj recept (počet bylin a další náležitosti). Kanonický seznam vyrobitelných lektvarů spravuje API (`isCraftable=true`).
+
+### Byliny — mechanika vs. naučný prvek
+
+**Mechanicky** je každá bylina ekvivalentní jakékoli jiné: jedna bylina v ruce = jedna bylina v receptu, bez ohledu na typ. Recepty počítají kusy bylin, ne konkrétní druhy.
+
+**Pedagogicky** mají byliny různé karty s různými druhy rostlin (jména, obrázky, popis) — aby se děti během hry seznámily s různými bylinami. Je to vzdělávací vrstva, ne herní omezení.
+
+### Postup vaření v Lesní knihovně
+
+Vlastní vaření probíhá výhradně v lokaci **Lesní knihovna**. Hráč:
+
+1. Přinese si **prázdné lahvičky** a potřebný počet **bylin** podle receptu.
+2. V lokaci si do lahvičky **doplní vhodnou tekutinu** (každý lektvar má svou barvu — viz lísteček).
+3. **Vyrobí štítek** s popisem a instrukcemi a přiváže ho provázkem k lahvičce. Materiály na štítky jsou v lokaci připravené.
+4. **Zaplatí poplatek** — orientačně **kolem 10 grošů** za lektvar (přesná částka se může v průběhu hry měnit).
+
+> Velké (limitované) lektvary se nedají vyrobit. Hráči je získávají jako poklad — z dungeonu, z odměn za questy nebo nákupem od NPC.
 
 ---
 
-## Malé lektvary
+## Bojové lektvary
 
-### Charakteristiky
+### V předkole (vypité na začátku bojového kola)
 
-- **Opakovaně použitelné** — hráči je mohou používat znovu a znovu.
-- **Vyrobitelné** — hráči-alchymisté si je mohou vyrábět (po splnění příslušného osobního questu).
-- Poskytují **bonusy do souboje**.
-- **Pijí se vždy v předkole** soubojového kola.
-- **Omezení:** Každé kolo může hráč vypít jen **jeden lektvar**.
+| Lektvar | Efekt | Vyrobitelný |
+|---------|-------|:---:|
+| **Energy drink** | Doplň si **3 many**. | ano |
+| **Léčivý lektvar** | Vyléč si až **20 životů**. | ano |
 
-### Výroba
+### Před bojem (vypité dříve, působí celý souboj)
 
-- Zprostředkovávají ji **hráči-alchymisté**, kteří si vyberou a splní příslušný osobní quest.
-- V praxi budou limitovány hlavně **dostupnými lahvičkami**.
-- Lektvary se vaří z **bylin**.
+| Lektvar | Efekt | Dostupnost |
+|---------|-------|:---:|
+| **Elixír bezedné many** | Do konce souboje sesíláš kouzla, která umíš, **bez potřeby trhat magickou energii**. | limitovaný |
+| **Lektvar neviditelnosti** | První **3 kola boje** začínáš schovaný — nemůžeš být cílem útoku ani cíleného kouzla. | limitovaný |
+| **Lektvar nezranitelnosti** | Každé poškození, které utrpíš, se **snižuje na 3 ž**. | limitovaný |
+| **Lektvar štěstí** | Během boje můžeš **1× za kolo přehodit hod kostkou** a vybrat si lepší číslo. | vyrobitelný |
+| **Příznivé větry** | Po vypití **celá družina ignoruje efekt jednoho bojiště**. | limitovaný |
 
-### Seznam malých lektvarů
+### Reakce (během cizí akce v souboji)
 
-| Lektvar | Efekt |
-|---------|-------|
-| **Lektvar života** | Vypitý v předkole. Vyleč si **polovinu svého maximálního počtu životů** |
-| **Lektvar many** | Vypitý v předkole. Doplň si tolik many, kolik je **polovina tvé maximální hodnoty** (zaokrouhli nahoru) |
-| **Lektvar štěstí** | Vypitý v předkole. Toto kolo **považuj všechny výsledky hodu kostkou [1] za hodnotu [6]** |
-| **Jed** | Použitý v předkole na pomazání zbraně. Pokud toto kolo zraníš nepřítele, zraň jej **navíc za 10 ž jedem** |
-| **Lektvar neviditelnosti** | Vypitý v předkole. Od této chvíle **jsi schovaný**. Při útoku ze schování můžeš **ignorovat kryt** |
+| Lektvar | Efekt | Limitovaný |
+|---------|-------|:---:|
+| **Mnoholičný lektvar** | *Reakce.* Zvolej „Opakuju akci" a vypij lektvar — **1× zopakuj akci**, kterou právě provedl kterýkoli účastník souboje. Můžeš provést jen pokud máš ještě akci, kterou tímto vyčerpáš. | ano |
+
+## Cílové lektvary (nepijí se)
+
+| Lektvar | Použití | Efekt | Vyrobitelný |
+|---------|---------|-------|:---:|
+| **Jed** | Pokropit příšeru | **Nepij!** Zabije jednu příšeru **kategorie II. a nižší**. Příšeře **kategorie III.** sníží životy na polovinu. | ano |
 
 ---
 
-## Velké lektvary
+## Mimo souboj
 
-### Charakteristiky
+| Lektvar | Použití | Efekt | Limitovaný |
+|---------|---------|-------|:---:|
+| **Lektvar moudrosti věků** | Vypij u obchodníka | Okamžitě **postup o jednu úroveň**. | ano |
+| **Lektvar znovuzrození** | Vypij u obchodníka | Můžeš **změnit své povolání**. Nové povolání bude na stejné úrovni jako staré. | ano |
+| **Lektvar osobní neodolatelnosti** | Vypij před vyjednáváním | Pokus se přesvědčit nepřátele, aby ti dali své poklady a bez boje odešli. | ano |
+| **Nápoj bohů** | Prodej u krále | Žádný efekt pro hráče. **Král si jej rád koupí.** | ano |
 
-- **Jednorázové** — po použití zmizí.
-- Mají **mocné efekty**.
-- **Nejsou bojové** — nepoužívají se v souboji.
+---
 
-### Účel
+## Poznámky pro organizátory
 
-Velké lektvary slouží k **interakci s NPC** a k mimobojovým efektům. Důvodem je, že bojové velké lektvary motivují hráče nechávat si je na poslední souboj, což ztěžuje vyvážení a není to zajímavé.
-
-### Seznam velkých lektvarů
-
-| Lektvar | Efekt |
-|---------|-------|
-| **Lektvar moudrosti věků** | Vypitý u obchodníka. **Okamžitě postup o jednu úroveň** |
-| **Lektvar znovuzrození** | Vypitý u obchodníka. **Můžeš změnit své povolání**. Tvé nové povolání bude na stejné úrovni jako to staré |
-| **Lektvar osudu** | Vypitý u NPC poskytujícího questy. **Můžeš si vybrat osobní quest**, a to i tehdy, pokud už nějaký máš |
-| **Nápoj bohů** | Žádný efekt pro hráče, ale **obchodník jej rád vykoupí** pro svého krále |
+- **Synchronizace s API:** vždy ber `api.hra.ovcina.cz` jako kanonický. Při doplňování / mazání lektvarů zdroj pravdy je DB.
+- **Historické lektvary, které byly v dřívějších verzích pravidel a v API již nejsou:** *Lektvar života, Lektvar many, Lektvar osudu.* Funkce přebrali *Léčivý lektvar* a *Energy drink*, případně byly zrušeny.
+- **Velké lektvary mohou být bojové.** Dřívější pravidlo „velké lektvary se v souboji nepoužívají" platilo pro Petrův původní seznam, ale Stáňin (současný) seznam obsahuje bojové i reakční velké lektvary. Žádný globální zákaz použití velkých lektvarů v souboji **neexistuje**.

@@ -26,7 +26,7 @@ Pravidla pro souboje mezi hráči navzájem (Player vs Player).
 
 Pouze pro hráče, kteří se během hry rozhodnou změnit svůj stav na **PvP**:
 
-1. Hráč dostane **šerpu v barvě svého národa** a **kartičku**, na kterou se podepíše a zakreslí svůj erb.
+1. Hráč dostane **šerpu v barvě svého národa**, **kartičku** (na kterou se podepíše a zakreslí svůj erb) a **šestistěnnou kostku**.
 2. Jednou získaný PvP status se **nedá měnit** (s výjimkou rozhodnutí organizátora).
 3. **Pouze hráči s šerpou** mohou získávat a obsazovat vesnice či získat některé artefakty.
 

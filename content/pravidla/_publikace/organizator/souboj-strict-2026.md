@@ -1,5 +1,5 @@
 # Bojová pravidla — referenční přehled
-*Ovčina LARP · ročník 2026 · vydání pro organizátory · v1.3 · 2026-04-26*
+*Ovčina LARP · ročník 2026 · vydání pro organizátory · v1.5 · 2026-04-27*
 
 ## Obsah
 
@@ -10,9 +10,10 @@
 5. Povolání
 6. Magie
 7. Lektvary
-8. Souboj hráče proti hráči (PvP)
-9. Konec souboje a jeho důsledky
-10. Slovníček zkratek a pojmů
+8. Ovládané bytosti
+9. Souboj hráče proti hráči (PvP)
+10. Konec souboje a jeho důsledky
+11. Slovníček zkratek a pojmů
 
 ---
 
@@ -51,7 +52,7 @@ Postava na úrovni 0 umí od všeho něco:
 Zkušenosti jsou barevné drahokamy. Jsou nepřenosné mezi hráči. Z bojového pohledu je hráč získává hlavně za:
 
 - Poražené příšery
-- Vítězství nad hráčem se šerpou v PvP (5 zk za trofej, viz kapitola 8)
+- Vítězství nad hráčem se šerpou v PvP (5 zk za trofej, viz kapitola 9)
 - Splnění questů (boj bývá jejich součástí, ale mechanika je mimo tento přehled)
 
 ### Postup na vyšší úroveň
@@ -124,7 +125,7 @@ Kouzla a dovednosti se nevytahují, zůstávají jako překvapení.
 
 - Ukaž na spolubojovníka a řekni **„Kryt."**
 - Krytá postava nemůže být cílem blízkého útoku. Lze ji zasáhnout pouze střelnou zbraní nebo cíleným kouzlem.
-- Krytá postava sama nesmí vést blízký útok ani někoho dalšího krýt.
+- Krytá postava sama nesmí vést blízký útok, někomu pomáhat, ani někoho dalšího krýt.
 
 ### Bojová fáze
 
@@ -175,7 +176,7 @@ Každá postava má v kole jednu akci z následujících:
 Speciální akce podle povolání:
 
 - **Schování** (zloděj) — zašeptat „schovávám se" a dřepnout si (kapitola 5).
-- **Koncentrace** (mág) — vzít zpět z odhozené many tolik kroužků, jako je úroveň postavy (kapitola 6).
+- **Koncentrace** (mág) — doplň tolik many (vezmi zpět z odhozené many příslušný počet kroužků), jako je úroveň postavy (kapitola 6).
 
 Další akce nesou kartičky dovedností příslušného povolání.
 
@@ -239,10 +240,9 @@ Duše = maximální počet životů. Stoupá automaticky s úrovní (stejně pro
 
 ### Ovládané bytosti
 
-- Hráče může doprovázet ovládaná bytost (voják, pes, válečný pes…).
-- V souboji se vytahuje jako další účastník a počítá se do limitu 4 bytostí.
-- Akce ovládané bytosti určuje hráč, který ji drží.
-- Po souboji se ovládaná bytost vyléčí automaticky.
+Hráče může doprovázet **ovládaná bytost** (pes, válečný pes, bytůstka…). V soubojovém kole se počítá do limitu 4 bytostí, akci za ni určuje hráč, po výhře se automaticky vyléčí.
+
+Plné pravidlo (statistiky, pád na 0 životů, bytůstky z Akademie, kouzla, limity) viz **kapitola 8 — Ovládané bytosti**.
 
 ---
 
@@ -293,7 +293,7 @@ Munice (Ocelové hroty +2/+0, Kouzelná munice +4/+0) se přičítá k útoku st
 
 | Dovednost | Efekt |
 |-----------|-------|
-| Trickshot | Se střelnou zbraní můžeš provést akci Pomoc kolegovi se zbraní pro blízký boj. |
+| Trickshot | Se střelnou zbraní můžeš provést akci Pomoc kolegovi se zbraní pro blízký boj. Lze provést, i když jsi krytý. |
 | Průraz | Jednou za kolo: pokud útok zabije nepřítele, smíš okamžitě zaútočit znovu na jiného. |
 
 ### Zloděj
@@ -304,7 +304,7 @@ Tichošlápek, který nebojuje čestně. V boji ho není vidět, dokud neprobodn
 |--------|---------------|-----------|-----------|-------|------|
 | 1 | součet 4 | 2k6+ | — | Kožená +2 | 10 |
 | 2 | Krátký meč | — | Schování před bitvou | — | 15 |
-| 3 | Jedovaté ostří 4/2 + jed | — | — | Štít +1 | 20 |
+| 3 | Jedové ostří 4/2 + jed | — | — | Štít +1 | 20 |
 | 4 | — | 3k6+ | — | — | 25 |
 | 5 | — | — | Rychlé schování, Kluzký | — | 30 |
 
@@ -314,10 +314,10 @@ Tichošlápek, který nebojuje čestně. V boji ho není vidět, dokud neprobodn
 - Některé příšery schovaného **vycítí** — proti nim schování neplatí.
 - Plošná kouzla na všechny účastníky působí i na schovaného.
 - Schování ruší krytí — pokud jsi někoho kryl, přestáváš.
-- Při útoku ze schování dojde k **přepadení** — házíš více kostkami (viz tabulka). Smíš zaútočit i na krytého nepřítele.
+- Při útoku ze schování dojde k **přepadení** — házíš více kostkami (viz tabulka).
 - **Od 2. úrovně** zloděj začíná souboj automaticky schovaný (bez akce).
 
-**Jedovaté ostří** (3. úroveň): zbraň 4/2 počítaná jako dýka. Pokud zraníš nepřítele, smíš odhodit libovolný počet **různých** jedovatých bylin. Za každou bylinu cíl utrpí navíc **5 ž jedem**.
+**Jedové ostří** (3. úroveň): zbraň 4/2 počítaná jako dýka. Pokud udělíš zranění, můžeš odhodit až **dvě _různé_** jedovaté byliny — každá zvýší udělené poškození o **3 ž jedem**.
 
 **Rychlé schování** (5. úroveň, automaticky): smíš se schovat **vždy poté, co nepřítel provede akci**. Nepřítel má jen jednu šanci tě zasáhnout.
 
@@ -347,7 +347,7 @@ Mistr magie. Jedním kouzlem zvrátí bitvu, ale bez spojenců je zranitelný. *
 | Dovednost | Efekt |
 |-----------|-------|
 | Zřídlo many | +2 mana (celkem 11 na 5. úrovni). |
-| Čistá hlava | Při akci Koncentrace si vezmi zpět **veškerou** odhozenou manu (ne jen tolik, kolik je úroveň). |
+| Čistá hlava | Při akci Koncentrace si doplň **veškerou** odhozenou manu (ne jen tolik, kolik je úroveň). |
 
 Detailní pravidla magie viz kapitola 6.
 
@@ -370,7 +370,7 @@ Detailní pravidla magie viz kapitola 6.
 | 4 | 7 |
 | 5 | 9 |
 
-- **„Doplň manu"** = doplnit do **maxima** podle úrovně + bonusů (Zřídlo many, Arcimágova hůl). Není to návrat na výchozí hodnotu.
+- Žádný způsob **doplnění many** nemůže nikdy doplnit nad maximum podle úrovně + bonusů (Zřídlo many, Arcimágova hůl). Není to návrat na výchozí hodnotu.
 
 ### Sesílání kouzel
 
@@ -496,33 +496,145 @@ Kouzla vyšších úrovní sesílá pouze mág odpovídající úrovně. Cena se
 
 ## 7. Lektvary
 
-Lektvary jsou v lahvičkách s lístečkem na provázku. Lísteček popisuje účinek a způsob použití.
+Lektvary jsou v lahvičkách s lístečkem na provázku. **Pravidla použití konkrétního lektvaru jsou napsaná na jeho lístečku** — každý lektvar má vlastní timing (předkolo / před bojem / reakce / mimoboj) a vlastní efekt.
 
-### Malé lektvary
+### Obecná pravidla
 
-Každý lektvar má na lístečku vlastní pravidla použití (kdy, jak). Většina je vyrobitelná hráči-alchymisty po splnění příslušného osobního questu, některé jsou jen v omezeném počtu.
+- V jednom soubojovém kole smíš vypít **nejvýše jeden lektvar**.
+- **Lektvary se nedají kombinovat** — jakmile jeden účinkuje, druhý mu neudělá místo.
+- Některé lektvary se **nepijí** — pokropí se s nimi cíl (např. příšera).
 
-**Pravidlo:** v jednom soubojovém kole smíš vypít nejvýše **jeden lektvar**.
+### Druhy
 
-| Lektvar | Použití | Efekt |
-|---------|---------|-------|
-| **Energy drink** | V předkole | Doplň si **3 many**. |
-| **Léčivý lektvar** | Po boji | Vyléč si **všechny životy ztracené v tomto souboji**. |
-| **Jed** | Pokropit příšeru | **Nepij!** Zabije jednu příšeru **kategorie II. a nižší**. Příšeře **kategorie III.** sníží životy na polovinu. Omezený počet kusů, nelze vyrobit. |
+- **Vyrobitelné** — alchymisté je vaří z bylin po splnění osobního questu.
+- **Limitované** — jednorázové, nelze vyrobit, počty určují organizátoři.
 
-### Velké lektvary (mimoboj)
-
-Velké lektvary jsou jednorázové, mocné a **v souboji se nepoužívají**. Slouží k interakci s NPC. Detailní seznam viz `pravidla/systemova/LEK-001-system-lektvaru.md`.
+**Kanonický seznam lektvarů a jejich efektů:** viz `pravidla/systemova/LEK-001-system-lektvaru.md` (zdroj pravdy: `api.hra.ovcina.cz`, ItemType=Potion).
 
 ---
 
-## 8. Souboj hráče proti hráči (PvP)
+## 8. Ovládané bytosti
+
+Hrdiny v souboji mohou doprovázet **ovládané bytosti** (zkratka **OB**) — společníci, za které hraje sám hráč. Plná pravidla viz `OVB-001` (obecná) a `OVB-002` (bytůstky).
+
+### Co je ovládaná bytost
+
+- **Společník v souboji**, ne NPC. Hráč rozhoduje za bytost stejně, jako rozhoduje za sebe.
+- Příklady: **Pes**, **Válečný pes**, **Bytůstka**.
+- Karta bytosti nese její statistiky (**Útok / Obrana / Životy**) a případnou speciální schopnost.
+- **Karta = nositel práva.** Ztráta nebo zničení karty znamená permanentní ztrátu bytosti — kartu nelze přetisknout.
+
+### Statistiky OB
+
+| Hodnota | Význam |
+|---------|--------|
+| **Útok** | Kolik k6 přidává k útočnému hodu |
+| **Obrana** | Obranné číslo, proti kterému soupeř hází |
+| **Životy** | Kolik zásahů vydrží, než padne |
+
+### Chování v souboji
+
+- OB hraje jako **další postava na své straně** — vlastní tah, vlastní akce.
+- **Počítá se do limitu 4 bytostí** v aktivním souboji (kapitola 2). Skupina 4 hráčů, kde každý má OB, vejde do souboje jen polovinu hrdinů — zbytek jde do zálohy.
+- **Hráč volí akci** jak za sebe, tak za bytost. Bytost nerozhoduje sama.
+- OB **nemůže** používat předměty, lektvary ani jinou zbraň, než co má natištěno na své kartě.
+- **PvP:** OB smí bojovat i proti hráčům se šerpou, nejen proti příšerám.
+
+### Po souboji
+
+- Pokud OB **přežije**, automaticky se doléčí na plné životy (stejně jako základní pravidlo léčení po výhře, kapitola 4).
+- Pokud OB **padne na 0 životů** — obecné pravidlo: bytost **umírá**. Hráč buď kartu **odevzdá příšeře** (jako součást její odměny), nebo ji **roztrhne**. Trvalá ztráta.
+- Z tohoto pravidla existují **výjimky napsané na konkrétních kartách** — viz Bytůstky níže.
+
+### Limit počtu OB
+
+- **Obecně:** žádný horní limit. Hráč může vlastnit kolik psů (nebo jiných OB) chce.
+- **Bytůstka — výjimka:** **max 1 na hráče** (viz níže).
+- **V soubojovém kole:** všechny OB se počítají do limitu 4 postav na straně. I když máš 3 psy a bytůstku, do aktivního souboje se vejde jen tolik, kolik povoluje 4-slot limit.
+
+### Zdroje OB
+
+- **Pes / Válečný pes** — nákup v kenelu (obchodník s OB) nebo questová odměna.
+- **Bytůstka** — hlavně absolvováním **Akademie v Brodečku**; vzácně questová odměna od učitele Akademie.
+- Další typy podle příslušných pravidel jednotlivých karet.
+
+---
+
+### Bytůstky — speciální OB z Akademie
+
+**Bytůstky** jsou speciální druh ovládané bytosti — **40 unikátních ručně ilustrovaných karet**: lesní tvorečkové v malé zbroji (medvídata, jezevci, ježci, havrani, sovy a podobně). Hráči si je odnášejí z **Akademie v Brodečku**.
+
+#### Statistiky (jednotně slabší než pes, ale s výraznější schopností)
+
+| Hodnota | Rozmezí |
+|---------|---------|
+| Útok | 1–4 |
+| Obrana | 1–4 |
+| Životy | 5–6 |
+
+#### Tři typy bytůstek
+
+Typ je natištěn na kartě a **nelze ho měnit**. Hráč si při výběru v Akademii rozhoduje, který typ chce — vidí, co která bytůstka umí.
+
+| Typ | Počet karet | Co dělá |
+|-----|:---:|---------|
+| 🛡️ **Válečník** | 15 | Bojuje zblízka, žádná speciální schopnost. Spolehlivý společník, vydrží pár zásahů a vrátí slušný útok. |
+| 🏹 **Střelec** | 13 | Má **střelecký útok navíc** — smí útočit i v 1. (střeleckém) kole, kdy je blízký boj ještě mimo dosah. V dalších kolech funguje jako válečník. |
+| ✨ **Kouzelník** | 12 | Sesílá **zdarma každé kolo** jedno pevně dané kouzlo úrovně 0 — buď **Jiskru**, nebo **Bahno**. Které z nich umí, je natištěno na kartě a hráč si nevybírá. **Žádná bytůstka neumí obojí.** |
+
+#### Kouzla bytůstky-kouzelníka
+
+Kouzlo je zabudované do karty — bytůstka **nepotřebuje svitek ani manu**, kouzlo nespotřebovává nic.
+
+| Kouzlo | Efekt |
+|--------|-------|
+| **Jiskra** | Cílový účastník souboje je zraněn za **3 životy ohněm**. |
+| **Bahno** | Cílová **příšera kategorie I** toto kolo neútočí. Proti silnějším příšerám (II, III, IV) **bez efektu**. |
+
+**Strategicky:**
+- Bytůstka s **Jiskrou** = stálý zdroj zranění proti všem nepřátelům (univerzální).
+- Bytůstka s **Bahnem** = situační vyřazení slabší příšery (nejsilnější v raných fázích hry).
+
+#### Limit
+
+**Maximálně 1 bytůstka na hráče.** Pokud hráč získá druhou (vzácným questem od učitele Akademie), musí se první vzdát — daruje, vrátí Akademii nebo propustí.
+
+#### Když bytůstka padne na 0 životů — VÝJIMKA z obecného pravidla
+
+1. Karta bytůstky se dostane k příšeře (jako každá poražená OB).
+2. **Vykoupení zpět:** hráč po souboji odevzdá příšeře **1 jídlo** → bytůstka se vrací k hráči s **plnými životy**.
+3. Pokud hráč jídlo nedá (nebo ho nemá), bytůstka u příšery zůstává — **trvalá ztráta**.
+
+> ⚠️ Toto je **výjimka** z obecného pravidla OB: zatímco psi po pádu na 0 ž umírají natrvalo, bytůstky se dají vykoupit zpět.
+
+### Pes vs. bytůstka — rychlý souhrn
+
+| | Pes / Válečný pes | Bytůstka |
+|---|---|---|
+| **Zdroj** | Kenel, quest | Akademie (hlavně) |
+| **Typy** | Jen válečník | Válečník / Střelec / Kouzelník |
+| **Limit per hráč** | Bez limitu | **1** |
+| **Po pádu na 0 ž** | Permanentní ztráta | Vykoupit za 1 jídlo, jinak ztracena |
+| **Speciální schopnost** | Žádná nad rámec karty | Záleží na typu (kouzlo, střelba) |
+
+### Poznámky pro organizátory
+
+- **Karta = nositel práva.** Při darování bytosti není potřeba žádné formální značení — kartu si jednoduše předá nový majitel. Limit 1 bytůstky / hráč ale platí dál.
+- **Žádné reprintování karet.** Když hráč kartu ztratí nebo poškodí, je to permanentní ztráta. CP ani organizátor nemá náhradu.
+- **CP a OB v boji:** příšera zachází s OB stejně jako s hráčem — útočí na ni, po pádu si bere její kartu (případně přijímá 1 jídlo za vykoupení bytůstky).
+- **OB mimo souboj:** nesmí přenášet zboží nad rámec své karty, neútočí samostatně, nehlídá. Existuje pouze v kontextu souboje a pohybu s majitelem.
+- **Akademie v Brodečku:** zdroj bytůstek; pravidla Akademie čekají na formalizaci do samostatné SIT-* rule (vstup `pravidla/input/2026-04-13-bojova-akademie-brodecko.md`).
+- **First-come-first-served:** každý ročník má jen 40 unikátních karet. Když dojdou, vybírá se ze zbylých.
+
+---
+
+## 9. Souboj hráče proti hráči (PvP)
 
 ### Aktivace PvP režimu
 
 Pouze pro hráče, kteří se v průběhu hry dobrovolně rozhodnou:
 
-1. Hráč obdrží **šerpu v barvě svého národa** a kartičku, na kterou se podepíše a zakreslí svůj erb.
+1. Hráč obdrží **šerpu v barvě svého národa**, **kartičku** (na kterou se podepíše a zakreslí svůj erb) a **šestistěnnou kostku**.
 2. Jednou získaný PvP status **se nemění** (s výjimkou rozhodnutí organizátora).
 3. **Pouze hráči se šerpou** mohou finálně splnit quest na zisk vesnice a nosit legendární artefakty.
 
@@ -536,7 +648,7 @@ Pouze pro hráče, kteří se v průběhu hry dobrovolně rozhodnou:
 ### Trofeje a olupování v PvP
 
 - Postava na 0 životech předá **kartičku s erbem** tomu, kdo zasadil poslední úder.
-- Vítěz dostane ve městě za trofej **5 zkušeností**. Trofej si smí nechat do sbírky, ale **nesmí ji předat dalšímu hráči**.
+- Vítěz dostane ve městě za trofej **5 zkušeností**. Trofej si smí nechat do sbírky, ale **nesmí ji předat dalšímu hráči**. (Trofej se při proplacení označí.)
 - Po porážce celé skupiny mohou vítězové poražené **obrat** podle limitů: jeden konkrétní předmět, nebo všechny kusy jednoho zboží, nebo nejvýše **20 grošů** z peněz.
 - Poražený, který přišel o erb, jde do města a **dostane nový za deset dřepů**.
 
@@ -546,7 +658,7 @@ Souboj, kde **útočníků není více než obránců**. Trofeje (šerpy, karti�
 
 ---
 
-## 9. Konec souboje a jeho důsledky
+## 10. Konec souboje a jeho důsledky
 
 ### Vítězství
 
@@ -610,7 +722,7 @@ Trpaslík Gulka (válečník, 2. úroveň) a elf Feanora (střelec, 2. úroveň)
 
 ---
 
-## 10. Slovníček zkratek a pojmů
+## 11. Slovníček zkratek a pojmů
 
 | Zkratka / pojem | Význam |
 |------------------|--------|
@@ -625,7 +737,7 @@ Trpaslík Gulka (válečník, 2. úroveň) a elf Feanora (střelec, 2. úroveň)
 | **Glejt** | průkazka postavy na krku |
 | **Šerpa** | barevný pruh národa, znamení PvP režimu |
 | **Mana** | magická energie mága; jeden kroužek na karabince = jedna mana |
-| **Doplň manu** | doplnit kroužky do maxima podle úrovně + bonusů |
+| **Doplň manu** | doplnit kroužky podle úrovně + bonusů |
 | **CP** | cizí postava — postava ovládaná organizátorem |
 | **KNP** | kámen-nůžky-papír — herní rozhodování |
 | **Trofej** | kartička od CP jako důkaz porážky příšery |

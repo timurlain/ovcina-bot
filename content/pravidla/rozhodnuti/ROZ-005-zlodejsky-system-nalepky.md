@@ -7,7 +7,7 @@ stav: schváleno
 viditelnost: organizátor
 závisí-na: []
 nahrazuje: []
-poslední-změna: 2026-04-05
+poslední-změna: 2026-04-27
 klíčové-fráze:
   - jak funguje krádež
   - systém nálepek zloděj
@@ -18,6 +18,16 @@ klíčové-fráze:
 ---
 
 # Zlodějský systém — mechanika nálepek
+
+> ⚠️ **AKTUALIZACE 2026-04-27 — implementaci viz [`ZLO-001`](../systemova/ZLO-001-zlodejina.md).**
+>
+> Toto je **historický záznam rozhodnutí** ze schůzek 28. března 2026. Finální mechanika byla doladěna a žije v `ZLO-001 — Zlodějina`. Při sporu má **přednost ZLO-001** (vyšší úroveň: systémová > rozhodnutí).
+>
+> **Klíčové změny oproti tomuto dokumentu:**
+> - Krádež z království **nevyžaduje PvP šerpu** (původně byla podmínka).
+> - Výnos krádeže z království je **20 grošů** (ne ~10).
+> - NPC se jmenuje **zástupce zlodějské gildy (ZZG)**, ne „Mistr zlodějů".
+> - Hesla a quest **„Chmaták"** finalizovány v ZLO-001.
 
 **Datum rozhodnutí:** 28. března 2026 (2. a 3. plánovací schůzka)
 **Kontext:** Potřeba designovat systém krádeží pro povolání zloděje. Diskutovány alternativy: kostka (Zdenčin návrh), kartička/špendlík (Petrův návrh), nálepky (výsledné rozhodnutí). Systém musí být fyzický, odhalitelný a vytvářet napětí.

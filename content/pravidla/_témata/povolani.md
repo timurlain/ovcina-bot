@@ -86,11 +86,11 @@ Tichošlápek s jedy. V boji není vidět, než probodne nepříteli srdce a ztr
 |---|---|---|---|---|---|
 | 1 | součet 4 | 2k6+ | — | Kožená +2 | 10 |
 | 2 | Krátký meč | — | Schování od začátku souboje | — | 15 |
-| 3 | Jedovaté ostří (4/2) + jed | — | — | Štít +1 | 20 |
+| 3 | Jedové ostří (4/2) + jed | — | — | Štít +1 | 20 |
 | 4 | — | 3k6+ | — | — | 25 |
 | 5 | — | — | **Rychlé schování**, **Kluzký** | — | 30 |
 
-*Jedovaté ostří (úr. 3): Dýka 4/2. Při zásahu odhoď jedovaté byliny — za každou +5 ž jedem.*
+*Jedové ostří (úr. 3): Dýka 4/2. Při zásahu odhoď až 2 různé jedovaté byliny — každá +3 ž jedem.*
 
 ### Dovednosti
 

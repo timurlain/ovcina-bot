@@ -1,16 +1,18 @@
 # Rejstřík pravidel — Ovčina LARP
 
 > Automaticky generovaný rejstřík. Neupravovat ručně.
-> Poslední aktualizace: 2026-04-26
+> Poslední aktualizace: 2026-04-27 (přidáno ZLO-001 + BYL-001)
 
-**Celkem pravidel:** 83
-**Schváleno:** 81 | **Návrh:** 1 | **Zastaralé:** 1
+**Celkem pravidel:** 85
+**Schváleno:** 83 | **Návrh:** 1 | **Zastaralé:** 1
 
 | ID | Název | Úroveň | Stav | Viditelnost | Soubor |
 |----|-------|--------|------|-------------|--------|
 | ARC-001 | Svatyně národa a Oromeho slzy (Ovčina 29) | archiv | zastaralé | organizátor | _archiv/ARC-001-svatyne-narod-ovcina29.md |
 | ART-001 | Artefakty — legendární předměty | systémová | schváleno | hráč | systemova/ART-001-artefakty-legendarni-predmety.md |
+| ART-002 | Runy a artefaktní zbraně | systémová | schváleno | organizátor | systemova/ART-002-runy-a-artefaktni-zbrane.md |
 | AXI-001 | Bezpečnost dětí | axiom | schváleno | obojí | axiomy/AXI-001_bezpecnost-deti.md |
+| BYL-001 | Byliny — sběr, prodej a využití | systémová | schváleno | hráč | systemova/BYL-001-byliny.md |
 | AXI-002 | Bezkontaktní soubojový systém | axiom | schváleno | obojí | axiomy/AXI-002_bezkontaktni-souboj.md |
 | AXI-003 | Zábava pro všechny věkové skupiny | axiom | schváleno | obojí | axiomy/AXI-003_zabava-pro-vsechny-vekove-skupiny.md |
 | AXI-004 | Volný svět | axiom | schváleno | obojí | axiomy/AXI-004_volny-svet.md |
@@ -83,6 +85,7 @@
 | SIT-006 | Pravidla pro rozvoj měst | situační | schváleno | obojí | situacni/SIT-006-rozvoj-mest.md |
 | SIT-007 | Bojová akademie v Brodečku | situační | schváleno | obojí | situacni/SIT-007-bojova-akademie.md |
 | SIT-008 | Hráčské nemovitosti — Dům a Panství | situační | schváleno | obojí | situacni/SIT-008-hracske-nemovitosti.md |
+| ZLO-001 | Zlodějina — tajné pravidlo o krádežích | systémová | schváleno | organizátor | systemova/ZLO-001-zlodejina.md |
 | ZAK-001 | Soubojový systém | základní | schváleno | hráč | zakladni/ZAK-001_soubojovy-system.md |
 | ZAK-002 | Útok a obrana | základní | schváleno | hráč | zakladni/ZAK-002_utok-a-obrana.md |
 | ZAK-003 | Válečník | základní | schváleno | hráč | zakladni/ZAK-003_valecnik.md |

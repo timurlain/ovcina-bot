@@ -7,7 +7,7 @@ stav: schváleno
 viditelnost: hráč
 závisí-na: [AXI-001, ZAK-001, ZAK-002, ZAK-007]
 nahrazuje: []
-poslední-změna: 2026-04-05
+poslední-změna: 2026-04-27
 klíčové-fráze:
   - jak hrát zloděje
   - jak krást
@@ -55,15 +55,15 @@ Od **2. úrovně** začíná zloděj souboj **vždy schovaný** (bez nutnosti po
 |--------|---------------|-----------|-----------|-------|------|
 | 1 | součet 4 | 2k6+ | — | Kožená +2 | 10 |
 | 2 | Krátký meč | — | Schování před bitvou | — | 15 |
-| 3 | Jedovaté ostří (4/2) + jed | — | — | Štít +1 | 20 |
+| 3 | Jedové ostří (4/2) + jed | — | — | Štít +1 | 20 |
 | 4 | — | 3k6+ | — | — | 25 |
 | 5 | — | — | **Rychlé schování**, **Kluzký** | — | 30 |
 
-### Jedovaté ostří (3. úroveň)
+### Jedové ostří (3. úroveň)
 
 Blízká zbraň se statistikami **4/2**, počítá se jako dýka.
 
-**Efekt — Jed**: Pokud zraníš nepřítele blízkým útokem, můžeš odhodit libovolný počet **různých jedovatých bylin**. Za každou bylinu zraň cíl navíc za **5 životů jedem**.
+**Efekt — Jed**: Pokud udělíš zranění, můžeš odhodit až **dvě _různé_** jedovaté byliny — každá zvýší udělené poškození o **3 ž jedem**.
 
 ## Dovednosti Zloděje
 
