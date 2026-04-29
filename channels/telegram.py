@@ -17,7 +17,7 @@ from telegram.ext import (
 )
 from telegram.request import HTTPXRequest
 
-from core.auth import UserStore, send_verification_email, check_registration
+from core.auth import UserStore, send_verification_email, check_registration, lookup_user_character
 from core.notes import detect_note, save_note, list_notes
 from core.question_log import init_question_log, log_question, get_recent_questions
 from core.baca import create_task
@@ -32,6 +32,26 @@ FULL_RULES_URL = (
 
 def _is_organizer(email: str, config) -> bool:
     return email.lower() in [e.lower() for e in config.auth.organizer_emails]
+
+
+async def _resolve_postava(role: str, email: str, config) -> str | None:
+    """Look up the player's character name from registrace at verify time.
+
+    Only meaningful for hráč role — organizers route through the GM prompt
+    and don't read postava. Returns None on any failure (logged).
+    """
+    if role != "hráč":
+        return None
+    try:
+        return await lookup_user_character(
+            config.registrace.api_url,
+            config.registrace.integration_api_key,
+            email,
+            config.registrace.game_id,
+        )
+    except Exception as e:
+        logger.warning("lookup_user_character failed for %s: %s", email, e)
+        return None
 
 
 def _is_fate(email: str, config) -> bool:
@@ -410,7 +430,8 @@ async def rm_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         email = user_store.verify_code("telegram", tg_id, text, config.auth.code_expiry_minutes)
         if email:
             role = "organizátor" if _is_organizer(email, config) else "hráč"
-            await user_store.save_user("telegram", tg_id, email, role)
+            postava = await _resolve_postava(role, email, config)
+            await user_store.save_user("telegram", tg_id, email, role, postava=postava)
             await update.message.reply_text(
                 f"✅ Ověřeno! Jsi přihlášen/a jako {email} (role: {role}).\n"
                 "Teď se můžeš ptát na pravidla — stačí napsat dotaz."
@@ -660,7 +681,8 @@ async def lm_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         email = user_store.verify_code("telegram", tg_id, text, config.auth.code_expiry_minutes)
         if email:
             role = "organizátor" if _is_organizer(email, config) else "hráč"
-            await user_store.save_user("telegram", tg_id, email, role)
+            postava = await _resolve_postava(role, email, config)
+            await user_store.save_user("telegram", tg_id, email, role, postava=postava)
             await update.message.reply_text(
                 f"✅ Ověřeno! Jsi přihlášen/a jako {email} (role: {role}).\n"
                 "Teď se můžeš ptát na svět — stačí napsat dotaz."
