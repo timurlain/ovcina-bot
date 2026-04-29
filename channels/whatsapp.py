@@ -10,7 +10,7 @@ from flask import Flask, request, jsonify
 import aiohttp
 
 from channels.api import bp as consult_bp
-from core.auth import UserStore, send_verification_email, check_registration
+from core.auth import UserStore, send_verification_email, check_registration, lookup_user_character
 from core.router import route
 from core.notes import detect_note, save_note
 from core.question_log import log_question
@@ -183,7 +183,21 @@ class WhatsAppChannel:
             email = self.user_store.verify_code("whatsapp", phone, body, config.auth.code_expiry_minutes)
             if email:
                 role = "organizátor" if self._is_organizer(email) else "hráč"
-                await self.user_store.save_user("whatsapp", phone, email, role)
+                # Pull the player's character name from registrace so the
+                # LoreMaster doesn't greet them as "neznámý z frakce neznámé".
+                # Only meaningful for hráč; organizers route to the GM prompt.
+                postava = None
+                if role == "hráč":
+                    try:
+                        postava = await lookup_user_character(
+                            config.registrace.api_url,
+                            config.registrace.integration_api_key,
+                            email,
+                            config.registrace.game_id,
+                        )
+                    except Exception as e:
+                        logger.warning("lookup_user_character failed for %s: %s", email, e)
+                await self.user_store.save_user("whatsapp", phone, email, role, postava=postava)
                 return (
                     f"Ověřeno! Jsi přihlášen/a jako {email} (role: {role}).\n\n"
                     "Teď se můžeš ptát:\n"

@@ -164,3 +164,38 @@ async def check_registration(api_url: str, api_key: str, email: str, game_id: st
     except Exception:
         pass
     return False
+
+
+async def lookup_user_character(
+    api_url: str, integration_api_key: str, email: str, game_id,
+) -> str | None:
+    """Look up the player's character name from registrace's game-info endpoint.
+
+    Returns the first non-null `characterName` found among the email's attendees
+    for the given game, or None if nothing matches. Uses the integration API key
+    (the same one RegistraceClient uses), not the public api_key.
+
+    Heuristic: families register multiple attendees under one email (parent
+    registers kids); we take the first attendee with a `characterName` set.
+    Imperfect for multi-kid families — better than 'neznámý z frakce neznámé'.
+    """
+    url = f"{api_url}/api/v1/users/{email}/game-info"
+    params = {"gameId": game_id}
+    headers = {"X-Api-Key": integration_api_key}
+
+    try:
+        async with aiohttp.ClientSession() as session:
+            async with session.get(url, params=params, headers=headers, ssl=False) as resp:
+                if resp.status != 200:
+                    return None
+                data = await resp.json()
+    except Exception:
+        return None
+
+    if not data:
+        return None
+    for attendee in data.get("attendees") or []:
+        name = (attendee or {}).get("characterName")
+        if name:
+            return name
+    return None
