@@ -427,7 +427,7 @@ async def rm_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     # 6-digit verification code
     if re.match(r"^\d{6}$", text):
-        email = user_store.verify_code("telegram", tg_id, text, config.auth.code_expiry_minutes)
+        email = await user_store.verify_code("telegram", tg_id, text, config.auth.code_expiry_minutes)
         if email:
             role = "organizátor" if _is_organizer(email, config) else "hráč"
             postava = await _resolve_postava(role, email, config)
@@ -459,7 +459,7 @@ async def rm_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 "Zkontroluj email nebo se nejdřív zaregistruj."
             )
             return
-        code = user_store.generate_code("telegram", tg_id, email)
+        code = await user_store.generate_code("telegram", tg_id, email)
         try:
             send_verification_email(
                 config.azure_email.connection_string,
@@ -678,7 +678,7 @@ async def lm_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     # 6-digit verification code
     if re.match(r"^\d{6}$", text):
-        email = user_store.verify_code("telegram", tg_id, text, config.auth.code_expiry_minutes)
+        email = await user_store.verify_code("telegram", tg_id, text, config.auth.code_expiry_minutes)
         if email:
             role = "organizátor" if _is_organizer(email, config) else "hráč"
             postava = await _resolve_postava(role, email, config)
@@ -710,7 +710,7 @@ async def lm_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 "Zkontroluj email nebo se nejdřív zaregistruj."
             )
             return
-        code = user_store.generate_code("telegram", tg_id, email)
+        code = await user_store.generate_code("telegram", tg_id, email)
         try:
             send_verification_email(
                 config.azure_email.connection_string,

@@ -8,13 +8,18 @@ from __future__ import annotations
 
 import asyncio
 import json
+import logging
 import os
 import random
+import re
+import tempfile
 import time
 from pathlib import Path
 
 import aiohttp
 from azure.communication.email import EmailClient
+
+logger = logging.getLogger(__name__)
 
 
 class UserStore:
@@ -22,6 +27,17 @@ class UserStore:
 
     File layout: dict keyed by "{channel_type}:{channel_id}" with user records
     as values. Atomic writes via tempfile + rename.
+
+    Pending verification codes are persisted as one file per user under a
+    sibling ``pending_codes/`` directory so they survive restarts AND remain
+    valid across multiple replicas — webhook delivery for the same user can
+    land on a different replica than the one that generated the code.
+
+    Per-file storage avoids the read-modify-write races a single shared map
+    would otherwise have: replicas A and B writing for two different users
+    never touch the same file, so neither can clobber the other's update.
+    Azure Files SMB also handles per-file ops cleanly while struggling with
+    shared-file locking — same reason SQLite was retired here.
     """
 
     def __init__(self, db_path: Path):
@@ -29,7 +45,7 @@ class UserStore:
         db_path = Path(db_path)
         self.json_path = db_path.with_suffix(".json") if db_path.suffix == ".db" else db_path
         self.legacy_db_path = db_path if db_path.suffix == ".db" else None
-        self._pending_codes: dict[str, tuple[str, str, float]] = {}
+        self.pending_codes_dir = self.json_path.parent / "pending_codes"
         self._lock = asyncio.Lock()
 
     async def init(self):
@@ -99,25 +115,120 @@ class UserStore:
             data = await asyncio.to_thread(self._read_sync)
         return sorted(data.values(), key=lambda u: u.get("verified_at", 0), reverse=True)
 
-    def generate_code(self, channel_type: str, channel_id: str, email: str) -> str:
-        key = self._key(channel_type, channel_id)
+    # ----------------------------------------------------------------
+    # Pending verification codes — persisted on disk as one file per
+    # user under pending_codes/. Per-file storage means concurrent
+    # writers for different users never touch the same file, so two
+    # replicas can't clobber each other's pending records.
+    # ----------------------------------------------------------------
+
+    # Channel type and channel id are alphanumeric in practice (telegram tg_id
+    # is digits, whatsapp uses a phone number). The key separator ':' is the
+    # one character that's not safe in a filename, so we substitute. The full
+    # filter strips anything else outside [A-Za-z0-9._-] as a defensive measure.
+    _SAFE_FILENAME_RE = re.compile(r"[^A-Za-z0-9._-]")
+
+    def _pending_file_for(self, channel_type: str, channel_id: str) -> Path:
+        raw_key = self._key(channel_type, channel_id)
+        safe = self._SAFE_FILENAME_RE.sub("_", raw_key)
+        return self.pending_codes_dir / f"{safe}.json"
+
+    def _read_pending_record_sync(self, path: Path) -> dict | None:
+        """Read one pending-code file. Returns None if missing/corrupt/invalid.
+
+        Invalid records (wrong types, missing fields) are deleted as a
+        defensive cleanup so the dir doesn't accumulate junk.
+        """
+        if not path.exists():
+            return None
+        try:
+            with open(path, encoding="utf-8") as f:
+                record = json.load(f)
+        except (OSError, json.JSONDecodeError):
+            try:
+                path.unlink(missing_ok=True)
+            except OSError:
+                pass
+            return None
+        if not isinstance(record, dict):
+            return None
+        code = record.get("code")
+        email = record.get("email")
+        created_at = record.get("created_at")
+        if not (isinstance(code, str) and code and isinstance(email, str) and email):
+            try:
+                path.unlink(missing_ok=True)
+            except OSError:
+                pass
+            return None
+        try:
+            float(created_at)
+        except (TypeError, ValueError):
+            try:
+                path.unlink(missing_ok=True)
+            except OSError:
+                pass
+            return None
+        return record
+
+    def _atomic_write_pending_record_sync(self, path: Path, record: dict):
+        """Atomic write via a unique tempfile in the same directory + os.replace.
+
+        The temp filename includes a random suffix so concurrent writers (even
+        for the same user — unlikely but possible) don't trash each other's
+        in-progress files before the rename.
+        """
+        path.parent.mkdir(parents=True, exist_ok=True)
+        fd, tmp_name = tempfile.mkstemp(
+            prefix=path.name + ".", suffix=".tmp", dir=str(path.parent),
+        )
+        try:
+            with os.fdopen(fd, "w", encoding="utf-8") as f:
+                json.dump(record, f, ensure_ascii=False, indent=2)
+            os.replace(tmp_name, path)
+        except Exception:
+            try:
+                os.unlink(tmp_name)
+            except OSError:
+                pass
+            raise
+
+    def _delete_pending_sync(self, path: Path):
+        try:
+            path.unlink(missing_ok=True)
+        except OSError as e:
+            logger.warning("Could not delete pending code file %s: %s", path, e)
+
+    async def generate_code(self, channel_type: str, channel_id: str, email: str) -> str:
+        path = self._pending_file_for(channel_type, channel_id)
         code = f"{random.randint(100000, 999999)}"
-        self._pending_codes[key] = (email, code, time.time())
+        record = {
+            "email": email,
+            "code": code,
+            "created_at": time.time(),
+        }
+        await asyncio.to_thread(self._atomic_write_pending_record_sync, path, record)
         return code
 
-    def verify_code(self, channel_type: str, channel_id: str, code: str, expiry_minutes: int = 10) -> str | None:
-        key = self._key(channel_type, channel_id)
-        pending = self._pending_codes.get(key)
-        if not pending:
+    async def verify_code(
+        self, channel_type: str, channel_id: str, code: str, expiry_minutes: int = 10,
+    ) -> str | None:
+        path = self._pending_file_for(channel_type, channel_id)
+        record = await asyncio.to_thread(self._read_pending_record_sync, path)
+        if record is None:
             return None
-        email, stored_code, timestamp = pending
-        if time.time() - timestamp > expiry_minutes * 60:
-            del self._pending_codes[key]
+        stored_code = record["code"]
+        stored_email = record["email"]
+        timestamp = float(record["created_at"])
+        expired = time.time() - timestamp > expiry_minutes * 60
+        matched = code.strip() == stored_code
+        # Consume on successful match OR on expiry. Keep on simple mismatch
+        # so the user can retry within the expiry window.
+        if expired or matched:
+            await asyncio.to_thread(self._delete_pending_sync, path)
+        if expired or not matched:
             return None
-        if code.strip() == stored_code:
-            del self._pending_codes[key]
-            return email
-        return None
+        return stored_email
 
 
 def send_verification_email(
