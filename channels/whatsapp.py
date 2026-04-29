@@ -180,7 +180,7 @@ class WhatsAppChannel:
 
         # Check for 6-digit verification code
         if re.match(r"^\d{6}$", body):
-            email = self.user_store.verify_code("whatsapp", phone, body, config.auth.code_expiry_minutes)
+            email = await self.user_store.verify_code("whatsapp", phone, body, config.auth.code_expiry_minutes)
             if email:
                 role = "organizátor" if self._is_organizer(email) else "hráč"
                 # Pull the player's character name from registrace so the
@@ -219,7 +219,7 @@ class WhatsAppChannel:
                     f"Email {email} není registrován na Ovčinu. "
                     "Zkontroluj email nebo se nejdřív zaregistruj."
                 )
-            code = self.user_store.generate_code("whatsapp", phone, email)
+            code = await self.user_store.generate_code("whatsapp", phone, email)
             try:
                 send_verification_email(
                     config.azure_email.connection_string,

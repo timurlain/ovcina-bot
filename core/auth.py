@@ -22,6 +22,11 @@ class UserStore:
 
     File layout: dict keyed by "{channel_type}:{channel_id}" with user records
     as values. Atomic writes via tempfile + rename.
+
+    Pending verification codes are persisted to a sibling file
+    (``pending_codes.json``) so they survive restarts AND remain valid across
+    multiple replicas — webhook delivery for the same user can land on a
+    different replica than the one that generated the code.
     """
 
     def __init__(self, db_path: Path):
@@ -29,8 +34,9 @@ class UserStore:
         db_path = Path(db_path)
         self.json_path = db_path.with_suffix(".json") if db_path.suffix == ".db" else db_path
         self.legacy_db_path = db_path if db_path.suffix == ".db" else None
-        self._pending_codes: dict[str, tuple[str, str, float]] = {}
+        self.pending_codes_path = self.json_path.parent / "pending_codes.json"
         self._lock = asyncio.Lock()
+        self._pending_lock = asyncio.Lock()
 
     async def init(self):
         """Ensure the JSON file exists. One-time migrate from .db if present."""
@@ -99,25 +105,61 @@ class UserStore:
             data = await asyncio.to_thread(self._read_sync)
         return sorted(data.values(), key=lambda u: u.get("verified_at", 0), reverse=True)
 
-    def generate_code(self, channel_type: str, channel_id: str, email: str) -> str:
+    # ----------------------------------------------------------------
+    # Pending verification codes — persisted to disk so they survive
+    # restarts and remain consistent across replicas.
+    # ----------------------------------------------------------------
+
+    def _read_pending_sync(self) -> dict:
+        if not self.pending_codes_path.exists():
+            return {}
+        try:
+            with open(self.pending_codes_path, encoding="utf-8") as f:
+                return json.load(f)
+        except (OSError, json.JSONDecodeError):
+            return {}
+
+    def _atomic_write_pending(self, data: dict):
+        self.pending_codes_path.parent.mkdir(parents=True, exist_ok=True)
+        tmp = self.pending_codes_path.with_suffix(self.pending_codes_path.suffix + ".tmp")
+        with open(tmp, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        os.replace(tmp, self.pending_codes_path)
+
+    async def generate_code(self, channel_type: str, channel_id: str, email: str) -> str:
         key = self._key(channel_type, channel_id)
         code = f"{random.randint(100000, 999999)}"
-        self._pending_codes[key] = (email, code, time.time())
+        async with self._pending_lock:
+            data = await asyncio.to_thread(self._read_pending_sync)
+            data[key] = {
+                "email": email,
+                "code": code,
+                "created_at": time.time(),
+            }
+            await asyncio.to_thread(self._atomic_write_pending, data)
         return code
 
-    def verify_code(self, channel_type: str, channel_id: str, code: str, expiry_minutes: int = 10) -> str | None:
+    async def verify_code(
+        self, channel_type: str, channel_id: str, code: str, expiry_minutes: int = 10,
+    ) -> str | None:
         key = self._key(channel_type, channel_id)
-        pending = self._pending_codes.get(key)
-        if not pending:
-            return None
-        email, stored_code, timestamp = pending
-        if time.time() - timestamp > expiry_minutes * 60:
-            del self._pending_codes[key]
-            return None
-        if code.strip() == stored_code:
-            del self._pending_codes[key]
-            return email
-        return None
+        async with self._pending_lock:
+            data = await asyncio.to_thread(self._read_pending_sync)
+            pending = data.get(key)
+            if not pending:
+                return None
+            stored_code = pending.get("code", "")
+            stored_email = pending.get("email", "")
+            timestamp = float(pending.get("created_at", 0))
+            expired = time.time() - timestamp > expiry_minutes * 60
+            matched = code.strip() == stored_code
+            # On expiry OR successful match, drop the entry.
+            if expired or matched:
+                data.pop(key, None)
+                await asyncio.to_thread(self._atomic_write_pending, data)
+            if expired or not matched:
+                return None
+            return stored_email
 
 
 def send_verification_email(
