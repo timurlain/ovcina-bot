@@ -80,10 +80,7 @@ def get_webhook_runtime() -> _WebhookRuntime:
     return _runtime
 
 
-FULL_RULES_URL = (
-    "https://solvertech-my.sharepoint.com/:w:/g/personal/"
-    "tomas_pajonk_solvertech_cz/IQAdV_WIsZSrTpUsW0lyTyqrAdyUqGVJ85pnf-upucy7hGw?e=SceaAc"
-)
+FULL_RULES_URL = "https://pravidla.ovcina.cz/"
 
 
 def _is_organizer(email: str, config) -> bool:
