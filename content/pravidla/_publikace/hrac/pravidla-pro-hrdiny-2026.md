@@ -1,7 +1,7 @@
 # Základní pravidla pro Hrdiny
 
 *Provází tě Linwë, starý drozd z Vrchu havranů — kámoši mu říkají Drobek. Hodí kostkou, vysvětlí, co dělá šestka — a zbytečně nekecá.*
-*Ovčina LARP · ročník 2026 · pro Hrdiny od 10 let · v1.1*
+*Ovčina 2026 · pro Hrdiny od 10 let · v1.1*
 
 <!-- HEADER: title with map illustration; Drobek avatar in corner; band of 4 kingdom seals beneath -->
 
@@ -673,4 +673,4 @@ Drobek se tě teď zeptá na sedm věcí. Nelekej se — pravidla máš na před
 
 ---
 
-*Vychází z kanonických pravidel Ovčina LARP, ročník 2026. Plné znění v `pravidla/_index.md`.*
+*Vychází z kanonických pravidel Ovčina 2026. Plné znění v `pravidla/_index.md`.*

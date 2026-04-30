@@ -7,7 +7,7 @@ stav: schváleno
 viditelnost: organizátor
 závisí-na: [LEK-001, QUE-001]
 nahrazuje: []
-poslední-změna: 2026-04-27
+poslední-změna: 2026-04-30
 klíčové-fráze:
   - jak funguje alchymie
   - výroba lektvarů
@@ -38,7 +38,6 @@ klíčové-fráze:
 | **Malé lektvary** | Vyrobitelné hráčem | Bonusy do souboje, opakovaně použitelné. V praxi limituje hlavně počet lahviček. |
 | **Velké lektvary** | Nelze vyrobit | Legendární poklady, velice mocné. Získávají se z dungeonu, questů, od NPC. |
 
-Kanonický seznam konkrétních lektvarů a jejich vyrobitelnosti spravuje API `api.hra.ovcina.cz` (`itemType=Potion`, příznak `isCraftable`).
 
 ### Výrobní řetězec — malé lektvary
 
@@ -53,7 +52,7 @@ Kanonický seznam konkrétních lektvarů a jejich vyrobitelnosti spravuje API `
 
 ### Vyrobitelné lektvary
 
-Vyrobitelné jsou **pouze 4 lektvary**: *Energy drink, Léčivý lektvar, Lektvar štěstí, Jed.* Každý má vlastní recept (jiný počet bylin, jiná barva tekutiny, jiný popis na štítku). Kanonický seznam je v API — flagovaný `isCraftable=true`.
+Vyrobitelné jsou **pouze 4 lektvary**: *Energy drink, Léčivý lektvar, Lektvar štěstí, Jed.* Každý má vlastní recept (jiný počet bylin, jiná barva tekutiny, jiný popis na štítku).
 
 ### Byliny — mechanika a edukační rozměr
 

@@ -47,13 +47,3 @@ Pouze pro hráče, kteří se během hry rozhodnou změnit svůj stav na **PvP**
 ## Čestný souboj
 
 Je takový souboj, kdy **útočníků není více než obránců**. Trofeje ze souboje (šerpy, kartičky) se získávají **pouze v čestném souboji**.
-
-## Uzurpování království
-
-Pokud skupina hráčů nabude dojmu, že je třeba změnit vládu království:
-
-1. Pod jednou skupinou hráčů musí držet **3 nejbližší vesnice** k danému městu.
-2. Je třeba najít solidní důvod — **casus belli**. Je třeba vytvořit propagandu, aby obyvatelstvo nového krále uvítalo.
-3. Domluvit se s **osudem** (organizátorem), který jim to schválí.
-4. **Oblehnout město** — stejně jako se obléhá vesnice. Chce to obléhací stroje a čas.
-5. Je možné se s aktuálním vládcem domluvit, že **odstoupí**.

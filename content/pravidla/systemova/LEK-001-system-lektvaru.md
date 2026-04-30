@@ -7,8 +7,7 @@ stav: schváleno
 viditelnost: hráč
 závisí-na: [QUE-001]
 nahrazuje: []
-poslední-změna: 2026-04-27
-zdroj-pravdy: api.hra.ovcina.cz (ItemType=Potion)
+poslední-změna: 2026-04-30
 klíčové-fráze:
   - co jsou lektvary
   - jak fungují lektvary
@@ -34,7 +33,6 @@ klíčové-fráze:
 
 Lektvary jsou reprezentovány **lahvičkami** s provázkem přivázaným lístečkem, na kterém je popis a způsob použití.
 
-> **Zdroj pravdy:** kanonický seznam lektvarů je v databázi `api.hra.ovcina.cz` (typ `Potion`). Při neshodě má vždy přednost API.
 
 ## Obecná pravidla
 
@@ -58,7 +56,7 @@ Aby si hráč mohl vařit lektvary, musí:
 
 ### Vyrobitelné lektvary
 
-Vyrobitelné jsou **pouze čtyři lektvary**: *Energy drink, Léčivý lektvar, Lektvar štěstí, Jed.* Každý má svůj recept (počet bylin a další náležitosti). Kanonický seznam vyrobitelných lektvarů spravuje API (`isCraftable=true`).
+Vyrobitelné jsou **pouze čtyři lektvary**: *Energy drink, Léčivý lektvar, Lektvar štěstí, Jed.* Každý má svůj recept (počet bylin a další náležitosti).
 
 ### Byliny — mechanika vs. naučný prvek
 
@@ -125,6 +123,5 @@ Vlastní vaření probíhá výhradně v lokaci **Lesní knihovna**. Hráč:
 
 ## Poznámky pro organizátory
 
-- **Synchronizace s API:** vždy ber `api.hra.ovcina.cz` jako kanonický. Při doplňování / mazání lektvarů zdroj pravdy je DB.
-- **Historické lektvary, které byly v dřívějších verzích pravidel a v API již nejsou:** *Lektvar života, Lektvar many, Lektvar osudu.* Funkce přebrali *Léčivý lektvar* a *Energy drink*, případně byly zrušeny.
+- **Historické lektvary, které se již nehrají:** *Lektvar života, Lektvar many, Lektvar osudu.* Funkce přebrali *Léčivý lektvar* a *Energy drink*, případně byly zrušeny.
 - **Velké lektvary mohou být bojové.** Dřívější pravidlo „velké lektvary se v souboji nepoužívají" platilo pro Petrův původní seznam, ale Stáňin (současný) seznam obsahuje bojové i reakční velké lektvary. Žádný globální zákaz použití velkých lektvarů v souboji **neexistuje**.

@@ -1,4 +1,4 @@
-# Úplná pravidla pro Hrdiny — Ovčina LARP 2026
+# Úplná pravidla pro Hrdiny — Ovčina 2026 2026
 
 > Referenční vydání pro starší a pokročilé hráče. Verze 1.0 (2026-04-30).  
 > Pro děti a začátečníky existuje vydání „Základní pravidla pro Hrdiny" (ilustrované, s drozdem).
@@ -467,17 +467,6 @@ Pouze pro hráče, kteří se během hry rozhodnou změnit svůj stav na **PvP**
 ### Čestný souboj
 
 Je takový souboj, kdy **útočníků není více než obránců**. Trofeje ze souboje (šerpy, kartičky) se získávají **pouze v čestném souboji**.
-
-### Uzurpování království
-
-Pokud skupina hráčů nabude dojmu, že je třeba změnit vládu království:
-
-1. Pod jednou skupinou hráčů musí držet **3 nejbližší vesnice** k danému městu.
-2. Je třeba najít solidní důvod — **casus belli**. Je třeba vytvořit propagandu, aby obyvatelstvo nového krále uvítalo.
-3. Domluvit se s **osudem** (organizátorem), který jim to schválí.
-4. **Oblehnout město** — stejně jako se obléhá vesnice. Chce to obléhací stroje a čas.
-5. Je možné se s aktuálním vládcem domluvit, že **odstoupí**.
-
 
 ## 4. Povolání
 
@@ -1102,7 +1091,6 @@ Získané vesnice přinášejí svému správci slušnou produkci. Suroviny z ve
 
 Byliny jsou herní zdroj — fyzicky reprezentovaný **kartičkou rostliny**. Hrdina je sbírá na lokacích po Středozemi a může je používat třemi způsoby: plnit s nimi quest **„Bylinkář"**, prodávat je obchodníkům, nebo z nich (s dovedností Alchymista) vařit lektvary.
 
-> **Zdroj pravdy:** Item #452 *Byliny* v API `api.hra.ovcina.cz` (Resource).
 
 ### Sběr bylin
 
@@ -1194,7 +1182,6 @@ Národ Lidí má 12 hráčů a celkem 11 postavených budov (8 ve městě, 3 ve 
 
 Lektvary jsou reprezentovány **lahvičkami** s provázkem přivázaným lístečkem, na kterém je popis a způsob použití.
 
-> **Zdroj pravdy:** kanonický seznam lektvarů je v databázi `api.hra.ovcina.cz` (typ `Potion`). Při neshodě má vždy přednost API.
 
 ## Obecná pravidla
 
@@ -1218,7 +1205,7 @@ Aby si hráč mohl vařit lektvary, musí:
 
 ### Vyrobitelné lektvary
 
-Vyrobitelné jsou **pouze čtyři lektvary**: *Energy drink, Léčivý lektvar, Lektvar štěstí, Jed.* Každý má svůj recept (počet bylin a další náležitosti). Kanonický seznam vyrobitelných lektvarů spravuje API.
+Vyrobitelné jsou **pouze čtyři lektvary**: *Energy drink, Léčivý lektvar, Lektvar štěstí, Jed.* Každý má svůj recept (počet bylin a další náležitosti).
 
 ### Byliny — mechanika vs. naučný prvek
 

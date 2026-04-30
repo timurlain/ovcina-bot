@@ -1,5 +1,5 @@
 # Bojová pravidla — referenční přehled
-*Ovčina LARP · ročník 2026 · vydání pro organizátory · v1.5 · 2026-04-27*
+*Ovčina 2026 · vydání pro organizátory · v1.5 · 2026-04-27*
 
 ## Obsah
 
@@ -744,4 +744,4 @@ Trpaslík Gulka (válečník, 2. úroveň) a elf Feanora (střelec, 2. úroveň)
 
 ---
 
-*Vychází z kanonických pravidel Ovčina LARP. Plné znění s metadaty, závislostmi a rozhodnutími viz `pravidla/_index.md`.*
+*Vychází z kanonických pravidel Ovčina 2026. Plné znění s metadaty, závislostmi a rozhodnutími viz `pravidla/_index.md`.*

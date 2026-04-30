@@ -7,8 +7,7 @@ stav: schváleno
 viditelnost: hráč
 závisí-na: [LEK-001, ROZ-013, QUE-001, QUE-003]
 nahrazuje: []
-poslední-změna: 2026-04-27
-zdroj-pravdy: api.hra.ovcina.cz (Item #452 Byliny, Quest #75 Bylinkář)
+poslední-změna: 2026-04-30
 klíčové-fráze:
   - co jsou byliny
   - kde sbírat byliny
@@ -27,7 +26,6 @@ klíčové-fráze:
 
 Byliny jsou herní zdroj — fyzicky reprezentovaný **kartičkou rostliny**. Hrdina je sbírá na lokacích po Středozemi a může je používat třemi způsoby: plnit s nimi quest **„Bylinkář"**, prodávat je obchodníkům, nebo z nich (s dovedností Alchymista) vařit lektvary.
 
-> **Zdroj pravdy:** Item #452 *Byliny* v API `api.hra.ovcina.cz` (Resource).
 
 ## Sběr bylin
 

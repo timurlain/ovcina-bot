@@ -7,7 +7,7 @@ stav: schváleno
 viditelnost: organizátor
 závisí-na: [ZAK-005, ROZ-005, QUE-001]
 nahrazuje: []
-poslední-změna: 2026-04-27
+poslední-změna: 2026-04-30
 zdroj: Google Docs (doc id 1ZQ89xqdHFDIkk2Jca9aKgvMytXSjaZubrbaY6x87Efc)
 klíčové-fráze:
   - jak se stát zlodějem
@@ -40,7 +40,7 @@ Hráč se může vydat na zlodějskou cestu dvěma způsoby:
 1. **Volbou povolání zloděj** na začátku hry (jak překvapivé — viz ZAK-005).
 2. **Vzetím osobního questu „Chmaták"** — quest je **dostupný všem třídám** (válečník, lučištník, mág i zloděj), za nulové XP. Z karty: *„Tento quest si nekupuješ za zk. Pokud ho chceš, prostě si ho vezmi. Ale nejlépe, ať tě u toho nikdo nevidí."* Patří pod systém osobních questů (QUE-001).
 
-> **Reward** podle API: *„Vše, co si vyděláš…"* — symbolická odměna, žádný předmět v obálce. Hra hraje sama.
+> Odměna z karty questu: *„Vše, co si vyděláš…"* — symbolická, žádný předmět v obálce. Hra hraje sama.
 
 ## Jak se stát zlodějem (učení dovednosti)
 

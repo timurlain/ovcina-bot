@@ -80,7 +80,7 @@ code, pre { font-family: var(--font-mono); }
 
 ### Kingdom seal palette (KANONICKÁ, **použij tyhle**, ne ty z registrace)
 
-Sister apps mají generic kingdom palette, ale pro Ovčina LARP je **kanonická** (manželkou schválená 2026-04-22) muted heritage paleta:
+Sister apps mají generic kingdom palette, ale pro Ovčina 2026 je **kanonická** (manželkou schválená 2026-04-22) muted heritage paleta:
 
 ```css
 --seal-esgaroth:    #242F3D;  /* dark blue-gray — Esgaroth */
@@ -99,7 +99,7 @@ Sister apps mají tenhle pattern. Sleduj ho:
 - **Sticky-top:** zůstane nahoře při scrollu.
 - **Container:** flexbox, padding ~12px svisle.
 - **Brand link:** `Merriweather 900, 1.4rem, letter-spacing: 0.02em`, parchment barva `#FFF8F0`, bez podtržení. Text: **„Bojová pravidla pro Hrdiny"**.
-- **Sub-text** pod brandem (mobile: hidden): „Ovčina LARP · ročník 2026" v `#C4A882, 0.85rem`.
+- **Sub-text** pod brandem (mobile: hidden): „Ovčina 2026" v `#C4A882, 0.85rem`.
 - **Kingdom seal band:** pod hlavičkou tenký dekorativní pruh se 4 muted kingdom barvami (3px výška by mělo stačit), nebo vsazen do hlavičky vpravo.
 - **Žádná navigace** v hlavičce (single page) — místo toho odkaz „Zpět nahoru" plovoucí v rohu.
 
@@ -107,7 +107,7 @@ Sister apps mají tenhle pattern. Sleduj ho:
 
 - Stejné `--color-header` pozadí, top border 3px `--color-card-border`.
 - Text v `#C4A882`, font-size 0.85rem.
-- Obsah: „© 2026 Ovčina LARP · v1.0 · Vychází z kanonických pravidel" + odkaz „Plné znění pravidel" (na rulemaster repo nebo placeholder).
+- Obsah: „© 2026 Ovčina 2026 · v1.0 · Vychází z kanonických pravidel" + odkaz „Plné znění pravidel" (na rulemaster repo nebo placeholder).
 
 ### Karty / panely (sdílený pattern)
 

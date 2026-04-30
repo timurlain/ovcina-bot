@@ -1,4 +1,4 @@
-# Rejstřík pravidel — Ovčina LARP
+# Rejstřík pravidel — Ovčina 2026
 
 > Automaticky generovaný rejstřík. Neupravovat ručně.
 > Poslední aktualizace: 2026-04-30 (přidáno OVB-003 Dračí mládě, vyhozeno MAG-011, schváleno MAG-013 Rosa Valar)

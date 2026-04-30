@@ -8,7 +8,6 @@ poslední-aktualizace: 2026-04-27
 
 Artefakty jsou nejmocnější předměty ve světě Ovčiny — legendární zbraně, zbroje a pomůcky s unikátními schopnostmi, dostupné jen postavám 5. úrovně. Runy jsou ingredience pro výrobu artefaktů, které se hledají a skládají s pomocí knihovny. Lektvary (malé i velké) poskytují bojové bonusy nebo mimobojové efekty; malé se vyrábějí z bylin v **Lesní knihovně** po splnění questu **Alchymista**.
 
-> **Zdroj pravdy pro lektvary:** kanonický seznam je v API `api.hra.ovcina.cz` (`itemType=Potion`, příznaky `isCraftable` / `isLimited`).
 
 ## Základní principy
 
