@@ -7,7 +7,7 @@ stav: schváleno
 viditelnost: hráč
 závisí-na: [MAG-009]
 nahrazuje: []
-poslední-změna: 2026-04-05
+poslední-změna: 2026-04-30
 klíčové-fráze:
   - jaké dovednosti má mág
   - speciální schopnosti mága
@@ -27,7 +27,7 @@ Na páté úrovni získává mág přístup k speciálním dovednostem, které l
 | Vlastnost | Hodnota |
 |-----------|---------|
 | **Požadavek** | Mág úrovně 5 |
-| **Cena** | 20 zkušeností |
+| **Cena** | 40 zkušeností |
 | **Efekt** | Zvyš svou zásobu many o **2**. |
 
 Tato dovednost trvale zvyšuje maximální počet kroužků many na počitadle. Mág úrovně 5 se Zřídlem many má tedy celkem **11 many**.
@@ -37,7 +37,7 @@ Tato dovednost trvale zvyšuje maximální počet kroužků many na počitadle. 
 | Vlastnost | Hodnota |
 |-----------|---------|
 | **Požadavek** | Mág úrovně 5 |
-| **Cena** | 20 zkušeností |
+| **Cena** | 40 zkušeností |
 | **Efekt** | Při akci **Koncentrace** si můžeš vzít zpět **veškerou odhozenou manu** (bez omezení úrovní). |
 
 Tato dovednost vylepšuje akci Koncentrace (viz MAG-003). Místo omezení na počet many rovný úrovni si mág vezme zpět **všechnu manu** z odhazovací hromádky.

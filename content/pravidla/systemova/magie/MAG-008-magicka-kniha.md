@@ -7,7 +7,7 @@ stav: schváleno
 viditelnost: hráč
 závisí-na: [MAG-009]
 nahrazuje: []
-poslední-změna: 2026-04-05
+poslední-změna: 2026-04-28
 klíčové-fráze:
   - co je magická kniha
   - jak funguje grimoire
@@ -15,6 +15,8 @@ klíčové-fráze:
   - kouzla v knize mága
   - ztráta magické knihy
   - magická kniha pravidla
+  - barvy kouzel v knize
+  - color coding magické knihy
 ---
 
 # Magická kniha
@@ -31,6 +33,20 @@ Magická kniha je základní vybavení každého mága. Bez ní nemůže mág se
 - V magické knize má mág **zaznačeno, která kouzla umí**.
 - Při sesílání kouzla musí mít mág knihu **u sebe**.
 - Kouzla se do knihy zapisují při **učení** (viz MAG-007).
+
+## Vizuální značení kouzel
+
+Kouzla v magické knize jsou **barevně značena podle úrovně**, stejnou paletou jako karty kouzel (viz **MAG-006 — Barevné značení karet kouzel**):
+
+| Úroveň | Barva |
+|:---:|---|
+| I | Žlutá |
+| II | Zelená |
+| III | Červená |
+| IV | Světle modrá |
+| V | Fialová |
+
+Mág i organizátor tak rychle vidí, jaká kouzla v knize jsou a v jaké úrovni. Forma aplikace barvy v knize (rámeček, pruh, pozadí stránky) je věc produkce — pravidlo určuje paletu, ne layout.
 
 ## Kouzla mimo knihu
 

@@ -7,7 +7,7 @@ stav: schváleno
 viditelnost: organizátor
 závisí-na: [EKO-001, EKO-003]
 nahrazuje: []
-poslední-změna: 2026-04-05
+poslední-změna: 2026-04-30
 klíčové-fráze:
   - co je trhová krabice
   - jak funguje trh
@@ -26,6 +26,12 @@ Každé město má **Trhovou krabici**. Ta obsahuje:
 - Obchodní zboží, které se vyrábí přímo v tomto městě a ještě si ho nikdo nekoupil
 
 Kdokoliv si může koupit suroviny a zboží z Trhové krabice podle platného ceníku Nákup / Prodej.
+
+> ⚠️ **Trhová krabice ≠ královská pokladna.**
+>
+> Trhová krabice má **vlastní pokladnu, organizátorem garantovanou**, oddělenou od královské pokladny. Pokud manufaktury vyplácejí výplaty (4+X grošů, viz SIT-006/EKO-011) a krabice se vyprázdní, **organizátor ji doplní** — manufaktury nikdy nezastaví výplatu kvůli prázdné krabici.
+>
+> Důsledek: výnos z prodeje surovin/zboží i výplaty manufaktur procházejí **přes trhovou krabici**, ne přes krále. Daň z budov (1 g / budova / období, EKO-011) je samostatný odvod do královské pokladny.
 
 ## Výkup surovin
 

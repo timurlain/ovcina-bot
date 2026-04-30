@@ -18,7 +18,7 @@ Tento soubor slouží jako navigace pro LoreMaster bota. Vždy ho čti celý.
 ## Svět a lore
 - **brain/world-bible.md** — kompletní bible světa Ovčiny
 - **brain/factions.md** — frakce a národy
-- **brain/strayhold.md** — město Strayhold (hlavní lokace)
+- **brain/scestov.md** — město Scestov (ICE: Strayhold; lokace #33 v API)
 - **brain/casova-osa.md** — časová osa světa
 - **brain/glossary.md** — herní pojmy a slovník
 

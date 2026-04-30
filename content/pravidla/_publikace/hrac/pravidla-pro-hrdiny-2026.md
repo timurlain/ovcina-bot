@@ -194,7 +194,7 @@ Tvých pět voleb v kole — pojmenovaných podle prvních písmen:
 
 Speciální akce jen pro některá povolání:
 
-- **Schování** (zloděj) — zašeptáš „schovávám se" a dřepneš si.
+- **Schování** (zloděj) — zašeptáš „schovávám se" a dřepneš si (pokud už sedíš, kápě nebo zakryté oči).
 - **Koncentrace** (mág) — vrátíš si kroužky many do počitadla.
 
 Některé dovednosti a kouzla mají vlastní akce na kartičkách.
@@ -345,7 +345,7 @@ Tichošlápek, který nebojuje čestně. V boji ho **není vidět** — schová 
 | 4 | — | 3k6+ | — | — | 25 |
 | 5 | — | — | Rychlé schování, Kluzký | — | 30 |
 
-**Akce schování:** Zašeptáš „schovávám se" a dřepneš si.
+**Akce schování:** Zašeptáš „schovávám se" a **dřepneš si**. Pokud už sedíš, **dáš si přes hlavu kápi** nebo si alespoň **zakryješ oči prsty**, aby bylo všem jasné, že se schováváš.
 
 - Schovaný **nemůže být napaden** — ani útokem zblízka, ani střeleckým útokem, ani cíleným kouzlem.
 - Pozor — **některé příšery tě vycítí**. Proti nim schování neplatí.

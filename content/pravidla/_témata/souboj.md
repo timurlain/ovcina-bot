@@ -47,7 +47,6 @@ Při porážce od příšer zabaví příšera hrdinům polovinu peněz. Při po
 
 - **Dungeon** (SIT-004, ROZ-001): V dungeonu se nebojuje kartami — pokud příšera hrdinu trefí nebo plácne, musí z dungeonu odejít a odložit vše, co v něm získal. Finální dungeon má 3 vrstvy obtížnosti.
 - **Příšery** (PRI-005): Příšera zahajuje souboj, spravuje životy nestvůr podle karet příšer a vyplácí odměny po prohře.
-- **Vesnice** (ZAK-008): Vesnici lze obléhat — útočníci musí mít šerpu a porazit strážce.
 
 ## Relevantní rozhodnutí
 

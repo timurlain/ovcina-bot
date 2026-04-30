@@ -128,7 +128,7 @@ Každý účastník souboje má k dispozici následující základní akce:
 
 ### Speciální akce podle povolání
 
-- **Schování** (Zloděj) — Zašeptej „schovávám se" a dřepni si (viz ZAK-005).
+- **Schování** (Zloděj) — Zašeptej „schovávám se" a dřepni si (nebo nasaď kápi / zakryj oči prsty, pokud už sedíš — viz ZAK-005).
 - **Koncentrace** (Mág) — Vezmi si ze své hromádky odhozené many zpět tolik many, kolik je tvá úroveň (viz ZAK-006).
 
 Další akce jsou přístupné různým povoláním a jsou popsány na příslušných kartičkách dovedností.

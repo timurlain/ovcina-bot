@@ -24,6 +24,7 @@ přístup:
 | Grór | Gróra | Grórovi | Gróra | Gróre | o Grórovi | s Grórem | Trpasličí král, syn Dáina I. |
 | Itangast | Itangasta | Itangastovi | Itangasta | Itangaste | o Itangastovi | s Itangastem | Drak "Požírač hostí" |
 | Jáchym Vlček | Jáchyma Vlčka | Jáchymu Vlčkovi | Jáchyma Vlčka | Jáchyme Vlčku | o Jáchymu Vlčkovi | s Jáchymem Vlčkem | Dobrodruh, přešel k temnu |
+| Kuneš Žernov | Kuneše Žernova | Kunešovi Žernovovi | Kuneše Žernova | Kuneši Žernove | o Kunešovi Žernovovi | s Kunešem Žernovem | NPC #13, tajný ZZG (Hra 30); putovní vetešník, „Lišák ze Scestova" |
 | Legolas | Legolase | Legolasovi | Legolase | Legolasi | o Legolasovi | s Legolasem | Správce arnorský |
 | Lindir | Lindir | Lindir | Lindir | Lindir | o Lindir | s Lindir | Elfí pěvkyně z Cesmínie |
 | Lomaw | Lomawa | Lomawovi | Lomawa | Lomawe | o Lomawovi | s Lomawem | Drak, rival Bairanaxe |
@@ -66,6 +67,7 @@ přístup:
 | Ovirská kotlina | ovirský | Ovirské kotliny | v Ovirské kotlině | Původní doupě Bairanaxe |
 | Rhovanion | rhovanionský | Rhovanionu | v Rhovanionu | Hlavní region příběhu |
 | Rhûn (moře) | rhûnský | Rhûnu | na Rhûnu | Vnitrozemské moře |
+| Scestov | scestovský | Scestova | ve Scestově | Lok. č. 33, město bezpráví v roklích J/V od Temného hvozdu, ~900 obyv., hostinec Zuřivý kůň (= ICE Strayhold/Buhr Waldlaes/Brandaroth) |
 | Skřetomlaty | skřetomlatský | Skřetomlatů | ve Skřetomlatech | Vesnice, lok. č. 53 |
 | Sněžné pole | sněžnopolní | Sněžného pole | na Sněžném poli | Bojiště bitvy s Bairanaxem |
 | Spálená vesnice | — | Spálené vesnice | ve Spálené vesnici | Lok. č. 8, ohnisko moru |

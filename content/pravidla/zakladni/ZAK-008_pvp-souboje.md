@@ -2,12 +2,12 @@
 id: ZAK-008
 název: PvP souboje a šerpy
 úroveň: základní
-kategorie: [souboj, pvp, šerpa, vesnice]
+kategorie: [souboj, pvp, šerpa]
 stav: schváleno
 viditelnost: hráč
 závisí-na: [AXI-001, ZAK-001, ZAK-002]
 nahrazuje: []
-poslední-změna: 2026-04-05
+poslední-změna: 2026-04-30
 klíčové-fráze:
   - mohu bojovat s jiným hráčem
   - PvP pravidla
@@ -47,30 +47,6 @@ Pouze pro hráče, kteří se během hry rozhodnou změnit svůj stav na **PvP**
 ## Čestný souboj
 
 Je takový souboj, kdy **útočníků není více než obránců**. Trofeje ze souboje (šerpy, kartičky) se získávají **pouze v čestném souboji**.
-
-## Vesnice
-
-Vesnice reprezentují obývaná místa, kde žijí obyvatelé. Pokud postavy splní úkol v dané vesnici, jedna z nich se může stát **správcem**. Získaná vesnice přináší peníze, suroviny, zkušenosti a dají se v ní budovat vylepšení.
-
-### Obléhání vesnice
-
-Jednou získaná vesnice může být zabrána jinými hráči:
-
-1. Útočník se dostaví k vesnici. Přivolá CP (vysílačkou, nebo ho najde poblíž). Oznámí, že zahajuje obléhání.
-2. Odevzdá **4 dřeva** na přípravu obléhacích strojů a tábora. CP stanoví čas střetu (přibližně **za 45 minut** od zahájení) a vyvolá hledání obránců.
-3. Útočníci nemusí ve vesnici zůstávat — souboj má proběhnout v daný čas.
-4. V určený čas proběhne na místě bitva útočníků s obránci. Pokud se obránci nedostaví, obranu převezme **domobrana hraná CP**.
-5. Po souboji, pokud jsou obránci poraženi, správcovství vesnice se přesune na jednoho z útočníků (dle domluvy).
-
-### Šlechtické tituly
-
-Udělují se podle počtu vsí, kde je postava správcem:
-
-| Počet vesnic | Titul | Oslovení |
-|-------------|-------|----------|
-| 1 | Zeman | Sire, Lady, Rytíři, Rytířko |
-| 2 | Baron | Barone, Baronko |
-| 3 | Kníže | Jasnosti, Knížecí milosti |
 
 ## Uzurpování království
 

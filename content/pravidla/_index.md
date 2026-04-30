@@ -1,10 +1,10 @@
 # Rejstřík pravidel — Ovčina LARP
 
 > Automaticky generovaný rejstřík. Neupravovat ručně.
-> Poslední aktualizace: 2026-04-27 (přidáno ZLO-001 + BYL-001)
+> Poslední aktualizace: 2026-04-30 (přidáno OVB-003 Dračí mládě, vyhozeno MAG-011, schváleno MAG-013 Rosa Valar)
 
-**Celkem pravidel:** 85
-**Schváleno:** 83 | **Návrh:** 1 | **Zastaralé:** 1
+**Celkem pravidel:** 88
+**Schváleno:** 86 | **Návrh:** 1 | **Zastaralé:** 1
 
 | ID | Název | Úroveň | Stav | Viditelnost | Soubor |
 |----|-------|--------|------|-------------|--------|
@@ -21,6 +21,7 @@
 | AXI-007 | Dobrovolnictví a komunita | axiom | schváleno | obojí | axiomy/AXI-007_dobrovolnictvi-a-komunita.md |
 | DOV-001 | Dobrodružné dovednosti — přehled | systémová | schváleno | obojí | systemova/dovednosti/DOV-001-dobrodruzne-dovednosti.md |
 | DOV-002 | Šifrovací karty — fyzická mechanika | systémová | schváleno | organizátor | systemova/dovednosti/DOV-002-sifrovaci-karty.md |
+| DOV-003 | Mechanika odměn za dobrodružné dovednosti — provoz | systémová | schváleno | organizátor | systemova/dovednosti/DOV-003-mechanika-odmen-za-dovednosti.md |
 | EKO-001 | Měnový systém | systémová | schváleno | hráč | systemova/ekonomika/EKO-001-menovy-system.md |
 | EKO-002 | Obchodování a povoz | systémová | schváleno | hráč | systemova/ekonomika/EKO-002-obchodovani-a-povoz.md |
 | EKO-003 | Produkce surovin a zboží | systémová | schváleno | hráč | systemova/ekonomika/EKO-003-produkce-surovin.md |
@@ -43,11 +44,12 @@
 | MAG-008 | Magická kniha | systémová | schváleno | hráč | systemova/magie/MAG-008-magicka-kniha.md |
 | MAG-009 | Progrese mága | systémová | schváleno | hráč | systemova/magie/MAG-009-progrese-maga.md |
 | MAG-010 | Dovednosti mága | systémová | schváleno | hráč | systemova/magie/MAG-010-dovednosti-maga.md |
-| MAG-011 | Snadná magie | systémová | schváleno | hráč | systemova/magie/MAG-011-snadna-magie.md |
 | MAG-012 | Typy kouzel a živly | systémová | schváleno | hráč | systemova/magie/MAG-012-typy-kouzel.md |
+| MAG-013 | Rosa Valar — průhledné krystaly | systémová | schváleno | hráč | systemova/magie/MAG-013-rosa-valar.md |
 | NAV-001 | Metody získávání artefaktů — tři konkurenční návrhy | systémová | návrh | organizátor | _navrhy/NAV-001-metody-ziskavani-artefaktu.md |
 | OVB-001 | Ovládané bytosti — obecná pravidla | systémová | schváleno | hráč | systemova/ovladane-bytosti/OVB-001-obecna-pravidla.md |
 | OVB-002 | Bytůstky — speciální druh ovládané bytosti | systémová | schváleno | hráč | systemova/ovladane-bytosti/OVB-002-bytustky.md |
+| OVB-003 | Dračí mládě | systémová | schváleno | hráč | systemova/ovladane-bytosti/OVB-003-draci-mlade.md |
 | PRI-001 | Obecná pravidla pro příšery | systémová | schváleno | organizátor | systemova/prisery/PRI-001-obecna-pravidla-prisery.md |
 | PRI-002 | Systém karet setkání a evoluce příšer | systémová | schváleno | organizátor | systemova/prisery/PRI-002-karty-setkani-evoluce.md |
 | PRI-003 | Časové škálování síly příšer | systémová | schváleno | organizátor | systemova/prisery/PRI-003-casove-skalovani.md |
@@ -55,7 +57,7 @@
 | PRI-005 | Souboj z pohledu příšery | systémová | schváleno | organizátor | systemova/prisery/PRI-005-souboj-z-pohledu-prisery.md |
 | PRI-006 | Rajóny příšer a výbava | systémová | schváleno | organizátor | systemova/prisery/PRI-006-rajony-a-vybava.md |
 | PRI-007 | Trofeje za poražené příšery | systémová | schváleno | obojí | systemova/prisery/PRI-007-trofeje.md |
-| PRI-008 | Drobky v zónách příšer | systémová | schváleno | obojí | systemova/prisery/PRI-008-drobky-v-zonach.md |
+| PRI-008 | Valounky | systémová | schváleno | obojí | systemova/prisery/PRI-008-valounky.md |
 | QUE-001 | Osobní questy | systémová | schváleno | hráč | systemova/questy/QUE-001-osobni-questy.md |
 | QUE-002 | Obtížnosti questů | systémová | schváleno | hráč | systemova/questy/QUE-002-obtiznosti-questu.md |
 | QUE-003 | Globální questy | systémová | schváleno | hráč | systemova/questy/QUE-003-globalni-questy.md |

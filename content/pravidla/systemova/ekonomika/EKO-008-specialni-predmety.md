@@ -7,7 +7,7 @@ stav: schváleno
 viditelnost: hráč
 závisí-na: [EKO-001]
 nahrazuje: []
-poslední-změna: 2026-04-05
+poslední-změna: 2026-04-29
 klíčové-fráze:
   - co jsou speciální předměty
   - kde koupit speciální věci
@@ -47,6 +47,10 @@ U obchodníků ve městech lze nakoupit:
 - Magická energie vyšších úrovní (4, 5) -- pouze má-li město příslušnou budovu
 - Psi -- pouze je-li ve městě psinec
 - Maximální počet životů a použitelné vybavení závisí na povolání a úrovni postavy
+
+## Výkup bylin
+
+Obchodník ve městě vykupuje **byliny v poměru 5 bylin = 1 groš** (bez denního limitu, v každém království). Plný systém bylin (sběr, quest Bylinkář, vaření lektvarů) viz **BYL-001**.
 
 ## Výkup vybavení
 

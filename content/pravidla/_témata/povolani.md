@@ -74,7 +74,7 @@ Tichošlápek s jedy. V boji není vidět, než probodne nepříteli srdce a ztr
 
 ### Speciální mechanika — Schování
 
-- **Jak:** Zašeptej "schovávám se" a dřepni si.
+- **Jak:** Zašeptej „schovávám se" a dřepni si (pokud už sedíš, nasaď si kápi nebo si zakryj oči prsty).
 - **Efekty:** Schovaný = necílitelný (blízké, střelecké, kouzla). Plošná kouzla ale zasáhnou. **Pozor:** některé příšery dokážou schovaného zloděje **vycítit**.
 - **Přepadení:** Útok ze schování = více kostek (viz tabulka). Může cílit i krytého nepřítele.
 - **Od úrovně 2:** Začíná souboj **vždy schovaný** (bez akce).

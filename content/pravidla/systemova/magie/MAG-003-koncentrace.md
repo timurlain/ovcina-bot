@@ -38,4 +38,4 @@ Mág úrovně 3 seslal dvě kouzla úrovně I a jedno kouzlo úrovně II (celkem
 
 ## Vylepšení: Čistá hlava
 
-Dovednost **Čistá hlava** (dostupná na 5. úrovni za 20 zkušeností) umožňuje mágovi vzít si při koncentraci zpět **veškerou odhozenou manu** bez ohledu na úroveň (viz MAG-010).
+Dovednost **Čistá hlava** (dostupná na 5. úrovni za 40 zkušeností) umožňuje mágovi vzít si při koncentraci zpět **veškerou odhozenou manu** bez ohledu na úroveň (viz MAG-010).

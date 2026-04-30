@@ -7,7 +7,7 @@ stav: schváleno
 viditelnost: hráč
 závisí-na: [EKO-001]
 nahrazuje: []
-poslední-změna: 2026-04-05
+poslední-změna: 2026-04-29
 klíčové-fráze:
   - jak obchodovat
   - jak funguje povoz
@@ -45,6 +45,18 @@ Následující komodity lze přesouvat **pouze s povozem**:
 ## Luxusní / obchodní zboží
 
 Obchodní zboží se musí vozit stejně jako suroviny. Prodej ho tam, kde ho nejvíce chtějí, a vyděláš groše.
+
+## Drobný prodej a služby
+
+Mimo obchod se surovinami a zbožím existuje několik dílčích ekonomických mechanik, které mají vlastní pravidla:
+
+| Co | Cena / poměr | Kde | Pravidlo |
+|----|--------------|-----|----------|
+| **Prodej bylin** | 5 bylin = **1 groš** | Kterýkoli obchodník v kterémkoli království | BYL-001 |
+| **Vaření malého lektvaru** | poplatek **~10 grošů** za lektvar | Lesní knihovna (lokace #35), s dovedností Alchymista | LEK-001, ROZ-013 |
+| **Zlodějská nálepka na budovu** | **5 grošů** | Zástupce zlodějské gildy (ZZG) | ZLO-001 (tajné) |
+| **Zlodějská nálepka na hráče** | **10 grošů** (jiná barva) | Zástupce zlodějské gildy (ZZG) | ZLO-001 (tajné) |
+| **Výnos z krádeže budovy** | **20 grošů** zloději (z královské pokladny) | ZZG → zloděj | ZLO-001, EKO-011 |
 
 ## Poznámky
 

@@ -7,7 +7,7 @@ stav: schváleno
 viditelnost: hráč
 závisí-na: [AXI-001, ZAK-001, ZAK-002, ZAK-007]
 nahrazuje: []
-poslední-změna: 2026-04-27
+poslední-změna: 2026-04-29
 klíčové-fráze:
   - jak hrát zloděje
   - jak krást
@@ -28,7 +28,7 @@ Zloděj je jediné povolání, které dokáže provést **akci schování**.
 
 ### Provedení
 
-Zašeptej **„schovávám se"** a dřepni si.
+Zašeptej **„schovávám se"** a **dřepni si**. Pokud už sedíš (nebo se ti dřep nehodí), **dej si přes hlavu kápi**, nebo si alespoň **zakryj oči prsty**, aby bylo všem jasné, že se schováváš.
 
 ### Efekty schování
 

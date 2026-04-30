@@ -25,7 +25,7 @@ přístup:
 - Tři nazgûlové přestrojení: Adûnaphel = Lesní vědma (Kristýna Cupa), Ren Nečistý = Šprýmař/Šašek (Marek Šimíček), Ûvatha = Poustevník (Lukáš Heinz)
 - Bestiář draků: Bairanax (hlavní quest, uprchl se zraněním), Itangast (Cirith Auris), Scatha (zabit Framem)
 - Skauril — čaroděj, služebník Khamûla, jeskyně 24 místností
-- Strayhold — město tuláků s klany, NPC a třemi dobrodružstvími
+- Scestov (ICE: Strayhold) — město tuláků s klany, NPC a třemi dobrodružstvími
 
 ### Herní mechaniky
 - Finální dungeon: 3 vrstvy, skupiny po 4–5, ~2 hodiny, zakončení „Balrog" = výbuch
@@ -75,7 +75,7 @@ přístup:
 8. **Zrcadlové jezero** (Kheled-zâram) — navrženo pro questy, žádný napsán
 
 ### Menší mezery
-- Strayhold/Skaurilovy jeskyně — vstup do 30. ročníku nejasný
+- Scestov/Skaurilovy jeskyně — vstup do 30. ročníku nejasný
 - Akhorahil (Bouřný král) — draft „možný 4. nazgûl", bez záměru
 - Caras Amarth (opuštěné elfí město) — nenapsáno
 

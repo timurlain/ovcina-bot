@@ -190,7 +190,7 @@ přístup:
 
 ### ZASAZENÍ
 
-**Strayhold** (Buhr Waldlaes, Rh. „Bezprávná pevnost") alias **Fire Town** (Brandaroth, Rh.) — několik mil jihovýchodně od Temného hvozdu, u obchodní cesty Men-i-Araw (k Rhûnu). Osada v roklinách a roklích Shattered Step. Smíšené obyvatelstvo — Northmani, Dunédaini, Easterlingové, různé rasy.
+**Scestov** (ICE: Strayhold / Buhr Waldlaes „Bezprávná pevnost" / Fire Town / Brandaroth) — několik mil jihovýchodně od Temného hvozdu, u obchodní cesty Men-i-Araw (k Rhûnu). Osada v roklinách a roklích Shattered Step. Smíšené obyvatelstvo — Northmani, Dunédaini, Easterlingové, různé rasy.
 
 **Tři mocenské frakce:**
 1. **Klan Strays (Tuláků)** — profesionální žebráci a podvodníci; vedl **Gam the Fair** (jizva po neštovicích, brutální tyran)
@@ -211,7 +211,7 @@ přístup:
 | **Mard Neffar** | Podvodník | Dokonale průměrný vzhled, velký magnetismus; kalkuluje každou situaci; obojetný v konfliktech | Šedá eminence, těžko čitelný |
 | **Rillit the Squirrel** | Vloupač | Excentriický, vidí vloupání jako vysoké umění; nezajímá ho politika klanu | Sympatický oddball — mohl by spolupracovat s PC |
 
-#### Ostatní NPC Strayholds
+#### Ostatní NPC Scestova
 
 | Jméno | Role | Popis | LARP potenciál |
 |-------|------|-------|----------------|
@@ -222,7 +222,7 @@ přístup:
 | **Haddil** | Zvěd Lotrů | Mladý, tmavé oči, zaneřáděný; chytrý ale ne moc; bude chycen PC | Snadná první hrozba — začátečnická encounter |
 | **Ecuris the Prophet** | Tajný agent dobra | Zdánlivě bláznivý věštec v Mystics Hollow; agent Moudrých; komunikuje jen v hádankách a rýmech | Moudré vedení pro děti — říká pravdu, ale nikdo mu nevěří |
 | **Portik the Stray** | Dvojitý agent | Ošklivý Northman, špehuje Loutky pro Gama, ale Loutky mu věří; zbabělec | Komický zrádce — pro humor ale nespolehlivý |
-| **Vellser Orlit** | Pocestný bojovník | Blonďatý, modrooký, plný ideálů; stojí vždy na straně slabšího; projíždí Strayholdem | Záchranný NPC, deus ex machina v nesnázích |
+| **Vellser Orlit** | Pocestný bojovník | Blonďatý, modrooký, plný ideálů; stojí vždy na straně slabšího; projíždí Scestovem | Záchranný NPC, deus ex machina v nesnázích |
 | **Arcle Terrin** | Učenec z Dol Amroth | Tlustší, hnědovlasý, trochu domýšlivý; hledá poetický svitek; zaplatí předem | Poskytovatel první mise — bezpečný úvod |
 
 ---
@@ -244,10 +244,10 @@ přístup:
 | Lokace | Popis | LARP potenciál |
 |--------|-------|----------------|
 | **Mystics Hollow** | Ecurisova bouda, léčitelé, věštci | Tajemno a věštby |
-| **Flagon Lane** | Nejlevnější hospody, nejbezpečnější čtvrť Strayholds | Setkání s nižší vrstvou |
+| **Flagon Lane** | Nejlevnější hospody, nejbezpečnější čtvrť Scestova | Setkání s nižší vrstvou |
 | **The Strays' Clan-hall** | Základna Klanu Tuláků, Gamův domain | Nepřátelský terén |
 | **The Rogues' Market** | Měsíční tržiště ukradeného zboží | Hledání stolen items, nákup exotica |
-| **The Shadows** | Temná ulice, Torturers Guild | Nejtemnější místo Strayholds |
+| **The Shadows** | Temná ulice, Torturers Guild | Nejtemnější místo Scestova |
 
 ---
 
@@ -307,7 +307,7 @@ přístup:
 **Typ:** Bossový raid / vysoké stakes  
 **Náročnost:** Vysoká (zkušení hráči)
 
-**Příběh:** Gandalf přijde do Meke Larnis hledat adventury schopné zničit Mága Leardinoth — agenta Saurona, který drží Strayhold pohromadě a slouží Temnohlubinným zájmům. Věštba říká: toto je čas. Hned po příjezdu PC uvidí Leardinoth odlétat na Fell Beastu na západ (do Dol Gulduru) — hrad hlídá jen Telleman a Orkové. Gandalf neřekne víc a odejde.
+**Příběh:** Gandalf přijde do Meke Larnis hledat adventury schopné zničit Mága Leardinoth — agenta Saurona, který drží Scestov pohromadě a slouží Temnohlubinným zájmům. Věštba říká: toto je čas. Hned po příjezdu PC uvidí Leardinoth odlétat na Fell Beastu na západ (do Dol Gulduru) — hrad hlídá jen Telleman a Orkové. Gandalf neřekne víc a odejde.
 
 **Klíčové NPC:**
 - **Leardinoth** — 1500 let starý, duch v Crystal Rose na věži; jeho tělo bez Růže se rozpadne v prach (ale duch zůstane); přijede zpět v posledním aktu
@@ -335,7 +335,7 @@ Eoric the Arborer dá PC zahradnický nůž — ten musí odříznout stonek Rů
 | 20 | Ložnice | Saurovo Oko na víku truhlice — nebezpečné pohledět; uvnitř: Ochranné roucho (+25 chain bez zátěže), spící okřídlená kočka (jedovaté zuby, Mágův assassin), stříbrná hůl (+10) |
 | 21 | Mágova věž | Crystal Rose na černém křišťálovém vázku — okraje jako britvy, jedovaté; při odříznutí stonku nůžkami = Leardinothův duch zpět do těla |
 
-**Konec:** Učiněné dobro = Leardinoth zničen, Strayhold upadá do chaosu, PC mohou získat hrad jako sídlo; riziko: Sauron si jich všimne.
+**Konec:** Učiněné dobro = Leardinoth zničen, Scestov upadá do chaosu, PC mohou získat hrad jako sídlo; riziko: Sauron si jich všimne.
 
 **LARP pro děti:** Příliš dark pro nejmladší; výborné pro skupinu 13–15; důraz na plánování, alternativní řešení (Wraith, kočka, Ecuris)
 
@@ -346,7 +346,7 @@ Eoric the Arborer dá PC zahradnický nůž — ten musí odříznout stonek Rů
 1. **Únos Illinith** — Vekkis Opar (Mágův špion, Jihoman) unese dceru hostinského; pronásledování do vzdálených zemí; nečekaná vazba na temné síly
 2. **Rozbití klanu** — nájezd na klanhal pro zkušené PC; Leardinoth může zasáhnout
 3. **Záchrana z Bratrstva** — záchrana uvězněného přítele z Torturers Guild dokud ještě dýchá
-4. **Zaměstnání ve Strayholds** — PC se nechají najmout jednou z frakcí nebo Mágem; vede do celého Rhovanion
+4. **Zaměstnání ve Scestově** — PC se nechají najmout jednou z frakcí nebo Mágem; vede do celého Rhovanion
 
 ---
 
@@ -482,7 +482,7 @@ Přímě na sever a východ od Ereboru; 150+ mil po Železné kopce; klikatá ka
 7. **Nabídnout radu u Královského Dvora** — sezení na Bardově radě; Standing v Dale +1 na rok
 8. **Obchodní skandál na Nábřeží** — Reeve of Quays potřebuje diskrétní pomoc se záhadnou lodí
 9. **Případ Hakon** — pátrání za Hakonovými tajnými aktivitami v Pusté zemi; odhalení = velké odměny nebo velká nebezpečí
-10. **Únos ve Strayholds** (Illinith) — propojení s Brigands modul
+10. **Únos ve Scestově** (Illinith) — propojení s Brigands modul
 
 #### V Pusté zemi
 
@@ -512,7 +512,7 @@ Přímě na sever a východ od Ereboru; 150+ mil po Železné kopce; klikatá ka
 | Raid na Klanhal | Brigands | Plánování, alternativní řešení, heist |
 | Balinova kolonie | ICE2900 | Morální dilema, drama, záchrana |
 | Duch Starosty / Wraith | Erebor / Brigands | Komplexní quest, empatie |
-| Strayhold sociální scény | Brigands | Šedá morálka, autentické rozhodování |
+| Scestov — sociální scény | Brigands | Šedá morálka, autentické rozhodování |
 | Královský Dvůr v Dale | Erebor | Politika, eloquence, intriky |
 | Rugash Hadí | Erebor | Inteligentní antagonista, plánování |
 

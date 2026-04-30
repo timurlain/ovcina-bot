@@ -135,7 +135,7 @@ Povoluje stavbu budov, dostává daně každé období (1 gr/hráč + 1 gr/budov
 Dovezením cizího obchodního zboží, které město samo nevyrábí. Za každé dvě kompletní sady cizích komodit +1 místo pro budovu (SIT-006, EKO-007).
 
 **3. Jak získám vesnici?**
-Dostaví se k vesnici, přivolá CP a splní podmínky (úvodní quest nebo obléhání). Jednou získaná vesnice může být zabrána — není permanentní (SIT-005).
+Dostaví se k vesnici, přivolá CP a splní podmínky úvodního questu (SIT-005).
 
 **4. Proč stavět manufaktury?**
 Každá manufaktura generuje pasivní příjem a přidává zboží do trhové krabice. Navíc zvyšuje příjem všem ostatním manufakturám — čím více jich ve městě je, tím vyšší výnos (SIT-006).

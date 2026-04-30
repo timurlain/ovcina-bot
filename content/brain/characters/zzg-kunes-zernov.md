@@ -1,13 +1,13 @@
 ---
 jméno: Kuneš Žernov
-přezdívka: Žerák (mezi vetešníky), Lišák ze Strayholdu (mezi zasvěcenými)
-království: žádné (mimo struktury) — kontaktní bod Klanu Lotrů (Strayhold)
+přezdívka: Žerák (mezi vetešníky), Lišák ze Scestova (mezi zasvěcenými)
+království: žádné (mimo struktury) — kontaktní bod Klanu Lotrů (Scestov)
 role: Zástupce zlodějské gildy (ZZG) pro Hru 30; krycí role potulný vetešník
 status: Naživu (T.A. 2864, věk ~50)
 přístup: gm
 viditelnost: organizátor-only — tajný pro hráče
 poprvé: Hra 30 (Balinova pozvánka)
-zdroj: Loremaster — nový profil 2026-04-27, motivováno ZLO-001; ICE8090 Brigands of Mirkwood (Klan Lotrů, Strayhold, Mard Neffar archetyp), ICE Heart of the Wild (potulné vetešnictví v Rhovanionu)
+zdroj: Loremaster — nový profil 2026-04-27 (Strayhold→Scestov 2026-04-29), motivováno ZLO-001; ICE8090 Brigands of Mirkwood (Klan Lotrů, Scestov = ICE Strayhold/Buhr Waldlaes, Mard Neffar archetyp), ICE Heart of the Wild (potulné vetešnictví v Rhovanionu)
 souvisí-s: ZLO-001, QUE-001 (quest „Chmaták")
 ---
 
@@ -29,8 +29,9 @@ souvisí-s: ZLO-001, QUE-001 (quest „Chmaták")
 | Lokál | o Kunešovi Žernovovi |
 | Instrumentál | s Kunešem Žernovem |
 
-Přezdívka **Žerák** se skloňuje pravidelně (Žeráka, Žerákovi, …); **Lišák ze
-Strayholdu** je v zasvěcené řeči nesklonný titul.
+Přezdívka **Žerák** se skloňuje pravidelně (Žeráka, Žerákovi, …); titul
+**Lišák ze Scestova** se v zasvěcené řeči skloňuje běžně (Lišákovi ze
+Scestova, o Lišákovi ze Scestova).
 
 ## Krycí role — putovní vetešník
 
@@ -115,8 +116,8 @@ zemřela. Mahra ho po pohřbu opustila — řekla, že **kdyby byl poctivý,
 měli by peníze, a kdyby byl lepší zloděj, měli by je taky**, ale nebyl
 ani jedno.
 
-**Strayhold a Conul Uld (T.A. 2848–2855).** Kuneš odešel z Esgarothu na
-jih, po obchodní cestě Men-i-Araw, a skončil ve Strayholdu — pevnosti
+**Scestov a Conul Uld (T.A. 2848–2855).** Kuneš odešel z Esgarothu na
+jih, po obchodní cestě Men-i-Araw, a skončil ve Scestově — pevnosti
 bezpráví u průsmyku Shattered Step. Přijal ho **Allit „Vánek"**, kapesní
 trenér Klanu Lotrů, který obdivoval jeho nenápadnost. Po dvou letech
 zkoušek si ho povšiml sám **Conul Uld**, vetchý starý vůdce klanu, a
@@ -133,7 +134,7 @@ Nikdo z hráčů ho nezná. V Esgarothu mají v městské knize zaznamenáno,
 — ostatní vstupy proběhly v převlecích, které si nikdo nepamatuje. Z
 peněz, které mu protékají rukama, si pro sebe nechává jen tolik, kolik
 potřebuje na chléb a opravy káry. **Zbytek posílá tajně do
-Strayholdu** — desátkem Klanu Lotrů, ze zvyku a ze cti, protože *Conul
+Scestova** — desátkem Klanu Lotrů, ze zvyku a ze cti, protože *Conul
 Uld nikdy nezapomíná tváře*. A taky aby udržel právo na hesla.
 
 ## Tajemství (jen pro Osud)
@@ -152,7 +153,7 @@ Druhá vrstva: Kuneš **vede vlastní seznam** — vyřezaný drobnými zářezy
 do dna káry — všech, kdo si u něj koupili nálepku. Není to seznam pro
 udání. Je to **paměť**. Pokud ho někdo z těch hráčů během hry zradí
 nebo prokáže krutost, Kuneš se rozhodne, jestli dotyčného **nahlásí
-Strayholdu**. To se stane mimo herní obraz hráčů, jako tichá narážka
+Scestovu**. To se stane mimo herní obraz hráčů, jako tichá narážka
 v pozdějších ročnících.
 
 ## Hesla — operativní přechod
@@ -332,9 +333,9 @@ nemá hlavu na obchody (tehdy raději přijdi za hodinu).
   u obchodníků (4× ve hře). Reward *„Vše, co si vyděláš…"*. Kuneš je
   vyšší článek, ne quest-giver — jeho najde teprve hráč, který už má
   zlodějinu naučenou.
-- **ICE8090 Brigands of Mirkwood** — Strayhold (Buhr Waldlaes / Fire
-  Town), Klan Lotrů (Conul Uld, Allit Vánek). Kuneš je periferní agent
-  toho klanu, severní obvod.
+- **ICE8090 Brigands of Mirkwood** — Scestov (= ICE Strayhold / Buhr
+  Waldlaes / Fire Town / Brandaroth), Klan Lotrů (Conul Uld, Allit
+  Vánek). Kuneš je periferní agent toho klanu, severní obvod.
 - **Glossary:** přidat řádek *Kuneš Žernov* do `brain/glossary.md` v
   sekci **Osoby (People)** (skloňovací tabulka výše).
 

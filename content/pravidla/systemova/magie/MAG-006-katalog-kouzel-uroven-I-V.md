@@ -7,7 +7,7 @@ stav: schváleno
 viditelnost: hráč
 závisí-na: [MAG-001, MAG-002]
 nahrazuje: []
-poslední-změna: 2026-04-12
+poslední-změna: 2026-04-28
 klíčové-fráze:
   - jaká kouzla existují
   - seznam pokročilých kouzel
@@ -15,11 +15,38 @@ klíčové-fráze:
   - přehled všech kouzel
   - co mohu naučit jako mág
   - silná kouzla katalog
+  - barva kouzla
+  - barva úrovně kouzla
+  - hex kód kouzla
+  - jak se značí úroveň kouzla
+  - color coding kouzel
 ---
 
 # Katalog kouzel úrovně I-V
 
 Kouzla vyšších úrovní mohou sesílat pouze **mágové** odpovídající úrovně. Cena seslání v maně odpovídá úrovni kouzla.
+
+---
+
+## Barevné značení karet kouzel
+
+Každá úroveň kouzel má **kanonickou barvu**. Barva slouží jako **rychlý vizuální identifikátor úrovně** — používá se na kartách kouzel, v magické knize mága (MAG-008), na obálkách s odměnami obsahujícími kouzla a kdekoli jinde, kde je užitečné rychle rozeznat úroveň.
+
+| Úroveň | Barva | Hex |
+|:---:|---|---|
+| **I** | Žlutá | `#FFFF00` |
+| **II** | Zelená | `#92D050` |
+| **III** | Červená | `#FF0000` |
+| **IV** | Světle modrá | `#8EAADB` |
+| **V** | Fialová | `#7030A0` |
+
+**Poznámky k použití:**
+
+- Paleta je **kanonická a konzistentní** napříč kartami, magickou knihou i obálkami.
+- **Forma aplikace** je věc produkce — barva může být pruh, rámeček, pozadí nebo barevná značka. Pravidlo neurčuje formu, jen barvu.
+- **Účel:** mág 3. úrovně zvládne kouzla žlutá / zelená / červená; cokoli modré nebo fialové je nad jeho úroveň. Organizátor i hráč to pozná z karty bez čtení textu.
+- **Svitky (úroveň 0)** se touto paletou **NEZNAČÍ** — nejsou to kouzla, jsou to samostatné kartičky (MAG-004).
+- Kdykoli se v dokumentaci, prezentaci nebo komunikaci mluví o „kouzlech úrovně N", má se s nimi pojit příslušná barva z této tabulky.
 
 ---
 

@@ -103,6 +103,6 @@ Jakmile je postava na úrovni 5, získá možnost naučit se **mistrovské doved
 | **Víno** | Surovina — prodej, stavba budov |
 | **Kožešiny** | Surovina — prodej, stavba budov |
 | **Šikovný kámen** | Dává 10 zkušeností, nebo zvedá produkci suroviny o 2 |
-| **Bylinky** | Quest Bylinkář, nebo výměna za magický svitek |
+| **Bylinky** | Quest Bylinkář, prodej obchodníkovi (5:1 g), výroba lektvarů s Alchymistou — viz BYL-001 |
 | **Jídlo** | Doplnění životů po souboji, rozvoj území |
 

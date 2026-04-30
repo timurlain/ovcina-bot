@@ -7,7 +7,7 @@ stav: schváleno
 viditelnost: obojí
 závisí-na: [ZAK-007, EKO-006]
 nahrazuje: []
-poslední-změna: 2026-04-20
+poslední-změna: 2026-04-29
 klíčové-fráze:
   - co je dobrodružná dovednost
   - jak získat dobrodružnou dovednost
@@ -57,16 +57,16 @@ Pro tuto hru existuje **pět dobrodružných dovedností**:
 
 Když hrdina přiloží svou šablonu na lokaci a dekóduje skrytý vzkaz, může najít:
 
-- **Přímou informaci** — rada, lore, indicii o jiné lokaci, varování.
-- **Odkaz na pytlík** — vzkaz typu „Otevři pytlík 3" (hrdina si z pytlíku vezme co je uvnitř).
-- **Přímou akci** — instrukce typu „Jdi za Osudem ve věži" nebo „Počkej tu na CP víly".
-- **Nic** — na některých lokacích daná dovednost nepřinese žádné objevení. Vzkaz v tom případě říká například „Nic tu není" nebo podobně.
+- **Informaci** — lore, hint, varování, jméno NPC, indicii ke questu nebo k jiné lokaci. Tyto vzkazy zůstávají na lokaci po celou hru a každý hrdina se stejnou dovedností je přečte znovu.
+- **Heslo k vyzvednutí v knihovně** — vzkaz typu „BUKOVÝ KOŘEN. Pověz knihovníkovi." Hrdina dojde do knihovny, pronese heslo a knihovník mu předá odměnu ze svého registru. **Každé heslo lze uplatnit pouze jednou** — kdo si ho vyzvedne první, vyhraje.
+- **Drobnost** — zkušenost, mana, drobná mince, lektvar první úrovně, rozeznaná bylina, varování. Tyto reveals zůstávají dostupné po celou hru.
+- **Nic** — na některých lokacích daná dovednost nepřinese žádné objevení. Vzkaz v tom případě říká například „Nic tu není."
 
 ## Limity používání
 
-- **Šifra je fyzicky stejná po celou hru** — jakmile je lokace dekódována, informace je známá. Pokud jiný hrdina se stejnou dovedností přijde na stejnou lokaci, dekóduje to samé.
-- **Odměna je limitovaná obsahem pytlíku** — jakmile první skupina vezme z pytlíku poklad, další skupina najde pytlík prázdný (i když šifru si přečte stejně).
-- **Organizátor může rozhodnout** o jednorázových lokacích explicitně — v tom případě kartu odstraní po prvním použití. Takové lokace jsou výjimka, ne pravidlo.
+- **Stálé reveals** — pokud šifra dává informaci, lore, drobnou zkušenost, manu, mince nebo bylinu, **šifra zůstává čitelná po celou hru** a stejnou věc dekóduje každý hrdina se stejnou dovedností.
+- **Heslo do knihovny — jednorázové** — pokud cipher odkazuje na heslo k vyzvednutí, **lze ho uplatnit jen jednou**. Po uplatnění **organizátor (nebo hrdina, který si heslo vyzvedl) otočí šifrovací kartu lícem dolů na lokaci**. Další hrdinové se stejnou dovedností tam stejné heslo už nenaleznou.
+- **Strategie:** I když je odměna jednorázová, dovednost se vyplatí — průchozí informace a drobnosti zůstávají dostupné stále, a vy můžete být první, kdo objeví silnější heslo. Skupina, která má více různých dovedností, otevře více obsahu.
 
 ## Odvozená pravidla
 

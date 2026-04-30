@@ -1,9 +1,19 @@
-# Kontakty na organizátory — Ovčina 2026
+# Kontakty — Ovčina 2026
 
-## Přihlášky, ubytování, info pro účastníky
+## Kdo se ptá nejdřív — Bača Ovčina bot
+
+Pro **jakoukoli otázku ohledně hry, pravidel, logistiky, parkování, ubytování, stravy, programu nebo registrace** nejdřív napište botovi **Bača Ovčina**:
+
+- **WhatsApp / Telegram:** **+420 735 907 567**
+- Bot je dostupný 24/7 a zná všechny aktuální informace.
+- Stačí napsat dotaz volně česky, není potřeba speciální příkaz.
+
+Pokud bot neumí na tvůj konkrétní dotaz odpovědět, eskaluj prosím na **Blanku** (viz níže).
+
+## Přihlášky, ubytování, platby — eskalace
 
 - **Blanka Richtarová** — 731 647 493, bl.richtar@gmail.com
-  - Primární kontakt pro všechny dotazy ohledně přihlášek, plateb, ubytování a logistiky.
+  - Pro dotazy, které bot neumí zodpovědět: přihlášky, platby, individuální ubytování a další organizační detaily.
 
 ## Příběh, příšery, pomoc s organizací
 

@@ -58,7 +58,7 @@ přístup:
 ### Nepřímé vazby
 
 - Trpasličí klan **Mablad** v pevnosti Blackflame obchoduje podél severních průsmyků — potenciální prostředníci pro jižní vliv
-- Jižní agenti mohou cestovat jako kupci po cestě Men-i-Araw (přes Strayhold)
+- Jižní agenti mohou cestovat jako kupci po cestě Men-i-Araw (přes Scestov, ICE: Strayhold)
 - Gondorská pohraniční stanice Thorontir kontroluje část těchto tras
 
 ---

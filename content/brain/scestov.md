@@ -1,12 +1,14 @@
 ---
-název: Strayhold — město tuláků a lupičů
-kategorie: [místa, Strayhold, hvozd]
+název: Scestov — město tuláků a lupičů (ICE: Strayhold)
+kategorie: [místa, Scestov, Strayhold, hvozd]
 přístup:
   veřejné: false
   gm: true
 ---
 
-# Strayhold — Město tuláků a lupičů
+# Scestov — Město tuláků a lupičů
+
+*(ICE-source: Strayhold / Buhr Waldlaes / Brandaroth / Fire Town. V Ovčině kanonicky **Scestov**, lokace #33 v API.)*
 
 > Zdroje: ICE8090 Brigands of Mirkwood
 > Zpracováno: 2026-04-03
@@ -18,8 +20,8 @@ přístup:
 
 | Vlastnost | Hodnota |
 |-----------|---------|
-| **Název** | Strayhold (Buhr Waldlaes / Brandaroth) |
-| **Přezdívky** | „Bezprávý hrad" (Buhr Waldlaes), „Ohnivé město" (Brandaroth / Fire Town) |
+| **Název** | Scestov (ICE: Strayhold / Buhr Waldlaes / Brandaroth) |
+| **Přezdívky** | „Bezprávý hrad" (Buhr Waldlaes), „Ohnivé město" (Brandaroth / Fire Town), „Lišákovo doupě" (řeč zlodějů severního obvodu) |
 | **Poloha** | Jižní Rhovanion, několik mil JV od Temného hvozdu, u cesty Men-i-Araw |
 | **Obyvatelstvo** | ~900 duší |
 | **Charakter** | Lupičské hnízdo, černý trh, divočina — ale i legitimní obchod |
@@ -29,7 +31,7 @@ přístup:
 
 ## Popis a atmosféra
 
-Strayhold je město vybudované v soustavě soutěsek a roklin asi 20 mil od okraje Temného hvozdu. Potok vytvořil systém skalních útesů a jeskyní, do kterých se nastěhovaly generace tuláků, kupců, zločinců a uprchlíků.
+Scestov je město vybudované v soustavě soutěsek a roklin asi 20 mil od okraje Temného hvozdu. Potok vytvořil systém skalních útesů a jeskyní, do kterých se nastěhovaly generace tuláků, kupců, zločinců a uprchlíků.
 
 Město má atmosféru temného karnevalu — chaotická směs baráků, velkolepých síní, jeskyní a krámků. Uličky z kordových prken hemží se podomními obchodníky a opilci. Noc je osvětlena pochodněmi, hospody nikdy nezavírají. Každé zboží se tu dá sehnat — od hedvábí po jedy — ale prodejci sahají od přátelských po smrtelně nebezpečné.
 
@@ -173,7 +175,7 @@ Nebezpečné jádro města — doupata klanů.
 
 ## Herní kontext (Ovčina)
 
-Strayhold je ideální pro:
+Scestov je ideální pro:
 
 - **Neutrální město** — místo kde se potkávají všechny frakce (elfové, trpaslíci, lidé, zločinci)
 - **Černý trh** — hráči mohou nakupovat vzácné předměty, ale riskují
@@ -198,8 +200,8 @@ Strayhold je ideální pro:
 
 ## Časté dotazy
 
-**Q: Je Strayhold „zlé" město?**
+**Q: Je Scestov „zlé" město?**
 A: Ne jednoznačně. Je to šedá zóna — legitimní obchod vedle zločinu. Hráči mohou najít spojence i nepřátele. Leardinoth je jednoznačně zlý (Nekromantův služebník), ale většina obyvatel je prostě přežívající na okraji civilizace.
 
 **Q: Jak velké je město v porovnání s Esgarothem?**
-A: Menší (900 vs. tisíce v Esgarothu), ale živější a nebezpečnější. Esgaroth je civilizovaný obchod, Strayhold je divoký západ.
+A: Menší (900 vs. tisíce v Esgarothu), ale živější a nebezpečnější. Esgaroth je civilizovaný obchod, Scestov je divoký západ.

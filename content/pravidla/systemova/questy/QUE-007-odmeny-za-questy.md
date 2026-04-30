@@ -61,6 +61,8 @@ Hráč platí **10 zkušeností** pro otevření obálky osobního questu (per Q
 - + 25 grošů
 - + bespoke odměna
 
+> *Viz též **DOV-003** — část questů má vázané cipher clues (quest-tied tier dobrodružných dovedností), které urychlují postup bez prozrazení celého řešení.*
+
 ## Využití zkušeností
 
 Zkušenosti slouží k **postupu na vyšší úrovně**:

@@ -175,7 +175,7 @@ Každá postava má v kole jednu akci z následujících:
 
 Speciální akce podle povolání:
 
-- **Schování** (zloděj) — zašeptat „schovávám se" a dřepnout si (kapitola 5).
+- **Schování** (zloděj) — zašeptat „schovávám se" a dřepnout si (nebo nasadit kápi / zakrýt oči prsty, pokud už sedí — kapitola 5).
 - **Koncentrace** (mág) — doplň tolik many (vezmi zpět z odhozené many příslušný počet kroužků), jako je úroveň postavy (kapitola 6).
 
 Další akce nesou kartičky dovedností příslušného povolání.
@@ -308,7 +308,7 @@ Tichošlápek, který nebojuje čestně. V boji ho není vidět, dokud neprobodn
 | 4 | — | 3k6+ | — | — | 25 |
 | 5 | — | — | Rychlé schování, Kluzký | — | 30 |
 
-**Akce schování:** zašeptej „schovávám se" a dřepni si.
+**Akce schování:** zašeptej „schovávám se" a **dřepni si**. Pokud už sedíš, **dej si přes hlavu kápi** nebo si alespoň **zakryj oči prsty**, aby bylo všem jasné, že se schováváš.
 
 - Schovaný hráč nemůže být cílem blízkého ani střeleckého útoku ani cíleného kouzla.
 - Některé příšery schovaného **vycítí** — proti nim schování neplatí.

@@ -29,6 +29,8 @@ Poklady nalezené na lokacích a v terénu. Tyrkysové, zlaté a stříbrné kam
 ### Skryté poklady
 Důkladně schované poklady, ke kterým se lze dostat povětšinou jen s nápovědou. Kouzelné bytosti mají rády manu a za bílé krystaly (manu) dají postavám nápovědu.
 
+> *Viz též **DOV-003** — část skrytých pokladů (~25 lokací) je „flagship-paired": viditelná TreasureStash navíc skrývá cipher upgrade pro nositele dobrodružných dovedností.*
+
 ## Indicie ke skrytým pokladům
 
 Indicie lze získat:
@@ -47,7 +49,7 @@ Na lokacích označených "Quest" jsou popsány úkoly vedoucí k pokladům a zk
 | Tyrkysové, zlaté, stříbrné kameny | 1 groš za kus |
 | Černé krystaly | 5 zkušeností |
 | Průhledné krystaly (mana) | Učení kouzel, platba vílám a mudrcům |
-| Bylinky | Quest Bylinkář, výměna za magický svitek |
+| Bylinky | Quest Bylinkář, prodej obchodníkovi (5:1 g), výroba lektvarů s dovedností Alchymista — viz BYL-001 |
 | Šikovný kámen | 10 XP, nebo zvýšení produkce suroviny o 2 |
 | Kapky dračí krve | Rudé kamínky, důležité na začátku hry |
 | Oromeho slzy | Žehnání království ve Svatyni |

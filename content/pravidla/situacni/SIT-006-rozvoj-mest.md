@@ -7,7 +7,7 @@ stav: schváleno
 viditelnost: obojí
 závisí-na: []
 nahrazuje: []
-poslední-změna: 2026-04-26
+poslední-změna: 2026-04-30
 klíčové-fráze:
   - jak rozvíjet město
   - pravidla pro rozvoj měst
@@ -34,51 +34,57 @@ Každá produkční budova někomu patří a obchodník dává její produkci p�
 
 ### Produkční budovy (město i vesnice)
 
+> Produkční budovy lze stavět v jakémkoliv národě. Pokud kingdom není rodný pro danou surovinu, produkce se halvuje (4 → 2 surovin/období). **Statek je výjimka:** jídlo nemá rodné království, Statek produkuje 4 jídla/období všude.
+>
+> Rodné páry: Dřevo–Elfové, Kámen–Trpaslíci, Víno–Lidé, Kožešiny–Nový Arnor.
+
 | Budova | Účel | Cena |
 |--------|------|------|
-| Pila | Produkce 4 dřeva za období | 20 grošů |
-| Důl | Produkce 4 kamene za období | 20 grošů |
-| Vinice | Produkce 4 vína za období | 20 grošů |
-| Statek | Produkce 4 jídla za období | 20 grošů |
+| Pila | 4 dřeva / období (Elfové) / 2 dřeva / období (jinde) | 20 grošů |
+| Důl | 4 kamene / období (Trpaslíci) / 2 kamene / období (jinde) | 20 grošů |
+| Vinice | 4 vína / období (Lidé) / 2 vína / období (jinde) | 20 grošů |
+| Statek | 4 jídla / období (univerzální, žádné rodné království) | 20 grošů |
+| Koželužna | 4 kožešin / období (Nový Arnor) / 2 kožešin / období (jinde) | 20 grošů |
 
-Patří postavám nebo králi. Po postavení ihned dává 2 suroviny svého typu.
+Patří postavám nebo králi. Po postavení ihned dává 2 suroviny svého typu. Detailní halved-if-foreign rule viz EKO-003.
 
-### Divoká příroda (pouze ve vesnici)
+### Manufaktura (pouze ve městě)
+
+**Cena gold (escalující):** 1. manufaktura ve městě stojí 20 g, 2. = 25 g, 3. = 30 g, 4. = 35 g, 5. = 40 g, 6. = 45 g.
+
+**Materiály (konstantní):** 3 jednotky surovin typu A + 3 jednotky surovin typu B + 1 jídlo. A a B jsou různé suroviny ze 4 (dřevo / kámen / víno / kožešiny), hráč volí při stavbě.
+
+**Po stavbě:** 5 g zpět + 1 zboží do trhové krabice.
+
+**Produkce každé období:** 1 zboží do trhové krabice + výplata 4 + X grošů (X = počet manufaktur ve městě).
+
+**Daň:** Z výplaty 1 g jde králi, 3+X majiteli. S Cechovním domem ve stejném městě se výplata mění na 5+X (1 g král, 4+X majitel).
+
+**Výplaty manufaktury jdou přes trhovou krabici, ne přes krále** (viz EKO-004).
+
+### Příroda (pouze ve vesnici)
 
 Budovy s náhodnou složkou produkce — sběr, lov a rybaření. Stavět je lze **pouze ve vesnici**. Náhoda se vyhodnocuje hodem 1k6 každé období.
 
 | Budova | Účel | Cena |
 |--------|------|------|
-| Lovecký srub | 2 jídla fixně každé období + náhodná produkce kožešin (1k6: 1-2 nic, 3-5: 1 kožešina, 6: 2 kožešiny) | 8 grošů, 2 dřeva |
+| Lovecký srub | 2 jídla fixně každé období + náhodná produkce kožešin (1k6: 1-2 nic, 3-5: 1 kožešina, 6: 2 kožešiny) | 8 grošů, 2 dřeva, 1 kožešina |
 | Herbárium | Náhodná produkce bylinek každé období (1k6, počet bylinek = hodnota kostky, tedy 1-6 bylinek) | 10 grošů, 2 dřeva, 1 jídlo |
 | Rybník | 1 jídlo fixně každé období + 1k6 bonus (1-2 nic, 3-4: +1 jídlo, 5-6: +1 Rosa Valar curio) | 8 grošů, 2 dřeva, 1 kámen |
 
-### Manufaktura (pouze ve městě)
-
-- **Produkce:** 1 zboží za období (dává se do trhové krabice).
-- **Cena:** 20 grošů.
-- Po postavení dává staviteli ihned 5 grošů zpět a jedno zboží se přidá do trhové krabice.
-- Každé období dá hráči 4 + X grošů, kde X je celkový počet manufaktur ve městě (včetně této). Tedy 1. manufaktura dá 5 grošů za období.
-- **Daň z budovy** (viz EKO-011): U manufaktury se 1 groš za období strhává **přímo z výplaty 4 + X** — král dostává 1 groš, majitel 3 + X.
-
 ### Vojenské a magické budovy (pouze ve městě)
 
+> **Upgrade chain.** Zbraně: Kovárna (úroveň 3) → Výheň (úroveň 4, nahrazuje Kovárnu) → Arsenál (úroveň 4–5+, nahrazuje Výheň). Kouzla: Svitkovna (úroveň 3) → Kouzelnická věž (úroveň 4, nahrazuje Svitkovnu) → Citadela mudrců (úroveň 4–5, nahrazuje Kouzelnickou věž). Detailní mechanika upgrade řetězce viz níže.
+
 | Budova | Účel | Cena |
 |--------|------|------|
-| Psinec | Ve městě se dají kupovat psi | 10 grošů, 2 jídla, 2 dřeva |
-| Kovárna | Zbraně úrovně 3 | 10 grošů, 2 dřeva, 2 kameny |
-| Výheň | Zbraně úrovně 4 | 15 grošů, 2 many, 1 menhir, 2 dřeva, 2 kameny, 2 vína, 2 jídla |
-| Arsenál | Zbraně úrovně 4, 5 a vyšší; kování legendárních zbraní. Nahrazuje Výheň. | 30 grošů, 10 kamene, 5 dřeva, 1 menhir |
+| Psinec | Ve městě se dají kupovat psi | 10 grošů, 2 dřeva, 2 jídla, 1 kožešina |
+| Kovárna | Zbraně úrovně 3 | 10 grošů, 2 dřeva, 2 kameny, 1 kožešina |
+| Výheň | Zbraně úrovně 4. Nahrazuje Kovárnu. | 15 grošů, 2 dřeva, 2 kameny, 2 vína, 2 jídla, 1 kožešina, 2 many, 1 menhir |
+| Arsenál | Zbraně úrovně 4, 5 a vyšší; kování legendárních zbraní. Nahrazuje Výheň. | 30 grošů, 5 dřeva, 10 kamene, 2 kožešin, 1 menhir |
 | Svitkovna | Kouzla úrovně 3 | 10 grošů, 2 dřeva, 2 vína |
-| Kouzelnická věž | Koupě a učení kouzel úrovně 4 | 15 grošů, 2 many, 1 voda hvězd, 2 dřeva, 2 kameny, 2 vína, 2 jídla |
-| Citadela mudrců | Koupě a učení kouzel úrovně 4 a 5. Nahrazuje Kouzelnickou věž. | 30 grošů, 10 vína, 5 jídla, 1 voda hvězd |
-
-### Ostatní budovy (pouze ve městě)
-
-| Budova | Účel | Cena |
-|--------|------|------|
-| Bradavičné gladiátorské gymnázium Bilba Pytlíka | Groše se dají měnit za zkušenosti (5 grošů = 1 zkušenost). Potřebuje hráče 4. úrovně na založení. | 10 grošů, 6 dřeva, 2 jídla, 2 kameny, 2 vína |
-| Lazaret | Postavy se mohou ve vesnici léčit zdarma | 5 grošů |
+| Kouzelnická věž | Koupě a učení kouzel úrovně 4. Nahrazuje Svitkovnu. | 15 grošů, 2 dřeva, 2 kameny, 2 vína, 2 jídla, 1 kožešina, 2 many, 1 voda hvězd |
+| Citadela mudrců | Koupě a učení kouzel úrovně 4 a 5. Nahrazuje Kouzelnickou věž. | 30 grošů, 10 vína, 5 jídla, 2 kožešin, 1 voda hvězd |
 
 ### Prestižní budovy (pouze ve městě)
 
@@ -86,8 +92,25 @@ Budovy podporující bodování národa v Pilířích slávy (viz ROZ-014).
 
 | Budova | Účel | Cena |
 |--------|------|------|
-| Cechovní dům | Každá manufaktura ve stejném městě produkuje +1 groš za období navíc (formulka 4 + X se mění na 5 + X) | 15 grošů, 3 dřeva, 2 kamene |
-| Síň trofejí | Trofeje z příšer kategorie III nebo IV zde uložené počítají **dvojnásobně** pro Pilíř Moci na konci hry (viz ROZ-014) | 20 grošů, 3 dřeva, 3 kamene |
+| Cechovní dům | Každá manufaktura ve stejném městě produkuje +1 groš za období navíc (formulka 4 + X se mění na 5 + X) | 15 grošů, 3 dřeva, 2 kamene, 1 kožešina |
+| Síň trofejí | Trofeje z příšer kategorie III nebo IV zde uložené počítají **dvojnásobně** pro Pilíř Moci na konci hry (viz ROZ-014) | 20 grošů, 3 dřeva, 3 kamene, 1 kožešina |
+
+### Ostatní budovy (pouze ve městě)
+
+| Budova | Účel | Cena |
+|--------|------|------|
+| Bradavičné gladiátorské gymnázium Bilba Pytlíka | Groše se dají měnit za zkušenosti (5 grošů = 1 zkušenost). Potřebuje hráče 4. úrovně na založení. | 10 grošů, 6 dřeva, 2 kameny, 2 vína, 2 jídla, 2 kožešin |
+
+### Hráčské nemovitosti (město i vesnice)
+
+Plná pravidla viz **SIT-008 — Hráčské nemovitosti**. Zde jen ceník pro účely limitu budov a daně.
+
+| Budova | Účel | Cena |
+|--------|------|------|
+| Dům | Hráčská nemovitost. Max 1 / hráč. Nájem 1 g/období v hře + 1 g/období do banku pro příští hru. Obyvatel s domem spotřebuje za zimu o 2 dřeva méně. | 40 grošů, 2 dřeva, 2 kameny, 1 jídlo |
+| Panství | Upgrade z Domu. Max 1 / hráč. Nájem 3 g/období v hře + 3 g/období do banku. 1 bod do Pilíře Bohatství. | 80 grošů, dodatečný recept: 4 dřeva, 4 kameny, 2 jídla, 1 šperky, 1 hračky, 1 šaty, 1 koření |
+
+Daň z budov (1 g/období do královské pokladny — viz EKO-011) se vztahuje i na Dům a Panství.
 
 ## Pořadí stavby vojenských a magických budov
 

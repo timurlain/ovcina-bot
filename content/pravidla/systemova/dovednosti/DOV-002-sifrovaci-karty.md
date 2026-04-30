@@ -198,8 +198,8 @@ Technicky je to možné (hlavně u štěrbin, kde je vidět 3-4 sousední písme
 
 **Viz též:**
 - **DOV-001** — Dobrodružné dovednosti (hráčský pohled)
-- `prompty/loremaster-obsah-sifer.md` — jak rozhodnout, co má dovednost na lokaci najít
-- `prompty/rulemaster-tvorba-sifer.md` — jak konkrétně vyrobit šifrovanou zprávu
+- `docs/prompty/loremaster-obsah-sifer.md` — jak rozhodnout, co má dovednost na lokaci najít
+- `docs/prompty/rulemaster-tvorba-sifer.md` — jak konkrétně vyrobit šifrovanou zprávu
 
 
 ---

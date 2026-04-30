@@ -217,11 +217,11 @@ přístup:
 - **Vládce:** Waildungský kmenový vůdce
 - **Popis:** Politické a ekonomické centrum Waildungů. Zemědělství a řemesla na okraji hvozdu.
 
-### Strayhold (Buhr Waldlaes / Brandaroth)
+### Scestov (ICE: Strayhold / Buhr Waldlaes / Brandaroth)
 - **Typ:** „Zákonuprosté město" — havířská osada zlodějů, kupců a tuláků
 - **Region:** Několik mil jižně a východně od Temného hvozdu, u cesty Men-i-Araw
 - **Obyvatel:** ~900 duší
-- **Přezdívky:** Buhr Waldlaes (Bezprávý hrad), Brandaroth (Ohnivé město)
+- **Přezdívky:** Buhr Waldlaes (Bezprávý hrad), Brandaroth (Ohnivé město), v ICE známé jako Strayhold / Fire Town
 - **Viz:** Samostatný soubor `strayhold.md` pro podrobný popis
 
 ### Thorontir
@@ -358,7 +358,7 @@ přístup:
 ## Poznámky a otevřené otázky
 
 - Některé lokace z MERP (Dale, Erebor) jsou v Ovčině zasazeny do jiného časového období (T.A. 2989–2994 pro 30. ročník) a mohou vypadat jinak
-- Strayhold je nejpodrobněji zpracovaná lokace — samostatný soubor `strayhold.md`
+- Scestov je nejpodrobněji zpracovaná lokace — samostatný soubor `scestov.md` (lokace #33 v API)
 - Temná místa (Sarn Goriwing, Nahald Kudan, Ceber Fanuin) vyžadují hlubší extrakci z ICE4010 pro plné popisy
 - Caras Amarth (opuštěné elfí město) je skvělý kandidát na průzkumné dobrodružství
 
@@ -367,5 +367,5 @@ přístup:
 **Q: Které lokace jsou nejrelevantnější pro 30. ročník Ovčiny (Balinova pozvánka, T.A. 2989)?**
 A: Hlavně Azanulinbar-dum (Železné hory — odkud Balin vyráží), Erebor (výchozí bod), Woodmen-town a Buhr Ailgra (spojenci na cestě). Dol Guldur je stále aktivní hrozba.
 
-**Q: Kde ve světě Ovčiny se Strayhold nachází?**
+**Q: Kde ve světě Ovčiny se Scestov nachází?**
 A: Jižně a východně od Temného hvozdu, u hlavní obchodní cesty Men-i-Araw. Může sloužit jako „neutrální město" pro dobrodruhy všech frakcí.
