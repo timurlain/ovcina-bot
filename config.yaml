@@ -1,6 +1,11 @@
 telegram:
   rulemaster_token: "${TELEGRAM_RULEMASTER_TOKEN}"
   loremaster_token: "${TELEGRAM_LOREMASTER_TOKEN}"
+  # Webhook mode is enabled when webhook_base_url is set; required for any
+  # multi-replica deploy. Leave empty to fall back to long-polling locally.
+  webhook_base_url: "${TELEGRAM_WEBHOOK_BASE_URL:-}"
+  rulemaster_webhook_secret: "${TELEGRAM_RULEMASTER_WEBHOOK_SECRET:-}"
+  loremaster_webhook_secret: "${TELEGRAM_LOREMASTER_WEBHOOK_SECRET:-}"
 
 waha:
   url: "${WAHA_URL}"

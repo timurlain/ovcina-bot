@@ -15,6 +15,14 @@ from dotenv import load_dotenv
 class TelegramConfig:
     rulemaster_token: str
     loremaster_token: str
+    # If `webhook_base_url` is set, both bots run in webhook mode and Telegram
+    # pushes updates to {webhook_base_url}/webhook/telegram/{rulemaster,loremaster}.
+    # If empty, the legacy long-polling path is used (intended for local dev;
+    # multi-replica deploys MUST use webhook mode because only one client can
+    # poll a given bot token at a time).
+    webhook_base_url: str = ""
+    rulemaster_webhook_secret: str = ""
+    loremaster_webhook_secret: str = ""
 
 
 @dataclass
@@ -93,17 +101,22 @@ class Config:
     rule_editors: list[str] = field(default_factory=list)
 
 
-_ENV_PATTERN = re.compile(r"\$\{(\w+)\}")
+# ${VAR} = required env var; ${VAR:-default} = optional env var with a default
+# (the default may be empty, like ${VAR:-})
+_ENV_PATTERN = re.compile(r"\$\{(\w+)(?::-([^}]*))?\}")
 
 
 def _resolve_env(value: str) -> str:
-    """Replace ${VAR} with environment variable value."""
+    """Replace ${VAR} or ${VAR:-default} with environment variable value."""
     def replacer(match: re.Match) -> str:
         var = match.group(1)
+        default = match.group(2)
         env_val = os.environ.get(var)
-        if env_val is None:
-            raise ValueError(f"Environment variable {var} not set")
-        return env_val
+        if env_val is not None:
+            return env_val
+        if default is not None:
+            return default
+        raise ValueError(f"Environment variable {var} not set")
 
     if isinstance(value, str):
         return _ENV_PATTERN.sub(replacer, value)

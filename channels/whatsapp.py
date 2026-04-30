@@ -10,6 +10,7 @@ from flask import Flask, request, jsonify
 import aiohttp
 
 from channels.api import bp as consult_bp
+from channels.telegram_webhook import bp as telegram_bp
 from core.auth import UserStore, send_verification_email, check_registration, lookup_user_character
 from core.router import route
 from core.notes import detect_note, save_note
@@ -71,6 +72,11 @@ class WhatsAppChannel:
         self.app.config["RULEMASTER"] = rulemaster
         self.app.config["LOREMASTER"] = loremaster
         self.app.register_blueprint(consult_bp)
+        # Telegram webhook routes share the same Flask app. The blueprint
+        # uses a module-level runtime registry (channels.telegram) to find
+        # the Application instances + asyncio loop, since they're set up on
+        # a different thread.
+        self.app.register_blueprint(telegram_bp)
 
     def _bot_jid(self):
         """Bot's own WhatsApp JID (e.g. '420735907567@c.us'), cached."""
