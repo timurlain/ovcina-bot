@@ -124,6 +124,38 @@ def test_empty_payload_returns_200_ignored(client):
     assert resp.get_json() == {"status": "ignored"}
 
 
+def test_malformed_json_body_returns_400_not_ignored(client):
+    """Garbage in the body must NOT be silently ignored — Telegram retries
+    on 4xx/5xx but stops on 200, so a real-update payload that happens to
+    arrive corrupted should still be retried instead of dropped."""
+    rt = _runtime(loop=MagicMock(), rm_app=MagicMock(), lm_app=MagicMock(),
+                  rm_secret="rm-secret", lm_secret="lm-secret")
+    with patch("channels.telegram_webhook._get_runtime", return_value=rt):
+        resp = client.post(
+            "/webhook/telegram/rulemaster",
+            data="{ this is not json",
+            headers={"X-Telegram-Bot-Api-Secret-Token": "rm-secret",
+                     "Content-Type": "application/json"},
+        )
+    assert resp.status_code == 400
+    assert resp.get_json() == {"error": "bad_payload"}
+
+
+def test_non_dict_json_body_returns_400(client):
+    """A valid JSON payload that isn't a dict (e.g. a bare string or array)
+    is not a Telegram update — reject as bad_payload."""
+    rt = _runtime(loop=MagicMock(), rm_app=MagicMock(), lm_app=MagicMock(),
+                  rm_secret="rm-secret", lm_secret="lm-secret")
+    with patch("channels.telegram_webhook._get_runtime", return_value=rt):
+        resp = client.post(
+            "/webhook/telegram/rulemaster",
+            data='"hello"',
+            headers={"X-Telegram-Bot-Api-Secret-Token": "rm-secret",
+                     "Content-Type": "application/json"},
+        )
+    assert resp.status_code == 400
+
+
 def test_malformed_payload_returns_400(client):
     """Update.de_json raising should produce a 400, not propagate."""
     rt = _runtime(loop=MagicMock(), rm_app=MagicMock(), lm_app=MagicMock(),

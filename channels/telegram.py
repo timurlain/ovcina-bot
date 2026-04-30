@@ -890,8 +890,25 @@ async def start_telegram_bots(config, user_store, rulemaster, loremaster):
             if use_webhooks:
                 rm_url = f"{webhook_base}/webhook/telegram/rulemaster"
                 lm_url = f"{webhook_base}/webhook/telegram/loremaster"
-                rm_secret = config.telegram.rulemaster_webhook_secret or None
-                lm_secret = config.telegram.loremaster_webhook_secret or None
+                rm_secret = (config.telegram.rulemaster_webhook_secret or "").strip() or None
+                lm_secret = (config.telegram.loremaster_webhook_secret or "").strip() or None
+                # Refuse to enable webhook mode without per-bot secret tokens.
+                # The /webhook/telegram/<persona> routes are publicly reachable;
+                # without a secret anyone could POST forged updates and
+                # impersonate users. Fail loudly at startup rather than expose
+                # the bot to anonymous webhook traffic.
+                if not rm_secret or not lm_secret:
+                    missing = []
+                    if not rm_secret:
+                        missing.append("TELEGRAM_RULEMASTER_WEBHOOK_SECRET")
+                    if not lm_secret:
+                        missing.append("TELEGRAM_LOREMASTER_WEBHOOK_SECRET")
+                    raise RuntimeError(
+                        "Webhook mode requires both per-bot secret tokens to be "
+                        "set when TELEGRAM_WEBHOOK_BASE_URL is configured. "
+                        f"Missing: {', '.join(missing)}. Either set the secrets "
+                        "or unset TELEGRAM_WEBHOOK_BASE_URL to fall back to polling."
+                    )
                 # drop_pending_updates clears any polling backlog from a prior run.
                 await rm_app.bot.set_webhook(
                     url=rm_url, secret_token=rm_secret,
@@ -929,8 +946,12 @@ async def start_telegram_bots(config, user_store, rulemaster, loremaster):
                         rulemaster_secret=None, loremaster_secret=None,
                     )
                     try:
-                        await rm_app.bot.delete_webhook()
-                        await lm_app.bot.delete_webhook()
+                        # Mirror the set_webhook(drop_pending_updates=True)
+                        # at startup — keeps redeploy state consistent and
+                        # avoids a stale backlog leaking into a polling
+                        # fallback later.
+                        await rm_app.bot.delete_webhook(drop_pending_updates=True)
+                        await lm_app.bot.delete_webhook(drop_pending_updates=True)
                     except Exception:
                         pass
                 else:

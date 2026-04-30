@@ -17,6 +17,7 @@ load time and to keep the test surface narrow.
 from __future__ import annotations
 
 import asyncio
+import json
 import logging
 
 from flask import Blueprint, jsonify, request
@@ -66,9 +67,19 @@ def telegram_webhook(persona: str):
             logger.warning("Telegram %s webhook secret mismatch", persona)
             return jsonify({"error": "unauthorized"}), 401
 
-    payload = request.get_json(silent=True)
-    if not payload:
+    # Distinguish empty body from malformed JSON. request.get_json(silent=True)
+    # collapses both to None, which would let invalid payloads reply 200 ignored
+    # and Telegram would stop retrying — a real update could be silently dropped.
+    raw = request.get_data(as_text=True) or ""
+    if not raw.strip():
         return jsonify({"status": "ignored"}), 200
+    try:
+        payload = json.loads(raw)
+    except (json.JSONDecodeError, ValueError) as e:
+        logger.warning("Telegram %s webhook: malformed JSON body: %s", persona, e)
+        return jsonify({"error": "bad_payload"}), 400
+    if not isinstance(payload, dict) or not payload:
+        return jsonify({"error": "bad_payload"}), 400
 
     Update = _telegram_update_class()
     try:
