@@ -367,8 +367,8 @@ async def rm_pravidla(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Show link to the full rules document."""
     await update.message.reply_text(
         "📜 *Kompletní pravidla Ovčiny*\n\n"
-        f"[Otevřít dokument s pravidly]({FULL_RULES_URL})\n\n"
-        "Tento dokument obsahuje všechna aktuální pravidla hry. "
+        f"[Otevřít stránku s pravidly]({FULL_RULES_URL})\n\n"
+        "Veřejná stránka s aktuálními pravidly hry. "
         "Pokud máš dotaz ke konkrétnímu pravidlu, napiš ho přímo do chatu "
         "nebo použij /pravidlo <dotaz>.",
         parse_mode="Markdown",
