@@ -5,6 +5,7 @@ from __future__ import annotations
 import asyncio
 import logging
 import re
+import threading
 from pathlib import Path
 
 from telegram import Update
@@ -23,6 +24,61 @@ from core.question_log import init_question_log, log_question, get_recent_questi
 from core.baca import create_task
 
 logger = logging.getLogger(__name__)
+
+
+# ============================================================
+# Webhook runtime — handles shared with the Flask webhook routes.
+#
+# The Telegram Applications run on a dedicated asyncio loop in the main thread
+# (started by start_telegram_bots). The Flask app handling the inbound webhook
+# requests runs on a separate thread. The Flask handlers reach into the
+# Telegram loop via `asyncio.run_coroutine_threadsafe`. Both the loop and the
+# Application instances are exposed here as a small thread-safe registry.
+# ============================================================
+
+class _WebhookRuntime:
+    """Thread-safe holder for cross-thread access to the Telegram loop + apps."""
+
+    def __init__(self):
+        self._lock = threading.Lock()
+        self.loop: asyncio.AbstractEventLoop | None = None
+        self.rulemaster_app = None
+        self.loremaster_app = None
+        self.rulemaster_secret: str | None = None
+        self.loremaster_secret: str | None = None
+
+    def set(self, *, loop, rulemaster_app, loremaster_app,
+            rulemaster_secret=None, loremaster_secret=None):
+        with self._lock:
+            self.loop = loop
+            self.rulemaster_app = rulemaster_app
+            self.loremaster_app = loremaster_app
+            self.rulemaster_secret = rulemaster_secret
+            self.loremaster_secret = loremaster_secret
+
+    def snapshot(self):
+        with self._lock:
+            return (
+                self.loop,
+                self.rulemaster_app,
+                self.loremaster_app,
+                self.rulemaster_secret,
+                self.loremaster_secret,
+            )
+
+
+_runtime = _WebhookRuntime()
+
+
+def set_webhook_runtime(**kwargs):
+    """Update the cross-thread runtime registry (called from the Telegram loop)."""
+    _runtime.set(**kwargs)
+
+
+def get_webhook_runtime() -> _WebhookRuntime:
+    """Read access for Flask handlers running on the WhatsApp/HTTP thread."""
+    return _runtime
+
 
 FULL_RULES_URL = (
     "https://solvertech-my.sharepoint.com/:w:/g/personal/"
@@ -819,14 +875,46 @@ async def start_telegram_bots(config, user_store, rulemaster, loremaster):
     lm_app.add_handler(CommandHandler("hotfix", cmd_hotfix))
     lm_app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, lm_message))
 
-    # Run both bots concurrently
+    # Run both bots concurrently. Webhook mode is enabled when a base URL is
+    # configured; that's the only multi-replica-safe path. The legacy polling
+    # path stays for local dev / single-replica fallback.
+    webhook_base = (config.telegram.webhook_base_url or "").rstrip("/")
+    use_webhooks = bool(webhook_base)
+
     async with rm_app:
         async with lm_app:
             await rm_app.start()
             await lm_app.start()
             logger.info("Both Telegram bots started (Rulemaster + LoreMaster)")
-            await rm_app.updater.start_polling(allowed_updates=Update.ALL_TYPES)
-            await lm_app.updater.start_polling(allowed_updates=Update.ALL_TYPES)
+
+            if use_webhooks:
+                rm_url = f"{webhook_base}/webhook/telegram/rulemaster"
+                lm_url = f"{webhook_base}/webhook/telegram/loremaster"
+                rm_secret = config.telegram.rulemaster_webhook_secret or None
+                lm_secret = config.telegram.loremaster_webhook_secret or None
+                # drop_pending_updates clears any polling backlog from a prior run.
+                await rm_app.bot.set_webhook(
+                    url=rm_url, secret_token=rm_secret,
+                    allowed_updates=Update.ALL_TYPES, drop_pending_updates=True,
+                )
+                await lm_app.bot.set_webhook(
+                    url=lm_url, secret_token=lm_secret,
+                    allowed_updates=Update.ALL_TYPES, drop_pending_updates=True,
+                )
+                logger.info("Telegram webhooks registered: rm=%s lm=%s", rm_url, lm_url)
+                # Expose handles so the Flask webhook routes (running on a
+                # different thread) can dispatch updates onto this loop.
+                set_webhook_runtime(
+                    loop=asyncio.get_running_loop(),
+                    rulemaster_app=rm_app,
+                    loremaster_app=lm_app,
+                    rulemaster_secret=rm_secret,
+                    loremaster_secret=lm_secret,
+                )
+            else:
+                await rm_app.updater.start_polling(allowed_updates=Update.ALL_TYPES)
+                await lm_app.updater.start_polling(allowed_updates=Update.ALL_TYPES)
+                logger.info("Telegram running in long-polling mode (no webhook URL configured)")
 
             # Block until interrupted
             stop_event = asyncio.Event()
@@ -835,7 +923,18 @@ async def start_telegram_bots(config, user_store, rulemaster, loremaster):
             except (KeyboardInterrupt, SystemExit):
                 pass
             finally:
-                await rm_app.updater.stop()
-                await lm_app.updater.stop()
+                if use_webhooks:
+                    set_webhook_runtime(
+                        loop=None, rulemaster_app=None, loremaster_app=None,
+                        rulemaster_secret=None, loremaster_secret=None,
+                    )
+                    try:
+                        await rm_app.bot.delete_webhook()
+                        await lm_app.bot.delete_webhook()
+                    except Exception:
+                        pass
+                else:
+                    await rm_app.updater.stop()
+                    await lm_app.updater.stop()
                 await rm_app.stop()
                 await lm_app.stop()
