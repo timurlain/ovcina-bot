@@ -7,7 +7,7 @@ stav: schváleno
 viditelnost: hráč
 závisí-na: []
 nahrazuje: []
-poslední-změna: 2026-04-05
+poslední-změna: 2026-04-30
 klíčové-fráze:
   - jak fungují peníze
   - co je groš
@@ -27,12 +27,14 @@ Obyvatelé světa Ovčiny jsou zvyklí platit mincemi. Existují tři druhy minc
 | Měďák | 1 groš |
 | Stříbrňák | 5 grošů |
 | Zlaťák | 25 grošů |
+| Platinová mince (stříbrný půlměsíc) | 125 grošů (= 5 zlaťáků) |
 
 ## Směnný kurz
 
 - **5 měďáků** = 1 stříbrňák
 - **5 stříbrňáků** = 1 zlaťák
 - **25 měďáků** = 1 zlaťák
+- **5 zlaťáků** = 1 platinová mince (stříbrný půlměsíc)
 
 ## Další předměty s peněžní hodnotou
 

@@ -7,7 +7,7 @@ stav: schváleno
 viditelnost: obojí
 závisí-na: [SIT-006, EKO-003, ROZ-014]
 nahrazuje: []
-poslední-změna: 2026-04-30
+poslední-změna: 2026-05-01
 klíčové-fráze:
   - hráčská nemovitost
   - koupit dům
@@ -19,7 +19,7 @@ klíčové-fráze:
 
 # Hráčské nemovitosti — Dům a Panství
 
-Hráči si mohou ve hře zakoupit osobní nemovitost. **Nepočítá se do limitu budov** města ani vesnice. Jeden hráč může vlastnit **maximálně jednu** nemovitost.
+Hrdinové si mohou ve hře zakoupit osobní nemovitost. Jeden hrdina může vlastnit **maximálně jednu** nemovitost. Nemovitost se **nezapočítává do limitu budov** ve městě ani ve vesnici, **ale podléhá dani z budov** (1 g/období do královské pokladny — viz EKO-011).
 
 Nemovitost lze stavět ve městě i ve vesnici.
 

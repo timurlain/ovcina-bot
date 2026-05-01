@@ -19,7 +19,7 @@ klíčové-fráze:
 
 # Rosa Valar
 
-**Rosa Valar** (neformálně „Magical Energy") jsou průhledné krystaly, které hrdinové sbírají na lokacích v přírodě. Slouží jako platidlo pro některé bytosti světa.
+**Rosa Valar** (taktéž známá jako **magická energie**) jsou průhledné krystaly, které hrdinové sbírají na lokacích v přírodě. Slouží jako platidlo pro některé bytosti světa.
 
 ## Co to NENÍ
 
@@ -43,7 +43,7 @@ Rosa Valar **není totéž** co bojová mana, kterou mág spotřebovává při s
 ## Terminologie
 
 - **Český kanonický název:** Rosa Valar
-- **Anglický neformální alias:** Magical Energy
+- **Neformální alias:** magická energie (česky), Magical Energy (anglicky)
 - Starší texty označovaly tyto krystaly jako „světová mana" — termín je **zastaralý**, používej Rosa Valar.
 - Mág a jeho zásoba bojové many se nazývá **mana** (beze změny).
 

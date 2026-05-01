@@ -56,7 +56,7 @@ Dva typy pokladů: volně ložené (kameny na lokacích, 1 groš/kus) a skryté 
 Města rostou na základě nashromážděného obchodního zboží. Limit budov začíná na 9 a zvyšuje se dovozem cizího zboží. Stavba budov vyžaduje suroviny a povolení krále (SIT-006).
 
 ### Speciální předměty (EKO-008)
-Povoz (10 grošů), lucerna (10 grošů — nutná do dungeonu), loďka (10 grošů). Zbraně a vybavení mají ceník v obchodech; obchodníci vykupují zbraně za polovinu ceny.
+Povoz (10 grošů), lucerna (10 grošů — jednorázové použití v Morii), loďka (10 grošů). Zbraně a vybavení mají ceník v obchodech; obchodníci vykupují zbraně za polovinu ceny.
 
 ### Lov a jídlo (EKO-009)
 Na některých lokacích se objevují kartičky zvěře. Hráč hodí kostkou: 4-6 = 2 jídla, 1-3 = nic. Jídlo slouží k léčení po souboji (doplnění životů na maximum), léčení v divočině a rozvoji území.

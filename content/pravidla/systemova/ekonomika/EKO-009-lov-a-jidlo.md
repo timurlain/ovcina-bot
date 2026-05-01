@@ -7,7 +7,7 @@ stav: schváleno
 viditelnost: hráč
 závisí-na: []
 nahrazuje: []
-poslední-změna: 2026-04-05
+poslední-změna: 2026-04-30
 klíčové-fráze:
   - jak funguje lov
   - jak získat jídlo
@@ -40,14 +40,10 @@ Jídlo má dvě hlavní využití:
 
 Pokud hrdinové vyhrají souboj, mohou sníst jídlo a **doplnit si životy na maximum**. Kartičku jídla odevzdají příšeře (organizátorovi).
 
-### 2. Léčení v divočině
-
-Hráč se po návratu do města vyléčí do plna automaticky. Pokud se chce léčit **v divočině** (mimo město), potřebuje jídlo.
-
-### 3. Rozvoj území
+### 2. Rozvoj území
 
 Jídlo se využívá také při rozvoji vesnic a území.
 
 ## Poznámka
 
-Za léčení ve městě se neplatí penězi -- platí se dřepy (fyzické cvičení).
+Za léčení ve městě se neplatí penězi — platí se **3 dřepy** paušálně (viz EKO-012). Léčit v divočině lze **pouze po souboji** odevzdáním jídla příšeře (CP).

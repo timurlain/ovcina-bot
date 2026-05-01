@@ -6,30 +6,31 @@
 ## Obsah
 
 1. [Axiomy hry](#1-axiomy-hry)
-2. [Začátek hry (ZAK-007)](#2-začátek-hry-zak-007)
+2. [Začátek hry](#2-začátek-hry)
 3. [Soubojový systém](#3-soubojový-systém)
 4. [Povolání](#4-povolání)
 5. [Magie](#5-magie)
 6. [Ekonomika](#6-ekonomika)
-7. [Lektvary a alchymie (LEK-001)](#7-lektvary-a-alchymie-lek-001)
+7. [Lektvary a alchymie](#7-lektvary-a-alchymie)
 8. [Questy](#8-questy)
 9. [Příšery](#9-příšery)
 10. [Ovládané bytosti](#10-ovládané-bytosti)
-    - 10.1 Obecná pravidla (OVB-001)
-    - 10.2 Bytůstky (OVB-002)
-    - 10.3 Dračí mládě (OVB-003)
-11. [Dobrodružné dovednosti (DOV-001)](#11-dobrodružné-dovednosti-dov-001)
+    - 10.1 Obecná pravidla
+    - 10.2 Bytůstky
+    - 10.3 Dračí mládě
+11. [Dobrodružné dovednosti](#11-dobrodružné-dovednosti)
 12. [Hrdina ve světě](#12-hrdina-ve-světě)
-13. [Pilíře slávy — bodování národů 2026 (ROZ-014)](#13-pilíře-slávy--bodování-národů-2026-roz-014)
-- [Příloha A — Katalog kouzel úrovně 0 (MAG-005)](#příloha-a--katalog-kouzel-úrovně-0-mag-005)
-- [Příloha B — Katalog kouzel úrovně I–V (MAG-006)](#příloha-b--katalog-kouzel-úrovně-iv-mag-006)
+13. [Pilíře slávy — bodování národů 2026](#13-pilíře-slávy-—-bodování-národů-2026)
+- [Příloha A — Katalog kouzel úrovně 0](#příloha-a-—-katalog-kouzel-úrovně-0)
+- [Příloha B — Katalog kouzel úrovně I–V](#příloha-b-—-katalog-kouzel-úrovně-i–v)
+- [Příloha C — Stavba a budovy](#příloha-c-—-stavba-a-budovy)
 
 
 ## 1. Axiomy hry
 
 Axiomy jsou sedm základních pravidel, kterým podléhá vše ostatní. V případě sporu mezi pravidly mají axiomy přednost.
 
-### 1.1 Bezpečnost dětí (AXI-001)
+### 1.1 Bezpečnost dětí
 
 Ovčina je akce pro děti ve věku 6 –18 let. Bezpečnost každého účastníka je nadřazena všem herním pravidlům, příběhu i zábavě.
 
@@ -42,7 +43,7 @@ Ovčina je akce pro děti ve věku 6 –18 let. Bezpečnost každého účastní
 - Žádná herní situace nesmí dítě vystavit skutečnému fyzickému ani psychickému nebezpečí.
 - Organizátoři mají právo kdykoliv přerušit hru z bezpečnostních důvodů — toto rozhodnutí je konečné a nepodléhá herním pravidlům.
 
-### 1.2 Bezkontaktní souboj (AXI-002)
+### 1.2 Bezkontaktní souboj
 
 Souboj v Ovčině kombinuje fyzický element (běhání, pronásledování, plácnutí) s karetně-kostkovým rozhodováním — bez šermování a bez zbraní.
 
@@ -55,7 +56,7 @@ Souboj v Ovčině kombinuje fyzický element (běhání, pronásledování, plá
 - Tento systém zajišťuje, že i nejmladší hráč (6 let) může v souboji porazit i tu nejsilnější příšeru — o výsledku rozhoduje strategie, vybavení a kostka, nikoliv fyzická síla.
 - Příšery mohou alternativně zahájit souboj hodem šiškou, papírovým míčkem nebo tenisákem — nikdy tvrdým předmětem.
 
-### 1.3 Zábava pro všechny věkové skupiny (AXI-003)
+### 1.3 Zábava pro všechny věkové skupiny
 
 Ovčina je navržena tak, aby každý účastník — od šestiletého hobita po dospělého organizátora — měl smysluplný a zábavný herní zážitek.
 
@@ -70,7 +71,7 @@ Ovčina je navržena tak, aby každý účastník — od šestiletého hobita po
 
 Žádné pravidlo nesmí systematicky znevýhodňovat celou věkovou skupinu. Herní mechaniky musí být odstupňované tak, aby odpovídaly schopnostem a očekáváním každé kategorie.
 
-### 1.4 Volný svět (AXI-004)
+### 1.4 Volný svět
 
 Hráči se svobodně pohybují po herním území a sami si volí, co budou dělat. Neexistuje jediná správná cesta ani předepsané pořadí úkolů.
 
@@ -83,7 +84,7 @@ Hráči se svobodně pohybují po herním území a sami si volí, co budou děl
 - Města slouží jako bezpečné základny — „domečky" pro návrat, doplnění sil, obchod a získávání informací.
 - Spolupráce mezi hráči a městy přináší výhody důležité pro úspěšný závěr celého příběhu, ale není vynucena.
 
-### 1.5 Férovost a spolupráce (AXI-005)
+### 1.5 Férovost a spolupráce
 
 Ovčina je společný zážitek, nikoliv soutěž na život a na smrt. Férovost a respekt mezi hráči jsou základem fungování hry.
 
@@ -97,7 +98,7 @@ Ovčina je společný zážitek, nikoliv soutěž na život a na smrt. Férovost
 - Skupinový boj má větší šanci na úspěch — hra motivuje ke spolupráci, ne k individualismu.
 - Rozhodnutí organizátorů (osudu, CP) je konečné. Hráči je respektují.
 
-### 1.6 Smrt není konec (AXI-006)
+### 1.6 Smrt není konec
 
 Žádný hráč nesmí být vyřazen z hry natrvalo. Prohra v souboji je dočasná překážka, nikoliv trest.
 
@@ -109,7 +110,7 @@ Ovčina je společný zážitek, nikoliv soutěž na život a na smrt. Férovost
 - Tento systém zajišťuje, že prohra nikdy nevede k frustraci nebo vyloučení ze hry, zejména u nejmladších hráčů.
 - Ztráta v souboji má herní důsledky (možnost oloupení, ztráta času na návrat), ale nikdy neodstaví hráče na celý den.
 
-### 1.7 Dobrovolnictví a komunita (AXI-007)
+### 1.7 Dobrovolnictví a komunita
 
 Ovčina stojí na práci dobrovolníků a síle komunity. Toto formuje veškerá rozhodnutí o pravidlech, materiálech a organizaci.
 
@@ -122,7 +123,7 @@ Ovčina stojí na práci dobrovolníků a síle komunity. Toto formuje veškerá
 - Herní příběh často navazuje na předchozí ročníky — hráči pokračují v historii, kterou sami stvořili.
 - Komunikace probíhá přes WhatsApp a interní aplikace (www.ovcina.cz, registrace.ovcina.cz, baca.ovcina.cz, hra.ovcina.cz). Organizační dokumenty musí být jasné, stručné a okamžitě použitelné.
 
-## 2. Začátek hry (ZAK-007)
+## 2. Začátek hry
 
 ## Začátek hry
 
@@ -201,7 +202,7 @@ Jakmile je postava na úrovni 5, získá možnost naučit se **mistrovské doved
 | Předmět | Využití |
 |---------|---------|
 | **Zkušenosti** (barevné drahokamy) | Postup na úrovně, nepřenosné mezi hráči |
-| **Rosa Valar** (průhledné krystaly) | Platba vílám a mudrcům za nápovědy *(dříve nazývaná „mana" — přejmenována, aby nedocházelo k záměně s bojovou manou v počitadle mága)* |
+| **Rosa Valar** (průhledné krystaly, taktéž známé jako **magická energie**) | Platba vílám a mudrcům za nápovědy. |
 | **Kámen** | Surovina — prodej, stavba budov |
 | **Dřevo** | Surovina — prodej, stavba budov |
 | **Víno** | Surovina — prodej, stavba budov |
@@ -215,7 +216,7 @@ Jakmile je postava na úrovni 5, získá možnost naučit se **mistrovské doved
 
 Souboj v Ovčině je bezkontaktní karetně-kostkový systém zahájený fyzickým plácnutím (viz AXI-002). Tato kapitola popisuje mechaniku detailně.
 
-### 3.1 Pravidla soubojů (ZAK-001)
+### 3.1 Pravidla soubojů
 
 Souboj je základní herní mechanismus, při kterém se postavy utkávají s příšerami nebo (v režimu PvP) s jinými hráči. Souboj probíhá po kolech a řídí se systémem akcí UKOPU.
 
@@ -351,7 +352,7 @@ Trpaslík Gulka a elf Feanora se drží navzájem a plácne je organizátor s 6 
 6. Na konci kola postupuje jeden z vlků ze zálohy do souboje a **vlci jsou opět 4**.
 7. Gulka je po útocích tří vlků zraněný a v příštím kole zvažuje útěk.
 
-### 3.2 Útok a obrana (ZAK-002)
+### 3.2 Útok a obrana
 
 Každý účastník souboje je v každém kole charakterizován dvěma čísly: **útočným číslem** a **obranným číslem**. Tato pravidla popisují, jak se počítá poškození při útoku zbraní.
 
@@ -439,7 +440,7 @@ Duše reprezentují základní životní energii postavy. **Počet duší = maxi
 | 4 | 25 |
 | 5 | 30 |
 
-### 3.3 PvP souboje a šerpy (ZAK-008)
+### 3.3 PvP souboje a šerpy
 
 Pravidla pro souboje mezi hráči navzájem (Player vs Player).
 
@@ -472,7 +473,7 @@ Je takový souboj, kdy **útočníků není více než obránců**. Trofeje ze s
 
 Hrdina si na začátku hry vybere jedno ze čtyř povolání (viz ZAK-007). Volba je trvalá a určuje dovednosti, životy a startovací vybavení.
 
-### 4.1 Válečník (ZAK-003)
+### 4.1 Válečník
 
 Mistr všech zbraní zakovaný do té nejtěžší zbroje. Jeho pozice je ve středu bojiště, kde chrání své spojence a zasahuje zdrcující rány nepřátelům. Mimo souboj dokáže zazářit, když je potřeba vyrazit dveře, nebo povalit strom.
 
@@ -503,7 +504,7 @@ Můžeš krýt až **dvě** jiné postavy současně (namísto běžné jedné).
 | **Berserk** | 40 zk | Můžeš použít v předkole. Toto kolo máš **+5 k ÚČ** a **−7 k OČ**. |
 | **Houževnatý** | 40 zk | Dostaneš navíc **10 duší** (celkem 40 duší na 5. úrovni). |
 
-### 4.2 Střelec (ZAK-004)
+### 4.2 Střelec
 
 Mistr střelec, co ustřelí i křídla mouše. V bitvě se kryje za své spolubojovníky a posílá na nepřátele smrt z dálky. Mimo souboj dokáže najít cestu v lese, identifikovat léčivé byliny, nebo se spřátelit se s divokým zvířetem.
 
@@ -538,7 +539,7 @@ V rámci jedné akce můžeš vést střelecký útok na **dvě bytosti**. Kostk
 | **Trickshot** | 40 zk | Se střelnou zbraní dokážeš provést akci **Pomoc** hráči se zbraní pro blízký boj. |
 | **Průraz** | 40 zk | Jednou za kolo, pokud tvůj útok **zabije nepřítele**, můžeš okamžitě zaútočit znovu na **jiného nepřítele**. |
 
-### 4.3 Zloděj (ZAK-005)
+### 4.3 Zloděj
 
 Tichošlápek, který nebojuje čestně a neštítí se používat zákeřné jedy. V boji ho většinou není vidět až do chvíle, než probodne nepříteli srdce a pak se zase ztratí ve stínu.
 
@@ -602,7 +603,7 @@ Při útěku ze souboje **nepřicházíš o životy ani předměty**.
 | **Nenápadný** | 40 zk | **Nepočítáš se** do limitu 4 postav v souboji. |
 | **Jako stín** | 40 zk | Přepadení **4k6+**. Při útocích ze schování můžeš **ignorovat krytí** a útočit na libovolný cíl. |
 
-### 4.4 Mág (ZAK-006)
+### 4.4 Mág
 
 Mistr magie, který dokáže jediným slovem poslat přírodní zákony do kouta. V boji je velice univerzální, jedním kouzlem dokáže zvrátit průběh bitvy. Musí si dávat ale pozor, protože bez spojenců je velice zranitelný. Mimo souboj dokáže luštit prastaré nápisy, nebo poznávat magická místa. **Mág by měl umět číst a samostatně přemýšlet.**
 
@@ -694,9 +695,9 @@ Jednorázové, dají se koupit u obchodníka a může je používat **každá po
 
 Magii v užším smyslu (kouzla úrovně I a vyšší) může používat pouze mág s magickou knihou. Svitky úrovně 0 jsou dostupné každému povolání.
 
-### 5.1 Systém many (MAG-001)
+### 5.1 Systém many
 
-Mana je základní magická energie, kterou mágové používají k sesílání kouzel.
+Mana je vnitřní zdroj mága pro sesílání kouzel. Reprezentuje se manovými kroužky na karabince.
 
 ### Reprezentace many
 
@@ -732,7 +733,7 @@ Rosa Valar (průhledné krystaly) je **samostatná surovina**, kterou hrdinové 
 
 > Učení nových kouzel se platí **groši** v lesní knihovně, **ne** Rosou Valar (viz MAG-007).
 
-### 5.2 Sesílání kouzel (MAG-002)
+### 5.2 Sesílání kouzel
 
 Kouzlení je soubojová akce označená písmenem **K** v systému akcí (UKOPU). Sesílat kouzla vyšších úrovní (I-V) může pouze **mág**. Svitky (úroveň 0) může sesílat každý.
 
@@ -768,7 +769,7 @@ Některá kouzla lze seslat jako **reakce** (mimo běžné pořadí). Aby mág m
 - Na schovanou postavu **nelze sesílat cílená kouzla**.
 - Kouzla, která působí **na všechny** účastníky souboje, schovanou postavu stále ovlivní.
 
-### 5.3 Koncentrace (MAG-003)
+### 5.3 Koncentrace
 
 Koncentrace je speciální soubojová akce dostupná pouze **mágům**. Umožňuje mágovi obnovit část spotřebované many během souboje.
 
@@ -791,7 +792,7 @@ Mág úrovně 3 seslal dvě kouzla úrovně I a jedno kouzlo úrovně II (celkem
 
 Dovednost **Čistá hlava** (dostupná na 5. úrovni — viz MAG-010) umožňuje mágovi vzít si při koncentraci zpět **veškerou odhozenou manu** bez ohledu na úroveň.
 
-### 5.4 Svitky (MAG-004)
+### 5.4 Svitky
 
 Svitky jsou jednorázová kouzla, která může sesílat **každá postava** bez ohledu na povolání. Představují nejzákladnější formu magie dostupnou všem dobrodruhům.
 
@@ -819,15 +820,20 @@ Kompletní seznam kouzel úrovně 0 viz MAG-005.
 
 Svitky jsou **samostatné kartičky**, fyzicky odlišné od karet kouzel mága. **Barevná paleta úrovní I–V** (viz MAG-006 — Barevné značení karet kouzel) se na svitky **nevztahuje** — svitky úrovně 0 nejsou kouzla v užším smyslu (nejsou v magické knize, nestojí manu) a mají vlastní vizuální podobu.
 
-### 5.5 Učení se kouzel (MAG-007)
+### 5.5 Učení se kouzel
 
-Mágové se mohou učit nová kouzla na několika místech ve hře. Učení kouzel vyžaduje groše.
+Mág se učí nová kouzla **pouze ve městech**. Vyšší úrovně kouzel vyžadují příslušnou magickou budovu ve městě. Vesnice ani samostatné lokace učení neumožňují.
 
-### Kde se dají kouzla naučit
+### Kde se kouzla učí
 
-- Ve **městech** u obchodníka
-- U **Mudrců**
-- V **knihovně**
+| Úroveň kouzla | Vyžadovaná budova ve městě |
+|---------------|----------------------------|
+| I, II         | žádná zvláštní budova — kterékoli město |
+| III           | **Svitkovna** (nebo vyšší) |
+| IV            | **Kouzelnická věž** (nahrazuje Svitkovnu) |
+| V             | **Citadela mudrců** (nahrazuje Kouzelnickou věž) |
+
+Vyšší magická budova zahrnuje funkci nižší — město s **Citadelou mudrců** umožňuje učení kouzel úrovní III, IV i V.
 
 ### Cena učení
 
@@ -841,14 +847,14 @@ Mágové se mohou učit nová kouzla na několika místech ve hře. Učení kouz
 
 ### Učení zdarma při postupu na novou úroveň
 
-Při získání nové úrovně mága se mág naučí **jedno kouzlo dané úrovně zdarma**. Toto kouzlo se zapíše do jeho magické knihy (viz MAG-008).
+Při získání nové úrovně mága se mág naučí **jedno kouzlo dané úrovně zdarma**. Zapíše se do magické knihy (viz MAG-008). Pro učení zdarma stále platí, že město musí mít odpovídající magickou budovu.
 
 ### Omezení
 
 - Mág se může učit pouze kouzla úrovně odpovídající jeho **úrovni mága nebo nižší**.
 - Naučená kouzla se zapisují do **magické knihy**.
 
-### 5.6 Magická kniha (MAG-008)
+### 5.6 Magická kniha
 
 Magická kniha je základní vybavení každého mága. Bez ní nemůže mág sesílat kouzla vyšších úrovní.
 
@@ -881,7 +887,7 @@ Mág i organizátor tak rychle vidí, jaká kouzla v knize jsou a v jaké úrovn
 
 Existují také kouzla z dávných dob, která lze občas najít na **samostatných svitcích**. Tato kouzla se sesílají stejně jako kouzla běžná, ale nejsou součástí magické knihy — jsou to jednorázové předměty.
 
-### 5.7 Progrese mága (MAG-009)
+### 5.7 Progrese mága
 
 Mág je jedno ze čtyř povolání dostupných od úrovně 1. Specializuje se na sesílání kouzel. Je velice univerzální v boji, ale bez spojenců zranitelný. Mimo souboj dokáže luštit prastaré nápisy a poznávat magická místa.
 
@@ -918,7 +924,7 @@ Mág je jedno ze čtyř povolání dostupných od úrovně 1. Specializuje se na
 
 Mág by měl umět **číst a samostatně přemýšlet** — to je doporučení pro hráče, kteří si toto povolání zvolí. Kouzla vyžadují čtení a pochopení pravidel.
 
-### 5.8 Dovednosti mága (MAG-010)
+### 5.8 Dovednosti mága
 
 Na páté úrovni získává mág přístup k speciálním dovednostem, které lze zakoupit za zkušenosti.
 
@@ -956,7 +962,7 @@ Legendární předmět určený pro mága úrovně 5:
 
 Arcimágova hůl kombinuje pasivní obnovu many s bonus zásobou, čímž výrazně zvyšuje vytrvalost mága v delších soubojích.
 
-### 5.9 Typy kouzel a živly (MAG-012)
+### 5.9 Typy kouzel a živly
 
 Kouzla mají různé živly a typy. Příšery mohou mít vůči některým živlům odolnost nebo zranitelnost.
 
@@ -983,7 +989,7 @@ Konkrétní vlastnosti dané příšery sděluje organizátor v okamžiku zaháj
 
 Ekonomika Ovčiny je založena na groších, surovinách, zboží, povozu a daních. Hrdina vydělává zlato bojem, questy, sběrem bylin, krádežemi nebo prodejem produkce. Útrata jde do vybavení, lektvarů, učení kouzel a daní.
 
-### 6.1 Měnový systém (EKO-001)
+### 6.1 Měnový systém
 
 Obyvatelé světa Ovčiny jsou zvyklí platit mincemi. Existují tři druhy mincí s následujícími hodnotami:
 
@@ -1009,7 +1015,7 @@ Obyvatelé světa Ovčiny jsou zvyklí platit mincemi. Existují tři druhy minc
 
 Groš je základní jednotkou měny. Všechny ceny ve hře se udávají v groších. Mince se dají směňovat u obchodníků ve městech.
 
-### 6.2 Obchodování a povoz (EKO-002)
+### 6.2 Obchodování a povoz
 
 ### Obchod mezi městy
 
@@ -1051,7 +1057,7 @@ Mimo obchod se surovinami a zbožím existuje několik dílčích ekonomických 
 
 Povoz má simulovat karavanu, aby hráči nepřenášeli nepřiměřené množství surovin v rukou. Pokud obchodník nabude dojmu, že hráči pravidlo obešli, nemusí s nimi obchodovat.
 
-### 6.3 Produkce surovin a zboží (EKO-003)
+### 6.3 Produkce surovin a zboží
 
 ### Základní produkce
 
@@ -1087,7 +1093,7 @@ Získané vesnice přinášejí svému správci slušnou produkci. Suroviny z ve
 - **Stavba budov** ve městě
 - **Obchodní zboží** se prodává tam, kde ho nemají a je po něm poptávka
 
-### 6.4 Byliny — sběr, prodej, využití (BYL-001)
+### 6.4 Byliny — sběr, prodej, využití
 
 Byliny jsou herní zdroj — fyzicky reprezentovaný **kartičkou rostliny**. Hrdina je sbírá na lokacích po Středozemi a může je používat třemi způsoby: plnit s nimi quest **„Bylinkář"**, prodávat je obchodníkům, nebo z nich (s dovedností Alchymista) vařit lektvary.
 
@@ -1145,7 +1151,7 @@ Hrdina s dovedností **Alchymista** (osobní quest, viz LEK-001) může z bylin 
 
 Vyrobitelné jsou 4 lektvary: *Energy drink, Léčivý lektvar, Lektvar štěstí, Jed.* Přesné recepty viz `LEK-001-system-lektvaru.md`.
 
-### 6.5 Daně národa (EKO-011)
+### 6.5 Daně národa
 
 Každé herní období inkasuje král národa do **pokladny národa** dva typy daní:
 
@@ -1178,7 +1184,7 @@ Národ Lidí má 12 hráčů a celkem 11 postavených budov (8 ve městě, 3 ve 
 - Daň z budov: 11 × 1 = **11 grošů za období**
 - **Celkem do pokladny národa: 23 grošů za období**
 
-## 7. Lektvary a alchymie (LEK-001)
+## 7. Lektvary a alchymie
 
 Lektvary jsou reprezentovány **lahvičkami** s provázkem přivázaným lístečkem, na kterém je popis a způsob použití.
 
@@ -1273,7 +1279,7 @@ Vlastní vaření probíhá výhradně v lokaci **Lesní knihovna**. Hráč:
 
 ## 8. Questy
 
-### 8.1 Volené questy (QUE-006)
+### 8.1 Volené questy
 
 ### Princip
 
@@ -1291,7 +1297,7 @@ Volené questy jsou k dispozici **všem postavám**. Na rozdíl od globálních 
 - Není proto příliš vhodné se o získané informace dělit s ostatními.
 - I po zvolení zůstává quest **přístupný i pro ostatní** hráče.
 
-### 8.2 Odměny za questy a zkušenosti (QUE-007)
+### 8.2 Odměny za questy a zkušenosti
 
 ### Questy jako zdroj zkušeností
 
@@ -1351,7 +1357,7 @@ Zkušenosti slouží k **postupu na vyšší úrovně**:
 
 ## 9. Příšery
 
-### 9.1 Trofeje za poražené příšery (PRI-007)
+### 9.1 Trofeje za poražené příšery
 
 ### Co to je
 
@@ -1386,7 +1392,7 @@ Trofeje se nejčastěji používají v questech jako důkaz, že hráč nebo sku
 - Bodování Pilíře Moci — trofeje z příšer kategorie III a IV počítají do bodování národa (ROZ-014).
 - Síň trofejí ve městě zdvojnásobí jejich hodnotu pro Pilíř Moci (SIT-006).
 
-### 9.2 Valounky (PRI-008)
+### 9.2 Valounky
 
 **Valounky** jsou malé hladké kamínky označené pečetí království — drobné mince z kamene. **Každý valounek má hodnotu 1 grošu** a ve městech se přijímají jako platná měna.
 
@@ -1400,7 +1406,7 @@ Sběr valounků je **fyzická hra** — běh, vyhýbání, rychlost a obratnost.
 
 ## 10. Ovládané bytosti
 
-### 10.1 Obecná pravidla (OVB-001)
+### 10.1 Obecná pravidla
 
 **Ovládaná bytost** (zkratka **OB**) je společník, který v souboji bojuje po boku hrdiny. Není to NPC — **hrdina za ni rozhoduje** stejně jako za svou postavu.
 
@@ -1457,7 +1463,7 @@ V obou případech je OB pro hrdinu **trvale ztracená**.
 - **Přesun vlastnictví** — Pokud hrdina daruje OB jinému hrdinovi, **žádné formální značení se nevyžaduje** (kartu si jednoduše předá nový majitel). Limit 1 daného druhu na hrdinu se však uplatňuje normálně.
 - **Ztráta nebo zničení karty** — **Permanentní ztráta.** OB nelze přetisknout — fyzická karta je sama o sobě nositelem práva na bytost.
 
-### 10.2 Bytůstky (OVB-002)
+### 10.2 Bytůstky
 
 **Bytůstky** jsou speciální druh ovládané bytosti — **40 unikátních, ručně ilustrovaných karet**, které hrdinové získávají **za absolvování Akademie**. Jsou to lesní tvorečkové v malé zbroji: medvíďata, jezevci, ježci, havrani, sovy a podobně.
 
@@ -1537,7 +1543,7 @@ Oba jsou ovládané bytosti a v **průběhu souboje** se chovají podle stejnýc
 | **Po přežití souboje** | Automaticky se léčí na plné životy | Automaticky se léčí na plné životy |
 | **Když padne na 0 životů** | **Trvale ztracen** (kartu odevzdat příšeře nebo roztrhnout) | **Vykoupit zpět** od příšery za 1 jídlo, jinak ztracena |
 
-### 10.3 Dračí mládě (OVB-003)
+### 10.3 Dračí mládě
 
 **Dračí mládě** (zkráceně **dráček**) je ovládaná bytost, která v průběhu hry roste a sílí, pokud do ní hrdina investuje. Investice spočívá v krmení — jídlo, zkušenosti a později i groše. Každé krmení posune dráčka o jednu úroveň výš.
 
@@ -1597,7 +1603,7 @@ V obou případech se dráček vrací s plnými životy.
 Pokud dráček souboj přežije, **automaticky se doléčí na plné životy** (per 10.1).
 
 
-## 11. Dobrodružné dovednosti (DOV-001)
+## 11. Dobrodružné dovednosti
 
 ## Co je dobrodružná dovednost?
 
@@ -1649,130 +1655,22 @@ Když hrdina přiloží svou šablonu na lokaci a dekóduje skrytý vzkaz, můž
 
 ## 12. Hrdina ve světě
 
-### 12.1 Rozvoj měst — jak může hrdina přispět (SIT-006)
+### 12.1 Rozvoj měst — jak může hrdina přispět
 
-Stavbu budovy povoluje král. Postavit ji může jak král, tak hrdinové. Pozor na limit počtu budov ve městě!
+Stavbu budovy povoluje král. Postavit ji může jak král, tak hrdinové.
 
-- **Město:** maximálně 9 budov (na začátku).
+- **Město:** maximálně 9 budov na začátku hry. Limit roste díky růstu města (viz níže).
 - **Vesnice:** maximálně 3 budovy.
 
-Každá produkční budova někomu patří a obchodník dává její produkci přímo k ní.
-
-### Ceník budov
-
-#### Produkční budovy (město i vesnice)
-
-| Budova | Účel | Cena |
-|--------|------|------|
-| Pila | 4 dřeva za období (Elfové) / 2 dřeva (jinde) | 20 grošů |
-| Důl | 4 kamene za období (Trpaslíci) / 2 kamene (jinde) | 20 grošů |
-| Vinice | 4 vína za období (Lidé) / 2 vína (jinde) | 20 grošů |
-| Statek | 4 jídla za období všude (univerzální — jídlo nemá rodné království) | 20 grošů |
-| Koželužna | 4 kožešin za období (Nový Arnor) / 2 kožešin (jinde) | 20 grošů |
-
-Patří postavám nebo králi. Po postavení ihned dává 2 suroviny svého typu. **Pravidlo poloviny mimo rodný národ** (viz EKO-003): pokud národ není rodný pro danou surovinu, produkce je poloviční. Statek je výjimka — jídlo je univerzální.
-
-#### Divoká příroda (pouze ve vesnici)
-
-Budovy s náhodnou složkou produkce — sběr, lov a rybaření. Stavět je lze **pouze ve vesnici**. Náhoda se vyhodnocuje hodem 1k6 každé období.
-
-| Budova | Účel | Cena |
-|--------|------|------|
-| Lovecký srub | 2 jídla fixně každé období + náhodná produkce kožešin (1k6: 1-2 nic, 3-5: 1 kožešina, 6: 2 kožešiny) | 8 grošů, 2 dřeva, 1 kožešina |
-| Herbárium | Náhodná produkce bylinek každé období (1k6, počet bylinek = hodnota kostky, tedy 1-6 bylinek) | 10 grošů, 2 dřeva, 1 jídlo |
-| Rybník | 1 jídlo fixně každé období + 1k6 bonus (1-2 nic, 3-4: +1 jídlo, 5-6: +1 Rosa Valar curio) | 8 grošů, 2 dřeva, 1 kámen |
-
-#### Manufaktura (pouze ve městě)
-
-- **Produkce:** 1 zboží za období (dává se do trhové krabice).
-- **Cena gold escaluje s pořadím manufaktury ve městě:**
-
-  | Pořadí | Cena |
-  |---|---|
-  | 1. | 20 grošů |
-  | 2. | 25 grošů |
-  | 3. | 30 grošů |
-  | 4. | 35 grošů |
-  | 5. | 40 grošů |
-  | 6. | 45 grošů |
-
-- **Materiály (konstantní bez ohledu na pořadí):** 3 jednotky surovin typu A + 3 jednotky surovin typu B + 1 jídlo (A ≠ B; hrdina volí ze 4 surovin: dřevo / kámen / víno / kožešiny).
-- Po postavení dává staviteli ihned 5 grošů zpět a jedno zboží se přidá do trhové krabice.
-- Každé období dá hrdinovi 4 + X grošů, kde X je celkový počet manufaktur ve městě (včetně této). Tedy 1. manufaktura dá 5 grošů za období.
-- **Daň z budovy** (viz EKO-011): U manufaktury se 1 groš za období strhává **přímo z výplaty 4 + X** — král dostává 1 groš, majitel 3 + X. S Cechovním domem ve městě: výplata **5 + X** (1 g král, 4 + X majitel).
-
-#### Vojenské a magické budovy (pouze ve městě)
-
-| Budova | Účel | Cena |
-|--------|------|------|
-| Psinec | Ve městě se dají kupovat psi | 10 grošů, 2 dřeva, 2 jídla, 1 kožešina |
-| Kovárna | Zbraně úrovně 3 | 10 grošů, 2 dřeva, 2 kameny, 1 kožešina |
-| Výheň | Zbraně úrovně 4 | 15 grošů, 2 dřeva, 2 kameny, 2 vína, 2 jídla, 1 kožešina, 2 many, 1 menhir |
-| Arsenál | Zbraně úrovně 4, 5 a vyšší; kování legendárních zbraní. Nahrazuje Výheň. | 30 grošů, 5 dřeva, 10 kamene, 2 kožešin, 1 menhir |
-| Svitkovna | Kouzla úrovně 3 | 10 grošů, 2 dřeva, 2 vína |
-| Kouzelnická věž | Koupě a učení kouzel úrovně 4 | 15 grošů, 2 dřeva, 2 kameny, 2 vína, 2 jídla, 1 kožešina, 2 many, 1 voda hvězd |
-| Citadela mudrců | Koupě a učení kouzel úrovně 4 a 5. Nahrazuje Kouzelnickou věž. | 30 grošů, 10 vína, 5 jídla, 2 kožešin, 1 voda hvězd |
-
-#### Ostatní budovy (pouze ve městě)
-
-| Budova | Účel | Cena |
-|--------|------|------|
-| Bradavičné gladiátorské gymnázium Bilba Pytlíka | Groše se dají měnit za zkušenosti (5 grošů = 1 zkušenost). K založení je potřeba hrdina 4. úrovně. | 10 grošů, 6 dřeva, 2 kameny, 2 vína, 2 jídla, 2 kožešin |
-
-#### Prestižní budovy (pouze ve městě)
-
-Budovy podporující bodování národa v Pilířích slávy (viz ROZ-014).
-
-| Budova | Účel | Cena |
-|--------|------|------|
-| Cechovní dům | Každá manufaktura ve stejném městě produkuje +1 groš za období navíc (formulka 4 + X se mění na 5 + X) | 15 grošů, 3 dřeva, 2 kamene, 1 kožešina |
-| Síň trofejí | Trofeje z příšer kategorie III nebo IV zde uložené počítají **dvojnásobně** pro Pilíř Moci na konci hry (viz ROZ-014) | 20 grošů, 3 dřeva, 3 kamene, 1 kožešina |
-
-#### Hráčské nemovitosti
-
-Dům a Panství jsou samostatná kategorie hrdinských nemovitostí — ceník a podmínky viz **§ 11.3 (SIT-008)**. Daň z budov 1 g/období (EKO-011) se na ně vztahuje.
-
-### Pořadí stavby vojenských a magických budov
-
-Vojenské a magické budovy se **stavějí v pevném pořadí**. Každá vyšší úroveň vyžaduje předchozí budovu jako prerekvizitu — nelze přeskočit stupeň.
-
-#### Řetězec zbraní
-
-```
-Kovárna (lvl 3)  →  Výheň (lvl 4)  →  Arsenál (lvl 4, 5 a vyšší)
-```
-
-- **Kovárna** se může postavit kdykoli (žádná prerekvizita).
-- **Výheň** lze postavit **jen ve městě, kde už stojí Kovárna**.
-- **Arsenál** lze postavit **jen ve městě, kde už stojí Výheň**. Po postavení Arsenálu Výheň zaniká (nahrazuje ji Arsenál — viz tabulka výše).
-
-#### Řetězec kouzel
-
-```
-Svitkovna (lvl 3)  →  Kouzelnická věž (lvl 4)  →  Citadela mudrců (lvl 4 a 5)
-```
-
-- **Svitkovna** se může postavit kdykoli (žádná prerekvizita).
-- **Kouzelnickou věž** lze postavit **jen ve městě, kde už stojí Svitkovna**.
-- **Citadelu mudrců** lze postavit **jen ve městě, kde už stojí Kouzelnická věž**. Po postavení Citadely Kouzelnická věž zaniká (nahrazuje ji Citadela).
-
-#### Proč
-
-Postupný řetězec znamená, že národ musí investovat dlouhodobě a strategicky — nelze rovnou skočit na nejvyšší úroveň. Levnější budova (Kovárna / Svitkovna) je nutný první krok, který zároveň hned přináší užitek (zbraně / kouzla úrovně 3) a teprve postupné vylepšení odemykají vyšší úrovně.
-
-#### Co se stavbou původní budovy
-
-Když je postaveno vylepšení (Arsenál nebo Citadela), původní střední budova (Výheň / Kouzelnická věž) **zaniká** — počítá se jako jedna budova v limitu. Tedy Kovárna + Arsenál existují vedle sebe, ale Výheň se odebírá (nepočítá se do limitu 9 budov).
-
-> *Příklad:* Aradhrynd má v 5. období Kovárnu, Výheň a tři manufaktury. V 6. období staví Arsenál — Výheň zaniká, zůstává Kovárna + Arsenál + tři manufaktury (5 budov).
+Každá produkční budova někomu patří a obchodník dává její produkci přímo k ní. Plný ceník budov, řetězce vojenských a magických staveb a podmínky stavby viz **Příloha C — Stavba a budovy**.
 
 ### Růst města
 
 Za každé dvě kompletní sady zboží, které město vykoupí a samo nevyrábí, se rozroste a počet maximálních budov se zvedne o 1. Výkup probíhá automaticky — město vždy vykoupí, co je mu dovezeno, podle ceníku.
 
-*Příklad: V druhém období elfský obchodník vykoupí z karavan 2× šaty, 2× hračky a 2× kožešiny — město má nyní limit budov 10.*
+*Příklad: v druhém období elfský obchodník vykoupí z karavan 2× šaty, 2× hračky a 2× kožešiny — město má nyní limit budov 10.*
 
-### 12.2 Bojová akademie v Brodečku (SIT-007)
+### 12.2 Bojová akademie v Brodečku
 
 ### Kontext
 
@@ -1816,7 +1714,7 @@ Akademie má **40 kusů** plnohodnotných bytůstek (15 + 13 + 12). Pokud zájem
 - **Není to PvP turnaj** — je to **trénink**, ne válka mezi hráči. Souboj v Akademii **nepočítá jako PvP útok** pro účely jiných pravidel (např. olupování, šerpa).
 - **Není to pravidlově těžké** — provoz Akademie je v rukou Lófara, který improvizuje podle situace.
 
-### 12.3 Dům a Panství (SIT-008)
+### 12.3 Dům a Panství
 
 Hráči si mohou ve hře zakoupit osobní nemovitost. **Nepočítá se do limitu budov** města ani vesnice. Jeden hráč může vlastnit **maximálně jednu** nemovitost.
 
@@ -1853,7 +1751,7 @@ Panství je **vylepšení Domu** — hráč musí nejprve vlastnit Dům, pak pla
 - Pro bodování Pilířů se za „Panství v národě" počítá každé Panství postavené na území daného národa, nezávisle na tom, zda jeho majitelem je občan tohoto národa.
 - Luxusní zboží se spotřebovává při stavbě Panství — není skladováno.
 
-## 13. Pilíře slávy — bodování národů 2026 (ROZ-014)
+## 13. Pilíře slávy — bodování národů 2026
 
 ## Proč tento systém
 
@@ -1890,11 +1788,11 @@ Každý pilíř táhne jiný styl hry a odměňuje jiný typ královské strateg
 
 | Položka | Typ | Body |
 |---------|-----|------|
-| Vlastnictví **Arsenálu + Citadely mudrců** | ano/ne | 1 bod |
 | **6 manufaktur** ve městě | ano/ne | 1 bod |
-| Každých **200 grošů** v pokladně na konci hry | škálování | 1 bod / 200 grošů |
 | Každé **Panství** v národě (viz SIT-008) | škálování | 1 bod |
+| Každých **200 grošů** v pokladně na konci hry | škálování | 1 bod / 200 grošů |
 | Umístění v tabulce **Balinovy / Moriiny pokladnice** | žebříček | 4 / 3 / 2 / 1 bod podle pořadí |
+| Vlastnictví **Arsenálu + Citadely mudrců** | ano/ne | 1 bod |
 
 ## Balinova expedice (závěrečná investiční mechanika)
 
@@ -1920,7 +1818,7 @@ Každý pilíř táhne jiný styl hry a odměňuje jiný typ královské strateg
 - Trofeje z příšer a osobní questy (QUE-001) si zachovávají své původní odměny (XP, groše); Pilíře slávy jsou samostatná bodovací vrstva navíc.
 
 
-## Příloha A — Katalog kouzel úrovně 0 (MAG-005)
+## Příloha A — Katalog kouzel úrovně 0
 
 Jednorázová kouzla dostupná všem postavám. Sesílání stojí jednu akci, svitek se po použití odevzdá nebo roztrhá.
 
@@ -1939,7 +1837,7 @@ Jednorázová kouzla dostupná všem postavám. Sesílání stojí jednu akci, s
 - **Bahno** působí pouze na příšery **kategorie I** (nejslabší).
 - **Léčivé dlaně** léčí pouze životy ztracené **v tomto kole** a působí pouze na žijící cíl (ne na bytost v bezvědomí).
 
-## Příloha B — Katalog kouzel úrovně I–V (MAG-006)
+## Příloha B — Katalog kouzel úrovně I–V
 
 Kouzla vyšších úrovní mohou sesílat pouze **mágové** odpovídající úrovně. Cena seslání v maně odpovídá úrovni kouzla.
 
@@ -2030,3 +1928,91 @@ Cena: 5 man. Dostupná od: Mág úrovně 5.
 | **Požehnej zbraně** | Toto kolo veškeré zranění, které tví spolubojovníci udělí svými útoky, je rovno **dvojnásobkům rozdílů** mezi hody na útok a OČ. |
 | **Instinktivní magie** | V rámci seslání kouzla sešli jiné kouzlo **úrovně I. nebo II. zadarmo**. Získej další akci. |
 
+## Příloha C — Stavba a budovy
+
+### Produkční budovy (město i vesnice)
+
+| Budova | Cena | Účel |
+|--------|------|------|
+| Důl | 20 grošů | 4 kamene za období (Trpaslíci) / 2 kamene (jinde) |
+| Koželužna | 20 grošů | 4 kožešin za období (Nový Arnor) / 2 kožešin (jinde) |
+| Pila | 20 grošů | 4 dřeva za období (Elfové) / 2 dřeva (jinde) |
+| Statek | 20 grošů | 4 jídla za období všude (univerzální — jídlo nemá rodné království) |
+| Vinice | 20 grošů | 4 vína za období (Lidé) / 2 vína (jinde) |
+
+Patří hrdinům nebo králi. Po postavení ihned dává 2 suroviny svého typu. **Pravidlo poloviny mimo rodný národ:** pokud národ není rodný pro danou surovinu, produkce je poloviční. Statek je výjimka — jídlo je univerzální.
+
+### Divoká příroda (pouze ve vesnici)
+
+Náhoda se vyhodnocuje hodem 1k6 každé období.
+
+| Budova | Cena | Produkce |
+|--------|------|----------|
+| Herbárium | 10 grošů, 2 dřeva, 1 jídlo | 1k6 bylinek (počet = hodnota kostky) |
+| Lovecký srub | 8 grošů, 2 dřeva, 1 kožešina | 2 jídla fixně + 1k6: 1-2 nic, 3-5: 1 kožešina, 6: 2 kožešiny |
+| Rybník | 8 grošů, 2 dřeva, 1 kámen | 1 jídlo fixně + 1k6: 1-2 nic, 3-4: +1 jídlo, 5-6: +1 Rosa Valar |
+
+### Manufaktura (pouze ve městě)
+
+Cena v groších roste s pořadím manufaktury ve městě:
+
+| Pořadí | Cena |
+|---|---|
+| 1. | 20 grošů |
+| 2. | 25 grošů |
+| 3. | 30 grošů |
+| 4. | 35 grošů |
+| 5. | 40 grošů |
+| 6. | 45 grošů |
+
+**Materiály (konstantní):** 3 jednotky surovin typu A + 3 jednotky surovin typu B + 1 jídlo (A ≠ B; hrdina volí ze 4 surovin: dřevo / kámen / víno / kožešiny).
+
+Po postavení dává staviteli ihned 5 grošů zpět a jedno zboží se přidá do trhové krabice. Každé období dává hrdinovi 4 + X grošů, kde X je celkový počet manufaktur ve městě (včetně této). Z výplaty 1 g jde králi jako daň, 3+X majiteli. S Cechovním domem ve městě se výplata mění na 5+X (1 g král, 4+X majitel).
+
+### Vojenské a magické budovy (pouze ve městě)
+
+| Budova | Cena | Účel |
+|--------|------|------|
+| Arsenál | 30 grošů, 5 dřeva, 10 kamene, 2 kožešin, 1 menhir | Zbraně úrovně 4 a 5; legendární. Nahrazuje Výheň. |
+| Citadela mudrců | 30 grošů, 10 vína, 5 jídla, 2 kožešin, 1 voda hvězd | Kouzla úrovně 4 a 5. Nahrazuje Kouzelnickou věž. |
+| Kouzelnická věž | 15 grošů, 2 dřeva, 2 kameny, 2 vína, 2 jídla, 1 kožešina, 2 many, 1 voda hvězd | Kouzla úrovně 4. Nahrazuje Svitkovnu. |
+| Kovárna | 10 grošů, 2 dřeva, 2 kameny, 1 kožešina | Zbraně úrovně 3 |
+| Psinec | 10 grošů, 2 dřeva, 2 jídla, 1 kožešina | Prodej psů |
+| Svitkovna | 10 grošů, 2 dřeva, 2 vína | Kouzla úrovně 3 |
+| Výheň | 15 grošů, 2 dřeva, 2 kameny, 2 vína, 2 jídla, 1 kožešina, 2 many, 1 menhir | Zbraně úrovně 4. Nahrazuje Kovárnu. |
+
+### Pevné pořadí (vojenské a magické)
+
+Vojenské a magické budovy se stavějí v pevném pořadí. Vyšší stupeň vyžaduje předchozí budovu jako prerekvizitu.
+
+```
+Kovárna (lvl 3)  ->  Výheň (lvl 4)  ->  Arsenál (lvl 4, 5+)
+Svitkovna (lvl 3)  ->  Kouzelnická věž (lvl 4)  ->  Citadela mudrců (lvl 4, 5)
+```
+
+- Levnější budova (Kovárna / Svitkovna) se může postavit kdykoli a hned přináší užitek.
+- Po postavení vyššího stupně původní střední budova (Výheň / Kouzelnická věž) **zaniká** — odebírá se z města a nepočítá se do limitu. Kovárna a Svitkovna zůstávají.
+
+> *Příklad:* Aradhrynd má v 5. období Kovárnu, Výheň a tři manufaktury. V 6. období staví Arsenál — Výheň zaniká, zůstává Kovárna + Arsenál + tři manufaktury (5 budov).
+
+### Prestižní budovy (pouze ve městě)
+
+| Budova | Cena | Účel |
+|--------|------|------|
+| Cechovní dům | 15 grošů, 3 dřeva, 2 kameny, 1 kožešina | Manufaktury ve městě dostanou +1 g/období (4+X → 5+X). |
+| Síň trofejí | 20 grošů, 3 dřeva, 3 kameny, 1 kožešina | Trofeje kategorie III a IV počítají dvojnásobně pro Pilíř Moci. |
+
+### Ostatní budovy (pouze ve městě)
+
+| Budova | Cena | Účel |
+|--------|------|------|
+| Bradavičné gladiátorské gymnázium Bilba Pytlíka | 10 grošů, 6 dřeva, 2 kameny, 2 vína, 2 jídla, 2 kožešin | Směna 5 g = 1 zk. Vyžaduje hrdinu 4. úrovně k založení. |
+
+### Hráčské nemovitosti (město i vesnice)
+
+Hráčské nemovitosti se počítají do limitu budov stejně jako ostatní.
+
+| Budova | Cena | Pravidlo |
+|--------|------|----------|
+| Dům | 40 grošů, 2 dřeva, 2 kameny, 1 jídlo | Max 1 na hrdinu. Nájem 1 g/období v hře + 1 g/období do banku pro příští hru. **Nezapočítává se do limitu budov**, ale **podléhá dani z budov** (1 g/období do královské pokladny). |
+| Panství | upgrade z Domu: 80 grošů + 4 dřeva, 4 kameny, 2 jídla, 1 šperky, 1 hračky, 1 šaty, 1 koření | Max 1 na hrdinu. Nájem 3 g/období v hře + 3 g/období do banku. 1 bod do Pilíře Bohatství. **Nezapočítává se do limitu budov**, ale **podléhá dani z budov**. |

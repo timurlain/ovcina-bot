@@ -7,7 +7,7 @@ stav: schváleno
 viditelnost: obojí
 závisí-na: []
 nahrazuje: []
-poslední-změna: 2026-04-05
+poslední-změna: 2026-04-30
 klíčové-fráze:
   - jak hrát obchodníka
   - pravidla pro obchodníka
@@ -37,14 +37,13 @@ Na začátku hry si hráči vybírají jeden ze setů vybavení, se kterým zač
 - Blízká zbraň se součtem 4
 - Střelná zbraň se součtem 3
 - Dýka a 4 kouzla úrovně 0
-- Dýka a pes (pes je bytost 3/2 s 5 životy, které se mu na konci souboje léčí; pokud nepřežije, je třeba koupit nového)
 - 5 grošů
 
 Maximální počet životů a vybavení, které hráči mohou používat, záleží na jejich povolání a úrovni (viz obecná pravidla). Zkontrolujte to prosím při prodeji.
 
 ## Léčení hráčů
 
-Hráč se po návratu do města vyléčí do plného počtu životů. Pouze pokud se chce léčit v divočině, potřebuje jídlo. Za léčení se platí dřepy.
+Hrdina se po návratu do města vyléčí na plné životy za **3 dřepy** (paušál, bez ohledu na počet doplňovaných životů). Léčení v divočině se odehrává pouze **po souboji** odevzdáním 1 jídla příšeře (CP). Detail viz EKO-012.
 
 ## Prodej zboží
 

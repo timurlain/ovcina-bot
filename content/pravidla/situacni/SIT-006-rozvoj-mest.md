@@ -7,7 +7,7 @@ stav: schváleno
 viditelnost: obojí
 závisí-na: []
 nahrazuje: []
-poslední-změna: 2026-04-30
+poslední-změna: 2026-05-01
 klíčové-fráze:
   - jak rozvíjet město
   - pravidla pro rozvoj měst
@@ -40,11 +40,11 @@ Každá produkční budova někomu patří a obchodník dává její produkci p�
 
 | Budova | Účel | Cena |
 |--------|------|------|
-| Pila | 4 dřeva / období (Elfové) / 2 dřeva / období (jinde) | 20 grošů |
 | Důl | 4 kamene / období (Trpaslíci) / 2 kamene / období (jinde) | 20 grošů |
-| Vinice | 4 vína / období (Lidé) / 2 vína / období (jinde) | 20 grošů |
-| Statek | 4 jídla / období (univerzální, žádné rodné království) | 20 grošů |
 | Koželužna | 4 kožešin / období (Nový Arnor) / 2 kožešin / období (jinde) | 20 grošů |
+| Pila | 4 dřeva / období (Elfové) / 2 dřeva / období (jinde) | 20 grošů |
+| Statek | 4 jídla / období (univerzální, žádné rodné království) | 20 grošů |
+| Vinice | 4 vína / období (Lidé) / 2 vína / období (jinde) | 20 grošů |
 
 Patří postavám nebo králi. Po postavení ihned dává 2 suroviny svého typu. Detailní halved-if-foreign rule viz EKO-003.
 
@@ -68,8 +68,8 @@ Budovy s náhodnou složkou produkce — sběr, lov a rybaření. Stavět je lze
 
 | Budova | Účel | Cena |
 |--------|------|------|
-| Lovecký srub | 2 jídla fixně každé období + náhodná produkce kožešin (1k6: 1-2 nic, 3-5: 1 kožešina, 6: 2 kožešiny) | 8 grošů, 2 dřeva, 1 kožešina |
 | Herbárium | Náhodná produkce bylinek každé období (1k6, počet bylinek = hodnota kostky, tedy 1-6 bylinek) | 10 grošů, 2 dřeva, 1 jídlo |
+| Lovecký srub | 2 jídla fixně každé období + náhodná produkce kožešin (1k6: 1-2 nic, 3-5: 1 kožešina, 6: 2 kožešiny) | 8 grošů, 2 dřeva, 1 kožešina |
 | Rybník | 1 jídlo fixně každé období + 1k6 bonus (1-2 nic, 3-4: +1 jídlo, 5-6: +1 Rosa Valar curio) | 8 grošů, 2 dřeva, 1 kámen |
 
 ### Vojenské a magické budovy (pouze ve městě)
@@ -78,13 +78,13 @@ Budovy s náhodnou složkou produkce — sběr, lov a rybaření. Stavět je lze
 
 | Budova | Účel | Cena |
 |--------|------|------|
-| Psinec | Ve městě se dají kupovat psi | 10 grošů, 2 dřeva, 2 jídla, 1 kožešina |
-| Kovárna | Zbraně úrovně 3 | 10 grošů, 2 dřeva, 2 kameny, 1 kožešina |
-| Výheň | Zbraně úrovně 4. Nahrazuje Kovárnu. | 15 grošů, 2 dřeva, 2 kameny, 2 vína, 2 jídla, 1 kožešina, 2 many, 1 menhir |
 | Arsenál | Zbraně úrovně 4, 5 a vyšší; kování legendárních zbraní. Nahrazuje Výheň. | 30 grošů, 5 dřeva, 10 kamene, 2 kožešin, 1 menhir |
-| Svitkovna | Kouzla úrovně 3 | 10 grošů, 2 dřeva, 2 vína |
-| Kouzelnická věž | Koupě a učení kouzel úrovně 4. Nahrazuje Svitkovnu. | 15 grošů, 2 dřeva, 2 kameny, 2 vína, 2 jídla, 1 kožešina, 2 many, 1 voda hvězd |
 | Citadela mudrců | Koupě a učení kouzel úrovně 4 a 5. Nahrazuje Kouzelnickou věž. | 30 grošů, 10 vína, 5 jídla, 2 kožešin, 1 voda hvězd |
+| Kouzelnická věž | Koupě a učení kouzel úrovně 4. Nahrazuje Svitkovnu. | 15 grošů, 2 dřeva, 2 kameny, 2 vína, 2 jídla, 1 kožešina, 2 many, 1 voda hvězd |
+| Kovárna | Zbraně úrovně 3 | 10 grošů, 2 dřeva, 2 kameny, 1 kožešina |
+| Psinec | Ve městě se dají kupovat psi | 10 grošů, 2 dřeva, 2 jídla, 1 kožešina |
+| Svitkovna | Kouzla úrovně 3 | 10 grošů, 2 dřeva, 2 vína |
+| Výheň | Zbraně úrovně 4. Nahrazuje Kovárnu. | 15 grošů, 2 dřeva, 2 kameny, 2 vína, 2 jídla, 1 kožešina, 2 many, 1 menhir |
 
 ### Prestižní budovy (pouze ve městě)
 
@@ -107,8 +107,8 @@ Plná pravidla viz **SIT-008 — Hráčské nemovitosti**. Zde jen ceník pro ú
 
 | Budova | Účel | Cena |
 |--------|------|------|
-| Dům | Hráčská nemovitost. Max 1 / hráč. Nájem 1 g/období v hře + 1 g/období do banku pro příští hru. Obyvatel s domem spotřebuje za zimu o 2 dřeva méně. | 40 grošů, 2 dřeva, 2 kameny, 1 jídlo |
-| Panství | Upgrade z Domu. Max 1 / hráč. Nájem 3 g/období v hře + 3 g/období do banku. 1 bod do Pilíře Bohatství. | 80 grošů, dodatečný recept: 4 dřeva, 4 kameny, 2 jídla, 1 šperky, 1 hračky, 1 šaty, 1 koření |
+| Dům | Hráčská nemovitost. Max 1 / hráč. Nájem 1 g/období v hře + 1 g/období do banku pro příští hru. **Nezapočítává se do limitu budov**, ale **podléhá dani z budov** (1 g/období do královské pokladny). | 40 grošů, 2 dřeva, 2 kameny, 1 jídlo |
+| Panství | Upgrade z Domu. Max 1 / hráč. Nájem 3 g/období v hře + 3 g/období do banku. 1 bod do Pilíře Bohatství. **Nezapočítává se do limitu budov**, ale **podléhá dani z budov** (1 g/období). | 80 grošů, dodatečný recept: 4 dřeva, 4 kameny, 2 jídla, 1 šperky, 1 hračky, 1 šaty, 1 koření |
 
 Daň z budov (1 g/období do královské pokladny — viz EKO-011) se vztahuje i na Dům a Panství.
 

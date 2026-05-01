@@ -1,0 +1,8457 @@
+[
+  {
+    "kind": "pool",
+    "tier": "S",
+    "title": "Kamenný klíč",
+    "phase": "Lategame",
+    "stashId": 85,
+    "stashName": "Dutý kůl",
+    "locationId": 40,
+    "locationName": "Mrtvý les",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 2,
+    "itemId": 404
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Sigel",
+    "phase": "Start",
+    "stashId": 139,
+    "stashName": "Puklina v podlaze",
+    "locationId": 60,
+    "locationName": "Jeskyně bledého jezdce",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 44,
+    "itemId": 508
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Peorth",
+    "phase": "Start",
+    "stashId": 56,
+    "stashName": "Runový práh",
+    "locationId": 29,
+    "locationName": "Kamenný kruh",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 42,
+    "itemId": 506
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Gifu",
+    "phase": "Start",
+    "stashId": 52,
+    "stashName": "Zpívající trhlina",
+    "locationId": 28,
+    "locationName": "Jeskyně věštkyně",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 33,
+    "itemId": 499
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Berc",
+    "phase": "Start",
+    "stashId": 120,
+    "stashName": "Dlaždice označená rytinou lebky",
+    "locationId": 54,
+    "locationName": "Skřetí tábor",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 46,
+    "itemId": 510
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Gear",
+    "phase": "Start",
+    "stashId": 121,
+    "stashName": "Skřetí značka",
+    "locationId": 54,
+    "locationName": "Skřetí tábor",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 40,
+    "itemId": 504
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Berc",
+    "phase": "Start",
+    "stashId": 180,
+    "stashName": "Safírová deska",
+    "locationId": 74,
+    "locationName": "Hrobka Krále Pod Horou",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 46,
+    "itemId": 510
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Man",
+    "phase": "Start",
+    "stashId": 193,
+    "stashName": "Bairanaxova dutina",
+    "locationId": 81,
+    "locationName": "Ostrov Tol Narthad",
+    "region": "Moře rhun",
+    "regrem": 2,
+    "poolEntryId": 48,
+    "itemId": 512
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Eh",
+    "phase": "Start",
+    "stashId": 143,
+    "stashName": "Kamenná maska",
+    "locationId": 61,
+    "locationName": "Síň přízraků",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 47,
+    "itemId": 511
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Lagu",
+    "phase": "Start",
+    "stashId": 160,
+    "stashName": "Výrazně páchnoucí hromada",
+    "locationId": 67,
+    "locationName": "Gundabad — Skřetí město",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 49,
+    "itemId": 513
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Peorth",
+    "phase": "Start",
+    "stashId": 51,
+    "stashName": "Nachový kámen",
+    "locationId": 28,
+    "locationName": "Jeskyně věštkyně",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 42,
+    "itemId": 506
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Nead",
+    "phase": "Early",
+    "stashId": 157,
+    "stashName": "Okovaná truhla",
+    "locationId": 66,
+    "locationName": "Norr-dum — Trpasličí kolonie",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 36,
+    "itemId": 502
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Man",
+    "phase": "Early",
+    "stashId": 122,
+    "stashName": "Skřetí bedna",
+    "locationId": 54,
+    "locationName": "Skřetí tábor",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 48,
+    "itemId": 512
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Rad",
+    "phase": "Early",
+    "stashId": 154,
+    "stashName": "Ledový dech",
+    "locationId": 65,
+    "locationName": "Gondmaeglom — Scathovo doupě",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 38,
+    "itemId": 497
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Eoh",
+    "phase": "Early",
+    "stashId": 156,
+    "stashName": "Zmrzlý pramen",
+    "locationId": 65,
+    "locationName": "Gondmaeglom — Scathovo doupě",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 41,
+    "itemId": 505
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Sigel",
+    "phase": "Early",
+    "stashId": 19,
+    "stashName": "Potopený kmen",
+    "locationId": 15,
+    "locationName": "Vorařská osada",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 44,
+    "itemId": 508
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Wyn",
+    "phase": "Early",
+    "stashId": 181,
+    "stashName": "Kamenný štít",
+    "locationId": 74,
+    "locationName": "Hrobka Krále Pod Horou",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 34,
+    "itemId": 500
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Eohlx",
+    "phase": "Early",
+    "stashId": 89,
+    "stashName": "Zčernalá brána",
+    "locationId": 41,
+    "locationName": "Dol Guldur",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 43,
+    "itemId": 507
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Lagu",
+    "phase": "Early",
+    "stashId": 79,
+    "stashName": "Opeřená skulina",
+    "locationId": 38,
+    "locationName": "Harpyjí hnízdo",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 49,
+    "itemId": 513
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Man",
+    "phase": "Early",
+    "stashId": 145,
+    "stashName": "Drobný komínek",
+    "locationId": 62,
+    "locationName": "Příbytky skřítků",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 48,
+    "itemId": 512
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Berc",
+    "phase": "Early",
+    "stashId": 191,
+    "stashName": "Dračí dráp",
+    "locationId": 81,
+    "locationName": "Ostrov Tol Narthad",
+    "region": "Moře rhun",
+    "regrem": 2,
+    "poolEntryId": 46,
+    "itemId": 510
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Man",
+    "phase": "Early",
+    "stashId": 87,
+    "stashName": "Prasklý oltář",
+    "locationId": 41,
+    "locationName": "Dol Guldur",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 48,
+    "itemId": 512
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Eoh",
+    "phase": "Early",
+    "stashId": 104,
+    "stashName": "Vymletý břeh",
+    "locationId": 48,
+    "locationName": "Starý brod",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 41,
+    "itemId": 505
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Eoh",
+    "phase": "Early",
+    "stashId": 182,
+    "stashName": "Tajný schod",
+    "locationId": 74,
+    "locationName": "Hrobka Krále Pod Horou",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 41,
+    "itemId": 505
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Sigel",
+    "phase": "Early",
+    "stashId": 157,
+    "stashName": "Okovaná truhla",
+    "locationId": 66,
+    "locationName": "Norr-dum — Trpasličí kolonie",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 44,
+    "itemId": 508
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Tiw",
+    "phase": "Early",
+    "stashId": 122,
+    "stashName": "Skřetí bedna",
+    "locationId": 54,
+    "locationName": "Skřetí tábor",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 45,
+    "itemId": 509
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Berc",
+    "phase": "Early",
+    "stashId": 154,
+    "stashName": "Ledový dech",
+    "locationId": 65,
+    "locationName": "Gondmaeglom — Scathovo doupě",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 46,
+    "itemId": 510
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Lagu",
+    "phase": "Early",
+    "stashId": 156,
+    "stashName": "Zmrzlý pramen",
+    "locationId": 65,
+    "locationName": "Gondmaeglom — Scathovo doupě",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 49,
+    "itemId": 513
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Lagu",
+    "phase": "Early",
+    "stashId": 19,
+    "stashName": "Potopený kmen",
+    "locationId": 15,
+    "locationName": "Vorařská osada",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 49,
+    "itemId": 513
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Gear",
+    "phase": "Midgame",
+    "stashId": 102,
+    "stashName": "Ledový převis",
+    "locationId": 47,
+    "locationName": "Ledový průsmyk",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 40,
+    "itemId": 504
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Tiw",
+    "phase": "Midgame",
+    "stashId": 55,
+    "stashName": "Dutý menhir",
+    "locationId": 29,
+    "locationName": "Kamenný kruh",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 45,
+    "itemId": 509
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Berc",
+    "phase": "Midgame",
+    "stashId": 179,
+    "stashName": "Zarostlý meč",
+    "locationId": 73,
+    "locationName": "Pole padlých králů",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 46,
+    "itemId": 510
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Lagu",
+    "phase": "Midgame",
+    "stashId": 91,
+    "stashName": "Vlčí pelech",
+    "locationId": 42,
+    "locationName": "Temná stezka",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 49,
+    "itemId": 513
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Os",
+    "phase": "Midgame",
+    "stashId": 144,
+    "stashName": "Miniaturní dvířka",
+    "locationId": 62,
+    "locationName": "Příbytky skřítků",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 31,
+    "itemId": 496
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Eohlx",
+    "phase": "Midgame",
+    "stashId": 37,
+    "stashName": "Zčernalý oltář",
+    "locationId": 23,
+    "locationName": "Ceber Fanuin",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 43,
+    "itemId": 507
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Berc",
+    "phase": "Midgame",
+    "stashId": 178,
+    "stashName": "Travnatá kupka",
+    "locationId": 73,
+    "locationName": "Pole padlých králů",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 46,
+    "itemId": 510
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Eh",
+    "phase": "Midgame",
+    "stashId": 162,
+    "stashName": "Železná mříž",
+    "locationId": 67,
+    "locationName": "Gundabad — Skřetí město",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 47,
+    "itemId": 511
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Man",
+    "phase": "Midgame",
+    "stashId": 151,
+    "stashName": "Rozsedlina",
+    "locationId": 64,
+    "locationName": "Ovirská kotlina",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 48,
+    "itemId": 512
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Is",
+    "phase": "Midgame",
+    "stashId": 192,
+    "stashName": "Skalní tůňka",
+    "locationId": 81,
+    "locationName": "Ostrov Tol Narthad",
+    "region": "Moře rhun",
+    "regrem": 2,
+    "poolEntryId": 39,
+    "itemId": 503
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Eh",
+    "phase": "Midgame",
+    "stashId": 177,
+    "stashName": "Kruh tmavší trávy",
+    "locationId": 73,
+    "locationName": "Pole padlých králů",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 47,
+    "itemId": 511
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Tiw",
+    "phase": "Midgame",
+    "stashId": 86,
+    "stashName": "Odchlíplá kůra",
+    "locationId": 40,
+    "locationName": "Mrtvý les",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 45,
+    "itemId": 509
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Hegel",
+    "phase": "Midgame",
+    "stashId": 138,
+    "stashName": "Zamrzlá kaluž",
+    "locationId": 60,
+    "locationName": "Jeskyně bledého jezdce",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 35,
+    "itemId": 501
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Feoh",
+    "phase": "Midgame",
+    "stashId": 18,
+    "stashName": "Hromada dřeva",
+    "locationId": 15,
+    "locationName": "Vorařská osada",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 37,
+    "itemId": 493
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Peorth",
+    "phase": "Midgame",
+    "stashId": 136,
+    "stashName": "Stalaktitový závěs",
+    "locationId": 59,
+    "locationName": "Skaurilovy jeskyně",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 42,
+    "itemId": 506
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Man",
+    "phase": "Midgame",
+    "stashId": 142,
+    "stashName": "Studený sloup",
+    "locationId": 61,
+    "locationName": "Síň přízraků",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 48,
+    "itemId": 512
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Eh",
+    "phase": "Midgame",
+    "stashId": 155,
+    "stashName": "Zmrzlý poklad",
+    "locationId": 65,
+    "locationName": "Gondmaeglom — Scathovo doupě",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 47,
+    "itemId": 511
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Thorn",
+    "phase": "Midgame",
+    "stashId": 80,
+    "stashName": "Kostěné hnízdo",
+    "locationId": 38,
+    "locationName": "Harpyjí hnízdo",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 30,
+    "itemId": 495
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Gear",
+    "phase": "Midgame",
+    "stashId": 102,
+    "stashName": "Ledový převis",
+    "locationId": 47,
+    "locationName": "Ledový průsmyk",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 40,
+    "itemId": 504
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Cen",
+    "phase": "Midgame",
+    "stashId": 55,
+    "stashName": "Dutý menhir",
+    "locationId": 29,
+    "locationName": "Kamenný kruh",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 32,
+    "itemId": 498
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Lagu",
+    "phase": "Midgame",
+    "stashId": 179,
+    "stashName": "Zarostlý meč",
+    "locationId": 73,
+    "locationName": "Pole padlých králů",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 49,
+    "itemId": 513
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Eohlx",
+    "phase": "Midgame",
+    "stashId": 91,
+    "stashName": "Vlčí pelech",
+    "locationId": 42,
+    "locationName": "Temná stezka",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 43,
+    "itemId": 507
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Eh",
+    "phase": "Midgame",
+    "stashId": 144,
+    "stashName": "Miniaturní dvířka",
+    "locationId": 62,
+    "locationName": "Příbytky skřítků",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 47,
+    "itemId": 511
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Eh",
+    "phase": "Midgame",
+    "stashId": 37,
+    "stashName": "Zčernalý oltář",
+    "locationId": 23,
+    "locationName": "Ceber Fanuin",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 47,
+    "itemId": 511
+  },
+  {
+    "kind": "pool",
+    "tier": "A",
+    "title": "Runa Ur",
+    "phase": "Midgame",
+    "stashId": 178,
+    "stashName": "Travnatá kupka",
+    "locationId": 73,
+    "locationName": "Pole padlých králů",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 29,
+    "itemId": 494
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 26,
+    "stashName": "Strážní výklenek",
+    "locationId": 18,
+    "locationName": "Hrad Orlmond",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 7,
+    "stashName": "Jelení stezka",
+    "locationId": 10,
+    "locationName": "Spálov",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 119,
+    "stashName": "Trollí kapsa",
+    "locationId": 53,
+    "locationName": "Zkamenělí trollové",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 131,
+    "stashName": "Okousaný kmen",
+    "locationId": 57,
+    "locationName": "Vlčí rokle",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 114,
+    "stashName": "Medová bečka",
+    "locationId": 52,
+    "locationName": "Meddědův dům",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 45,
+    "stashName": "Studánka",
+    "locationId": 26,
+    "locationName": "Zrcadlo Paní",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 59,
+    "stashName": "Stříbrný lístek",
+    "locationId": 30,
+    "locationName": "Osvětlená mýtina",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 171,
+    "stashName": "Bílý květ",
+    "locationId": 70,
+    "locationName": "Dlouhé mohyly",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 188,
+    "stashName": "Mechový závěs",
+    "locationId": 77,
+    "locationName": "Spící obr",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 115,
+    "stashName": "Medvědí stopa",
+    "locationId": 52,
+    "locationName": "Meddědův dům",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 15,
+    "stashName": "Ztracený toulec",
+    "locationId": 13,
+    "locationName": "Lesní síň",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 4,
+    "stashName": "Vyřezávaný obličej",
+    "locationId": 8,
+    "locationName": "Doubravka",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 148,
+    "stashName": "Ztrouchnivělé kolo",
+    "locationId": 80,
+    "locationName": "Starý mlýn",
+    "region": "Sever",
+    "regrem": 1,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 170,
+    "stashName": "Mohylový výklenek",
+    "locationId": 70,
+    "locationName": "Dlouhé mohyly",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 187,
+    "stashName": "Obří prst",
+    "locationId": 77,
+    "locationName": "Spící obr",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 16,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 43,
+    "stashName": "Stříbrná pěna",
+    "locationId": 25,
+    "locationName": "Začarovaná řeka",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 44,
+    "stashName": "Spáčův vak",
+    "locationId": 25,
+    "locationName": "Začarovaná řeka",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 36,
+    "stashName": "Černá jáma",
+    "locationId": 23,
+    "locationName": "Ceber Fanuin",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 153,
+    "stashName": "Opálený balvan",
+    "locationId": 64,
+    "locationName": "Ovirská kotlina",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 42,
+    "stashName": "Zatopená nora",
+    "locationId": 25,
+    "locationName": "Začarovaná řeka",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 54,
+    "stashName": "Pětiboký kámen",
+    "locationId": 29,
+    "locationName": "Kamenný kruh",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 53,
+    "stashName": "Věštecká miska",
+    "locationId": 28,
+    "locationName": "Jeskyně věštkyně",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 158,
+    "stashName": "Trpasličí runa",
+    "locationId": 66,
+    "locationName": "Norr-dum — Trpasličí kolonie",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 135,
+    "stashName": "Šupinová stěna",
+    "locationId": 59,
+    "locationName": "Skaurilovy jeskyně",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 140,
+    "stashName": "Bledá podkova",
+    "locationId": 60,
+    "locationName": "Jeskyně bledého jezdce",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 84,
+    "stashName": "Uschlý strom",
+    "locationId": 40,
+    "locationName": "Mrtvý les",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 103,
+    "stashName": "Zasněžená mohyla",
+    "locationId": 47,
+    "locationName": "Ledový průsmyk",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 161,
+    "stashName": "Orčí totem",
+    "locationId": 67,
+    "locationName": "Gundabad — Skřetí město",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 38,
+    "stashName": "Šeptající kořen",
+    "locationId": 23,
+    "locationName": "Ceber Fanuin",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 49,
+    "stashName": "Kamenná obálka",
+    "locationId": 27,
+    "locationName": "Hádanková brána",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 105,
+    "stashName": "Opuštěný stánek",
+    "locationId": 48,
+    "locationName": "Starý brod",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 173,
+    "stashName": "Zakopané kopí",
+    "locationId": 71,
+    "locationName": "Východňanský tábor",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 159,
+    "stashName": "Zasypaný tunel",
+    "locationId": 66,
+    "locationName": "Norr-dum — Trpasličí kolonie",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 137,
+    "stashName": "Sírová skvrna",
+    "locationId": 59,
+    "locationName": "Skaurilovy jeskyně",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 88,
+    "stashName": "Spálená zem",
+    "locationId": 41,
+    "locationName": "Dol Guldur",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 48,
+    "stashName": "Elfí zámek",
+    "locationId": 27,
+    "locationName": "Hádanková brána",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 141,
+    "stashName": "Uvolněný schod",
+    "locationId": 61,
+    "locationName": "Síň přízraků",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 16,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 90,
+    "stashName": "Kříž na stromě",
+    "locationId": 42,
+    "locationName": "Temná stezka",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 172,
+    "stashName": "Vybledlý koberec",
+    "locationId": 71,
+    "locationName": "Východňanský tábor",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "B",
+    "title": "Náhrdelník moci",
+    "phase": "Lategame",
+    "stashId": 85,
+    "stashName": "Dutý kůl",
+    "locationId": 40,
+    "locationName": "Mrtvý les",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 4,
+    "itemId": 386
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Lektvar moudrosti věků",
+    "phase": "Start",
+    "stashId": 61,
+    "stashName": "Houbový kruh",
+    "locationId": 31,
+    "locationName": "Vílí palouček",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 11,
+    "itemId": 366
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Mnoholičný lektvar",
+    "phase": "Start",
+    "stashId": 50,
+    "stashName": "Kamenná hádanka",
+    "locationId": 27,
+    "locationName": "Hádanková brána",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 28,
+    "itemId": 490
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Nápoj bohů",
+    "phase": "Start",
+    "stashId": 152,
+    "stashName": "Spálený výklenek",
+    "locationId": 64,
+    "locationName": "Ovirská kotlina",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 12,
+    "itemId": 368
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Nápoj bohů",
+    "phase": "Early",
+    "stashId": 16,
+    "stashName": "Uvolněný kámen",
+    "locationId": 14,
+    "locationName": "Kamenný brod",
+    "region": "Sever",
+    "regrem": 1,
+    "poolEntryId": 12,
+    "itemId": 368
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Příznivé větry",
+    "phase": "Early",
+    "stashId": 150,
+    "stashName": "Pytel s moukou",
+    "locationId": 80,
+    "locationName": "Starý mlýn",
+    "region": "Sever",
+    "regrem": 1,
+    "poolEntryId": 13,
+    "itemId": 491
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Nápoj bohů",
+    "phase": "Early",
+    "stashId": 181,
+    "stashName": "Kamenný štít",
+    "locationId": 74,
+    "locationName": "Hrobka Krále Pod Horou",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 12,
+    "itemId": 368
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Lektvar nezranitelnosti",
+    "phase": "Early",
+    "stashId": 89,
+    "stashName": "Zčernalá brána",
+    "locationId": 41,
+    "locationName": "Dol Guldur",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 8,
+    "itemId": 363
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Nápoj bohů",
+    "phase": "Early",
+    "stashId": 79,
+    "stashName": "Opeřená skulina",
+    "locationId": 38,
+    "locationName": "Harpyjí hnízdo",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 12,
+    "itemId": 368
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Lektvar moudrosti věků",
+    "phase": "Midgame",
+    "stashId": 174,
+    "stashName": "Stříbrná runa",
+    "locationId": 72,
+    "locationName": "Elfí věž",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 11,
+    "itemId": 366
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Lektvar moudrosti věků",
+    "phase": "Midgame",
+    "stashId": 176,
+    "stashName": "Okenní říma",
+    "locationId": 72,
+    "locationName": "Elfí věž",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 11,
+    "itemId": 366
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Nápoj bohů",
+    "phase": "Midgame",
+    "stashId": 29,
+    "stashName": "Převis",
+    "locationId": 20,
+    "locationName": "Podhorany",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 12,
+    "itemId": 368
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Nápoj bohů",
+    "phase": "Midgame",
+    "stashId": 162,
+    "stashName": "Železná mříž",
+    "locationId": 67,
+    "locationName": "Gundabad — Skřetí město",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 12,
+    "itemId": 368
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Nápoj bohů",
+    "phase": "Midgame",
+    "stashId": 151,
+    "stashName": "Rozsedlina",
+    "locationId": 64,
+    "locationName": "Ovirská kotlina",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 12,
+    "itemId": 368
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Lektvar nezranitelnosti",
+    "phase": "Midgame",
+    "stashId": 192,
+    "stashName": "Skalní tůňka",
+    "locationId": 81,
+    "locationName": "Ostrov Tol Narthad",
+    "region": "Moře rhun",
+    "regrem": 2,
+    "poolEntryId": 8,
+    "itemId": 363
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Lektvar moudrosti věků",
+    "phase": "Midgame",
+    "stashId": 177,
+    "stashName": "Kruh tmavší trávy",
+    "locationId": 73,
+    "locationName": "Pole padlých králů",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 11,
+    "itemId": 366
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Lektvar neviditelnosti",
+    "phase": "Midgame",
+    "stashId": 86,
+    "stashName": "Odchlíplá kůra",
+    "locationId": 40,
+    "locationName": "Mrtvý les",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 7,
+    "itemId": 362
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Příznivé větry",
+    "phase": "Lategame",
+    "stashId": 47,
+    "stashName": "Kamenný piedestal",
+    "locationId": 26,
+    "locationName": "Zrcadlo Paní",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 13,
+    "itemId": 491
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Mnoholičný lektvar",
+    "phase": "Lategame",
+    "stashId": 25,
+    "stashName": "Rezavá dvířka",
+    "locationId": 18,
+    "locationName": "Hrad Orlmond",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 28,
+    "itemId": 490
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Lektvar moudrosti věků",
+    "phase": "Lategame",
+    "stashId": 8,
+    "stashName": "Zuhelnatělý práh",
+    "locationId": 10,
+    "locationName": "Spálov",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 11,
+    "itemId": 366
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Mnoholičný lektvar",
+    "phase": "Lategame",
+    "stashId": 39,
+    "stashName": "Indigový keř",
+    "locationId": 24,
+    "locationName": "Tichá zahrada",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 28,
+    "itemId": 490
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Lektvar nezranitelnosti",
+    "phase": "Lategame",
+    "stashId": 124,
+    "stashName": "Kamenný trůn",
+    "locationId": 55,
+    "locationName": "Kobka starého krále",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 20,
+    "itemId": 363
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Příznivé větry",
+    "phase": "Lategame",
+    "stashId": 5,
+    "stashName": "Zasypaná studna",
+    "locationId": 9,
+    "locationName": "Troskov",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 13,
+    "itemId": 491
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Lektvar neviditelnosti",
+    "phase": "Lategame",
+    "stashId": 108,
+    "stashName": "Zřícená strážnice",
+    "locationId": 49,
+    "locationName": "Trollí most",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 7,
+    "itemId": 362
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Nápoj bohů",
+    "phase": "Lategame",
+    "stashId": 117,
+    "stashName": "Kamenný obličej",
+    "locationId": 53,
+    "locationName": "Zkamenělí trollové",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 12,
+    "itemId": 368
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Mnoholičný lektvar",
+    "phase": "Lategame",
+    "stashId": 43,
+    "stashName": "Stříbrná pěna",
+    "locationId": 25,
+    "locationName": "Začarovaná řeka",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 28,
+    "itemId": 490
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Lektvar nezranitelnosti",
+    "phase": "Lategame",
+    "stashId": 44,
+    "stashName": "Spáčův vak",
+    "locationId": 25,
+    "locationName": "Začarovaná řeka",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 8,
+    "itemId": 363
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Mnoholičný lektvar",
+    "phase": "Lategame",
+    "stashId": 36,
+    "stashName": "Černá jáma",
+    "locationId": 23,
+    "locationName": "Ceber Fanuin",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 28,
+    "itemId": 490
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Lektvar neviditelnosti",
+    "phase": "Lategame",
+    "stashId": 153,
+    "stashName": "Opálený balvan",
+    "locationId": 64,
+    "locationName": "Ovirská kotlina",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 22,
+    "itemId": 362
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Lektvar nezranitelnosti",
+    "phase": "Lategame",
+    "stashId": 42,
+    "stashName": "Zatopená nora",
+    "locationId": 25,
+    "locationName": "Začarovaná řeka",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 8,
+    "itemId": 363
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Lektvar neviditelnosti",
+    "phase": "Lategame",
+    "stashId": 54,
+    "stashName": "Pětiboký kámen",
+    "locationId": 29,
+    "locationName": "Kamenný kruh",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 7,
+    "itemId": 362
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Nápoj bohů",
+    "phase": "Lategame",
+    "stashId": 53,
+    "stashName": "Věštecká miska",
+    "locationId": 28,
+    "locationName": "Jeskyně věštkyně",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 12,
+    "itemId": 368
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Příznivé větry",
+    "phase": "Lategame",
+    "stashId": 158,
+    "stashName": "Trpasličí runa",
+    "locationId": 66,
+    "locationName": "Norr-dum — Trpasličí kolonie",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 13,
+    "itemId": 491
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Nápoj bohů",
+    "phase": "Lategame",
+    "stashId": 135,
+    "stashName": "Šupinová stěna",
+    "locationId": 59,
+    "locationName": "Skaurilovy jeskyně",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 12,
+    "itemId": 368
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Lektvar neviditelnosti",
+    "phase": "Lategame",
+    "stashId": 140,
+    "stashName": "Bledá podkova",
+    "locationId": 60,
+    "locationName": "Jeskyně bledého jezdce",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 7,
+    "itemId": 362
+  },
+  {
+    "kind": "pool",
+    "tier": "G",
+    "title": "Příznivé větry",
+    "phase": "Lategame",
+    "stashId": 84,
+    "stashName": "Uschlý strom",
+    "locationId": 40,
+    "locationName": "Mrtvý les",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 13,
+    "itemId": 491
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-101",
+    "fillerTier": "Super large",
+    "title": "Pohřební dar dávného krále",
+    "phase": "Lategame",
+    "stashId": 103,
+    "stashName": "Zasněžená mohyla",
+    "locationId": 47,
+    "locationName": "Ledový průsmyk",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 5
+      },
+      {
+        "itemId": 373,
+        "count": 4
+      },
+      {
+        "itemId": 433,
+        "count": 4
+      },
+      {
+        "itemId": 452,
+        "count": 3
+      }
+    ],
+    "poolItems": [
+      {
+        "itemId": 402,
+        "count": 1
+      }
+    ],
+    "g": 125
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-102",
+    "fillerTier": "Super large",
+    "title": "Truhla bezhlavého obchodníka",
+    "phase": "Lategame",
+    "stashId": 161,
+    "stashName": "Orčí totem",
+    "locationId": 67,
+    "locationName": "Gundabad — Skřetí město",
+    "region": "Železné hory",
+    "regrem": 2,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 4
+      },
+      {
+        "itemId": 377,
+        "count": 3
+      },
+      {
+        "itemId": 374,
+        "count": 4
+      },
+      {
+        "itemId": 375,
+        "count": 4
+      },
+      {
+        "itemId": 433,
+        "count": 4
+      },
+      {
+        "itemId": 373,
+        "count": 3
+      }
+    ],
+    "poolItems": [],
+    "g": 115
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-103",
+    "fillerTier": "Super large",
+    "title": "Pancéř plný zlata pod runami",
+    "phase": "Lategame",
+    "stashId": 38,
+    "stashName": "Šeptající kořen",
+    "locationId": 23,
+    "locationName": "Ceber Fanuin",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 4
+      },
+      {
+        "itemId": 377,
+        "count": 4
+      },
+      {
+        "itemId": 375,
+        "count": 5
+      },
+      {
+        "itemId": 374,
+        "count": 4
+      },
+      {
+        "itemId": 433,
+        "count": 4
+      }
+    ],
+    "poolItems": [
+      {
+        "itemId": 426,
+        "count": 1
+      }
+    ],
+    "g": 120
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-104",
+    "fillerTier": "Super large",
+    "title": "Pohádková mohyla na rozcestí",
+    "phase": "Lategame",
+    "stashId": 49,
+    "stashName": "Kamenná obálka",
+    "locationId": 27,
+    "locationName": "Hádanková brána",
+    "region": "Železné hory",
+    "regrem": 2,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 4
+      },
+      {
+        "itemId": 452,
+        "count": 5
+      },
+      {
+        "itemId": 373,
+        "count": 3
+      },
+      {
+        "itemId": 433,
+        "count": 3
+      },
+      {
+        "itemId": 382,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 100
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-105",
+    "fillerTier": "Super large",
+    "title": "Truhlice z Balinovy výpravy",
+    "phase": "Lategame",
+    "stashId": 105,
+    "stashName": "Opuštěný stánek",
+    "locationId": 48,
+    "locationName": "Starý brod",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 5
+      },
+      {
+        "itemId": 373,
+        "count": 4
+      },
+      {
+        "itemId": 433,
+        "count": 4
+      },
+      {
+        "itemId": 375,
+        "count": 4
+      }
+    ],
+    "poolItems": [
+      {
+        "itemId": 402,
+        "count": 1
+      }
+    ],
+    "g": 125
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-106",
+    "fillerTier": "Super large",
+    "title": "Pokladnice dávno padlé tvrze",
+    "phase": "Lategame",
+    "stashId": 173,
+    "stashName": "Zakopané kopí",
+    "locationId": 71,
+    "locationName": "Východňanský tábor",
+    "region": "Železné hory",
+    "regrem": 2,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 4
+      },
+      {
+        "itemId": 377,
+        "count": 2
+      },
+      {
+        "itemId": 375,
+        "count": 4
+      },
+      {
+        "itemId": 374,
+        "count": 4
+      },
+      {
+        "itemId": 433,
+        "count": 4
+      },
+      {
+        "itemId": 452,
+        "count": 3
+      }
+    ],
+    "poolItems": [],
+    "g": 110
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-107",
+    "fillerTier": "Super large",
+    "title": "Truhla zapečetěná Sauronovou pečetí",
+    "phase": "Lategame",
+    "stashId": 159,
+    "stashName": "Zasypaný tunel",
+    "locationId": 66,
+    "locationName": "Norr-dum — Trpasličí kolonie",
+    "region": "Železné hory",
+    "regrem": 2,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 4
+      },
+      {
+        "itemId": 377,
+        "count": 4
+      },
+      {
+        "itemId": 373,
+        "count": 4
+      },
+      {
+        "itemId": 433,
+        "count": 4
+      },
+      {
+        "itemId": 452,
+        "count": 4
+      },
+      {
+        "itemId": 382,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 120
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-108",
+    "fillerTier": "Super large",
+    "title": "Pokladnice klanu Železné brady",
+    "phase": "Lategame",
+    "stashId": 137,
+    "stashName": "Sírová skvrna",
+    "locationId": 59,
+    "locationName": "Skaurilovy jeskyně",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 4
+      },
+      {
+        "itemId": 377,
+        "count": 1
+      },
+      {
+        "itemId": 375,
+        "count": 5
+      },
+      {
+        "itemId": 433,
+        "count": 4
+      },
+      {
+        "itemId": 373,
+        "count": 3
+      }
+    ],
+    "poolItems": [],
+    "g": 105
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-109",
+    "fillerTier": "Super large",
+    "title": "Truhlice opuštěného trpasličího kovárenství",
+    "phase": "Lategame",
+    "stashId": 88,
+    "stashName": "Spálená zem",
+    "locationId": 41,
+    "locationName": "Dol Guldur",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 4
+      },
+      {
+        "itemId": 377,
+        "count": 3
+      },
+      {
+        "itemId": 375,
+        "count": 5
+      },
+      {
+        "itemId": 374,
+        "count": 4
+      },
+      {
+        "itemId": 433,
+        "count": 4
+      }
+    ],
+    "poolItems": [
+      {
+        "itemId": 402,
+        "count": 1
+      }
+    ],
+    "g": 115
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-110",
+    "fillerTier": "Super large",
+    "title": "Mistrovský dar elfského kupce",
+    "phase": "Lategame",
+    "stashId": 48,
+    "stashName": "Elfí zámek",
+    "locationId": 27,
+    "locationName": "Hádanková brána",
+    "region": "Železné hory",
+    "regrem": 2,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 4
+      },
+      {
+        "itemId": 377,
+        "count": 2
+      },
+      {
+        "itemId": 373,
+        "count": 5
+      },
+      {
+        "itemId": 452,
+        "count": 4
+      },
+      {
+        "itemId": 433,
+        "count": 3
+      },
+      {
+        "itemId": 382,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 110
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-111",
+    "fillerTier": "Super large",
+    "title": "Truhlice pohlcená kořeny",
+    "phase": "Lategame",
+    "stashId": 141,
+    "stashName": "Uvolněný schod",
+    "locationId": 61,
+    "locationName": "Síň přízraků",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 4
+      },
+      {
+        "itemId": 374,
+        "count": 5
+      },
+      {
+        "itemId": 452,
+        "count": 5
+      },
+      {
+        "itemId": 373,
+        "count": 3
+      }
+    ],
+    "poolItems": [],
+    "g": 100
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-112",
+    "fillerTier": "Super large",
+    "title": "Drakův hnízdní poklad",
+    "phase": "Lategame",
+    "stashId": 90,
+    "stashName": "Kříž na stromě",
+    "locationId": 42,
+    "locationName": "Temná stezka",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 5
+      },
+      {
+        "itemId": 375,
+        "count": 5
+      },
+      {
+        "itemId": 374,
+        "count": 4
+      },
+      {
+        "itemId": 433,
+        "count": 4
+      }
+    ],
+    "poolItems": [
+      {
+        "itemId": 402,
+        "count": 1
+      }
+    ],
+    "g": 125
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-076",
+    "fillerTier": "Big",
+    "title": "Truhlice obchodní karavany",
+    "phase": "Lategame",
+    "stashId": 172,
+    "stashName": "Vybledlý koberec",
+    "locationId": 71,
+    "locationName": "Východňanský tábor",
+    "region": "Železné hory",
+    "regrem": 2,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 3
+      },
+      {
+        "itemId": 373,
+        "count": 3
+      },
+      {
+        "itemId": 433,
+        "count": 3
+      },
+      {
+        "itemId": 452,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 75
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-077",
+    "fillerTier": "Big",
+    "title": "Pancéřovaná skřínka v zákopu",
+    "phase": "Lategame",
+    "stashId": 85,
+    "stashName": "Dutý kůl",
+    "locationId": 40,
+    "locationName": "Mrtvý les",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 377,
+        "count": 4
+      },
+      {
+        "itemId": 376,
+        "count": 2
+      },
+      {
+        "itemId": 375,
+        "count": 4
+      },
+      {
+        "itemId": 374,
+        "count": 3
+      },
+      {
+        "itemId": 433,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 72
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-078",
+    "fillerTier": "Big",
+    "title": "Skrýš tajné spolčiny",
+    "phase": "Lategame",
+    "stashId": 43,
+    "stashName": "Stříbrná pěna",
+    "locationId": 25,
+    "locationName": "Začarovaná řeka",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 377,
+        "count": 3
+      },
+      {
+        "itemId": 452,
+        "count": 4
+      },
+      {
+        "itemId": 373,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 65
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-079",
+    "fillerTier": "Big",
+    "title": "Lupičský poklad ve studni",
+    "phase": "Lategame",
+    "stashId": 44,
+    "stashName": "Spáčův vak",
+    "locationId": 25,
+    "locationName": "Začarovaná řeka",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 377,
+        "count": 4
+      },
+      {
+        "itemId": 373,
+        "count": 3
+      },
+      {
+        "itemId": 433,
+        "count": 4
+      },
+      {
+        "itemId": 399,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 70
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-080",
+    "fillerTier": "Big",
+    "title": "Šperkovnice ovdovělé kupkyně",
+    "phase": "Lategame",
+    "stashId": 36,
+    "stashName": "Černá jáma",
+    "locationId": 23,
+    "locationName": "Ceber Fanuin",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 377,
+        "count": 3
+      },
+      {
+        "itemId": 376,
+        "count": 3
+      },
+      {
+        "itemId": 433,
+        "count": 3
+      },
+      {
+        "itemId": 373,
+        "count": 3
+      },
+      {
+        "itemId": 452,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 68
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-081",
+    "fillerTier": "Big",
+    "title": "Kovaná kasa hostinského",
+    "phase": "Lategame",
+    "stashId": 153,
+    "stashName": "Opálený balvan",
+    "locationId": 64,
+    "locationName": "Ovirská kotlina",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 377,
+        "count": 4
+      },
+      {
+        "itemId": 376,
+        "count": 4
+      },
+      {
+        "itemId": 373,
+        "count": 4
+      },
+      {
+        "itemId": 399,
+        "count": 4
+      },
+      {
+        "itemId": 433,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 74
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-082",
+    "fillerTier": "Big",
+    "title": "Truhla v kořenech Bílého dubu",
+    "phase": "Lategame",
+    "stashId": 42,
+    "stashName": "Zatopená nora",
+    "locationId": 25,
+    "locationName": "Začarovaná řeka",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 3
+      },
+      {
+        "itemId": 374,
+        "count": 5
+      },
+      {
+        "itemId": 452,
+        "count": 4
+      },
+      {
+        "itemId": 375,
+        "count": 2
+      },
+      {
+        "itemId": 382,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 75
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-083",
+    "fillerTier": "Big",
+    "title": "Kovová urna s rudou pečetí",
+    "phase": "Lategame",
+    "stashId": 54,
+    "stashName": "Pětiboký kámen",
+    "locationId": 29,
+    "locationName": "Kamenný kruh",
+    "region": "Železné hory",
+    "regrem": 2,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 377,
+        "count": 2
+      },
+      {
+        "itemId": 376,
+        "count": 2
+      },
+      {
+        "itemId": 375,
+        "count": 3
+      },
+      {
+        "itemId": 433,
+        "count": 3
+      },
+      {
+        "itemId": 452,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 62
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-084",
+    "fillerTier": "Big",
+    "title": "Pancéř plný mincí pod runami",
+    "phase": "Lategame",
+    "stashId": 53,
+    "stashName": "Věštecká miska",
+    "locationId": 28,
+    "locationName": "Jeskyně věštkyně",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 377,
+        "count": 4
+      },
+      {
+        "itemId": 376,
+        "count": 2
+      },
+      {
+        "itemId": 375,
+        "count": 4
+      },
+      {
+        "itemId": 374,
+        "count": 4
+      },
+      {
+        "itemId": 433,
+        "count": 3
+      }
+    ],
+    "poolItems": [],
+    "g": 72
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-085",
+    "fillerTier": "Big",
+    "title": "Truhla v záplavovém poli",
+    "phase": "Lategame",
+    "stashId": 158,
+    "stashName": "Trpasličí runa",
+    "locationId": 66,
+    "locationName": "Norr-dum — Trpasličí kolonie",
+    "region": "Železné hory",
+    "regrem": 2,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 377,
+        "count": 1
+      },
+      {
+        "itemId": 376,
+        "count": 3
+      },
+      {
+        "itemId": 374,
+        "count": 3
+      },
+      {
+        "itemId": 373,
+        "count": 3
+      },
+      {
+        "itemId": 452,
+        "count": 3
+      }
+    ],
+    "poolItems": [],
+    "g": 58
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-086",
+    "fillerTier": "Big",
+    "title": "Pokladnice strážcova",
+    "phase": "Lategame",
+    "stashId": 135,
+    "stashName": "Šupinová stěna",
+    "locationId": 59,
+    "locationName": "Skaurilovy jeskyně",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 377,
+        "count": 4
+      },
+      {
+        "itemId": 375,
+        "count": 4
+      },
+      {
+        "itemId": 433,
+        "count": 3
+      },
+      {
+        "itemId": 373,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 70
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-087",
+    "fillerTier": "Big",
+    "title": "Truhlice tajného kurýra",
+    "phase": "Lategame",
+    "stashId": 140,
+    "stashName": "Bledá podkova",
+    "locationId": 60,
+    "locationName": "Jeskyně bledého jezdce",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 377,
+        "count": 3
+      },
+      {
+        "itemId": 376,
+        "count": 3
+      },
+      {
+        "itemId": 373,
+        "count": 4
+      },
+      {
+        "itemId": 433,
+        "count": 3
+      },
+      {
+        "itemId": 452,
+        "count": 2
+      },
+      {
+        "itemId": 382,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 68
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-088",
+    "fillerTier": "Big",
+    "title": "Kovaná schrána v kryptě",
+    "phase": "Lategame",
+    "stashId": 84,
+    "stashName": "Uschlý strom",
+    "locationId": 40,
+    "locationName": "Mrtvý les",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 377,
+        "count": 2
+      },
+      {
+        "itemId": 433,
+        "count": 3
+      },
+      {
+        "itemId": 452,
+        "count": 4
+      }
+    ],
+    "poolItems": [],
+    "g": 60
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-089",
+    "fillerTier": "Big",
+    "title": "Pytel zlata pod oltářem",
+    "phase": "Lategame",
+    "stashId": 26,
+    "stashName": "Strážní výklenek",
+    "locationId": 18,
+    "locationName": "Hrad Orlmond",
+    "region": "Divočina",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 377,
+        "count": 1
+      },
+      {
+        "itemId": 373,
+        "count": 3
+      },
+      {
+        "itemId": 452,
+        "count": 3
+      }
+    ],
+    "poolItems": [],
+    "g": 55
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-090",
+    "fillerTier": "Big",
+    "title": "Truhlice s pečetí rohatého boha",
+    "phase": "Lategame",
+    "stashId": 7,
+    "stashName": "Jelení stezka",
+    "locationId": 10,
+    "locationName": "Spálov",
+    "region": "Divočina",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 377,
+        "count": 3
+      },
+      {
+        "itemId": 376,
+        "count": 1
+      },
+      {
+        "itemId": 375,
+        "count": 3
+      },
+      {
+        "itemId": 433,
+        "count": 3
+      },
+      {
+        "itemId": 373,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 66
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-091",
+    "fillerTier": "Big",
+    "title": "Kasa zkrachovalého směnárníka",
+    "phase": "Lategame",
+    "stashId": 119,
+    "stashName": "Trollí kapsa",
+    "locationId": 53,
+    "locationName": "Zkamenělí trollové",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 377,
+        "count": 2
+      },
+      {
+        "itemId": 376,
+        "count": 4
+      },
+      {
+        "itemId": 373,
+        "count": 3
+      },
+      {
+        "itemId": 433,
+        "count": 3
+      },
+      {
+        "itemId": 452,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 64
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-092",
+    "fillerTier": "Big",
+    "title": "Skrýš pašeráka pod molem",
+    "phase": "Lategame",
+    "stashId": 131,
+    "stashName": "Okousaný kmen",
+    "locationId": 57,
+    "locationName": "Vlčí rokle",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 377,
+        "count": 4
+      },
+      {
+        "itemId": 373,
+        "count": 4
+      },
+      {
+        "itemId": 433,
+        "count": 3
+      },
+      {
+        "itemId": 399,
+        "count": 3
+      }
+    ],
+    "poolItems": [],
+    "g": 70
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-093",
+    "fillerTier": "Big",
+    "title": "Truhla pod prahem mlýna",
+    "phase": "Lategame",
+    "stashId": 114,
+    "stashName": "Medová bečka",
+    "locationId": 52,
+    "locationName": "Meddědův dům",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 377,
+        "count": 1
+      },
+      {
+        "itemId": 376,
+        "count": 3
+      },
+      {
+        "itemId": 374,
+        "count": 4
+      },
+      {
+        "itemId": 399,
+        "count": 3
+      },
+      {
+        "itemId": 433,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 58
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-094",
+    "fillerTier": "Big",
+    "title": "Pokladna upáleného kacíře",
+    "phase": "Lategame",
+    "stashId": 45,
+    "stashName": "Studánka",
+    "locationId": 26,
+    "locationName": "Zrcadlo Paní",
+    "region": "Divočina",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 377,
+        "count": 2
+      },
+      {
+        "itemId": 376,
+        "count": 2
+      },
+      {
+        "itemId": 452,
+        "count": 5
+      },
+      {
+        "itemId": 373,
+        "count": 2
+      },
+      {
+        "itemId": 382,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 62
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-095",
+    "fillerTier": "Big",
+    "title": "Skrýš v jeskynní sluji",
+    "phase": "Lategame",
+    "stashId": 59,
+    "stashName": "Stříbrný lístek",
+    "locationId": 30,
+    "locationName": "Osvětlená mýtina",
+    "region": "Divočina",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 3
+      },
+      {
+        "itemId": 375,
+        "count": 5
+      },
+      {
+        "itemId": 374,
+        "count": 3
+      },
+      {
+        "itemId": 433,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 75
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-096",
+    "fillerTier": "Big",
+    "title": "Truhlice strážce hraničního pruhu",
+    "phase": "Lategame",
+    "stashId": 171,
+    "stashName": "Bílý květ",
+    "locationId": 70,
+    "locationName": "Dlouhé mohyly",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 377,
+        "count": 3
+      },
+      {
+        "itemId": 433,
+        "count": 4
+      },
+      {
+        "itemId": 375,
+        "count": 3
+      },
+      {
+        "itemId": 452,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 65
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-097",
+    "fillerTier": "Big",
+    "title": "Kovaná schrána ve vrcholu věže",
+    "phase": "Lategame",
+    "stashId": 188,
+    "stashName": "Mechový závěs",
+    "locationId": 77,
+    "locationName": "Spící obr",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 377,
+        "count": 4
+      },
+      {
+        "itemId": 373,
+        "count": 3
+      },
+      {
+        "itemId": 433,
+        "count": 4
+      },
+      {
+        "itemId": 452,
+        "count": 2
+      },
+      {
+        "itemId": 382,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 70
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-098",
+    "fillerTier": "Big",
+    "title": "Pohřební truhlice válečníkova",
+    "phase": "Lategame",
+    "stashId": 115,
+    "stashName": "Medvědí stopa",
+    "locationId": 52,
+    "locationName": "Meddědův dům",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 377,
+        "count": 3
+      },
+      {
+        "itemId": 376,
+        "count": 3
+      },
+      {
+        "itemId": 433,
+        "count": 4
+      },
+      {
+        "itemId": 375,
+        "count": 3
+      },
+      {
+        "itemId": 373,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 68
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-099",
+    "fillerTier": "Big",
+    "title": "Pancéřovaná truhla pod parkety",
+    "phase": "Lategame",
+    "stashId": 15,
+    "stashName": "Ztracený toulec",
+    "locationId": 13,
+    "locationName": "Lesní síň",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 377,
+        "count": 4
+      },
+      {
+        "itemId": 376,
+        "count": 2
+      },
+      {
+        "itemId": 375,
+        "count": 4
+      },
+      {
+        "itemId": 374,
+        "count": 4
+      },
+      {
+        "itemId": 433,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 72
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-100",
+    "fillerTier": "Big",
+    "title": "Truhla zazděná v sklepě",
+    "phase": "Lategame",
+    "stashId": 4,
+    "stashName": "Vyřezávaný obličej",
+    "locationId": 8,
+    "locationName": "Doubravka",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 377,
+        "count": 4
+      },
+      {
+        "itemId": 376,
+        "count": 4
+      },
+      {
+        "itemId": 373,
+        "count": 4
+      },
+      {
+        "itemId": 433,
+        "count": 3
+      },
+      {
+        "itemId": 452,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 74
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-051",
+    "fillerTier": "Medium",
+    "title": "Pytlík se stříbrnou nití",
+    "phase": "Midgame",
+    "stashId": 9,
+    "stashName": "Vykotlaný strom",
+    "locationId": 11,
+    "locationName": "Zásekov",
+    "region": "Sever",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 373,
+        "count": 2
+      },
+      {
+        "itemId": 452,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 50
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-052",
+    "fillerTier": "Medium",
+    "title": "Skrýš obchodního výpravčího",
+    "phase": "Midgame",
+    "stashId": 60,
+    "stashName": "Stříbrná stopa v trávě",
+    "locationId": 31,
+    "locationName": "Vílí palouček",
+    "region": "Divočina",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 1
+      },
+      {
+        "itemId": 377,
+        "count": 4
+      },
+      {
+        "itemId": 373,
+        "count": 2
+      },
+      {
+        "itemId": 433,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 45
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-053",
+    "fillerTier": "Medium",
+    "title": "Truhlička v koruně Strážného dubu",
+    "phase": "Midgame",
+    "stashId": 94,
+    "stashName": "Balvan s trhlinou",
+    "locationId": 43,
+    "locationName": "Orlí hnízdo",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 1
+      },
+      {
+        "itemId": 377,
+        "count": 3
+      },
+      {
+        "itemId": 376,
+        "count": 2
+      },
+      {
+        "itemId": 374,
+        "count": 3
+      },
+      {
+        "itemId": 452,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 42
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-054",
+    "fillerTier": "Medium",
+    "title": "Loupežnická pokladnička",
+    "phase": "Midgame",
+    "stashId": 2,
+    "stashName": "Popraskaná bečka",
+    "locationId": 7,
+    "locationName": "Caras Amarth -Karáskov",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 1
+      },
+      {
+        "itemId": 377,
+        "count": 4
+      },
+      {
+        "itemId": 376,
+        "count": 3
+      },
+      {
+        "itemId": 373,
+        "count": 2
+      },
+      {
+        "itemId": 433,
+        "count": 2
+      },
+      {
+        "itemId": 452,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 48
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-055",
+    "fillerTier": "Medium",
+    "title": "Skřínka v koželužně mistra",
+    "phase": "Midgame",
+    "stashId": 128,
+    "stashName": "Hliněný otisk",
+    "locationId": 56,
+    "locationName": "Golém",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 1
+      },
+      {
+        "itemId": 377,
+        "count": 3
+      },
+      {
+        "itemId": 433,
+        "count": 3
+      },
+      {
+        "itemId": 452,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 40
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-056",
+    "fillerTier": "Medium",
+    "title": "Zámeček s rudou pečetí",
+    "phase": "Midgame",
+    "stashId": 76,
+    "stashName": "Pryskyřicová kapsa",
+    "locationId": 36,
+    "locationName": "Srdce hvozdu",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 376,
+        "count": 2
+      },
+      {
+        "itemId": 375,
+        "count": 3
+      },
+      {
+        "itemId": 374,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 52
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-057",
+    "fillerTier": "Medium",
+    "title": "Pohár s mincí a karmínem",
+    "phase": "Midgame",
+    "stashId": 134,
+    "stashName": "Rozbitý stůl",
+    "locationId": 58,
+    "locationName": "Prokletý trpasličí dům",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 1
+      },
+      {
+        "itemId": 377,
+        "count": 4
+      },
+      {
+        "itemId": 376,
+        "count": 1
+      },
+      {
+        "itemId": 373,
+        "count": 3
+      },
+      {
+        "itemId": 452,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 46
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-058",
+    "fillerTier": "Medium",
+    "title": "Pytel u opuštěného povozu",
+    "phase": "Midgame",
+    "stashId": 146,
+    "stashName": "Uvolněný drn",
+    "locationId": 63,
+    "locationName": "Louky pod Skalbalem",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 376,
+        "count": 4
+      },
+      {
+        "itemId": 399,
+        "count": 3
+      },
+      {
+        "itemId": 373,
+        "count": 2
+      },
+      {
+        "itemId": 433,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 54
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-059",
+    "fillerTier": "Medium",
+    "title": "Kořist starého hejtmana",
+    "phase": "Midgame",
+    "stashId": 30,
+    "stashName": "Mechový balvan",
+    "locationId": 20,
+    "locationName": "Podhorany",
+    "region": "Divočina",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 433,
+        "count": 2
+      },
+      {
+        "itemId": 373,
+        "count": 2
+      },
+      {
+        "itemId": 452,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 50
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-060",
+    "fillerTier": "Medium",
+    "title": "Truhlice ze ztracené karavany",
+    "phase": "Midgame",
+    "stashId": 13,
+    "stashName": "Dutina po suku",
+    "locationId": 12,
+    "locationName": "Lesácké město",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 377,
+        "count": 1
+      },
+      {
+        "itemId": 373,
+        "count": 3
+      },
+      {
+        "itemId": 433,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 55
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-061",
+    "fillerTier": "Medium",
+    "title": "Šperkovnice nevěstina",
+    "phase": "Midgame",
+    "stashId": 126,
+    "stashName": "Runový sloup",
+    "locationId": 56,
+    "locationName": "Golém",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 1
+      },
+      {
+        "itemId": 377,
+        "count": 2
+      },
+      {
+        "itemId": 376,
+        "count": 3
+      },
+      {
+        "itemId": 433,
+        "count": 2
+      },
+      {
+        "itemId": 373,
+        "count": 1
+      },
+      {
+        "itemId": 452,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 38
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-062",
+    "fillerTier": "Medium",
+    "title": "Pokladnička v prasklém zvonu",
+    "phase": "Midgame",
+    "stashId": 46,
+    "stashName": "Vodní kořen",
+    "locationId": 26,
+    "locationName": "Zrcadlo Paní",
+    "region": "Divočina",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 1
+      },
+      {
+        "itemId": 377,
+        "count": 3
+      },
+      {
+        "itemId": 376,
+        "count": 4
+      },
+      {
+        "itemId": 375,
+        "count": 2
+      },
+      {
+        "itemId": 374,
+        "count": 2
+      },
+      {
+        "itemId": 452,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 44
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-063",
+    "fillerTier": "Medium",
+    "title": "Schrána pod schodištěm strážnice",
+    "phase": "Midgame",
+    "stashId": 93,
+    "stashName": "Skalní schod",
+    "locationId": 43,
+    "locationName": "Orlí hnízdo",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 1
+      },
+      {
+        "itemId": 377,
+        "count": 4
+      },
+      {
+        "itemId": 376,
+        "count": 3
+      },
+      {
+        "itemId": 433,
+        "count": 2
+      },
+      {
+        "itemId": 375,
+        "count": 2
+      },
+      {
+        "itemId": 399,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 48
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-064",
+    "fillerTier": "Medium",
+    "title": "Pytlík dukátů v balíku slámy",
+    "phase": "Midgame",
+    "stashId": 132,
+    "stashName": "Propadlý strop",
+    "locationId": 58,
+    "locationName": "Prokletý trpasličí dům",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 1
+      },
+      {
+        "itemId": 377,
+        "count": 2
+      },
+      {
+        "itemId": 376,
+        "count": 1
+      },
+      {
+        "itemId": 399,
+        "count": 3
+      },
+      {
+        "itemId": 374,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 36
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-065",
+    "fillerTier": "Medium",
+    "title": "Truhlička za kamennou deskou",
+    "phase": "Midgame",
+    "stashId": 41,
+    "stashName": "Kamenná žába",
+    "locationId": 24,
+    "locationName": "Tichá zahrada",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 376,
+        "count": 2
+      },
+      {
+        "itemId": 373,
+        "count": 2
+      },
+      {
+        "itemId": 433,
+        "count": 2
+      },
+      {
+        "itemId": 452,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 52
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-066",
+    "fillerTier": "Medium",
+    "title": "Skrýš v dutém Strážném balvanu",
+    "phase": "Midgame",
+    "stashId": 58,
+    "stashName": "Elfí pramen",
+    "locationId": 30,
+    "locationName": "Osvětlená mýtina",
+    "region": "Divočina",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 1
+      },
+      {
+        "itemId": 377,
+        "count": 3
+      },
+      {
+        "itemId": 375,
+        "count": 4
+      }
+    ],
+    "poolItems": [],
+    "g": 40
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-067",
+    "fillerTier": "Medium",
+    "title": "Schrána lichvářova",
+    "phase": "Midgame",
+    "stashId": 92,
+    "stashName": "Skalní rozsedlina",
+    "locationId": 43,
+    "locationName": "Orlí hnízdo",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 373,
+        "count": 2
+      },
+      {
+        "itemId": 433,
+        "count": 2
+      },
+      {
+        "itemId": 452,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 50
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-068",
+    "fillerTier": "Medium",
+    "title": "Truhlička proklatého chmelaře",
+    "phase": "Midgame",
+    "stashId": 1,
+    "stashName": "Vyhaslé ohniště",
+    "locationId": 7,
+    "locationName": "Caras Amarth -Karáskov",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 1
+      },
+      {
+        "itemId": 377,
+        "count": 3
+      },
+      {
+        "itemId": 376,
+        "count": 2
+      },
+      {
+        "itemId": 373,
+        "count": 4
+      }
+    ],
+    "poolItems": [],
+    "g": 42
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-069",
+    "fillerTier": "Medium",
+    "title": "Kovaná schránka v lazaretu",
+    "phase": "Midgame",
+    "stashId": 175,
+    "stashName": "Elfí vyřezávání",
+    "locationId": 72,
+    "locationName": "Elfí věž",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 1
+      },
+      {
+        "itemId": 377,
+        "count": 4
+      },
+      {
+        "itemId": 376,
+        "count": 1
+      },
+      {
+        "itemId": 452,
+        "count": 4
+      },
+      {
+        "itemId": 399,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 46
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-070",
+    "fillerTier": "Medium",
+    "title": "Šperky v kostře pod kobercem",
+    "phase": "Midgame",
+    "stashId": 95,
+    "stashName": "Kámen",
+    "locationId": 44,
+    "locationName": "Havraní kopec",
+    "region": "Sever",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 1
+      },
+      {
+        "itemId": 377,
+        "count": 3
+      },
+      {
+        "itemId": 376,
+        "count": 4
+      },
+      {
+        "itemId": 433,
+        "count": 3
+      },
+      {
+        "itemId": 373,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 44
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-071",
+    "fillerTier": "Medium",
+    "title": "Skrýš v rozbitém kotli",
+    "phase": "Midgame",
+    "stashId": 166,
+    "stashName": "Kulatá dvířka",
+    "locationId": 69,
+    "locationName": "Nory divokých hobitů",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 376,
+        "count": 4
+      },
+      {
+        "itemId": 375,
+        "count": 2
+      },
+      {
+        "itemId": 374,
+        "count": 2
+      },
+      {
+        "itemId": 433,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 54
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-072",
+    "fillerTier": "Medium",
+    "title": "Truhlice v zaboulené stodole",
+    "phase": "Midgame",
+    "stashId": 149,
+    "stashName": "Zarostlý náhon",
+    "locationId": 80,
+    "locationName": "Starý mlýn",
+    "region": "Sever",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 1
+      },
+      {
+        "itemId": 377,
+        "count": 4
+      },
+      {
+        "itemId": 376,
+        "count": 3
+      },
+      {
+        "itemId": 374,
+        "count": 3
+      },
+      {
+        "itemId": 399,
+        "count": 2
+      },
+      {
+        "itemId": 433,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 48
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-073",
+    "fillerTier": "Medium",
+    "title": "Pohřební mošna válečnická",
+    "phase": "Midgame",
+    "stashId": 169,
+    "stashName": "Mohylový kámen",
+    "locationId": 70,
+    "locationName": "Dlouhé mohyly",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 1
+      },
+      {
+        "itemId": 377,
+        "count": 3
+      },
+      {
+        "itemId": 433,
+        "count": 3
+      },
+      {
+        "itemId": 399,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 40
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-074",
+    "fillerTier": "Medium",
+    "title": "Kovaná truhlička v krbu",
+    "phase": "Midgame",
+    "stashId": 107,
+    "stashName": "Praskající trám",
+    "locationId": 49,
+    "locationName": "Trollí most",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 377,
+        "count": 1
+      },
+      {
+        "itemId": 375,
+        "count": 3
+      },
+      {
+        "itemId": 374,
+        "count": 3
+      }
+    ],
+    "poolItems": [],
+    "g": 55
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-075",
+    "fillerTier": "Medium",
+    "title": "Pytel řemeslnické cechovní pokladny",
+    "phase": "Midgame",
+    "stashId": 129,
+    "stashName": "Hromada lebek",
+    "locationId": 57,
+    "locationName": "Vlčí rokle",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 2
+      },
+      {
+        "itemId": 373,
+        "count": 2
+      },
+      {
+        "itemId": 433,
+        "count": 2
+      },
+      {
+        "itemId": 375,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 50
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-026",
+    "fillerTier": "Small",
+    "title": "Měšec mrtvého kupce",
+    "phase": "Early",
+    "stashId": 81,
+    "stashName": "Zatopená šachta",
+    "locationId": 39,
+    "locationName": "Močál",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 4
+      },
+      {
+        "itemId": 376,
+        "count": 2
+      },
+      {
+        "itemId": 452,
+        "count": 2
+      },
+      {
+        "itemId": 399,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 22
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-027",
+    "fillerTier": "Small",
+    "title": "Truhlička v rákosí",
+    "phase": "Early",
+    "stashId": 21,
+    "stashName": "Cizokrajný sud",
+    "locationId": 16,
+    "locationName": "Brodečko",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 3
+      },
+      {
+        "itemId": 376,
+        "count": 3
+      },
+      {
+        "itemId": 373,
+        "count": 1
+      },
+      {
+        "itemId": 452,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 18
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-028",
+    "fillerTier": "Small",
+    "title": "Zlodějská skrýš v sudech",
+    "phase": "Early",
+    "stashId": 183,
+    "stashName": "Šuplík pod pultem",
+    "locationId": 75,
+    "locationName": "Trh s hračkami",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 1
+      },
+      {
+        "itemId": 376,
+        "count": 3
+      },
+      {
+        "itemId": 373,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 28
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-029",
+    "fillerTier": "Small",
+    "title": "Pošťákova brašna",
+    "phase": "Early",
+    "stashId": 184,
+    "stashName": "Zvonková věžička",
+    "locationId": 75,
+    "locationName": "Trh s hračkami",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 3
+      },
+      {
+        "itemId": 376,
+        "count": 1
+      },
+      {
+        "itemId": 374,
+        "count": 1
+      },
+      {
+        "itemId": 452,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 16
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-030",
+    "fillerTier": "Small",
+    "title": "Kupecká schránka pod prahem",
+    "phase": "Early",
+    "stashId": 99,
+    "stashName": "Zmrzlý vodopád",
+    "locationId": 45,
+    "locationName": "Ledová jeskyně",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 1
+      },
+      {
+        "itemId": 377,
+        "count": 1
+      },
+      {
+        "itemId": 373,
+        "count": 1
+      },
+      {
+        "itemId": 433,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 30
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-031",
+    "fillerTier": "Small",
+    "title": "Kořist po žoldnéři",
+    "phase": "Early",
+    "stashId": 109,
+    "stashName": "Zčernalý kotel",
+    "locationId": 50,
+    "locationName": "Ostrov čarodějnice",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 4
+      },
+      {
+        "itemId": 376,
+        "count": 4
+      },
+      {
+        "itemId": 433,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 24
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-032",
+    "fillerTier": "Small",
+    "title": "Loupežnická kořist",
+    "phase": "Early",
+    "stashId": 23,
+    "stashName": "Hostinecký trám",
+    "locationId": 17,
+    "locationName": "Ailgartova tvrz",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 1
+      },
+      {
+        "itemId": 433,
+        "count": 1
+      },
+      {
+        "itemId": 373,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 25
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-033",
+    "fillerTier": "Small",
+    "title": "Skrýš v koruně padlého stromu",
+    "phase": "Early",
+    "stashId": 20,
+    "stashName": "Říční oblázky",
+    "locationId": 16,
+    "locationName": "Brodečko",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 4
+      },
+      {
+        "itemId": 376,
+        "count": 1
+      },
+      {
+        "itemId": 374,
+        "count": 2
+      },
+      {
+        "itemId": 452,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 21
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-034",
+    "fillerTier": "Small",
+    "title": "Mosazná schránka v ohništi",
+    "phase": "Early",
+    "stashId": 22,
+    "stashName": "Puklina ve zdi",
+    "locationId": 17,
+    "locationName": "Ailgartova tvrz",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 1
+      },
+      {
+        "itemId": 376,
+        "count": 1
+      },
+      {
+        "itemId": 399,
+        "count": 2
+      },
+      {
+        "itemId": 433,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 26
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-035",
+    "fillerTier": "Small",
+    "title": "Pytel za přepravkou v chlívě",
+    "phase": "Early",
+    "stashId": 31,
+    "stashName": "Trouchnivá truhla",
+    "locationId": 21,
+    "locationName": "Tvrz Vidugavia",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 4
+      },
+      {
+        "itemId": 376,
+        "count": 3
+      },
+      {
+        "itemId": 399,
+        "count": 2
+      },
+      {
+        "itemId": 433,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 23
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-036",
+    "fillerTier": "Small",
+    "title": "Hrnec zakopaný za mlýnem",
+    "phase": "Early",
+    "stashId": 189,
+    "stashName": "Podezřelá krtina",
+    "locationId": 79,
+    "locationName": "Včelí louky",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 1
+      },
+      {
+        "itemId": 376,
+        "count": 4
+      },
+      {
+        "itemId": 399,
+        "count": 2
+      },
+      {
+        "itemId": 373,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 29
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-037",
+    "fillerTier": "Small",
+    "title": "Lapkovská brašna",
+    "phase": "Early",
+    "stashId": 110,
+    "stashName": "Hořící bylina",
+    "locationId": 50,
+    "locationName": "Ostrov čarodějnice",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 1
+      },
+      {
+        "itemId": 376,
+        "count": 2
+      },
+      {
+        "itemId": 452,
+        "count": 2
+      },
+      {
+        "itemId": 433,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 27
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-038",
+    "fillerTier": "Small",
+    "title": "Vinařova taška",
+    "phase": "Early",
+    "stashId": 67,
+    "stashName": "Rozervaný stan",
+    "locationId": 33,
+    "locationName": "Scestov",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 1
+      },
+      {
+        "itemId": 373,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 25
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-039",
+    "fillerTier": "Small",
+    "title": "Skrýš pod podlahou koželužny",
+    "phase": "Early",
+    "stashId": 98,
+    "stashName": "Ledová stěna",
+    "locationId": 45,
+    "locationName": "Ledová jeskyně",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 3
+      },
+      {
+        "itemId": 376,
+        "count": 4
+      },
+      {
+        "itemId": 433,
+        "count": 2
+      },
+      {
+        "itemId": 452,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 19
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-040",
+    "fillerTier": "Small",
+    "title": "Kovářova kapsa kožené zástěry",
+    "phase": "Early",
+    "stashId": 34,
+    "stashName": "Zakletá polička",
+    "locationId": 22,
+    "locationName": "Rhosgobel",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 4
+      },
+      {
+        "itemId": 375,
+        "count": 2
+      },
+      {
+        "itemId": 374,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 20
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-041",
+    "fillerTier": "Small",
+    "title": "Prkenná truhlička pod schody",
+    "phase": "Early",
+    "stashId": 82,
+    "stashName": "Potopená kláda",
+    "locationId": 39,
+    "locationName": "Močál",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 1
+      },
+      {
+        "itemId": 377,
+        "count": 1
+      },
+      {
+        "itemId": 374,
+        "count": 1
+      },
+      {
+        "itemId": 375,
+        "count": 1
+      },
+      {
+        "itemId": 373,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 30
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-042",
+    "fillerTier": "Small",
+    "title": "Pohřební dary v urně",
+    "phase": "Early",
+    "stashId": 186,
+    "stashName": "Stará sklepní dvířka",
+    "locationId": 76,
+    "locationName": "Hostinec U Tří dubů",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 3
+      },
+      {
+        "itemId": 376,
+        "count": 2
+      },
+      {
+        "itemId": 452,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 17
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-043",
+    "fillerTier": "Small",
+    "title": "Schránka řeznického učedníka",
+    "phase": "Early",
+    "stashId": 118,
+    "stashName": "Mechová socha",
+    "locationId": 53,
+    "locationName": "Zkamenělí trollové",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 4
+      },
+      {
+        "itemId": 376,
+        "count": 2
+      },
+      {
+        "itemId": 399,
+        "count": 3
+      },
+      {
+        "itemId": 433,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 22
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-044",
+    "fillerTier": "Small",
+    "title": "Měšec ve štěrbině zdi",
+    "phase": "Early",
+    "stashId": 165,
+    "stashName": "Zuhelnatělý pahýl",
+    "locationId": 68,
+    "locationName": "Spálená pustina",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 3
+      },
+      {
+        "itemId": 376,
+        "count": 3
+      },
+      {
+        "itemId": 452,
+        "count": 2
+      },
+      {
+        "itemId": 375,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 18
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-045",
+    "fillerTier": "Small",
+    "title": "Mníškova mošna",
+    "phase": "Early",
+    "stashId": 65,
+    "stashName": "Výklenek v hradbě",
+    "locationId": 32,
+    "locationName": "Dol",
+    "region": "Divočina",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 4
+      },
+      {
+        "itemId": 376,
+        "count": 4
+      },
+      {
+        "itemId": 373,
+        "count": 1
+      },
+      {
+        "itemId": 452,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 24
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-046",
+    "fillerTier": "Small",
+    "title": "Truhlička za olejomalbou",
+    "phase": "Early",
+    "stashId": 40,
+    "stashName": "Opuštěný tkalcovský stav",
+    "locationId": 24,
+    "locationName": "Tichá zahrada",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 1
+      },
+      {
+        "itemId": 376,
+        "count": 1
+      },
+      {
+        "itemId": 373,
+        "count": 1
+      },
+      {
+        "itemId": 433,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 26
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-047",
+    "fillerTier": "Small",
+    "title": "Měďáková žíla v rozbité peci",
+    "phase": "Early",
+    "stashId": 69,
+    "stashName": "Obalený kmen",
+    "locationId": 34,
+    "locationName": "Pavoučí palouček",
+    "region": "Divočina",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 3
+      },
+      {
+        "itemId": 376,
+        "count": 1
+      },
+      {
+        "itemId": 375,
+        "count": 2
+      }
+    ],
+    "poolItems": [],
+    "g": 16
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-048",
+    "fillerTier": "Small",
+    "title": "Provazochodcův pytlík",
+    "phase": "Early",
+    "stashId": 10,
+    "stashName": "Lišejníkový kámen",
+    "locationId": 11,
+    "locationName": "Zásekov",
+    "region": "Sever",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 3
+      },
+      {
+        "itemId": 452,
+        "count": 1
+      },
+      {
+        "itemId": 433,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 15
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-049",
+    "fillerTier": "Small",
+    "title": "Skrýš v hromadě dříví na zimu",
+    "phase": "Early",
+    "stashId": 6,
+    "stashName": "Zarostlá branka",
+    "locationId": 9,
+    "locationName": "Troskov",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 378,
+        "count": 1
+      },
+      {
+        "itemId": 376,
+        "count": 3
+      },
+      {
+        "itemId": 374,
+        "count": 3
+      },
+      {
+        "itemId": 452,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 28
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-050",
+    "fillerTier": "Small",
+    "title": "Kupecká schrána v balíku slámy",
+    "phase": "Early",
+    "stashId": 130,
+    "stashName": "Trnitý keř",
+    "locationId": 57,
+    "locationName": "Vlčí rokle",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 4
+      },
+      {
+        "itemId": 376,
+        "count": 1
+      },
+      {
+        "itemId": 399,
+        "count": 2
+      },
+      {
+        "itemId": 374,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 21
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-001",
+    "fillerTier": "Tiny",
+    "title": "Ošoupaný měšec v kořenech",
+    "phase": "Start",
+    "stashId": 28,
+    "stashName": "Zrezivělý řetěz",
+    "locationId": 19,
+    "locationName": "Železná osada",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 1
+      },
+      {
+        "itemId": 376,
+        "count": 3
+      },
+      {
+        "itemId": 452,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 8
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-002",
+    "fillerTier": "Tiny",
+    "title": "Pytlíček pod plochým kamenem",
+    "phase": "Start",
+    "stashId": 72,
+    "stashName": "Dutý pařez",
+    "locationId": 35,
+    "locationName": "Lesní knihovna",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 2
+      },
+      {
+        "itemId": 399,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 10
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-003",
+    "fillerTier": "Tiny",
+    "title": "Loupežnický váček",
+    "phase": "Start",
+    "stashId": 83,
+    "stashName": "Dutý rákos",
+    "locationId": 39,
+    "locationName": "Močál",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 2
+      },
+      {
+        "itemId": 376,
+        "count": 2
+      },
+      {
+        "itemId": 452,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 12
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-004",
+    "fillerTier": "Tiny",
+    "title": "Schránka v komíně",
+    "phase": "Start",
+    "stashId": 113,
+    "stashName": "Naplavené dřevo",
+    "locationId": 51,
+    "locationName": "Ostrov na jezeře",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 1
+      },
+      {
+        "itemId": 376,
+        "count": 2
+      },
+      {
+        "itemId": 374,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 7
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-005",
+    "fillerTier": "Tiny",
+    "title": "Krabička v hromadě listí",
+    "phase": "Start",
+    "stashId": 97,
+    "stashName": "Puklina",
+    "locationId": 45,
+    "locationName": "Ledová jeskyně",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 2
+      },
+      {
+        "itemId": 376,
+        "count": 1
+      },
+      {
+        "itemId": 373,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 11
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-006",
+    "fillerTier": "Tiny",
+    "title": "Měšec utopence",
+    "phase": "Start",
+    "stashId": 190,
+    "stashName": "Včelí úl",
+    "locationId": 79,
+    "locationName": "Včelí louky",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 1
+      },
+      {
+        "itemId": 376,
+        "count": 4
+      },
+      {
+        "itemId": 452,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 9
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-007",
+    "fillerTier": "Tiny",
+    "title": "Vak po pocestném",
+    "phase": "Start",
+    "stashId": 66,
+    "stashName": "Škarpa u cesty",
+    "locationId": 33,
+    "locationName": "Scestov",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 2
+      },
+      {
+        "itemId": 376,
+        "count": 3
+      },
+      {
+        "itemId": 399,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 13
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-008",
+    "fillerTier": "Tiny",
+    "title": "Mošna kupcova synka",
+    "phase": "Start",
+    "stashId": 112,
+    "stashName": "Potopená truhla",
+    "locationId": 51,
+    "locationName": "Ostrov na jezeře",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 2
+      },
+      {
+        "itemId": 376,
+        "count": 4
+      },
+      {
+        "itemId": 452,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 14
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-009",
+    "fillerTier": "Tiny",
+    "title": "Pytlík v prasklině zdi",
+    "phase": "Start",
+    "stashId": 35,
+    "stashName": "Ptačí budka",
+    "locationId": 22,
+    "locationName": "Rhosgobel",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 1
+      },
+      {
+        "itemId": 376,
+        "count": 1
+      },
+      {
+        "itemId": 375,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 6
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-010",
+    "fillerTier": "Tiny",
+    "title": "Kapsa žebrákova kabátu",
+    "phase": "Start",
+    "stashId": 77,
+    "stashName": "Pahýl stromu, který vypadá jako zlomená ruka",
+    "locationId": 37,
+    "locationName": "Stará lesní stezka",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 1
+      },
+      {
+        "itemId": 399,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 5
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-011",
+    "fillerTier": "Tiny",
+    "title": "Doupě skrblíkovo",
+    "phase": "Start",
+    "stashId": 68,
+    "stashName": "Stínový výklenek",
+    "locationId": 33,
+    "locationName": "Scestov",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 3
+      },
+      {
+        "itemId": 433,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 15
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-012",
+    "fillerTier": "Tiny",
+    "title": "Šátek se třemi mincemi a uzlem",
+    "phase": "Start",
+    "stashId": 33,
+    "stashName": "Nenápadný výklenek",
+    "locationId": 22,
+    "locationName": "Rhosgobel",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 1
+      },
+      {
+        "itemId": 376,
+        "count": 1
+      },
+      {
+        "itemId": 452,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 6
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-013",
+    "fillerTier": "Tiny",
+    "title": "Drobnost ve štěrbině schodů",
+    "phase": "Start",
+    "stashId": 27,
+    "stashName": "Jáma s popelem",
+    "locationId": 19,
+    "locationName": "Železná osada",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 1
+      },
+      {
+        "itemId": 376,
+        "count": 2
+      },
+      {
+        "itemId": 375,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 7
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-014",
+    "fillerTier": "Tiny",
+    "title": "Pytlík v rákosí",
+    "phase": "Start",
+    "stashId": 32,
+    "stashName": "Tajné dveře",
+    "locationId": 21,
+    "locationName": "Tvrz Vidugavia",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 1
+      },
+      {
+        "itemId": 376,
+        "count": 4
+      },
+      {
+        "itemId": 452,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 9
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-015",
+    "fillerTier": "Tiny",
+    "title": "Polorozpadlá schránka",
+    "phase": "Start",
+    "stashId": 185,
+    "stashName": "Uvolněné prkno",
+    "locationId": 76,
+    "locationName": "Hostinec U Tří dubů",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 1
+      },
+      {
+        "itemId": 376,
+        "count": 3
+      },
+      {
+        "itemId": 374,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 8
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-016",
+    "fillerTier": "Tiny",
+    "title": "V odpadkovém koši hostince",
+    "phase": "Start",
+    "stashId": 111,
+    "stashName": "Kočičí místo",
+    "locationId": 50,
+    "locationName": "Ostrov čarodějnice",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 1
+      },
+      {
+        "itemId": 399,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 5
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-017",
+    "fillerTier": "Tiny",
+    "title": "Mezi kořeny dubu",
+    "phase": "Start",
+    "stashId": 78,
+    "stashName": "Vybledlá značka",
+    "locationId": 37,
+    "locationName": "Stará lesní stezka",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 2
+      },
+      {
+        "itemId": 452,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 10
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-018",
+    "fillerTier": "Tiny",
+    "title": "Pod uvolněným prknem podlahy",
+    "phase": "Start",
+    "stashId": 73,
+    "stashName": "Zkamenělý svítek",
+    "locationId": 35,
+    "locationName": "Lesní knihovna",
+    "region": "Střed",
+    "regrem": 0,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 2
+      },
+      {
+        "itemId": 376,
+        "count": 2
+      },
+      {
+        "itemId": 374,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 12
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-019",
+    "fillerTier": "Tiny",
+    "title": "Klubko hadrů s pár mincemi",
+    "phase": "Start",
+    "stashId": 127,
+    "stashName": "Kamenná pěst",
+    "locationId": 56,
+    "locationName": "Golém",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 1
+      },
+      {
+        "itemId": 452,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 5
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-020",
+    "fillerTier": "Tiny",
+    "title": "Plesnivý měšec v hromadě sena",
+    "phase": "Start",
+    "stashId": 133,
+    "stashName": "Trpasličí krb",
+    "locationId": 58,
+    "locationName": "Prokletý trpasličí dům",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 1
+      },
+      {
+        "itemId": 376,
+        "count": 3
+      },
+      {
+        "itemId": 452,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 8
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-021",
+    "fillerTier": "Tiny",
+    "title": "Schovaná pod hromadou kamení",
+    "phase": "Start",
+    "stashId": 11,
+    "stashName": "Dutiny ve kmeni",
+    "locationId": 12,
+    "locationName": "Lesácké město",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 1
+      },
+      {
+        "itemId": 376,
+        "count": 1
+      },
+      {
+        "itemId": 375,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 6
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-022",
+    "fillerTier": "Tiny",
+    "title": "V dutině staré sochy",
+    "phase": "Start",
+    "stashId": 71,
+    "stashName": "Seschlý kořen",
+    "locationId": 34,
+    "locationName": "Pavoučí palouček",
+    "region": "Divočina",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 2
+      },
+      {
+        "itemId": 376,
+        "count": 1
+      },
+      {
+        "itemId": 375,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 11
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-023",
+    "fillerTier": "Tiny",
+    "title": "Truhlička v kořenech",
+    "phase": "Start",
+    "stashId": 17,
+    "stashName": "Rybářská síť",
+    "locationId": 14,
+    "locationName": "Kamenný brod",
+    "region": "Sever",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 2
+      },
+      {
+        "itemId": 376,
+        "count": 3
+      },
+      {
+        "itemId": 373,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 13
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-024",
+    "fillerTier": "Tiny",
+    "title": "Mezi cihly v rozbité peci",
+    "phase": "Start",
+    "stashId": 147,
+    "stashName": "Kamenný mezník",
+    "locationId": 63,
+    "locationName": "Louky pod Skalbalem",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 1
+      },
+      {
+        "itemId": 376,
+        "count": 4
+      },
+      {
+        "itemId": 373,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 9
+  },
+  {
+    "kind": "filler",
+    "fillerId": "FILL-025",
+    "fillerTier": "Tiny",
+    "title": "Měšec s pruhovanou stuhou",
+    "phase": "Start",
+    "stashId": 100,
+    "stashName": "Přírodní sloup",
+    "locationId": 46,
+    "locationName": "Kráter",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "unlimitedItems": [
+      {
+        "itemId": 377,
+        "count": 2
+      },
+      {
+        "itemId": 376,
+        "count": 4
+      },
+      {
+        "itemId": 452,
+        "count": 1
+      }
+    ],
+    "poolItems": [],
+    "g": 14
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Early",
+    "stashId": 24,
+    "stashName": "Tajná schránka",
+    "locationId": 18,
+    "locationName": "Hrad Orlmond",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Early",
+    "stashId": 195,
+    "stashName": "Spálená zem (pustina)",
+    "locationId": 68,
+    "locationName": "Spálená pustina",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Early",
+    "stashId": 63,
+    "stashName": "Trpasličí kovadlina",
+    "locationId": 32,
+    "locationName": "Dol",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Early",
+    "stashId": 101,
+    "stashName": "Sopečná puklina",
+    "locationId": 46,
+    "locationName": "Kráter",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Early",
+    "stashId": 167,
+    "stashName": "Krtčí kopec",
+    "locationId": 69,
+    "locationName": "Nory divokých hobitů",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Early",
+    "stashId": 106,
+    "stashName": "Trollí doupě",
+    "locationId": 49,
+    "locationName": "Trollí most",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Early",
+    "stashId": 12,
+    "stashName": "Kořen, který roste k nebi",
+    "locationId": 12,
+    "locationName": "Lesácké město",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Early",
+    "stashId": 57,
+    "stashName": "Sluneční skvrna",
+    "locationId": 30,
+    "locationName": "Osvětlená mýtina",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Midgame",
+    "stashId": 14,
+    "stashName": "Starý provaz",
+    "locationId": 13,
+    "locationName": "Lesní síň",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Midgame",
+    "stashId": 75,
+    "stashName": "Zakletý kořen",
+    "locationId": 36,
+    "locationName": "Srdce hvozdu",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Early",
+    "stashId": 16,
+    "stashName": "Uvolněný kámen",
+    "locationId": 14,
+    "locationName": "Kamenný brod",
+    "region": "Sever",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Early",
+    "stashId": 150,
+    "stashName": "Pytel s moukou",
+    "locationId": 80,
+    "locationName": "Starý mlýn",
+    "region": "Sever",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Early",
+    "stashId": 118,
+    "stashName": "Mechová socha",
+    "locationId": 53,
+    "locationName": "Zkamenělí trollové",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Early",
+    "stashId": 165,
+    "stashName": "Zuhelnatělý pahýl",
+    "locationId": 68,
+    "locationName": "Spálená pustina",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 23,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Early",
+    "stashId": 65,
+    "stashName": "Výklenek v hradbě",
+    "locationId": 32,
+    "locationName": "Dol",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Early",
+    "stashId": 40,
+    "stashName": "Opuštěný tkalcovský stav",
+    "locationId": 24,
+    "locationName": "Tichá zahrada",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Early",
+    "stashId": 69,
+    "stashName": "Obalený kmen",
+    "locationId": 34,
+    "locationName": "Pavoučí palouček",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Early",
+    "stashId": 10,
+    "stashName": "Lišejníkový kámen",
+    "locationId": 11,
+    "locationName": "Zásekov",
+    "region": "Sever",
+    "regrem": 1,
+    "poolEntryId": 21,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Early",
+    "stashId": 6,
+    "stashName": "Zarostlá branka",
+    "locationId": 9,
+    "locationName": "Troskov",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Early",
+    "stashId": 130,
+    "stashName": "Trnitý keř",
+    "locationId": 57,
+    "locationName": "Vlčí rokle",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Early",
+    "stashId": 24,
+    "stashName": "Tajná schránka",
+    "locationId": 18,
+    "locationName": "Hrad Orlmond",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Early",
+    "stashId": 195,
+    "stashName": "Spálená zem (pustina)",
+    "locationId": 68,
+    "locationName": "Spálená pustina",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Early",
+    "stashId": 63,
+    "stashName": "Trpasličí kovadlina",
+    "locationId": 32,
+    "locationName": "Dol",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Early",
+    "stashId": 101,
+    "stashName": "Sopečná puklina",
+    "locationId": 46,
+    "locationName": "Kráter",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Early",
+    "stashId": 167,
+    "stashName": "Krtčí kopec",
+    "locationId": 69,
+    "locationName": "Nory divokých hobitů",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Early",
+    "stashId": 106,
+    "stashName": "Trollí doupě",
+    "locationId": 49,
+    "locationName": "Trollí most",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Early",
+    "stashId": 12,
+    "stashName": "Kořen, který roste k nebi",
+    "locationId": 12,
+    "locationName": "Lesácké město",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Early",
+    "stashId": 57,
+    "stashName": "Sluneční skvrna",
+    "locationId": 30,
+    "locationName": "Osvětlená mýtina",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Early",
+    "stashId": 145,
+    "stashName": "Drobný komínek",
+    "locationId": 62,
+    "locationName": "Příbytky skřítků",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 27,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Early",
+    "stashId": 191,
+    "stashName": "Dračí dráp",
+    "locationId": 81,
+    "locationName": "Ostrov Tol Narthad",
+    "region": "Moře rhun",
+    "regrem": 2,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Early",
+    "stashId": 87,
+    "stashName": "Prasklý oltář",
+    "locationId": 41,
+    "locationName": "Dol Guldur",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Early",
+    "stashId": 104,
+    "stashName": "Vymletý břeh",
+    "locationId": 48,
+    "locationName": "Starý brod",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Early",
+    "stashId": 182,
+    "stashName": "Tajný schod",
+    "locationId": 74,
+    "locationName": "Hrobka Krále Pod Horou",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Midgame",
+    "stashId": 174,
+    "stashName": "Stříbrná runa",
+    "locationId": 72,
+    "locationName": "Elfí věž",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Midgame",
+    "stashId": 176,
+    "stashName": "Okenní říma",
+    "locationId": 72,
+    "locationName": "Elfí věž",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Midgame",
+    "stashId": 29,
+    "stashName": "Převis",
+    "locationId": 20,
+    "locationName": "Podhorany",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Midgame",
+    "stashId": 9,
+    "stashName": "Vykotlaný strom",
+    "locationId": 11,
+    "locationName": "Zásekov",
+    "region": "Sever",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Midgame",
+    "stashId": 60,
+    "stashName": "Stříbrná stopa v trávě",
+    "locationId": 31,
+    "locationName": "Vílí palouček",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 18,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Midgame",
+    "stashId": 94,
+    "stashName": "Balvan s trhlinou",
+    "locationId": 43,
+    "locationName": "Orlí hnízdo",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Midgame",
+    "stashId": 2,
+    "stashName": "Popraskaná bečka",
+    "locationId": 7,
+    "locationName": "Caras Amarth -Karáskov",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Midgame",
+    "stashId": 128,
+    "stashName": "Hliněný otisk",
+    "locationId": 56,
+    "locationName": "Golém",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Midgame",
+    "stashId": 76,
+    "stashName": "Pryskyřicová kapsa",
+    "locationId": 36,
+    "locationName": "Srdce hvozdu",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Midgame",
+    "stashId": 134,
+    "stashName": "Rozbitý stůl",
+    "locationId": 58,
+    "locationName": "Prokletý trpasličí dům",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Midgame",
+    "stashId": 146,
+    "stashName": "Uvolněný drn",
+    "locationId": 63,
+    "locationName": "Louky pod Skalbalem",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Midgame",
+    "stashId": 30,
+    "stashName": "Mechový balvan",
+    "locationId": 20,
+    "locationName": "Podhorany",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Midgame",
+    "stashId": 13,
+    "stashName": "Dutina po suku",
+    "locationId": 12,
+    "locationName": "Lesácké město",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Midgame",
+    "stashId": 126,
+    "stashName": "Runový sloup",
+    "locationId": 56,
+    "locationName": "Golém",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Midgame",
+    "stashId": 46,
+    "stashName": "Vodní kořen",
+    "locationId": 26,
+    "locationName": "Zrcadlo Paní",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Midgame",
+    "stashId": 93,
+    "stashName": "Skalní schod",
+    "locationId": 43,
+    "locationName": "Orlí hnízdo",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Midgame",
+    "stashId": 132,
+    "stashName": "Propadlý strop",
+    "locationId": 58,
+    "locationName": "Prokletý trpasličí dům",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Midgame",
+    "stashId": 41,
+    "stashName": "Kamenná žába",
+    "locationId": 24,
+    "locationName": "Tichá zahrada",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Midgame",
+    "stashId": 58,
+    "stashName": "Elfí pramen",
+    "locationId": 30,
+    "locationName": "Osvětlená mýtina",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Midgame",
+    "stashId": 92,
+    "stashName": "Skalní rozsedlina",
+    "locationId": 43,
+    "locationName": "Orlí hnízdo",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Midgame",
+    "stashId": 1,
+    "stashName": "Vyhaslé ohniště",
+    "locationId": 7,
+    "locationName": "Caras Amarth -Karáskov",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Midgame",
+    "stashId": 175,
+    "stashName": "Elfí vyřezávání",
+    "locationId": 72,
+    "locationName": "Elfí věž",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Midgame",
+    "stashId": 95,
+    "stashName": "Kámen",
+    "locationId": 44,
+    "locationName": "Havraní kopec",
+    "region": "Sever",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Midgame",
+    "stashId": 166,
+    "stashName": "Kulatá dvířka",
+    "locationId": 69,
+    "locationName": "Nory divokých hobitů",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Midgame",
+    "stashId": 149,
+    "stashName": "Zarostlý náhon",
+    "locationId": 80,
+    "locationName": "Starý mlýn",
+    "region": "Sever",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Midgame",
+    "stashId": 169,
+    "stashName": "Mohylový kámen",
+    "locationId": 70,
+    "locationName": "Dlouhé mohyly",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Midgame",
+    "stashId": 107,
+    "stashName": "Praskající trám",
+    "locationId": 49,
+    "locationName": "Trollí most",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Midgame",
+    "stashId": 129,
+    "stashName": "Hromada lebek",
+    "locationId": 57,
+    "locationName": "Vlčí rokle",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Midgame",
+    "stashId": 14,
+    "stashName": "Starý provaz",
+    "locationId": 13,
+    "locationName": "Lesní síň",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Midgame",
+    "stashId": 75,
+    "stashName": "Zakletý kořen",
+    "locationId": 36,
+    "locationName": "Srdce hvozdu",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Midgame",
+    "stashId": 138,
+    "stashName": "Zamrzlá kaluž",
+    "locationId": 60,
+    "locationName": "Jeskyně bledého jezdce",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Midgame",
+    "stashId": 18,
+    "stashName": "Hromada dřeva",
+    "locationId": 15,
+    "locationName": "Vorařská osada",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Midgame",
+    "stashId": 136,
+    "stashName": "Stalaktitový závěs",
+    "locationId": 59,
+    "locationName": "Skaurilovy jeskyně",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Midgame",
+    "stashId": 142,
+    "stashName": "Studený sloup",
+    "locationId": 61,
+    "locationName": "Síň přízraků",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Midgame",
+    "stashId": 155,
+    "stashName": "Zmrzlý poklad",
+    "locationId": 65,
+    "locationName": "Gondmaeglom — Scathovo doupě",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Midgame",
+    "stashId": 80,
+    "stashName": "Kostěné hnízdo",
+    "locationId": 38,
+    "locationName": "Harpyjí hnízdo",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Lategame",
+    "stashId": 148,
+    "stashName": "Ztrouchnivělé kolo",
+    "locationId": 80,
+    "locationName": "Starý mlýn",
+    "region": "Sever",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Lategame",
+    "stashId": 170,
+    "stashName": "Mohylový výklenek",
+    "locationId": 70,
+    "locationName": "Dlouhé mohyly",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Lategame",
+    "stashId": 187,
+    "stashName": "Obří prst",
+    "locationId": 77,
+    "locationName": "Spící obr",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Lategame",
+    "stashId": 47,
+    "stashName": "Kamenný piedestal",
+    "locationId": 26,
+    "locationName": "Zrcadlo Paní",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Lategame",
+    "stashId": 25,
+    "stashName": "Rezavá dvířka",
+    "locationId": 18,
+    "locationName": "Hrad Orlmond",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Lategame",
+    "stashId": 8,
+    "stashName": "Zuhelnatělý práh",
+    "locationId": 10,
+    "locationName": "Spálov",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Lategame",
+    "stashId": 39,
+    "stashName": "Indigový keř",
+    "locationId": 24,
+    "locationName": "Tichá zahrada",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek fialový",
+    "phase": "Lategame",
+    "stashId": 124,
+    "stashName": "Kamenný trůn",
+    "locationId": 55,
+    "locationName": "Kobka starého krále",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 9,
+    "itemId": 390
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Lategame",
+    "stashId": 5,
+    "stashName": "Zasypaná studna",
+    "locationId": 9,
+    "locationName": "Troskov",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Lategame",
+    "stashId": 108,
+    "stashName": "Zřícená strážnice",
+    "locationId": 49,
+    "locationName": "Trollí most",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "C",
+    "title": "Prstýnek červený",
+    "phase": "Lategame",
+    "stashId": 117,
+    "stashName": "Kamenný obličej",
+    "locationId": 53,
+    "locationName": "Zkamenělí trollové",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 5,
+    "itemId": 387
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 16,
+    "stashName": "Uvolněný kámen",
+    "locationId": 14,
+    "locationName": "Kamenný brod",
+    "region": "Sever",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 150,
+    "stashName": "Pytel s moukou",
+    "locationId": 80,
+    "locationName": "Starý mlýn",
+    "region": "Sever",
+    "regrem": 1,
+    "poolEntryId": 19,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 118,
+    "stashName": "Mechová socha",
+    "locationId": 53,
+    "locationName": "Zkamenělí trollové",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 165,
+    "stashName": "Zuhelnatělý pahýl",
+    "locationId": 68,
+    "locationName": "Spálená pustina",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 65,
+    "stashName": "Výklenek v hradbě",
+    "locationId": 32,
+    "locationName": "Dol",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 40,
+    "stashName": "Opuštěný tkalcovský stav",
+    "locationId": 24,
+    "locationName": "Tichá zahrada",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 69,
+    "stashName": "Obalený kmen",
+    "locationId": 34,
+    "locationName": "Pavoučí palouček",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 10,
+    "stashName": "Lišejníkový kámen",
+    "locationId": 11,
+    "locationName": "Zásekov",
+    "region": "Sever",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 6,
+    "stashName": "Zarostlá branka",
+    "locationId": 9,
+    "locationName": "Troskov",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 130,
+    "stashName": "Trnitý keř",
+    "locationId": 57,
+    "locationName": "Vlčí rokle",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 24,
+    "stashName": "Tajná schránka",
+    "locationId": 18,
+    "locationName": "Hrad Orlmond",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 195,
+    "stashName": "Spálená zem (pustina)",
+    "locationId": 68,
+    "locationName": "Spálená pustina",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 63,
+    "stashName": "Trpasličí kovadlina",
+    "locationId": 32,
+    "locationName": "Dol",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 101,
+    "stashName": "Sopečná puklina",
+    "locationId": 46,
+    "locationName": "Kráter",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 167,
+    "stashName": "Krtčí kopec",
+    "locationId": 69,
+    "locationName": "Nory divokých hobitů",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 106,
+    "stashName": "Trollí doupě",
+    "locationId": 49,
+    "locationName": "Trollí most",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 12,
+    "stashName": "Kořen, který roste k nebi",
+    "locationId": 12,
+    "locationName": "Lesácké město",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 57,
+    "stashName": "Sluneční skvrna",
+    "locationId": 30,
+    "locationName": "Osvětlená mýtina",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 157,
+    "stashName": "Okovaná truhla",
+    "locationId": 66,
+    "locationName": "Norr-dum — Trpasličí kolonie",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 122,
+    "stashName": "Skřetí bedna",
+    "locationId": 54,
+    "locationName": "Skřetí tábor",
+    "region": "Železné hory",
+    "regrem": 2,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 154,
+    "stashName": "Ledový dech",
+    "locationId": 65,
+    "locationName": "Gondmaeglom — Scathovo doupě",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 156,
+    "stashName": "Zmrzlý pramen",
+    "locationId": 65,
+    "locationName": "Gondmaeglom — Scathovo doupě",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 19,
+    "stashName": "Potopený kmen",
+    "locationId": 15,
+    "locationName": "Vorařská osada",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 181,
+    "stashName": "Kamenný štít",
+    "locationId": 74,
+    "locationName": "Hrobka Krále Pod Horou",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 89,
+    "stashName": "Zčernalá brána",
+    "locationId": 41,
+    "locationName": "Dol Guldur",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 79,
+    "stashName": "Opeřená skulina",
+    "locationId": 38,
+    "locationName": "Harpyjí hnízdo",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 15,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 145,
+    "stashName": "Drobný komínek",
+    "locationId": 62,
+    "locationName": "Příbytky skřítků",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 191,
+    "stashName": "Dračí dráp",
+    "locationId": 81,
+    "locationName": "Ostrov Tol Narthad",
+    "region": "Moře rhun",
+    "regrem": 2,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 87,
+    "stashName": "Prasklý oltář",
+    "locationId": 41,
+    "locationName": "Dol Guldur",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 104,
+    "stashName": "Vymletý břeh",
+    "locationId": 48,
+    "locationName": "Starý brod",
+    "region": "Jižní temný hvozd",
+    "regrem": 2,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Early",
+    "stashId": 182,
+    "stashName": "Tajný schod",
+    "locationId": 74,
+    "locationName": "Hrobka Krále Pod Horou",
+    "region": "Daleký sever",
+    "regrem": 2,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Midgame",
+    "stashId": 174,
+    "stashName": "Stříbrná runa",
+    "locationId": 72,
+    "locationName": "Elfí věž",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Midgame",
+    "stashId": 176,
+    "stashName": "Okenní říma",
+    "locationId": 72,
+    "locationName": "Elfí věž",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Midgame",
+    "stashId": 29,
+    "stashName": "Převis",
+    "locationId": 20,
+    "locationName": "Podhorany",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Midgame",
+    "stashId": 9,
+    "stashName": "Vykotlaný strom",
+    "locationId": 11,
+    "locationName": "Zásekov",
+    "region": "Sever",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Midgame",
+    "stashId": 60,
+    "stashName": "Stříbrná stopa v trávě",
+    "locationId": 31,
+    "locationName": "Vílí palouček",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Midgame",
+    "stashId": 94,
+    "stashName": "Balvan s trhlinou",
+    "locationId": 43,
+    "locationName": "Orlí hnízdo",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Midgame",
+    "stashId": 2,
+    "stashName": "Popraskaná bečka",
+    "locationId": 7,
+    "locationName": "Caras Amarth -Karáskov",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Midgame",
+    "stashId": 128,
+    "stashName": "Hliněný otisk",
+    "locationId": 56,
+    "locationName": "Golém",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "D",
+    "title": "Prstýnek světle modrý",
+    "phase": "Midgame",
+    "stashId": 76,
+    "stashName": "Pryskyřicová kapsa",
+    "locationId": 36,
+    "locationName": "Srdce hvozdu",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 6,
+    "itemId": 389
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 168,
+    "stashName": "Kamenná police",
+    "locationId": 69,
+    "locationName": "Nory divokých hobitů",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 64,
+    "stashName": "Kamenné korýtko",
+    "locationId": 32,
+    "locationName": "Dol",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 96,
+    "stashName": "Trhlina ve věži",
+    "locationId": 44,
+    "locationName": "Havraní kopec",
+    "region": "Sever",
+    "regrem": 1,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 74,
+    "stashName": "Vyvrácený kmen",
+    "locationId": 36,
+    "locationName": "Srdce hvozdu",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 116,
+    "stashName": "Včelí vosk",
+    "locationId": 52,
+    "locationName": "Meddědův dům",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 70,
+    "stashName": "Zvířecí nora",
+    "locationId": 34,
+    "locationName": "Pavoučí palouček",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 62,
+    "stashName": "Starý pařez",
+    "locationId": 31,
+    "locationName": "Vílí palouček",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 125,
+    "stashName": "Studna s víkem",
+    "locationId": 55,
+    "locationName": "Kobka starého krále",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 26,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 163,
+    "stashName": "Sesuv půdy",
+    "locationId": 68,
+    "locationName": "Spálená pustina",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 3,
+    "stashName": "Dutá vrba",
+    "locationId": 8,
+    "locationName": "Doubravka",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 28,
+    "stashName": "Zrezivělý řetěz",
+    "locationId": 19,
+    "locationName": "Železná osada",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 72,
+    "stashName": "Dutý pařez",
+    "locationId": 35,
+    "locationName": "Lesní knihovna",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 83,
+    "stashName": "Dutý rákos",
+    "locationId": 39,
+    "locationName": "Močál",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 113,
+    "stashName": "Naplavené dřevo",
+    "locationId": 51,
+    "locationName": "Ostrov na jezeře",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 97,
+    "stashName": "Puklina",
+    "locationId": 45,
+    "locationName": "Ledová jeskyně",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 190,
+    "stashName": "Včelí úl",
+    "locationId": 79,
+    "locationName": "Včelí louky",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 25,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 66,
+    "stashName": "Škarpa u cesty",
+    "locationId": 33,
+    "locationName": "Scestov",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 112,
+    "stashName": "Potopená truhla",
+    "locationId": 51,
+    "locationName": "Ostrov na jezeře",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 35,
+    "stashName": "Ptačí budka",
+    "locationId": 22,
+    "locationName": "Rhosgobel",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 77,
+    "stashName": "Pahýl stromu, který vypadá jako zlomená ruka",
+    "locationId": 37,
+    "locationName": "Stará lesní stezka",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 68,
+    "stashName": "Stínový výklenek",
+    "locationId": 33,
+    "locationName": "Scestov",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 33,
+    "stashName": "Nenápadný výklenek",
+    "locationId": 22,
+    "locationName": "Rhosgobel",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 27,
+    "stashName": "Jáma s popelem",
+    "locationId": 19,
+    "locationName": "Železná osada",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 32,
+    "stashName": "Tajné dveře",
+    "locationId": 21,
+    "locationName": "Tvrz Vidugavia",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 185,
+    "stashName": "Uvolněné prkno",
+    "locationId": 76,
+    "locationName": "Hostinec U Tří dubů",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 111,
+    "stashName": "Kočičí místo",
+    "locationId": 50,
+    "locationName": "Ostrov čarodějnice",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 78,
+    "stashName": "Vybledlá značka",
+    "locationId": 37,
+    "locationName": "Stará lesní stezka",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 73,
+    "stashName": "Zkamenělý svítek",
+    "locationId": 35,
+    "locationName": "Lesní knihovna",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 61,
+    "stashName": "Houbový kruh",
+    "locationId": 31,
+    "locationName": "Vílí palouček",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 127,
+    "stashName": "Kamenná pěst",
+    "locationId": 56,
+    "locationName": "Golém",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 133,
+    "stashName": "Trpasličí krb",
+    "locationId": 58,
+    "locationName": "Prokletý trpasličí dům",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 11,
+    "stashName": "Dutiny ve kmeni",
+    "locationId": 12,
+    "locationName": "Lesácké město",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 71,
+    "stashName": "Seschlý kořen",
+    "locationId": 34,
+    "locationName": "Pavoučí palouček",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 17,
+    "stashName": "Rybářská síť",
+    "locationId": 14,
+    "locationName": "Kamenný brod",
+    "region": "Sever",
+    "regrem": 1,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 147,
+    "stashName": "Kamenný mezník",
+    "locationId": 63,
+    "locationName": "Louky pod Skalbalem",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 100,
+    "stashName": "Přírodní sloup",
+    "locationId": 46,
+    "locationName": "Kráter",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 168,
+    "stashName": "Kamenná police",
+    "locationId": 69,
+    "locationName": "Nory divokých hobitů",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 64,
+    "stashName": "Kamenné korýtko",
+    "locationId": 32,
+    "locationName": "Dol",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 96,
+    "stashName": "Trhlina ve věži",
+    "locationId": 44,
+    "locationName": "Havraní kopec",
+    "region": "Sever",
+    "regrem": 1,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "E",
+    "title": "Prstýnek zelený",
+    "phase": "Start",
+    "stashId": 74,
+    "stashName": "Vyvrácený kmen",
+    "locationId": 36,
+    "locationName": "Srdce hvozdu",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 10,
+    "itemId": 388
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Start",
+    "stashId": 116,
+    "stashName": "Včelí vosk",
+    "locationId": 52,
+    "locationName": "Meddědův dům",
+    "region": "Jižní pláně",
+    "regrem": 1,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Start",
+    "stashId": 70,
+    "stashName": "Zvířecí nora",
+    "locationId": 34,
+    "locationName": "Pavoučí palouček",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Start",
+    "stashId": 62,
+    "stashName": "Starý pařez",
+    "locationId": 31,
+    "locationName": "Vílí palouček",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Start",
+    "stashId": 125,
+    "stashName": "Studna s víkem",
+    "locationId": 55,
+    "locationName": "Kobka starého krále",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Start",
+    "stashId": 163,
+    "stashName": "Sesuv půdy",
+    "locationId": 68,
+    "locationName": "Spálená pustina",
+    "region": "Severní železné hory",
+    "regrem": 1,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Start",
+    "stashId": 3,
+    "stashName": "Dutá vrba",
+    "locationId": 8,
+    "locationName": "Doubravka",
+    "region": "Západní temný hvozd",
+    "regrem": 1,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Early",
+    "stashId": 81,
+    "stashName": "Zatopená šachta",
+    "locationId": 39,
+    "locationName": "Močál",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Early",
+    "stashId": 21,
+    "stashName": "Cizokrajný sud",
+    "locationId": 16,
+    "locationName": "Brodečko",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Early",
+    "stashId": 183,
+    "stashName": "Šuplík pod pultem",
+    "locationId": 75,
+    "locationName": "Trh s hračkami",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Early",
+    "stashId": 184,
+    "stashName": "Zvonková věžička",
+    "locationId": 75,
+    "locationName": "Trh s hračkami",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Early",
+    "stashId": 99,
+    "stashName": "Zmrzlý vodopád",
+    "locationId": 45,
+    "locationName": "Ledová jeskyně",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Early",
+    "stashId": 109,
+    "stashName": "Zčernalý kotel",
+    "locationId": 50,
+    "locationName": "Ostrov čarodějnice",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Early",
+    "stashId": 23,
+    "stashName": "Hostinecký trám",
+    "locationId": 17,
+    "locationName": "Ailgartova tvrz",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Early",
+    "stashId": 20,
+    "stashName": "Říční oblázky",
+    "locationId": 16,
+    "locationName": "Brodečko",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Early",
+    "stashId": 22,
+    "stashName": "Puklina ve zdi",
+    "locationId": 17,
+    "locationName": "Ailgartova tvrz",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Early",
+    "stashId": 31,
+    "stashName": "Trouchnivá truhla",
+    "locationId": 21,
+    "locationName": "Tvrz Vidugavia",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Early",
+    "stashId": 189,
+    "stashName": "Podezřelá krtina",
+    "locationId": 79,
+    "locationName": "Včelí louky",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Early",
+    "stashId": 110,
+    "stashName": "Hořící bylina",
+    "locationId": 50,
+    "locationName": "Ostrov čarodějnice",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Early",
+    "stashId": 67,
+    "stashName": "Rozervaný stan",
+    "locationId": 33,
+    "locationName": "Scestov",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Early",
+    "stashId": 98,
+    "stashName": "Ledová stěna",
+    "locationId": 45,
+    "locationName": "Ledová jeskyně",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Lovecký tesák",
+    "phase": "Early",
+    "stashId": 34,
+    "stashName": "Zakletá polička",
+    "locationId": 22,
+    "locationName": "Rhosgobel",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 14,
+    "itemId": 453
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Early",
+    "stashId": 82,
+    "stashName": "Potopená kláda",
+    "locationId": 39,
+    "locationName": "Močál",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Early",
+    "stashId": 186,
+    "stashName": "Stará sklepní dvířka",
+    "locationId": 76,
+    "locationName": "Hostinec U Tří dubů",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Start",
+    "stashId": 28,
+    "stashName": "Zrezivělý řetěz",
+    "locationId": 19,
+    "locationName": "Železná osada",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Start",
+    "stashId": 72,
+    "stashName": "Dutý pařez",
+    "locationId": 35,
+    "locationName": "Lesní knihovna",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Lovecký tesák",
+    "phase": "Start",
+    "stashId": 83,
+    "stashName": "Dutý rákos",
+    "locationId": 39,
+    "locationName": "Močál",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 3,
+    "itemId": 453
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Start",
+    "stashId": 113,
+    "stashName": "Naplavené dřevo",
+    "locationId": 51,
+    "locationName": "Ostrov na jezeře",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Start",
+    "stashId": 97,
+    "stashName": "Puklina",
+    "locationId": 45,
+    "locationName": "Ledová jeskyně",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Start",
+    "stashId": 190,
+    "stashName": "Včelí úl",
+    "locationId": 79,
+    "locationName": "Včelí louky",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Start",
+    "stashId": 66,
+    "stashName": "Škarpa u cesty",
+    "locationId": 33,
+    "locationName": "Scestov",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Start",
+    "stashId": 112,
+    "stashName": "Potopená truhla",
+    "locationId": 51,
+    "locationName": "Ostrov na jezeře",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Start",
+    "stashId": 35,
+    "stashName": "Ptačí budka",
+    "locationId": 22,
+    "locationName": "Rhosgobel",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Start",
+    "stashId": 77,
+    "stashName": "Pahýl stromu, který vypadá jako zlomená ruka",
+    "locationId": 37,
+    "locationName": "Stará lesní stezka",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Start",
+    "stashId": 68,
+    "stashName": "Stínový výklenek",
+    "locationId": 33,
+    "locationName": "Scestov",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Start",
+    "stashId": 33,
+    "stashName": "Nenápadný výklenek",
+    "locationId": 22,
+    "locationName": "Rhosgobel",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Start",
+    "stashId": 27,
+    "stashName": "Jáma s popelem",
+    "locationId": 19,
+    "locationName": "Železná osada",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Start",
+    "stashId": 32,
+    "stashName": "Tajné dveře",
+    "locationId": 21,
+    "locationName": "Tvrz Vidugavia",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Start",
+    "stashId": 185,
+    "stashName": "Uvolněné prkno",
+    "locationId": 76,
+    "locationName": "Hostinec U Tří dubů",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Start",
+    "stashId": 111,
+    "stashName": "Kočičí místo",
+    "locationId": 50,
+    "locationName": "Ostrov čarodějnice",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Start",
+    "stashId": 78,
+    "stashName": "Vybledlá značka",
+    "locationId": 37,
+    "locationName": "Stará lesní stezka",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Start",
+    "stashId": 73,
+    "stashName": "Zkamenělý svítek",
+    "locationId": 35,
+    "locationName": "Lesní knihovna",
+    "region": "Střed",
+    "regrem": 0,
+    "poolEntryId": 50,
+    "itemId": 385
+  },
+  {
+    "kind": "pool",
+    "tier": "F",
+    "title": "Šikovný kámen",
+    "phase": "Start",
+    "stashId": 61,
+    "stashName": "Houbový kruh",
+    "locationId": 31,
+    "locationName": "Vílí palouček",
+    "region": "Divočina",
+    "regrem": 1,
+    "poolEntryId": 50,
+    "itemId": 385
+  }
+]

@@ -7,7 +7,7 @@ stav: schváleno
 viditelnost: obojí
 závisí-na: [EKO-001, SIT-001, SIT-005, SIT-006]
 nahrazuje: []
-poslední-změna: 2026-04-30
+poslední-změna: 2026-05-01
 klíčové-fráze:
   - jak fungují daně
   - kolik vybírá král
@@ -16,6 +16,8 @@ klíčové-fráze:
   - královský příjem
   - kolik dostává král
   - tabulka daní
+  - Nový Arnor daně výjimka
+  - mladé království daně
 ---
 
 # Daně národa
@@ -28,6 +30,7 @@ Za každého hráče svého národa získá král **1 groš za období**.
 
 - Počítají se všichni hráči startující s daným národem (včetně dětských kategorií).
 - Daň reprezentuje obecný výnos z poddaných — počítá se i v období, kdy je hráč mimo město.
+- **Výjimka — Nový Arnor:** V Novém Arnoru se daň z obyvatelstva **nevybírá** — království je mladé a daňový systém ještě není zavedený (viz pravidla pro krále, sekce *Nový Arnor — mladé království*).
 
 ## Daň z budov
 

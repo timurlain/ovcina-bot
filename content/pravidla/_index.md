@@ -1,10 +1,10 @@
 # Rejstřík pravidel — Ovčina 2026
 
 > Automaticky generovaný rejstřík. Neupravovat ručně.
-> Poslední aktualizace: 2026-04-30 (přidáno OVB-003 Dračí mládě, vyhozeno MAG-011, schváleno MAG-013 Rosa Valar)
+> Poslední aktualizace: 2026-05-01 (přidáno QUE-009 Questy o získání vesnice; rozšířeno SIT-001 o vlajku královské armády, místokrále, pasování na rytíře a královské pravomoci; uzavřena otázka #3 v ROZ-014)
 
-**Celkem pravidel:** 88
-**Schváleno:** 86 | **Návrh:** 1 | **Zastaralé:** 1
+**Celkem pravidel:** 92
+**Schváleno:** 90 | **Návrh:** 1 | **Zastaralé:** 1
 
 | ID | Název | Úroveň | Stav | Viditelnost | Soubor |
 |----|-------|--------|------|-------------|--------|
@@ -33,6 +33,7 @@
 | EKO-009 | Lov a jídlo | systémová | schváleno | hráč | systemova/ekonomika/EKO-009-lov-a-jidlo.md |
 | EKO-010 | Ekonomické následky porážky | systémová | schváleno | obojí | systemova/ekonomika/EKO-010-nasledky-porazky.md |
 | EKO-011 | Daně národa — královský výnos z hráčů a budov | systémová | schváleno | obojí | systemova/ekonomika/EKO-011-dane-naroda.md |
+| EKO-012 | Léčení hrdinů | systémová | schváleno | hráč | systemova/ekonomika/EKO-012-leceni-hrdinu.md |
 | LEK-001 | Systém lektvarů | systémová | schváleno | hráč | systemova/LEK-001-system-lektvaru.md |
 | MAG-001 | Systém many | systémová | schváleno | hráč | systemova/magie/MAG-001-system-many.md |
 | MAG-002 | Sesílání kouzel | systémová | schváleno | hráč | systemova/magie/MAG-002-sesilani-kouzel.md |
@@ -65,6 +66,8 @@
 | QUE-005 | Questy od NPC | systémová | schváleno | hráč | systemova/questy/QUE-005-questy-od-npc.md |
 | QUE-006 | Volené questy | systémová | schváleno | hráč | systemova/questy/QUE-006-volene-questy.md |
 | QUE-007 | Odměny za questy a zkušenosti | systémová | schváleno | hráč | systemova/questy/QUE-007-odmeny-za-questy.md |
+| QUE-008 | Indicie a knihovník | systémová | schváleno | hráč | systemova/questy/QUE-008-indicie-a-knihovnik.md |
+| QUE-009 | Questy o získání vesnice — úvodní questy lokací | systémová | schváleno | obojí | systemova/questy/QUE-009-ziskani-vesnice.md |
 | ROZ-001 | Struktura finálního dungeonu — 3 vrstvy obtížnosti | rozhodnutí | schváleno | organizátor | rozhodnuti/ROZ-001-struktura-finalniho-dungeonu.md |
 | ROZ-002 | Revival a léčení v dungeonu | rozhodnutí | schváleno | organizátor | rozhodnuti/ROZ-002-revival-a-leceni-v-dungeonu.md |
 | ROZ-003 | Nedělitelný poklad v pokladnici (PvP finále) | rozhodnutí | schváleno | organizátor | rozhodnuti/ROZ-003-nedělitelny-poklad-v-pokladnici.md |
@@ -87,6 +90,7 @@
 | SIT-006 | Pravidla pro rozvoj měst | situační | schváleno | obojí | situacni/SIT-006-rozvoj-mest.md |
 | SIT-007 | Bojová akademie v Brodečku | situační | schváleno | obojí | situacni/SIT-007-bojova-akademie.md |
 | SIT-008 | Hráčské nemovitosti — Dům a Panství | situační | schváleno | obojí | situacni/SIT-008-hracske-nemovitosti.md |
+| SIT-009 | Operativa obchodníka | situační | schváleno | organizátor | situacni/SIT-009-operativa-obchodnika.md |
 | ZLO-001 | Zlodějina — tajné pravidlo o krádežích | systémová | schváleno | organizátor | systemova/ZLO-001-zlodejina.md |
 | ZAK-001 | Soubojový systém | základní | schváleno | hráč | zakladni/ZAK-001_soubojovy-system.md |
 | ZAK-002 | Útok a obrana | základní | schváleno | hráč | zakladni/ZAK-002_utok-a-obrana.md |

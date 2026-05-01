@@ -5,9 +5,9 @@ název: Pilíře slávy — bodování národů (ročník 2026)
 kategorie: [bodování, království, soutěž, ročník-2026]
 stav: schváleno
 viditelnost: obojí
-závisí-na: [SIT-001, SIT-005, SIT-006, SIT-008, EKO-003, PRI-004, QUE-001]
+závisí-na: [SIT-001, SIT-005, SIT-006, SIT-008, EKO-003, PRI-004, QUE-001, QUE-009]
 nahrazuje: []
-poslední-změna: 2026-04-25
+poslední-změna: 2026-05-01
 klíčové-fráze:
   - pilíře slávy
   - jak bodovat národ
@@ -92,7 +92,7 @@ Každý pilíř táhne jiný styl hry a odměňuje jiný typ královské strateg
 
 1. Kategorie příšer I-IV — definice ještě není (cross-ref PRI-001, PRI-002).
 2. Zdroj listů Knihy Mazarbul — kde padá oněch 35 listů? Dungeon, questy, NPC?
-3. Sledování PvP — jak se „skutečná bitva" mechanicky zaznamenává?
+3. ~~Sledování PvP — jak se „skutečná bitva" mechanicky zaznamenává?~~ — vyřešeno 2026-05-01: zaznamenává **Osud**. Vítěz PvP bitvy s alespoň 3 poraženými ohlásí výsledek Osudovi, ten zápis vede ve svitku národa a body se započítávají do Pilíře Moci na konci hry.
 4. Forma závěrečného uznání — jak se národům prezentuje, čeho v jednotlivých pilířích dosáhli? Veřejné vyhlášení, glejt, příběhové uzavření?
 
 ## Vztah k existujícím pravidlům

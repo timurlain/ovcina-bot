@@ -1,0 +1,1908 @@
+{
+  "gameId": 30,
+  "intent": "Money+suroviny filler. Resources cluster early (start/early/mid), late tiers are gold-dominant.",
+  "tierBudget": {
+    "Tiny": {
+      "count": 25,
+      "gold": 233,
+      "resCount": 53
+    },
+    "Small": {
+      "count": 25,
+      "gold": 570,
+      "resCount": 53
+    },
+    "Medium": {
+      "count": 25,
+      "gold": 1169,
+      "resCount": 51
+    },
+    "Big": {
+      "count": 25,
+      "gold": 1688,
+      "resCount": 15
+    },
+    "Super large": {
+      "count": 12,
+      "gold": 1370,
+      "resCount": 7
+    }
+  },
+  "totalGold": 5030,
+  "totalCount": 112,
+  "totalResources": 179,
+  "resourceTotals": {
+    "Byliny": 40,
+    "Jídlo": 21,
+    "Kožešiny": 34,
+    "Dřevo": 21,
+    "Víno": 28,
+    "Kámen": 24,
+    "Mana": 6,
+    "Voda hvězd": 4,
+    "Menhir": 1
+  },
+  "treasures": [
+    {
+      "id": "FILL-001",
+      "tier": "Tiny",
+      "gameStage": "start",
+      "regionDifficulty": 0,
+      "name": "Ošoupaný měšec v kořenech",
+      "groseTotal": 8,
+      "coinMix": "1× stříbrňák + 3× měďák",
+      "resources": [
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-002",
+      "tier": "Tiny",
+      "gameStage": "start",
+      "regionDifficulty": 0,
+      "name": "Pytlíček pod plochým kamenem",
+      "groseTotal": 10,
+      "coinMix": "2× stříbrňák",
+      "resources": [
+        {
+          "itemId": 399,
+          "name": "Jídlo",
+          "qty": 1
+        },
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-003",
+      "tier": "Tiny",
+      "gameStage": "start",
+      "regionDifficulty": 0,
+      "name": "Loupežnický váček",
+      "groseTotal": 12,
+      "coinMix": "2× stříbrňák + 2× měďák",
+      "resources": [
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 1
+        },
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-004",
+      "tier": "Tiny",
+      "gameStage": "start",
+      "regionDifficulty": 0,
+      "name": "Schránka v komíně",
+      "groseTotal": 7,
+      "coinMix": "1× stříbrňák + 2× měďák",
+      "resources": [
+        {
+          "itemId": 374,
+          "name": "Dřevo",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-005",
+      "tier": "Tiny",
+      "gameStage": "start",
+      "regionDifficulty": 0,
+      "name": "Krabička v hromadě listí",
+      "groseTotal": 11,
+      "coinMix": "2× stříbrňák + 1× měďák",
+      "resources": [
+        {
+          "itemId": 373,
+          "name": "Víno",
+          "qty": 1
+        },
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-006",
+      "tier": "Tiny",
+      "gameStage": "start",
+      "regionDifficulty": 0,
+      "name": "Měšec utopence",
+      "groseTotal": 9,
+      "coinMix": "1× stříbrňák + 4× měďák",
+      "resources": [
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-007",
+      "tier": "Tiny",
+      "gameStage": "start",
+      "regionDifficulty": 0,
+      "name": "Vak po pocestném",
+      "groseTotal": 13,
+      "coinMix": "2× stříbrňák + 3× měďák",
+      "resources": [
+        {
+          "itemId": 399,
+          "name": "Jídlo",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-008",
+      "tier": "Tiny",
+      "gameStage": "start",
+      "regionDifficulty": 0,
+      "name": "Mošna kupcova synka",
+      "groseTotal": 14,
+      "coinMix": "2× stříbrňák + 4× měďák",
+      "resources": [
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 2
+        },
+        {
+          "itemId": 373,
+          "name": "Víno",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-009",
+      "tier": "Tiny",
+      "gameStage": "start",
+      "regionDifficulty": 0,
+      "name": "Pytlík v prasklině zdi",
+      "groseTotal": 6,
+      "coinMix": "1× stříbrňák + 1× měďák",
+      "resources": [
+        {
+          "itemId": 375,
+          "name": "Kámen",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-010",
+      "tier": "Tiny",
+      "gameStage": "start",
+      "regionDifficulty": 0,
+      "name": "Kapsa žebrákova kabátu",
+      "groseTotal": 5,
+      "coinMix": "1× stříbrňák",
+      "resources": [
+        {
+          "itemId": 399,
+          "name": "Jídlo",
+          "qty": 1
+        },
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-011",
+      "tier": "Tiny",
+      "gameStage": "start",
+      "regionDifficulty": 0,
+      "name": "Doupě skrblíkovo",
+      "groseTotal": 15,
+      "coinMix": "3× stříbrňák",
+      "resources": [
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-012",
+      "tier": "Tiny",
+      "gameStage": "start",
+      "regionDifficulty": 0,
+      "name": "Šátek se třemi mincemi a uzlem",
+      "groseTotal": 6,
+      "coinMix": "1× stříbrňák + 1× měďák",
+      "resources": [
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-013",
+      "tier": "Tiny",
+      "gameStage": "start",
+      "regionDifficulty": 0,
+      "name": "Drobnost ve štěrbině schodů",
+      "groseTotal": 7,
+      "coinMix": "1× stříbrňák + 2× měďák",
+      "resources": [
+        {
+          "itemId": 375,
+          "name": "Kámen",
+          "qty": 1
+        },
+        {
+          "itemId": 374,
+          "name": "Dřevo",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-014",
+      "tier": "Tiny",
+      "gameStage": "start",
+      "regionDifficulty": 0,
+      "name": "Pytlík v rákosí",
+      "groseTotal": 9,
+      "coinMix": "1× stříbrňák + 4× měďák",
+      "resources": [
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-015",
+      "tier": "Tiny",
+      "gameStage": "start",
+      "regionDifficulty": 0,
+      "name": "Polorozpadlá schránka",
+      "groseTotal": 8,
+      "coinMix": "1× stříbrňák + 3× měďák",
+      "resources": [
+        {
+          "itemId": 374,
+          "name": "Dřevo",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-016",
+      "tier": "Tiny",
+      "gameStage": "start",
+      "regionDifficulty": 0,
+      "name": "V odpadkovém koši hostince",
+      "groseTotal": 5,
+      "coinMix": "1× stříbrňák",
+      "resources": [
+        {
+          "itemId": 399,
+          "name": "Jídlo",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-017",
+      "tier": "Tiny",
+      "gameStage": "start",
+      "regionDifficulty": 0,
+      "name": "Mezi kořeny dubu",
+      "groseTotal": 10,
+      "coinMix": "2× stříbrňák",
+      "resources": [
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 2
+        },
+        {
+          "itemId": 374,
+          "name": "Dřevo",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-018",
+      "tier": "Tiny",
+      "gameStage": "start",
+      "regionDifficulty": 0,
+      "name": "Pod uvolněným prknem podlahy",
+      "groseTotal": 12,
+      "coinMix": "2× stříbrňák + 2× měďák",
+      "resources": [
+        {
+          "itemId": 374,
+          "name": "Dřevo",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-019",
+      "tier": "Tiny",
+      "gameStage": "start",
+      "regionDifficulty": 0,
+      "name": "Klubko hadrů s pár mincemi",
+      "groseTotal": 5,
+      "coinMix": "1× stříbrňák",
+      "resources": [
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 1
+        },
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-020",
+      "tier": "Tiny",
+      "gameStage": "start",
+      "regionDifficulty": 0,
+      "name": "Plesnivý měšec v hromadě sena",
+      "groseTotal": 8,
+      "coinMix": "1× stříbrňák + 3× měďák",
+      "resources": [
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-021",
+      "tier": "Tiny",
+      "gameStage": "start",
+      "regionDifficulty": 0,
+      "name": "Schovaná pod hromadou kamení",
+      "groseTotal": 6,
+      "coinMix": "1× stříbrňák + 1× měďák",
+      "resources": [
+        {
+          "itemId": 375,
+          "name": "Kámen",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-022",
+      "tier": "Tiny",
+      "gameStage": "start",
+      "regionDifficulty": 0,
+      "name": "V dutině staré sochy",
+      "groseTotal": 11,
+      "coinMix": "2× stříbrňák + 1× měďák",
+      "resources": [
+        {
+          "itemId": 375,
+          "name": "Kámen",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-023",
+      "tier": "Tiny",
+      "gameStage": "start",
+      "regionDifficulty": 0,
+      "name": "Truhlička v kořenech",
+      "groseTotal": 13,
+      "coinMix": "2× stříbrňák + 3× měďák",
+      "resources": [
+        {
+          "itemId": 373,
+          "name": "Víno",
+          "qty": 1
+        },
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-024",
+      "tier": "Tiny",
+      "gameStage": "start",
+      "regionDifficulty": 0,
+      "name": "Mezi cihly v rozbité peci",
+      "groseTotal": 9,
+      "coinMix": "1× stříbrňák + 4× měďák",
+      "resources": [
+        {
+          "itemId": 373,
+          "name": "Víno",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-025",
+      "tier": "Tiny",
+      "gameStage": "start",
+      "regionDifficulty": 0,
+      "name": "Měšec s pruhovanou stuhou",
+      "groseTotal": 14,
+      "coinMix": "2× stříbrňák + 4× měďák",
+      "resources": [
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 2
+        },
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-026",
+      "tier": "Small",
+      "gameStage": "early",
+      "regionDifficulty": 0,
+      "name": "Měšec mrtvého kupce",
+      "groseTotal": 22,
+      "coinMix": "4× stříbrňák + 2× měďák",
+      "resources": [
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 2
+        },
+        {
+          "itemId": 399,
+          "name": "Jídlo",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-027",
+      "tier": "Small",
+      "gameStage": "early",
+      "regionDifficulty": 0,
+      "name": "Truhlička v rákosí",
+      "groseTotal": 18,
+      "coinMix": "3× stříbrňák + 3× měďák",
+      "resources": [
+        {
+          "itemId": 373,
+          "name": "Víno",
+          "qty": 1
+        },
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-028",
+      "tier": "Small",
+      "gameStage": "early",
+      "regionDifficulty": 0,
+      "name": "Zlodějská skrýš v sudech",
+      "groseTotal": 28,
+      "coinMix": "1× zlaťák + 3× měďák",
+      "resources": [
+        {
+          "itemId": 373,
+          "name": "Víno",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-029",
+      "tier": "Small",
+      "gameStage": "early",
+      "regionDifficulty": 0,
+      "name": "Pošťákova brašna",
+      "groseTotal": 16,
+      "coinMix": "3× stříbrňák + 1× měďák",
+      "resources": [
+        {
+          "itemId": 374,
+          "name": "Dřevo",
+          "qty": 1
+        },
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-030",
+      "tier": "Small",
+      "gameStage": "early",
+      "regionDifficulty": 0,
+      "name": "Kupecká schránka pod prahem",
+      "groseTotal": 30,
+      "coinMix": "1× zlaťák + 1× stříbrňák",
+      "resources": [
+        {
+          "itemId": 373,
+          "name": "Víno",
+          "qty": 1
+        },
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-031",
+      "tier": "Small",
+      "gameStage": "early",
+      "regionDifficulty": 0,
+      "name": "Kořist po žoldnéři",
+      "groseTotal": 24,
+      "coinMix": "4× stříbrňák + 4× měďák",
+      "resources": [
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-032",
+      "tier": "Small",
+      "gameStage": "early",
+      "regionDifficulty": 0,
+      "name": "Loupežnická kořist",
+      "groseTotal": 25,
+      "coinMix": "1× zlaťák",
+      "resources": [
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 1
+        },
+        {
+          "itemId": 373,
+          "name": "Víno",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-033",
+      "tier": "Small",
+      "gameStage": "early",
+      "regionDifficulty": 0,
+      "name": "Skrýš v koruně padlého stromu",
+      "groseTotal": 21,
+      "coinMix": "4× stříbrňák + 1× měďák",
+      "resources": [
+        {
+          "itemId": 374,
+          "name": "Dřevo",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-034",
+      "tier": "Small",
+      "gameStage": "early",
+      "regionDifficulty": 0,
+      "name": "Mosazná schránka v ohništi",
+      "groseTotal": 26,
+      "coinMix": "1× zlaťák + 1× měďák",
+      "resources": [
+        {
+          "itemId": 399,
+          "name": "Jídlo",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-035",
+      "tier": "Small",
+      "gameStage": "early",
+      "regionDifficulty": 0,
+      "name": "Pytel za přepravkou v chlívě",
+      "groseTotal": 23,
+      "coinMix": "4× stříbrňák + 3× měďák",
+      "resources": [
+        {
+          "itemId": 399,
+          "name": "Jídlo",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-036",
+      "tier": "Small",
+      "gameStage": "early",
+      "regionDifficulty": 0,
+      "name": "Hrnec zakopaný za mlýnem",
+      "groseTotal": 29,
+      "coinMix": "1× zlaťák + 4× měďák",
+      "resources": [
+        {
+          "itemId": 399,
+          "name": "Jídlo",
+          "qty": 2
+        },
+        {
+          "itemId": 373,
+          "name": "Víno",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-037",
+      "tier": "Small",
+      "gameStage": "early",
+      "regionDifficulty": 0,
+      "name": "Lapkovská brašna",
+      "groseTotal": 27,
+      "coinMix": "1× zlaťák + 2× měďák",
+      "resources": [
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 2
+        },
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-038",
+      "tier": "Small",
+      "gameStage": "early",
+      "regionDifficulty": 0,
+      "name": "Vinařova taška",
+      "groseTotal": 25,
+      "coinMix": "1× zlaťák",
+      "resources": [
+        {
+          "itemId": 373,
+          "name": "Víno",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-039",
+      "tier": "Small",
+      "gameStage": "early",
+      "regionDifficulty": 0,
+      "name": "Skrýš pod podlahou koželužny",
+      "groseTotal": 19,
+      "coinMix": "3× stříbrňák + 4× měďák",
+      "resources": [
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-040",
+      "tier": "Small",
+      "gameStage": "early",
+      "regionDifficulty": 0,
+      "name": "Kovářova kapsa kožené zástěry",
+      "groseTotal": 20,
+      "coinMix": "4× stříbrňák",
+      "resources": [
+        {
+          "itemId": 375,
+          "name": "Kámen",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-041",
+      "tier": "Small",
+      "gameStage": "early",
+      "regionDifficulty": 0,
+      "name": "Prkenná truhlička pod schody",
+      "groseTotal": 30,
+      "coinMix": "1× zlaťák + 1× stříbrňák",
+      "resources": [
+        {
+          "itemId": 374,
+          "name": "Dřevo",
+          "qty": 1
+        },
+        {
+          "itemId": 373,
+          "name": "Víno",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-042",
+      "tier": "Small",
+      "gameStage": "early",
+      "regionDifficulty": 0,
+      "name": "Pohřební dary v urně",
+      "groseTotal": 17,
+      "coinMix": "3× stříbrňák + 2× měďák",
+      "resources": [
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-043",
+      "tier": "Small",
+      "gameStage": "early",
+      "regionDifficulty": 0,
+      "name": "Schránka řeznického učedníka",
+      "groseTotal": 22,
+      "coinMix": "4× stříbrňák + 2× měďák",
+      "resources": [
+        {
+          "itemId": 399,
+          "name": "Jídlo",
+          "qty": 2
+        },
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-044",
+      "tier": "Small",
+      "gameStage": "early",
+      "regionDifficulty": 1,
+      "name": "Měšec ve štěrbině zdi",
+      "groseTotal": 18,
+      "coinMix": "3× stříbrňák + 3× měďák",
+      "resources": [
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-045",
+      "tier": "Small",
+      "gameStage": "early",
+      "regionDifficulty": 1,
+      "name": "Mníškova mošna",
+      "groseTotal": 24,
+      "coinMix": "4× stříbrňák + 4× měďák",
+      "resources": [
+        {
+          "itemId": 373,
+          "name": "Víno",
+          "qty": 1
+        },
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-046",
+      "tier": "Small",
+      "gameStage": "early",
+      "regionDifficulty": 1,
+      "name": "Truhlička za olejomalbou",
+      "groseTotal": 26,
+      "coinMix": "1× zlaťák + 1× měďák",
+      "resources": [
+        {
+          "itemId": 373,
+          "name": "Víno",
+          "qty": 1
+        },
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-047",
+      "tier": "Small",
+      "gameStage": "early",
+      "regionDifficulty": 1,
+      "name": "Měďáková žíla v rozbité peci",
+      "groseTotal": 16,
+      "coinMix": "3× stříbrňák + 1× měďák",
+      "resources": [
+        {
+          "itemId": 375,
+          "name": "Kámen",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-048",
+      "tier": "Small",
+      "gameStage": "early",
+      "regionDifficulty": 1,
+      "name": "Provazochodcův pytlík",
+      "groseTotal": 15,
+      "coinMix": "3× stříbrňák",
+      "resources": [
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-049",
+      "tier": "Small",
+      "gameStage": "early",
+      "regionDifficulty": 1,
+      "name": "Skrýš v hromadě dříví na zimu",
+      "groseTotal": 28,
+      "coinMix": "1× zlaťák + 3× měďák",
+      "resources": [
+        {
+          "itemId": 374,
+          "name": "Dřevo",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-050",
+      "tier": "Small",
+      "gameStage": "early",
+      "regionDifficulty": 1,
+      "name": "Kupecká schrána v balíku slámy",
+      "groseTotal": 21,
+      "coinMix": "4× stříbrňák + 1× měďák",
+      "resources": [
+        {
+          "itemId": 399,
+          "name": "Jídlo",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-051",
+      "tier": "Medium",
+      "gameStage": "mid",
+      "regionDifficulty": 0,
+      "name": "Pytlík se stříbrnou nití",
+      "groseTotal": 50,
+      "coinMix": "2× zlaťák",
+      "resources": [
+        {
+          "itemId": 373,
+          "name": "Víno",
+          "qty": 1
+        },
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-052",
+      "tier": "Medium",
+      "gameStage": "mid",
+      "regionDifficulty": 0,
+      "name": "Skrýš obchodního výpravčího",
+      "groseTotal": 45,
+      "coinMix": "1× zlaťák + 4× stříbrňák",
+      "resources": [
+        {
+          "itemId": 373,
+          "name": "Víno",
+          "qty": 1
+        },
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-053",
+      "tier": "Medium",
+      "gameStage": "mid",
+      "regionDifficulty": 0,
+      "name": "Truhlička v koruně Strážného dubu",
+      "groseTotal": 42,
+      "coinMix": "1× zlaťák + 3× stříbrňák + 2× měďák",
+      "resources": [
+        {
+          "itemId": 374,
+          "name": "Dřevo",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-054",
+      "tier": "Medium",
+      "gameStage": "mid",
+      "regionDifficulty": 0,
+      "name": "Loupežnická pokladnička",
+      "groseTotal": 48,
+      "coinMix": "1× zlaťák + 4× stříbrňák + 3× měďák",
+      "resources": [
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 1
+        },
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-055",
+      "tier": "Medium",
+      "gameStage": "mid",
+      "regionDifficulty": 0,
+      "name": "Skřínka v koželužně mistra",
+      "groseTotal": 40,
+      "coinMix": "1× zlaťák + 3× stříbrňák",
+      "resources": [
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-056",
+      "tier": "Medium",
+      "gameStage": "mid",
+      "regionDifficulty": 1,
+      "name": "Zámeček s rudou pečetí",
+      "groseTotal": 52,
+      "coinMix": "2× zlaťák + 2× měďák",
+      "resources": [
+        {
+          "itemId": 375,
+          "name": "Kámen",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-057",
+      "tier": "Medium",
+      "gameStage": "mid",
+      "regionDifficulty": 1,
+      "name": "Pohár s mincí a karmínem",
+      "groseTotal": 46,
+      "coinMix": "1× zlaťák + 4× stříbrňák + 1× měďák",
+      "resources": [
+        {
+          "itemId": 373,
+          "name": "Víno",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-058",
+      "tier": "Medium",
+      "gameStage": "mid",
+      "regionDifficulty": 1,
+      "name": "Pytel u opuštěného povozu",
+      "groseTotal": 54,
+      "coinMix": "2× zlaťák + 4× měďák",
+      "resources": [
+        {
+          "itemId": 399,
+          "name": "Jídlo",
+          "qty": 2
+        },
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-059",
+      "tier": "Medium",
+      "gameStage": "mid",
+      "regionDifficulty": 1,
+      "name": "Kořist starého hejtmana",
+      "groseTotal": 50,
+      "coinMix": "2× zlaťák",
+      "resources": [
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-060",
+      "tier": "Medium",
+      "gameStage": "mid",
+      "regionDifficulty": 1,
+      "name": "Truhlice ze ztracené karavany",
+      "groseTotal": 55,
+      "coinMix": "2× zlaťák + 1× stříbrňák",
+      "resources": [
+        {
+          "itemId": 373,
+          "name": "Víno",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-061",
+      "tier": "Medium",
+      "gameStage": "mid",
+      "regionDifficulty": 1,
+      "name": "Šperkovnice nevěstina",
+      "groseTotal": 38,
+      "coinMix": "1× zlaťák + 2× stříbrňák + 3× měďák",
+      "resources": [
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 1
+        },
+        {
+          "itemId": 373,
+          "name": "Víno",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-062",
+      "tier": "Medium",
+      "gameStage": "mid",
+      "regionDifficulty": 1,
+      "name": "Pokladnička v prasklém zvonu",
+      "groseTotal": 44,
+      "coinMix": "1× zlaťák + 3× stříbrňák + 4× měďák",
+      "resources": [
+        {
+          "itemId": 375,
+          "name": "Kámen",
+          "qty": 1
+        },
+        {
+          "itemId": 374,
+          "name": "Dřevo",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-063",
+      "tier": "Medium",
+      "gameStage": "mid",
+      "regionDifficulty": 1,
+      "name": "Schrána pod schodištěm strážnice",
+      "groseTotal": 48,
+      "coinMix": "1× zlaťák + 4× stříbrňák + 3× měďák",
+      "resources": [
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 1
+        },
+        {
+          "itemId": 375,
+          "name": "Kámen",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-064",
+      "tier": "Medium",
+      "gameStage": "mid",
+      "regionDifficulty": 1,
+      "name": "Pytlík dukátů v balíku slámy",
+      "groseTotal": 36,
+      "coinMix": "1× zlaťák + 2× stříbrňák + 1× měďák",
+      "resources": [
+        {
+          "itemId": 399,
+          "name": "Jídlo",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-065",
+      "tier": "Medium",
+      "gameStage": "mid",
+      "regionDifficulty": 1,
+      "name": "Truhlička za kamennou deskou",
+      "groseTotal": 52,
+      "coinMix": "2× zlaťák + 2× měďák",
+      "resources": [
+        {
+          "itemId": 373,
+          "name": "Víno",
+          "qty": 1
+        },
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-066",
+      "tier": "Medium",
+      "gameStage": "mid",
+      "regionDifficulty": 1,
+      "name": "Skrýš v dutém Strážném balvanu",
+      "groseTotal": 40,
+      "coinMix": "1× zlaťák + 3× stříbrňák",
+      "resources": [
+        {
+          "itemId": 375,
+          "name": "Kámen",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-067",
+      "tier": "Medium",
+      "gameStage": "mid",
+      "regionDifficulty": 1,
+      "name": "Schrána lichvářova",
+      "groseTotal": 50,
+      "coinMix": "2× zlaťák",
+      "resources": [
+        {
+          "itemId": 373,
+          "name": "Víno",
+          "qty": 1
+        },
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-068",
+      "tier": "Medium",
+      "gameStage": "mid",
+      "regionDifficulty": 1,
+      "name": "Truhlička proklatého chmelaře",
+      "groseTotal": 42,
+      "coinMix": "1× zlaťák + 3× stříbrňák + 2× měďák",
+      "resources": [
+        {
+          "itemId": 373,
+          "name": "Víno",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-069",
+      "tier": "Medium",
+      "gameStage": "mid",
+      "regionDifficulty": 1,
+      "name": "Kovaná schránka v lazaretu",
+      "groseTotal": 46,
+      "coinMix": "1× zlaťák + 4× stříbrňák + 1× měďák",
+      "resources": [
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-070",
+      "tier": "Medium",
+      "gameStage": "mid",
+      "regionDifficulty": 1,
+      "name": "Šperky v kostře pod kobercem",
+      "groseTotal": 44,
+      "coinMix": "1× zlaťák + 3× stříbrňák + 4× měďák",
+      "resources": [
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-071",
+      "tier": "Medium",
+      "gameStage": "mid",
+      "regionDifficulty": 1,
+      "name": "Skrýš v rozbitém kotli",
+      "groseTotal": 54,
+      "coinMix": "2× zlaťák + 4× měďák",
+      "resources": [
+        {
+          "itemId": 375,
+          "name": "Kámen",
+          "qty": 1
+        },
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-072",
+      "tier": "Medium",
+      "gameStage": "mid",
+      "regionDifficulty": 1,
+      "name": "Truhlice v zaboulené stodole",
+      "groseTotal": 48,
+      "coinMix": "1× zlaťák + 4× stříbrňák + 3× měďák",
+      "resources": [
+        {
+          "itemId": 374,
+          "name": "Dřevo",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-073",
+      "tier": "Medium",
+      "gameStage": "mid",
+      "regionDifficulty": 1,
+      "name": "Pohřební mošna válečnická",
+      "groseTotal": 40,
+      "coinMix": "1× zlaťák + 3× stříbrňák",
+      "resources": [
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-074",
+      "tier": "Medium",
+      "gameStage": "mid",
+      "regionDifficulty": 2,
+      "name": "Kovaná truhlička v krbu",
+      "groseTotal": 55,
+      "coinMix": "2× zlaťák + 1× stříbrňák",
+      "resources": [
+        {
+          "itemId": 375,
+          "name": "Kámen",
+          "qty": 1
+        },
+        {
+          "itemId": 374,
+          "name": "Dřevo",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-075",
+      "tier": "Medium",
+      "gameStage": "mid",
+      "regionDifficulty": 2,
+      "name": "Pytel řemeslnické cechovní pokladny",
+      "groseTotal": 50,
+      "coinMix": "2× zlaťák",
+      "resources": [
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 1
+        },
+        {
+          "itemId": 375,
+          "name": "Kámen",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-076",
+      "tier": "Big",
+      "gameStage": "late",
+      "regionDifficulty": 1,
+      "name": "Truhlice obchodní karavany",
+      "groseTotal": 75,
+      "coinMix": "3× zlaťák",
+      "resources": [
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-077",
+      "tier": "Big",
+      "gameStage": "late",
+      "regionDifficulty": 1,
+      "name": "Pancéřovaná skřínka v zákopu",
+      "groseTotal": 72,
+      "coinMix": "2× zlaťák + 4× stříbrňák + 2× měďák",
+      "resources": []
+    },
+    {
+      "id": "FILL-078",
+      "tier": "Big",
+      "gameStage": "late",
+      "regionDifficulty": 1,
+      "name": "Skrýš tajné spolčiny",
+      "groseTotal": 65,
+      "coinMix": "2× zlaťák + 3× stříbrňák",
+      "resources": [
+        {
+          "itemId": 452,
+          "name": "Byliny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-079",
+      "tier": "Big",
+      "gameStage": "late",
+      "regionDifficulty": 1,
+      "name": "Lupičský poklad ve studni",
+      "groseTotal": 70,
+      "coinMix": "2× zlaťák + 4× stříbrňák",
+      "resources": [
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-080",
+      "tier": "Big",
+      "gameStage": "late",
+      "regionDifficulty": 1,
+      "name": "Šperkovnice ovdovělé kupkyně",
+      "groseTotal": 68,
+      "coinMix": "2× zlaťák + 3× stříbrňák + 3× měďák",
+      "resources": [
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-081",
+      "tier": "Big",
+      "gameStage": "late",
+      "regionDifficulty": 1,
+      "name": "Kovaná kasa hostinského",
+      "groseTotal": 74,
+      "coinMix": "2× zlaťák + 4× stříbrňák + 4× měďák",
+      "resources": []
+    },
+    {
+      "id": "FILL-082",
+      "tier": "Big",
+      "gameStage": "late",
+      "regionDifficulty": 1,
+      "name": "Truhla v kořenech Bílého dubu",
+      "groseTotal": 75,
+      "coinMix": "3× zlaťák",
+      "resources": [
+        {
+          "itemId": 382,
+          "name": "Mana",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-083",
+      "tier": "Big",
+      "gameStage": "late",
+      "regionDifficulty": 1,
+      "name": "Kovová urna s rudou pečetí",
+      "groseTotal": 62,
+      "coinMix": "2× zlaťák + 2× stříbrňák + 2× měďák",
+      "resources": []
+    },
+    {
+      "id": "FILL-084",
+      "tier": "Big",
+      "gameStage": "late",
+      "regionDifficulty": 1,
+      "name": "Pancéř plný mincí pod runami",
+      "groseTotal": 72,
+      "coinMix": "2× zlaťák + 4× stříbrňák + 2× měďák",
+      "resources": [
+        {
+          "itemId": 375,
+          "name": "Kámen",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-085",
+      "tier": "Big",
+      "gameStage": "late",
+      "regionDifficulty": 1,
+      "name": "Truhla v záplavovém poli",
+      "groseTotal": 58,
+      "coinMix": "2× zlaťák + 1× stříbrňák + 3× měďák",
+      "resources": []
+    },
+    {
+      "id": "FILL-086",
+      "tier": "Big",
+      "gameStage": "late",
+      "regionDifficulty": 1,
+      "name": "Pokladnice strážcova",
+      "groseTotal": 70,
+      "coinMix": "2× zlaťák + 4× stříbrňák",
+      "resources": [
+        {
+          "itemId": 375,
+          "name": "Kámen",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-087",
+      "tier": "Big",
+      "gameStage": "late",
+      "regionDifficulty": 1,
+      "name": "Truhlice tajného kurýra",
+      "groseTotal": 68,
+      "coinMix": "2× zlaťák + 3× stříbrňák + 3× měďák",
+      "resources": [
+        {
+          "itemId": 382,
+          "name": "Mana",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-088",
+      "tier": "Big",
+      "gameStage": "late",
+      "regionDifficulty": 2,
+      "name": "Kovaná schrána v kryptě",
+      "groseTotal": 60,
+      "coinMix": "2× zlaťák + 2× stříbrňák",
+      "resources": []
+    },
+    {
+      "id": "FILL-089",
+      "tier": "Big",
+      "gameStage": "late",
+      "regionDifficulty": 2,
+      "name": "Pytel zlata pod oltářem",
+      "groseTotal": 55,
+      "coinMix": "2× zlaťák + 1× stříbrňák",
+      "resources": []
+    },
+    {
+      "id": "FILL-090",
+      "tier": "Big",
+      "gameStage": "late",
+      "regionDifficulty": 2,
+      "name": "Truhlice s pečetí rohatého boha",
+      "groseTotal": 66,
+      "coinMix": "2× zlaťák + 3× stříbrňák + 1× měďák",
+      "resources": [
+        {
+          "itemId": 375,
+          "name": "Kámen",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-091",
+      "tier": "Big",
+      "gameStage": "late",
+      "regionDifficulty": 2,
+      "name": "Kasa zkrachovalého směnárníka",
+      "groseTotal": 64,
+      "coinMix": "2× zlaťák + 2× stříbrňák + 4× měďák",
+      "resources": []
+    },
+    {
+      "id": "FILL-092",
+      "tier": "Big",
+      "gameStage": "late",
+      "regionDifficulty": 2,
+      "name": "Skrýš pašeráka pod molem",
+      "groseTotal": 70,
+      "coinMix": "2× zlaťák + 4× stříbrňák",
+      "resources": [
+        {
+          "itemId": 373,
+          "name": "Víno",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-093",
+      "tier": "Big",
+      "gameStage": "late",
+      "regionDifficulty": 2,
+      "name": "Truhla pod prahem mlýna",
+      "groseTotal": 58,
+      "coinMix": "2× zlaťák + 1× stříbrňák + 3× měďák",
+      "resources": [
+        {
+          "itemId": 374,
+          "name": "Dřevo",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-094",
+      "tier": "Big",
+      "gameStage": "late",
+      "regionDifficulty": 2,
+      "name": "Pokladna upáleného kacíře",
+      "groseTotal": 62,
+      "coinMix": "2× zlaťák + 2× stříbrňák + 2× měďák",
+      "resources": [
+        {
+          "itemId": 382,
+          "name": "Mana",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-095",
+      "tier": "Big",
+      "gameStage": "late",
+      "regionDifficulty": 2,
+      "name": "Skrýš v jeskynní sluji",
+      "groseTotal": 75,
+      "coinMix": "3× zlaťák",
+      "resources": [
+        {
+          "itemId": 375,
+          "name": "Kámen",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-096",
+      "tier": "Big",
+      "gameStage": "late",
+      "regionDifficulty": 2,
+      "name": "Truhlice strážce hraničního pruhu",
+      "groseTotal": 65,
+      "coinMix": "2× zlaťák + 3× stříbrňák",
+      "resources": []
+    },
+    {
+      "id": "FILL-097",
+      "tier": "Big",
+      "gameStage": "late",
+      "regionDifficulty": 2,
+      "name": "Kovaná schrána ve vrcholu věže",
+      "groseTotal": 70,
+      "coinMix": "2× zlaťák + 4× stříbrňák",
+      "resources": [
+        {
+          "itemId": 382,
+          "name": "Mana",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-098",
+      "tier": "Big",
+      "gameStage": "late",
+      "regionDifficulty": 2,
+      "name": "Pohřební truhlice válečníkova",
+      "groseTotal": 68,
+      "coinMix": "2× zlaťák + 3× stříbrňák + 3× měďák",
+      "resources": [
+        {
+          "itemId": 433,
+          "name": "Kožešiny",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-099",
+      "tier": "Big",
+      "gameStage": "late",
+      "regionDifficulty": 2,
+      "name": "Pancéřovaná truhla pod parkety",
+      "groseTotal": 72,
+      "coinMix": "2× zlaťák + 4× stříbrňák + 2× měďák",
+      "resources": []
+    },
+    {
+      "id": "FILL-100",
+      "tier": "Big",
+      "gameStage": "late",
+      "regionDifficulty": 2,
+      "name": "Truhla zazděná v sklepě",
+      "groseTotal": 74,
+      "coinMix": "2× zlaťák + 4× stříbrňák + 4× měďák",
+      "resources": []
+    },
+    {
+      "id": "FILL-101",
+      "tier": "Super large",
+      "gameStage": "late",
+      "regionDifficulty": 2,
+      "name": "Pohřební dar dávného krále",
+      "groseTotal": 125,
+      "coinMix": "1× platinová",
+      "resources": [
+        {
+          "itemId": 402,
+          "name": "Voda hvězd",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-102",
+      "tier": "Super large",
+      "gameStage": "late",
+      "regionDifficulty": 2,
+      "name": "Truhla bezhlavého obchodníka",
+      "groseTotal": 115,
+      "coinMix": "4× zlaťák + 3× stříbrňák",
+      "resources": []
+    },
+    {
+      "id": "FILL-103",
+      "tier": "Super large",
+      "gameStage": "late",
+      "regionDifficulty": 2,
+      "name": "Pancéř plný zlata pod runami",
+      "groseTotal": 120,
+      "coinMix": "4× zlaťák + 4× stříbrňák",
+      "resources": [
+        {
+          "itemId": 426,
+          "name": "Menhir",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-104",
+      "tier": "Super large",
+      "gameStage": "late",
+      "regionDifficulty": 2,
+      "name": "Pohádková mohyla na rozcestí",
+      "groseTotal": 100,
+      "coinMix": "4× zlaťák",
+      "resources": []
+    },
+    {
+      "id": "FILL-105",
+      "tier": "Super large",
+      "gameStage": "late",
+      "regionDifficulty": 2,
+      "name": "Truhlice z Balinovy výpravy",
+      "groseTotal": 125,
+      "coinMix": "1× platinová",
+      "resources": [
+        {
+          "itemId": 402,
+          "name": "Voda hvězd",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-106",
+      "tier": "Super large",
+      "gameStage": "late",
+      "regionDifficulty": 2,
+      "name": "Pokladnice dávno padlé tvrze",
+      "groseTotal": 110,
+      "coinMix": "4× zlaťák + 2× stříbrňák",
+      "resources": []
+    },
+    {
+      "id": "FILL-107",
+      "tier": "Super large",
+      "gameStage": "late",
+      "regionDifficulty": 2,
+      "name": "Truhla zapečetěná Sauronovou pečetí",
+      "groseTotal": 120,
+      "coinMix": "4× zlaťák + 4× stříbrňák",
+      "resources": [
+        {
+          "itemId": 382,
+          "name": "Mana",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "FILL-108",
+      "tier": "Super large",
+      "gameStage": "late",
+      "regionDifficulty": 2,
+      "name": "Pokladnice klanu Železné brady",
+      "groseTotal": 105,
+      "coinMix": "4× zlaťák + 1× stříbrňák",
+      "resources": []
+    },
+    {
+      "id": "FILL-109",
+      "tier": "Super large",
+      "gameStage": "late",
+      "regionDifficulty": 2,
+      "name": "Truhlice opuštěného trpasličího kovárenství",
+      "groseTotal": 115,
+      "coinMix": "4× zlaťák + 3× stříbrňák",
+      "resources": [
+        {
+          "itemId": 402,
+          "name": "Voda hvězd",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "FILL-110",
+      "tier": "Super large",
+      "gameStage": "late",
+      "regionDifficulty": 2,
+      "name": "Mistrovský dar elfského kupce",
+      "groseTotal": 110,
+      "coinMix": "4× zlaťák + 2× stříbrňák",
+      "resources": []
+    },
+    {
+      "id": "FILL-111",
+      "tier": "Super large",
+      "gameStage": "late",
+      "regionDifficulty": 2,
+      "name": "Truhlice pohlcená kořeny",
+      "groseTotal": 100,
+      "coinMix": "4× zlaťák",
+      "resources": []
+    },
+    {
+      "id": "FILL-112",
+      "tier": "Super large",
+      "gameStage": "late",
+      "regionDifficulty": 2,
+      "name": "Drakův hnízdní poklad",
+      "groseTotal": 125,
+      "coinMix": "1× platinová",
+      "resources": [
+        {
+          "itemId": 402,
+          "name": "Voda hvězd",
+          "qty": 1
+        }
+      ]
+    }
+  ]
+}

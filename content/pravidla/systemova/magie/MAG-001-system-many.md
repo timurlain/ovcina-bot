@@ -7,7 +7,7 @@ stav: schváleno
 viditelnost: hráč
 závisí-na: []
 nahrazuje: []
-poslední-změna: 2026-04-05
+poslední-změna: 2026-04-30
 klíčové-fráze:
   - kolik many mám
   - jak funguje mana
@@ -21,7 +21,7 @@ klíčové-fráze:
 
 # Systém many
 
-Mana je základní magická energie, kterou mágové používají k sesílání kouzel.
+Mana je vnitřní zdroj mága pro sesílání kouzel. Reprezentuje se manovými kroužky na karabince.
 
 ## Reprezentace many
 

@@ -7,7 +7,7 @@ stav: schváleno
 viditelnost: hráč
 závisí-na: [AXI-001]
 nahrazuje: []
-poslední-změna: 2026-04-05
+poslední-změna: 2026-04-30
 klíčové-fráze:
   - jak rozvíjet postavu
   - jak získat zkušenosti
@@ -97,7 +97,7 @@ Jakmile je postava na úrovni 5, získá možnost naučit se **mistrovské doved
 | Předmět | Využití |
 |---------|---------|
 | **Zkušenosti** (barevné drahokamy) | Postup na úrovně, nepřenosné mezi hráči |
-| **Rosa Valar** (průhledné krystaly) | Platba vílám a mudrcům za nápovědy *(dříve nazýváno „mana" — přejmenováno aby nedocházelo k záměně s bojovou manou v počitadle mága)* |
+| **Rosa Valar** (průhledné krystaly, taktéž známé jako **magická energie**) | Platba vílám a mudrcům za nápovědy. |
 | **Kámen** | Surovina — prodej, stavba budov |
 | **Dřevo** | Surovina — prodej, stavba budov |
 | **Víno** | Surovina — prodej, stavba budov |
