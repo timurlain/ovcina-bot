@@ -34,6 +34,7 @@
 | EKO-010 | Ekonomické následky porážky | systémová | schváleno | obojí | systemova/ekonomika/EKO-010-nasledky-porazky.md |
 | EKO-011 | Daně národa — královský výnos z hráčů a budov | systémová | schváleno | obojí | systemova/ekonomika/EKO-011-dane-naroda.md |
 | EKO-012 | Léčení hrdinů | systémová | schváleno | hráč | systemova/ekonomika/EKO-012-leceni-hrdinu.md |
+| EKO-013 | Ceník obchodování — výkupní a prodejní ceny | systémová | schváleno | hráč | systemova/ekonomika/EKO-013-cenik-obchodovani.md |
 | LEK-001 | Systém lektvarů | systémová | schváleno | hráč | systemova/LEK-001-system-lektvaru.md |
 | MAG-001 | Systém many | systémová | schváleno | hráč | systemova/magie/MAG-001-system-many.md |
 | MAG-002 | Sesílání kouzel | systémová | schváleno | hráč | systemova/magie/MAG-002-sesilani-kouzel.md |
